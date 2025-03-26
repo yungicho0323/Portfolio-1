@@ -1,0 +1,123 @@
+.card-container {
+  display: flex;
+  flex-direction: Column;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.image-wrapper {
+  text-align: left;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  animation-duration: 2s; /* Ensure animation duration */
+  visibility: visible !important; /* Fix visibility issues */
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 13/8;
+  position:relative;
+  /* transition: transform 0.3s ease-in-out; */
+  overflow: hidden;
+  margin-bottom: 3.5rem;
+} 
+
+.image-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.image-wrapper:hover .project-image1 {
+  transform: scale(1.7);
+
+}.image-wrapper:hover .project-image2 {
+  transform: scale(1.45);
+}
+
+.project-image1 {
+  object-fit: cover;
+  width: 100%;
+  height: 85%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 15px;
+  position: relative;
+  z-index: -1;
+}
+
+.zynergy {
+  padding: 5px 0;
+  font-weight: Medium;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between; /* Aligns left and right sections */
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-image2 {
+  object-fit: cover;
+  width: 100%;
+  height: 85%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 15px;
+  position: relative;
+  z-index: -1;
+}
+
+.project-image3 {
+  object-fit: cover;
+  width: 100%;
+  height: 85%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 15px;
+  position: relative;
+  z-index: -1;
+}
+
+.card-button {
+  background-color: #FFFEEE;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #d6b8fe;
+  color: white;
+}
+
+.furryTales {
+    padding: 5px 0;
+    font-weight: medium;
+}
+
+.two-seconds {
+  padding: 5px 0;
+  font-weight: medium;
+}
+
+
+
+/* Icons Section */
+.tools-wrapper {
+  display: flex;
+  gap: 15px; /* Space between icons */
+  /* align-items: center; */
+}
+
+.tool-icon {
+  width: 30px; /* Adjust size */
+  height: auto;
+  opacity: 1;
+}

@@ -1,3 +1,50 @@
-.site-header {
-    background-color:blue;
-}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFEEE;
+    padding: 1rem 5rem;
+  }
+  
+  nav {
+    display: flex;
+    gap: 80px;
+    font-size: 16px;
+    color: #8231ED; /* Light purple */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #d6b8fe; 
+  }
+  
+  .logo p {
+    font-size: 20px;
+    font-weight: light;
+    position: relative;
+    z-index: 1;
+  }
+
+  .logo .blur-2 {
+    position: relative;
+  }
+
+  .logo .blur-2:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 40px;
+    background: radial-gradient(rgba(131, 30, 210, 100), rgba(145, 152, 229, 0.75));
+    position: absolute;
+    opacity: 0.75;
+    border-radius: 50%;
+    filter: blur(45px);
+    transform: rotate(-20deg);
+  }
+  

@@ -1,3 +1,186 @@
-.home {
-    background-color:red;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Merchant Font', 'Manrope','sans-serif';
+}
+
+.home {
+    background-color:#FFFEEE;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 4rem;
+    background-color:#FFFEEE;
+}
+
+.col .blur-2 {
+  position: relative;
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.col .blur:hover {
+  transform: rotate (-15deg) scale (1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.col .blur-2:before {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 600px;
+  background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
+  position: absolute;
+  opacity: 0.75;
+  border-radius: 70%;
+  filter: blur(45px);
+  bottom: -150px;
+  left: 10px;
+  transform: rotate(-20deg);
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+.col .blur-2:hover:before {
+  transform: rotate(-10deg) translateY(-20px) scale(1.1); /* Slight movement up and reduced rotation */
+  opacity: 1;
+}
+
+/* Smooth back transition */
+.col .blur-2.tilt-reset {
+  transform: rotate3d(0, 0, 0, 0deg) scale(1);
+}
+
+/* Optional: Floating Animation */
+@keyframes floating {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.col .blur-2 {
+  animation: floating 3s infinite ease-in-out;
+}
+
+  
+.hero-section h1 {
+  font-size: 5rem;
+  font-weight: medium;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section  {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col {
+  grid-column: span 1;
+}
+
+.col-text-right {
+  grid-column: span 1;
+}
+
+.col-text-right .blur-2 {
+  position: relative;
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+  will-change: transform;
+  transform-style: preserve-3d;
+
+}
+
+.col-text-right .blur:hover {
+  transform: rotate (-15deg) scale (1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.col-text-right .blur-2:before {
+  content: "";
+  display: block;
+  width: 450px;
+  height: 600px;
+  background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
+  position: absolute;
+  opacity: 0.75;
+  border-radius: 70%;
+  filter: blur(45px);
+  top: -300px;
+  left: 80px;
+  transform: rotate(-20deg);
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+  
+}
+
+  /* Hover Effect: Tilt + Slight Movement */
+.col-text-right .blur-2:hover:before {
+  transform: rotate(-5deg) translateY(-20px) scale(1.1);
+  opacity: 1;
+}
+  /* Smooth back transition */
+.col-text-right .blur-2.tilt-reset {
+  transform: rotate3d(0, 0, 0, 0deg) scale(1);
+}
+  
+  .home h1 span {
+    color: #3a04afc4 ;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    color: #000000;
+    max-width: 400px;
+    text-align: left;
+    margin-left: auto;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .hero-section p span {
+    display: block;
+    width: 32px;
+    height: 4px;
+    background: black;
+    margin-bottom: 8px;
+  }
+
+  .selected-works {
+    padding: 4rem 10%;
+    text-align: left;
+  }
+
+  .view-all-btn {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid black;
+    border-radius: 9999px; /* full pill shape */
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 27rem;
+  }
+  
+  .view-all-btn:hover {
+    background-color: #d6b8fe;
+    color: white;
+    transform: scale(1.05);
+  }
+  

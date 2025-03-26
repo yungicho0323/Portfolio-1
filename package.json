@@ -10,8 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "@tailwindcss/vite": "^4.0.14",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
+    "framer-motion": "^12.5.0",
+    "lucide-react": "^0.479.0",
+    "ogl": "^1.0.11",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router": "^7.3.0",
+    "tailwindcss": "^4.0.14",
+    "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -23,6 +33,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "prettier": "3.5.3",
     "vite": "^6.2.0"
   }
 }

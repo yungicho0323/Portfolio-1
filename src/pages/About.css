@@ -1,0 +1,208 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+  background-color: #FFFEEF;
+}
+
+h1 .about-title {
+    padding: 4rem 2rem;
+    /* max-width: 1600px; */
+    margin: 0 auto;
+    font-family: 'Merchant Font', 'Manrope','sans-serif';
+    color: #333;
+  }
+  
+/* About Me Title */
+.about-title {
+font-size: 5rem;
+margin-bottom: 2rem;
+text-align: center;
+font-weight: Medium;
+margin-bottom: 2rem;
+}
+
+/* Wrapper that holds the image on the left and text on the right */
+.about-content {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 2rem;
+width: 80%;
+margin: auto;
+}
+
+/* Image container (if you need any special styling around the image) */
+.about-image-wrapper {
+flex: 1;
+max-width: 40%;
+}
+
+/* Actual image styling */
+.profile-image {
+width: 100%;
+height: auto;
+border-radius: 50%;
+object-fit: cover;
+}
+
+/* Text container */
+.about-text {
+flex: 1;
+line-height: 1.8;
+text-align: left;
+max-width: 50%;
+}
+
+/* Style paragraphs */
+.about-text p {
+margin-bottom: 1.5rem;
+font-size: 1.1rem;
+}
+
+/* Social Media Icons Container */
+.social-icons {
+display: flex;
+justify-content: flex-end; /* Align to the right */
+gap: 1rem; /* Space between icons */
+margin-top: 1rem; /* Space from the text */
+}
+
+/* Individual Social Icons */
+.social-icon {
+width: 40px; /* Adjust icon size */
+height: 40px;
+transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.expertise-container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Expertise */
+.expertise {
+text-align: center;
+padding: 1.5rem 20rem;
+font-family: 'Merchant Font', 'Manrope','sans-serif';
+}
+
+.title {
+font-size: 32px;
+font-weight: Light;
+margin-bottom: 20px;
+}
+
+.expertise-list {
+display: flex;
+flex-wrap: wrap; /* Allows items to wrap if needed */
+gap: 1.5rem 2rem;
+list-style: none;
+margin: 0 auto;
+}
+
+/* Expertise List Items */
+.expertise-list li {
+font-size: 1.2rem;
+font-weight: 400;
+border-bottom: 2px solid #ddd; /* Optional: Adds a subtle underline */
+}  
+
+/* Image Gallery with Variable Sizes */
+.gallery-image {
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+/* Different image sizes */
+.gallery-image.small {
+    width: 180px;
+    height: 220px;
+}
+
+.gallery-image.medium {
+    width: 250px;
+    height: 280px;
+}
+
+.gallery-image.large {
+    width: 320px;
+    height: 360px;
+}
+/* Positioning for mountain shape */
+.low {
+    transform: translateY(120px);
+}
+
+.mid-low {
+    transform: translateY(30px);
+}
+.highest {
+    transform: translateY(-60px);
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 6rem;
+}
+
+/* About-container 2 */
+
+.about-container2 {
+    padding: 30px;
+}
+
+.about-me {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: 'Manrope', 'sans-serif';
+}
+
+ 
+/* Small screens */
+@media (max-width: 480px) {
+    .about-title {
+      font-size: 2rem;
+    }
+    .about-content {
+      padding: 1rem;
+    }
+  }
+  
+  /* Medium screens */
+  @media (max-width: 768px) and (min-width: 481px) {
+    .about-title {
+      font-size: 2.5rem;
+    }
+    .about-content {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* Large screens */
+  @media (max-width: 1200px) and (min-width: 769px) {
+    .about-title {
+      font-size: 2.8rem;
+    }
+    .about-content {
+      padding: 2rem;
+    }
+  }
