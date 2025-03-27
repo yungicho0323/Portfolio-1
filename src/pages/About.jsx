@@ -24,13 +24,14 @@ function About() {
         </div>
         <div className="about-text">
           <p>
-            Hello, I'm a UX/UI designer living in Vancouver, BC. <br/>
-            Originally from South Korea, I moved to Canada in 2019. Before defining my career path, I gained experience working in various clothing stores, where I had the opportunity to connect with like-minded individuals passionate about design—ranging from photography and architecture to fashion and visual design. Through these experiences, I discovered my appreciation for aesthetics in everyday life and developed a keen eye for design.
-            <br/>
-            Motivated to transform my natural design sensibilities into practical skills, I pursued a career in UI/UX design. This led me to study New Media Design at BCIT in Vancouver, where I refined my ability to create functional, user-centered digital experiences.
+            Hi there! I'm a UX/UI designer based in Vancouver, BC. <br/>
+            I’m passionate about crafting intuitive and meaningful digital experiences. With a strong foundation in user research, strategy, and data-driven design, I work closely with cross-functional teams to bring ideas to life—turning complex problems into simple, user-friendly solutions. Whether it’s a mobile app or a responsive website, I always aim to design with purpose and empathy at the core.
           </p>
-          <p>
-          I am skilled in user research, wireframing, prototyping, and designing seamless interfaces that balance aesthetics with functionality. I love collaborating with teams to create user-centered solutions that drive business goals. 
+
+            <p>
+              Connect with me to gain insights into my design process and to see how I can help bring your ideas to life.
+              <br/>
+              Check out my work and shoot me an email at <strong>t0908003@gmail.com</strong>
           </p>
 
         
