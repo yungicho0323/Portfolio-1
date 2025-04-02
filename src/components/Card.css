@@ -47,6 +47,7 @@
 .zynergy {
   padding: 5px 0;
   font-weight: Medium;
+  padding-bottom: 10px;
 }
 
 .bottom-section {
@@ -100,13 +101,33 @@
 .furryTales {
     padding: 5px 0;
     font-weight: medium;
+    padding-bottom: 10px;
 }
 
 .two-seconds {
   padding: 5px 0;
   font-weight: medium;
+  padding-bottom: 10px;
 }
 
+
+.project-type-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-type-button {
+  background-color: #000; /* or try a soft purple to match your brand */
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: default;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 
 /* Icons Section */

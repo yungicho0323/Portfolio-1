@@ -28,10 +28,14 @@ export function CardComponent() {
           <Button className="card-button">Read More</Button>
         </CardFooter>
         </div>
-        <div className="tools-wrapper">
+        
+        <div className="project-type-badge">
+        <button className="project-type-button">UI / UX</button>
+        </div>
+        {/* <div className="tools-wrapper">
           <img src={FigmaIcon} alt="Figma" className="tool-icon" />
           <img src={PhotoshopIcon} alt="Photoshop" className="tool-icon" />
-        </div>
+        </div> */}
         </div>
     </div>
 
@@ -52,11 +56,15 @@ export function CardComponent() {
           <Button className="card-button">Read More</Button>
         </CardFooter>
         </div>
-        <div className="tools-wrapper">
+
+        <div className="project-type-badge">
+        <button className="project-type-button">Website Redesign</button>
+        </div>
+        {/* <div className="tools-wrapper">
           <img src={FigmaIcon} alt="Figma" className="tool-icon" />
           <img src={PhotoshopIcon} alt="Photoshop" className="tool-icon" />
           <img src={IllustratorIcon} alt="Illustrator" className="tool-icon" />
-        </div>
+        </div> */}
         </div>
       </div>
 
@@ -75,12 +83,17 @@ export function CardComponent() {
           <Button className="card-button">Read More</Button>
         </CardFooter>
         </div>
-        <div className="tools-wrapper">
+
+        <div className="project-type-badge">
+        <button className="project-type-button">UI / UX</button>
+        </div> 
+
+        {/* <div className="tools-wrapper">
         <img src={TrelloIcon} alt="Trello" className="tool-icon" />
           <img src={FigmaIcon} alt="Figma" className="tool-icon" />
           <img src={PhotoshopIcon} alt="Photoshop" className="tool-icon" />
           <img src={IllustratorIcon} alt="Illustrator" className="tool-icon" />
-        </div>
+        </div> */}
         </div>
       </div>
     

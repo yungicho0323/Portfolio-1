@@ -16,7 +16,7 @@ function About() {
         <Header />
 
     <section className="about-container1">
-        <h1 className="about-title">Hi I'm YunGi! </h1>
+        {/* <h1 className="about-title">Hi I'm YunGi! </h1> */}
         <div className="about-content">
         <div className="about-image-wrapper">
           {/* Replace 'your-image.jpg' with the path or URL to your own image */}
@@ -72,7 +72,7 @@ function About() {
     </div>
     </section>
    
-    <section className="gallerey-container">
+    <section className="gallery-container">
      {/* Image Gallery - Dynamic Layout */}
     <div className="flex flex-wrap justify-center items-center gap-4 mb-10">
     <img src="/images/img1.jpg" alt="Gallery 1" className="gallery-image small low" />

@@ -16,13 +16,13 @@ h1 .about-title {
   }
   
 /* About Me Title */
-.about-title {
-font-size: 5rem;
+/* .about-title {
+font-size: 7rem;
 margin-bottom: 2rem;
 text-align: center;
-font-weight: Medium;
+font-weight: medium;
 margin-bottom: 2rem;
-}
+} */
 
 /* Wrapper that holds the image on the left and text on the right */
 .about-content {
@@ -31,18 +31,19 @@ flex-direction: row;
 align-items: center;
 gap: 2rem;
 width: 80%;
-margin: auto;
-}
+margin: 6rem auto;
+padding: 20px;
+} 
 
 /* Image container (if you need any special styling around the image) */
 .about-image-wrapper {
 flex: 1;
-max-width: 40%;
+max-width: 50%;
 }
 
 /* Actual image styling */
 .profile-image {
-width: 90%;
+width: 85%;
 height: auto;
 /* border-radius: 50%; */
 object-fit: cover;
@@ -53,13 +54,13 @@ object-fit: cover;
 flex: 1;
 line-height: 1.8;
 text-align: left;
-max-width: 60%;
+max-width: 70%;
 }
 
 /* Style paragraphs */
 .about-text p {
 margin-bottom: 1.5rem;
-font-size: 1.1rem;
+font-size: 1.2rem;
 }
 
 /* Social Media Icons Container */

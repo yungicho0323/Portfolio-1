@@ -16,10 +16,10 @@ function work() {
                   
                 <section className="selected-works">
                                 <h1>Selected Works.</h1>
+                                <span className="arrow">↓</span>
                                 { /*Card Component Section */}
                                 <div className="card-section flex justify-center mt-10">
                                     <CardComponent />
-                                <button className="view-all-btn">View All</button>
                                 </div>
                             </section>
                 </div>
