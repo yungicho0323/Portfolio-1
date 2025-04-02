@@ -25,27 +25,84 @@ header {
     color: #d6b8fe; 
   }
   
-  .logo p {
-    font-size: 20px;
-    font-weight: light;
-    position: relative;
+  .logo-image {
+    height: 50px;
+    width: auto;
     z-index: 1;
-  }
-
-  .logo .blur-2 {
     position: relative;
-  }
-
-  .logo .blur-2:before {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 40px;
-    background: radial-gradient(rgba(131, 30, 210, 100), rgba(145, 152, 229, 0.75));
-    position: absolute;
-    opacity: 0.75;
-    border-radius: 50%;
-    filter: blur(45px);
-    transform: rotate(-20deg);
   }
   
+  /* Media Queries */
+
+  /* ========= MEDIA QUERIES ========= */
+
+/* Large devices (≤1280px) */
+@media (max-width: 1280px) {
+  header {
+    padding: 1rem 3rem;
+  }
+
+  nav {
+    gap: 60px;
+    font-size: 17px;
+  }
+
+  .logo-image {
+    height: 48px;
+  }
+}
+
+/* Medium devices (≤1024px) */
+@media (max-width: 1024px) {
+  header {
+    padding: 1rem 2rem;
+  }
+
+  nav {
+    gap: 40px;
+    font-size: 16px;
+  }
+
+  .logo-image {
+    height: 48px;
+  }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+
+  .logo-image {
+    height: 36px;
+  }
+
+}
+
+/* Extra small devices (≤480px) */
+@media (max-width: 480px) {
+  header {
+    padding: 1rem;
+  }
+
+  nav {
+    font-size: 14px;
+    gap: 16px;
+  }
+
+  .logo-image {
+    height: 26px;
+  }
+
+}

@@ -44,7 +44,7 @@ body {
   content: "";
   display: block;
   width: 600px;
-  height: 700px;
+  height: 800px;
   background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
   position: absolute;
   opacity: 0.75;
@@ -116,7 +116,7 @@ body {
 .col-text-right .blur-2:before {
   content: "";
   display: block;
-  width: 450px;
+  width: 550px;
   height: 600px;
   background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
   position: absolute;
@@ -124,7 +124,7 @@ body {
   border-radius: 70%;
   filter: blur(45px);
   top: -300px;
-  left: 80px;
+  left: 60px;
   transform: rotate(-20deg);
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
   
@@ -186,3 +186,107 @@ body {
     transform: scale(1.05);
   }
   
+
+  /* Media Queries */
+
+  /* Large devices (desktops, 1280px and down) */
+@media (max-width: 1280px) {
+  .hero-section {
+    padding: 0 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .view-all-btn {
+    margin: 2rem auto;
+  }
+}
+
+/* Medium devices (laptops/tablets, 1024px and down) */
+@media (max-width: 1024px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    height: auto;
+    padding: 4rem 2rem;
+  }
+
+  .hero-section h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.25rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .col,
+  .col-text-right {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-text-right .blur-2:before {
+    width: 350px;
+    height: 400px;
+    top: -200px;
+    left: 40px;
+  }
+
+  .view-all-btn {
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+/* Small devices (tablets/phones, 768px and down) */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.75rem;
+  }
+
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+
+  .selected-works {
+    padding: 2rem 5%;
+  }
+
+  .view-all-btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .col .blur-2:before,
+  .col-text-right .blur-2:before {
+    width: 250px;
+    height: 300px;
+    filter: blur(35px);
+  }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media (max-width: 480px) {
+  .hero-section h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .view-all-btn {
+    width: 100%;
+    margin: 1rem auto;
+    font-size: 0.9rem;
+  }
+
+  .col .blur-2:before,
+  .col-text-right .blur-2:before {
+    width: 180px;
+    height: 220px;
+    filter: blur(25px);
+  }
+}

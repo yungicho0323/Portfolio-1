@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import "./Header.css";
 import React from "react";
+import LogoImage from '/public/defined-logo.png';
 
 const Header = () => {
   return (
@@ -14,9 +15,7 @@ const Header = () => {
 
        <div className="logo">
         {/* Logo Section */}
-        <div className="blur-2">
-        <p>YUNGI CHO</p>
-        </div>
+        <img src= {LogoImage} alt="logo" className="logo-image" />
      </div>
     </header>
   );
