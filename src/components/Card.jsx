@@ -85,7 +85,7 @@ export function CardComponent() {
         </div>
 
         <div className="project-type-badge">
-        <button className="project-type-button">UI / UX</button>
+        <button className="project-type-button">Website Design</button>
         </div> 
 
         {/* <div className="tools-wrapper">

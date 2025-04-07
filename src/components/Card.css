@@ -30,9 +30,18 @@
 .image-wrapper:hover .project-image1 {
   transform: scale(1.7);
 
-}.image-wrapper:hover .project-image2 {
+}
+
+.image-wrapper:hover .project-image2 {
   transform: scale(1.45);
 }
+
+.image-wrapper:hover .project-image3 {
+  transform: scale(1.42);
+}
+
+
+
 
 .project-image1 {
   object-fit: cover;
@@ -80,6 +89,10 @@
   border-radius: 15px;
   position: relative;
   z-index: -1;
+}
+
+.image-wrapper:hover .two-seconds {
+  color: white
 }
 
 .card-button {
