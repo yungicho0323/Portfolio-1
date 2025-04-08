@@ -5,10 +5,7 @@ import "animate.css";
 import ZynergyImage from "../assets/images/iphone-16-mockup.png";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
 import TwoSecondsImage from "../assets/images/2Seconds.png";
-import FigmaIcon from "../assets/images/figma.png";
-import PhotoshopIcon from "../assets/images/photoshop.png";
-import IllustratorIcon from "../assets/images/illustrator.png";
-import TrelloIcon from "../assets/images/Trello.png";
+import { Link }from 'react-router';
 
 
 
@@ -32,10 +29,6 @@ export function CardComponent() {
         <div className="project-type-badge">
         <button className="project-type-button">UI / UX</button>
         </div>
-        {/* <div className="tools-wrapper">
-          <img src={FigmaIcon} alt="Figma" className="tool-icon" />
-          <img src={PhotoshopIcon} alt="Photoshop" className="tool-icon" />
-        </div> */}
         </div>
     </div>
 
@@ -46,25 +39,21 @@ export function CardComponent() {
       {/*FurryTales Title*/}
           <Typography variant="h5" color="blue-gray" className="furryTales"> 
            FurryTales: 
-            FLUI Hackathon 2025: Website Redesign
+            FLUI Hackathon 2025: Website Redesign 
           </Typography>
 
       {/*Card Bottom Section */}
         <div className="bottom-section">
           <div className="left-section">
         <CardFooter className="cardFooter-wrapper">
-          <Button className="card-button">Read More</Button>
+          <Link to="/furrytales" className="card-button">Read More
+          </Link>
         </CardFooter>
         </div>
 
         <div className="project-type-badge">
         <button className="project-type-button">Website Redesign</button>
         </div>
-        {/* <div className="tools-wrapper">
-          <img src={FigmaIcon} alt="Figma" className="tool-icon" />
-          <img src={PhotoshopIcon} alt="Photoshop" className="tool-icon" />
-          <img src={IllustratorIcon} alt="Illustrator" className="tool-icon" />
-        </div> */}
         </div>
       </div>
 
@@ -87,13 +76,6 @@ export function CardComponent() {
         <div className="project-type-badge">
         <button className="project-type-button">Website Design</button>
         </div> 
-
-        {/* <div className="tools-wrapper">
-        <img src={TrelloIcon} alt="Trello" className="tool-icon" />
-          <img src={FigmaIcon} alt="Figma" className="tool-icon" />
-          <img src={PhotoshopIcon} alt="Photoshop" className="tool-icon" />
-          <img src={IllustratorIcon} alt="Illustrator" className="tool-icon" />
-        </div> */}
         </div>
       </div>
     

@@ -4,6 +4,7 @@ import PageWrap from "./global/PageWrap";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
+import FurryTales from "./pages/FurryTales";
 import StyleGuide from "./pages/StyleGuide";
 
 function App() {
@@ -19,10 +20,10 @@ function App() {
         <Route path="Home" element={ <Home />}></Route>
         <Route path="work" element={ <Work />}></Route>
         <Route path="about" element={ <About/>}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/furrytales" element={<FurryTales />} />
         <Route path="style-guide" element={ <StyleGuide />}></Route>
     </Routes>
-
-
  
   );
 }
