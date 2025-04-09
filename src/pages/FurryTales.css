@@ -476,7 +476,7 @@ body {
 
 .ideation-image img {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin-top: 40px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
@@ -517,7 +517,7 @@ body {
 
 .design-image-wrapper img {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -558,7 +558,7 @@ body {
 
 .validation-image-wrapper img {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -624,7 +624,7 @@ body {
 .reflection-card p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #333;
+  color: #000000;
   margin-bottom: 18px;
 }
 
