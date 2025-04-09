@@ -12,25 +12,6 @@ import { Link }from 'react-router';
 export function CardComponent() {
   return (
     <Card className="card-container">
-    <div class="image-wrapper animate__animated animate__slideInUp">
-        <img src={ZynergyImage} alt="Project-1" className="project-image1" />
-        {/*Znergy Title*/}
-          <Typography variant="h5" color="blue-gray" className="zynergy">
-            Zynergy: Fitness & Wellness Class Subscription Mobile App
-          </Typography>
-        {/*Card Bottom Section*/}
-        <div className="bottom-section">
-          <div className="left-section">
-        <CardFooter>
-          <Button className="card-button">Read More</Button>
-        </CardFooter>
-        </div>
-        
-        <div className="project-type-badge">
-        <button className="project-type-button">UI / UX</button>
-        </div>
-        </div>
-    </div>
 
     
 
@@ -58,6 +39,25 @@ export function CardComponent() {
         </div>
       </div>
 
+    <div class="image-wrapper animate__animated animate__slideInUp">
+        <img src={ZynergyImage} alt="Project-1" className="project-image1" />
+        {/*Znergy Title*/}
+          <Typography variant="h5" color="blue-gray" className="zynergy">
+            Zynergy: Fitness & Wellness Class Subscription Mobile App
+          </Typography>
+        {/*Card Bottom Section*/}
+        <div className="bottom-section">
+          <div className="left-section">
+        <CardFooter>
+          <Button className="card-button">Read More</Button>
+        </CardFooter>
+        </div>
+        
+        <div className="project-type-badge">
+        <button className="project-type-button">UI / UX</button>
+        </div>
+        </div>
+    </div>
 
       <div class="image-wrapper animate__animated animate__slideInUp">
         <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />

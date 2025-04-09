@@ -17,6 +17,7 @@ body {
   background-color: #FFFEEE;
   padding: 60px 40px;
   font-family: 'Manrope', sans-serif;
+  max-width: 100%;
 }
 
 .project-text {
@@ -293,7 +294,7 @@ body {
   gap: 200px;
   border: 1px solid #aaa;
   border-radius: 10px;
-  padding: 30px 40px;
+  padding: 20px 40px;
   background-color: #FFFEEE;
   justify-content: center;
   align-items: center;
@@ -306,16 +307,17 @@ body {
   align-items: center;
   font-family: 'Manrope', sans-serif;
   font-size: 1.2rem;
-  font-weight: bold;
-  color: #111;
+  font-weight: medium;
+  color: #222;
 }
 
 .dot {
-  width: 32px;
-  height: 32px;
-  background-color: #d9b6f2;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
   border-radius: 50%;
   margin-bottom: 10px;
+  border: 1px solid #d9b6f2;
 }
 
 /* Research */

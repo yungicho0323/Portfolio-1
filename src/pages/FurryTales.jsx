@@ -178,7 +178,7 @@ return (
       </div>
     </section>
 
-    {/*Design process*/}
+  {/*Design process*/}
     <section className="process-section">
       <div className="process-container">
         <div className="process-step">
@@ -302,7 +302,7 @@ return (
       </div>
     </section>
 
-    {/*section divider*/}
+{/*section divider*/}
 <div className="section-divider"></div>
 
 {/*04 Design*/}
@@ -323,10 +323,10 @@ return (
       </div>
     </section>
 
-   {/*section divider*/}
+{/*section divider*/}
    <div className="section-divider"></div>
 
-  {/*05 Validation*/}
+{/*05 Validation*/}
   <section className="validation-section">
       <h2>05 Validation</h2>
 
@@ -346,7 +346,7 @@ return (
       </div>
     </section>
 
-      {/*section divider*/}
+{/*section divider*/}
    <div className="section-divider"></div>
 
 {/*Final Prototype*/}
