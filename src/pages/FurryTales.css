@@ -276,7 +276,6 @@ body {
 .process-section {
   background-color: #FFFEEE;
   padding: 0 30px;
-  padding-bottom: 80px;
   justify-content: center;
   max-width: 1500px;
   margin: 0 auto;
@@ -327,6 +326,7 @@ body {
   color: #111;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
 .research-section h2 {
