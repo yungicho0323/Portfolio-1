@@ -29,7 +29,7 @@ return (
         <h1>FurryTales Pet</h1>
         <p>
           A Vancouver based small business that specializes in handcrafted dehydrated and
-          freshly baked pet treats for dogs.
+          freshly baked pet treats for dogs and cats.
         </p>
         <div className="project-meta">
           <div>
@@ -95,7 +95,7 @@ return (
     {/*our client's goals*/}
 <section className="goals-section">
       <div className="goals-header">
-        <h2>Our Client’s goals</h2>
+        <h2>Our Client’s Goals</h2>
         <a href="https://www.furrytalespet.ca/" className="current-site-link">Current Website</a>
       </div>
 
@@ -334,10 +334,10 @@ return (
         <h4>High-fidelity Wireframes</h4>
         <p>
           After we designed wireframes and created a style guide/design system, we created high-fidelity
-          wireframes that ensure a seamless user experience. Our focus was on making the website aligned
+          wireframes that ensure a seamless user experience. Our focus was on making the website<strong> aligned
           with brand identity, enhanced design of pop-ups for email subscription and discount offers on a
           landing page, clear information architecture by improving better navigation with a more intuitive
-          flow, optimized product discovery, and reorganized FAQ section.
+          flow, optimized product discovery, and reorganized FAQ section.</strong>
         </p>
 
         <div className="validation-image-wrapper">
