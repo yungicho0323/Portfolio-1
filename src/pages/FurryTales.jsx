@@ -178,34 +178,40 @@ return (
       </div>
     </section>
 
-  {/*Design process*/}
-    <section className="process-section">
-      <div className="process-container">
-        <div className="process-step">
-          <div className="dot" />
-          <p>Research</p>
-        </div>
-        <div className="process-step">
-          <div className="dot" />
-          <p>Analysis</p>
-        </div>
-        <div className="process-step">
-          <div className="dot" />
-          <p>Ideation</p>
-        </div>
-        <div className="process-step">
-          <div className="dot" />
-          <p>Design</p>
-        </div>
-        <div className="process-step">
-          <div className="dot" />
-          <p>Validation</p>
-        </div>
-      </div>
-    </section>
+{/* Design Process */}
+<section className="process-section">
+  <div className="process-container">
+
+    <a href="#research" className="process-step">
+      <div className="dot" />
+      <p>Research</p>
+    </a>
+
+    <a href="#analysis" className="process-step">
+      <div className="dot" />
+      <p>Analysis</p>
+    </a>
+
+    <a href="#ideation" className="process-step">
+      <div className="dot" />
+      <p>Ideation</p>
+    </a>
+
+    <a href="#design" className="process-step">
+      <div className="dot" />
+      <p>Design</p>
+    </a>
+
+    <a href="#validation" className="process-step">
+      <div className="dot" />
+      <p>Validation</p>
+    </a>
+
+  </div>
+</section>
 
 {/*01 Research */}
-<section className="research-section">
+<section id="research" className="research-section">
       <h2>01 Research</h2>
 
       <div className="research-block">
@@ -252,7 +258,7 @@ return (
 <div className="section-divider"></div>
 
 {/* 02 Analysis */}
-<section className="analysis-section">
+<section id="analysis" className="analysis-section">
       <h2>02 Analysis</h2>
 
       <div className="analysis-block">
@@ -275,7 +281,7 @@ return (
 <div className="section-divider"></div>
 
 {/*03 Ideation*/}
-<section className="ideation-section">
+<section id="ideation" className="ideation-section">
       <h2>03 Ideation</h2>
       <p className="ideation-description">
         Following the user research phase, we mainly focused on thinking about features that we want
@@ -306,7 +312,7 @@ return (
 <div className="section-divider"></div>
 
 {/*04 Design*/}
-<section className="design-section">
+<section id="design" className="design-section">
       <h2>04 Design</h2>
 
       <p className="design-description">
@@ -327,7 +333,7 @@ return (
    <div className="section-divider"></div>
 
 {/*05 Validation*/}
-  <section className="validation-section">
+  <section id="validation" className="validation-section">
       <h2>05 Validation</h2>
 
       <div className="validation-subsection">

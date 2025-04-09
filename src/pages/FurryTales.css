@@ -5,6 +5,10 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Merchant Font', 'Manrope','sans-serif';
 }
@@ -278,11 +282,10 @@ body {
   background-color: #FFFEEE;
   padding: 0 30px;
   justify-content: center;
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0 auto;
   position: sticky;
   z-index: 100;
-  width: 100%;
   object-fit: fill;
   top: 0;
   left: 0%;
@@ -328,7 +331,7 @@ body {
   color: #111;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .research-section h2 {
