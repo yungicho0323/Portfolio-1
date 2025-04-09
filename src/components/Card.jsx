@@ -46,6 +46,7 @@ export function CardComponent() {
         <div className="bottom-section">
           <div className="left-section">
         <CardFooter className="cardFooter-wrapper">
+
           <Link to="/furrytales" className="card-button">Read More
           </Link>
         </CardFooter>

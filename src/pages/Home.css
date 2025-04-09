@@ -44,7 +44,7 @@ body {
   content: "";
   display: block;
   width: 600px;
-  height: 800px;
+  height: 700px;
   background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
   position: absolute;
   opacity: 0.75;
