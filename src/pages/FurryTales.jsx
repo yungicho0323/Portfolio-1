@@ -140,7 +140,7 @@ return (
     <section className="team-section">
       <h2>Our Team</h2>
       <p className="team-description">
-        I teamed up with 3 other designers/ researchers for FurryTales Pet website redesign
+        I teamed up with 3 other designers/ researcher for FurryTales Pet website redesign
         project for only limited <strong>72 hours</strong> to complete the project.
       </p>
 
@@ -396,7 +396,7 @@ return (
 
     </main>
     <Footer />
-    
+
     <scrollToTop />
     </>
     );
