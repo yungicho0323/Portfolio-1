@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <h2 className="footer-title">Let’s Connect.</h2>
         <div className="footer-links">
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="footer-link">Resume</a>
+          <a href="/public/YunGi Cho_CV.pdf" target="_blank" rel="Resume" className="footer-link">Resume</a>
         </div>
         <div className="social-links">
           <a href="mailto:t0908003@gmail.com" className="social-link">Email
