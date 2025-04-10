@@ -15,6 +15,7 @@ import sitemapImg from '../assets/images/Sitemaps.png';
 import wireframesImg from '../assets/images/Wireframe.png';
 import designSystemImg from '../assets/images/Design System.png';
 import highFidelityImg from '../assets/images/high-fidelity.png';
+import ScrollToTop from '../components/ScrollToTop';
 
 
 function FurryTales() {
@@ -395,6 +396,8 @@ return (
 
     </main>
     <Footer />
+    
+    <scrollToTop />
     </>
     );
 }

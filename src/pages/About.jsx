@@ -37,15 +37,15 @@ function About() {
         
          {/* Social Media Icons Section */}
          <div className="social-icons">
-          <a href="mailto:your.email@example.com" target="_blank" rel="noopener noreferrer">
-            <img src={emailIcon} alt="Email" className="social-icon" />
+          <a href="mailto:t0908003@gmail.com" target="_blank" rel="gmail">
+            <img src={emailIcon} alt="YungiCho_Email" className="social-icon" />
           </a>
 
-           <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+           <a href="https://www.linkedin.com/in/yungi-cho-717439234/" target="_blank" rel="Yungicho_linkedin">
             <img src={linkedinIcon} alt="LinkedIn" className="social-icon" />
           </a>
 
-          <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/yungi_0323/" target="_blank" rel="Yungicho_Instagram">
             <img src={instagramIcon} alt="Instagram" className="social-icon" />
           </a>
         </div>

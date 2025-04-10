@@ -19,8 +19,8 @@ export function CardComponent() {
         <img src={FurryTaleImage} alt="Project-2" className="project-image2" />
       {/*FurryTales Title*/}
           <Typography variant="h5" color="blue-gray" className="furryTales"> 
-           FurryTales: 
-            FLUI Hackathon 2025: Website Redesign 
+           FurryTales Pet: 
+            FLUI Hackathon 2025
           </Typography>
 
       {/*Card Bottom Section */}
