@@ -3,6 +3,7 @@ import Footer from "../global/Footer.jsx";
 import CardComponent from "../components/Card.jsx";
 import "./Home.css";
 import React from "react";
+import { Link }from 'react-router';
 
 function Home() {
 
@@ -25,10 +26,10 @@ function Home() {
             
             <div className="col-text-right">
                 <div className="blur-2">
-                <p className="text-lg text-gray-700 max-w-md">
+                <p className="text-lg text-gray-700 max-w-md animate__animated animate__fadeInUp">
                 <span className="block w-8 h-1 bg-black mb-2"></span>
                 As a UI/UX designer, I’m driven by continuous growth and the power of collaboration with passionate, like-minded creatives.
-                 Through thoughtful, empathetic design and purposeful digital experiences, I aim to craft a more convenient, human-centered life — FOR PEOPLE, NOT JUST USERS.
+                 Through thoughtful, empathetic design and purposeful digital experiences, I aim to craft a more convenient, human-centered life.
                 </p>
                 </div>
             </div>
@@ -39,7 +40,7 @@ function Home() {
                 { /*Card Component Section */}
                 <div className="card-section flex justify-center mt-10">
                     <CardComponent />
-                <button className="view-all-btn">View All</button>
+                <Link to='/work' className="view-all-btn">View All</Link>
                 </div>
             </section>
 

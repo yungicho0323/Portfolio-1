@@ -50,7 +50,7 @@ export function CardComponent() {
         <div className="bottom-section">
           <div className="left-section">
         <CardFooter>
-          <Button className="card-button">Read More</Button>
+          <Link to="/zynergy" className="card-button">Read More</Link>
         </CardFooter>
         </div>
         
