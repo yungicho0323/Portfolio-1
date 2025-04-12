@@ -20,13 +20,15 @@ function Home() {
             </h1>
             </div>
             </div>
+
             <div></div>
+            
             <div className="col-text-right">
                 <div className="blur-2">
                 <p className="text-lg text-gray-700 max-w-md">
                 <span className="block w-8 h-1 bg-black mb-2"></span>
-                As a UI/UX designer, I am deeply committed to continuous growth and innovation.
-                 I embrace every opportunity to expand my skills and collaborate with talented teams, always striving to create meaningful and intuitive digital experiences. 
+                As a UI/UX designer, I’m driven by continuous growth and the power of collaboration with passionate, like-minded creatives.
+                 Through thoughtful, empathetic design and purposeful digital experiences, I aim to craft a more convenient, human-centered life — FOR PEOPLE, NOT JUST USERS.
                 </p>
                 </div>
             </div>
@@ -40,10 +42,6 @@ function Home() {
                 <button className="view-all-btn">View All</button>
                 </div>
             </section>
-
-            
-            
-            
 
             </main>
             

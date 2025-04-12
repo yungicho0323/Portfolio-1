@@ -6,6 +6,7 @@ import ZynergyImage from "../assets/images/iphone-16-mockup.png";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
 import TwoSecondsImage from "../assets/images/2Seconds.png";
 import { Link }from 'react-router';
+import babelImage from '../assets/images/Babel.png';
 
 
 
@@ -59,7 +60,7 @@ export function CardComponent() {
         </div>
     </div>
 
-      <div class="image-wrapper animate__animated animate__slideInUp">
+    <div class="image-wrapper animate__animated animate__slideInUp">
         <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />
       {/*2 Seconds Title*/}
           <Typography variant="h5" color="blue-gray" className="two-seconds"> 
@@ -79,7 +80,27 @@ export function CardComponent() {
         </div> 
         </div>
       </div>
-    
+
+      <div class="image-wrapper animate__animated animate__slideInUp">
+        <img src={babelImage} alt="Project-4" className="project-image4" />
+      {/*2 Seconds Title*/}
+          <Typography variant="h5" color="blue-gray" className="babel"> 
+          Babel: Safety-driven, Real-time Location Tracking App For Minorities
+          </Typography>
+
+      {/*Card Bottom Section */}
+        <div className="bottom-section">
+          <div className="left-section">
+        <CardFooter className="cardFooter-wrapper">
+          <Button className="card-button">Read More</Button>
+        </CardFooter>
+        </div>
+
+        <div className="project-type-badge">
+        <button className="project-type-button">UI/ UX</button>
+        </div> 
+        </div>
+      </div>
 
 
     </Card>
