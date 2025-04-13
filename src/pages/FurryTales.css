@@ -84,7 +84,7 @@ body {
 }
 
 .project-video {
-  max-width: 1200px;
+  max-width: 1000px;
   height: auto;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   margin: 2rem auto;
@@ -101,7 +101,7 @@ body {
   background-color: #000;
   color: #fff;
   padding: 10px 22px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: none;
   border-radius: 999px;
   text-decoration: none;
@@ -118,13 +118,13 @@ body {
 .flui-container {
   background-color: #FFFEEE;
   padding: 60px 30px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .flui-title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: medium;
   margin-bottom: 40px;
   margin-top: 50px;
@@ -139,13 +139,13 @@ body {
 
 .flui-image-container img {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .flui-description {
   font-size: 1.2rem;
-  line-height: 1.8;
+  line-height: 1.7;
   color: #222;
   font-family: 'Manrope', sans-serif;
   width: 100%;
@@ -161,7 +161,7 @@ body {
   background-color: #FFFEEE;
   padding: 60px 40px;
   font-family: 'Manrope', sans-serif;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -179,7 +179,7 @@ body {
 }
 
 .current-site-link {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #000;
   text-decoration: underline;
   cursor: pointer;
@@ -206,7 +206,7 @@ body {
 }
 
 .goal-card p {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #333;
   line-height: 1.6;
   text-align: center;
@@ -220,7 +220,7 @@ body {
   font-family: 'Manrope', sans-serif;
   color: #111;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
@@ -329,7 +329,7 @@ body {
   padding: 60px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -345,7 +345,7 @@ body {
 }
 
 .research-block h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 20px;
   border-bottom: 1px solid #000000;
@@ -365,7 +365,7 @@ body {
 }
 
 .issue p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #333;
   margin: 0;
 }
@@ -390,7 +390,7 @@ body {
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -401,13 +401,13 @@ body {
 }
 
 .analysis-block h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 16px;
 }
 
 .analysis-block p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   color: #333;
   margin-bottom: 30px;
@@ -433,7 +433,7 @@ body {
 
 
 .moodboard-image-wrapper img {
-  max-width: 1200px;
+  max-width: 900px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -442,7 +442,7 @@ body {
 .ideation-section {
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -453,7 +453,7 @@ body {
 }
 
 .ideation-description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 30px;
   color: #333;
@@ -461,19 +461,19 @@ body {
 
 .ideation-links {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #c87f2a;
   margin-top: 10px;
 }
 
 .ideation-subsection h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
 .ideation-subsection p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   color: #333;
   margin-bottom: 30px;
@@ -486,7 +486,7 @@ body {
 }
 
 .ideation-image img {
-  max-width: 1200px;
+  max-width: 900px;
   margin-top: 40px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
@@ -497,7 +497,7 @@ body {
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -507,13 +507,13 @@ body {
   margin-bottom: 20px;
 }
 .design-description h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 16px;
 }
 
 .design-description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   color: #333;
   margin-bottom: 30px;
@@ -526,7 +526,7 @@ body {
 }
 
 .design-image-wrapper img {
-  max-width: 1200px;
+  max-width: 900px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -537,7 +537,7 @@ body {
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -548,13 +548,13 @@ body {
 }
 
 .validation-subsection h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 16px;
 }
 
 .validation-subsection p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   color: #333;
   margin-bottom: 30px;
@@ -571,7 +571,7 @@ body {
 }
 
 .validation-image-wrapper img {
-  max-width: 1200px;
+  max-width: 900px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -582,7 +582,7 @@ body {
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -593,7 +593,7 @@ body {
 }
 
 .final-section h4 {
-  font-size: 1.3rem;
+  font-size: 1.rem;
   font-weight: medium;
   margin-bottom: 30px;
   color: #333;
@@ -606,7 +606,7 @@ body {
 
 .final-video {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 /*Reflection*/
