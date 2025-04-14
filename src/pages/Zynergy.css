@@ -86,9 +86,9 @@
   }
   
   .section-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 40px;
-    font-weight: medium;
+    font-weight: 600px;
   }
   
   .headline {
@@ -156,7 +156,7 @@
     gap: 200px;
     border: 1px solid #aaa;
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 15px 30px;
     background-color: #FFFEEE;
     justify-content: center;
     align-items: center;
@@ -174,18 +174,65 @@
   }
   
   .dot {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: transparent;
     border-radius: 50%;
     margin-bottom: 10px;
     border: 1px solid #d9b6f2;
   }
 
+  /*Research*/
 
-/*Research */
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .research-section h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  } 
 
-  .research-section {
+  .box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fffdf6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease;
+  }
+  
+  .box:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .research-section h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .box h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .box p,
+  .box ul {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+
+  /* Analysis */
+  .analysis-section {
+    background-color: #FFFEEE;
     padding: 60px 30px;
     max-width: 1000px;
     margin: 0 auto;
@@ -193,46 +240,100 @@
     color: #111;
   }
   
-  .research-section h2 {
+  .analysis-section h2 {
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
-  .subheading {
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-bottom: 40px;
-  }
-  
-  .research-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
-  }
-  
-  .research-box h5 {
+  .persona-section h4,
+  .competitive-section h4 {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 10px;
   }
   
-  .research-box p {
+  .persona-section p,
+  .competitive-section p {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #333;
+    margin-bottom: 16px;
   }
   
-  .research-box ul {
-    list-style: disc;
-    padding-left: 1rem;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: #333;
+  .persona-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
   }
   
-  .research-box li {
-    margin-bottom: 10px;
+  .persona-img {
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   }
+  .competitive-section {
+    margin-top: 60px;
+  }
+
+  .competitive-section p strong {
+    font-weight: 600px;
+  }
+  
+  .competitive-image {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .competitive-image img {
+    max-width:900px;
+    border-radius: 10px;
+  }
+
+/* Ideation */
+/* .ideation-section {
+    background-color: #FFFEEE;
+    padding: 60px 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    color: #111;
+  }
+  
+  .ideation-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .ideation-content h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+  
+
+  .values-img {
+    max-width: 1000px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+  }
+
+  .sitemap-img {
+    max-width: 1000px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+  }
+   */
   
   
