@@ -8,7 +8,7 @@ import Persona2 from '../assets/images/Persona 2.png';
 import CompetitiveImg from '../assets/images/competitive analysis(Zynergy).png';
 import SitemapImg from '../assets/images/Sitemap.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
-import StyleGuideImg from '../assets/images/Zynergy-styleguide.png';
+import StyleGuideImg from '../assets/images/Zynergy-Styleguide.png';
 import highFidelityImg from '../assets/images/Zynergy-highfidelity.png'
 
 
