@@ -6,8 +6,11 @@ import heroImage from '../assets/images/iphone-16-mockup.png';
 import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
 import CompetitiveImg from '../assets/images/competitive analysis(Zynergy).png';
-import ValuesImg from '../assets/images/clients-brandAndValues.png';
 import SitemapImg from '../assets/images/Sitemap.png';
+import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
+import StyleGuideImg from '../assets/images/Zynergy-styleguide.png';
+
+
 
 function Zynergy() {
     return(
@@ -205,17 +208,62 @@ function Zynergy() {
 <div className="section-divider"></div>
 
 {/*Ideation*/}
-{/* <section id="ideation" className="ideation-section">
+<section id="ideation" className="ideation-section">
       <h2>03 Ideation</h2>
 
       <div className="ideation-content">
-        <h4>Client's Brand & Values</h4>
-        <img src={ValuesImg} alt="Client Brand Values" className="values-img" />
-
         <h4>Sitemap</h4>
         <img src={SitemapImg} alt="Sitemap Structure" className="sitemap-img" />
+
+      <h3>Wireframes</h3>
+      <p className="wireframes-description">
+        After defining the key features, we progressed to the design phase, developing wireframes with a minimalist, user-centered approach. These wireframes enabled us to visualize the integration of essential information on each page.
+      </p>
+
+      <div className="wireframe-image-wrapper">
+        <img src={WireframeImage} alt="Zynergy App Wireframes" />
       </div>
-    </section> */}
+
+      </div>
+</section>
+
+{/*section divider*/}
+<div className="section-divider"></div>
+
+{/*Design*/}
+<section id="design" className="design-section">
+      <h2>04 Design</h2>
+      <p className="design-description">
+        Prior to developing high-fidelity prototypes, we created a style guide that would allow multiple
+        designers to approach the app design in a clear, unified way. This guide was created to ensure
+        consistency across all design and content. The style guide served as a reference point for all
+        team members, ensuring that everyone was on the same page and that our design remained cohesive
+        and aligned with our overall brand identity.
+      </p>
+
+      <h3>Style Guide</h3>
+      <div className="design-image">
+        <img src={StyleGuideImg} alt="Zynergy Style Guide" />
+      </div>
+
+</section>
+
+
+{/*section divider*/}
+<div className="section-divider"></div>
+
+{/*Validation*/}
+<section id="validation" className="validation-section">
+  <h2>05 Validation</h2>
+  <p className="validation-description">
+  After we designed wireframes and created a style guide, we conducted user testings with our target audience to understand exactly which parts of the design frustrate people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, we were able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
+  </p>
+
+{/*User Testing*/}
+<p>WORK IN PROCESS...</p>
+
+</section>
+
 
 
 

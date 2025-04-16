@@ -259,6 +259,7 @@
     line-height: 1.7;
     color: #333;
     margin-bottom: 16px;
+    max-width: 1000px;
   }
   
   .persona-grid {
@@ -292,7 +293,7 @@
   }
 
 /* Ideation */
-/* .ideation-section {
+.ideation-section {
     background-color: #FFFEEE;
     padding: 60px 30px;
     max-width: 1000px;
@@ -315,25 +316,98 @@
   }
   
 
-  .values-img {
+  .sitemap-img {
     max-width: 1000px;
+    width: 100%;
     margin-top: 20px;
     border-radius: 8px;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
     margin: auto 0;
   }
 
-  .sitemap-img {
-    max-width: 1000px;
-    width: 80%;
-    margin-top: 20px;
-    border-radius: 8px;
-    margin: auto 0;
-    justify-content: center;
-    align-items: center;
+  .ideation-section h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 40px;
   }
-   */
+  
+  .wireframes-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    max-width: 1000px;
+    margin-bottom: 40px;
+  }
+  
+  .wireframe-image-wrapper img {
+    width: 100%;
+    max-width:900px;
+    margin: auto 0;
+  }
+
+/*Design*/
+.design-section {
+  background-color: #FFFEEE;
+  padding: 60px 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+}
+
+.design-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.design-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.design-section h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color:#364AD9;
+}
+
+
+.design-image {
+  margin-bottom: 40px;
+}
+
+.design-image img {
+  width: 100%;
+  max-width: 900px; 
+}
+
+/*Validation*/
+.validation-section {
+  background-color: #FFFEEE;
+  padding: 60px 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+}
+
+.validation-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.validation-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
   
   
