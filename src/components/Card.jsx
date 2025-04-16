@@ -6,7 +6,7 @@ import ZynergyImage from "../assets/images/iphone-16-mockup.png";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
 import TwoSecondsImage from "../assets/images/2Seconds.png";
 import { Link }from 'react-router';
-import babelImage from '../assets/images/Babel.png';
+import babelImage from '../assets/images/BabelMockup.png';
 
 
 

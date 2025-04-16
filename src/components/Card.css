@@ -45,9 +45,6 @@
 }
 
 
-
-
-
 .project-image1 {
   object-fit: cover;
   width: 100%;
@@ -107,7 +104,11 @@
 }
 
 .image-wrapper:hover .two-seconds {
-  color: white
+  color: white;
+}
+
+.image-wrapper:hover .babel {
+  color: white;
 }
 
 .card-button {
