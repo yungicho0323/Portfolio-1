@@ -9,6 +9,7 @@ import CompetitiveImg from '../assets/images/competitive analysis(Zynergy).png';
 import SitemapImg from '../assets/images/Sitemap.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
 import StyleGuideImg from '../assets/images/Zynergy-styleguide.png';
+import highFidelityImg from '../assets/images/Zynergy-highfidelity.png'
 
 
 
@@ -258,9 +259,9 @@ function Zynergy() {
   <p className="validation-description">
   After we designed wireframes and created a style guide, we conducted user testings with our target audience to understand exactly which parts of the design frustrate people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, we were able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
   </p>
-
-{/*User Testing*/}
-<p>WORK IN PROCESS...</p>
+      <div className="validation-image-wrapper">
+                <img src={highFidelityImg} alt="High-fidelity Wireframes" />
+      </div>
 
 </section>
 

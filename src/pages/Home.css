@@ -161,8 +161,8 @@ body {
   .hero-section p span {
     display: block;
     width: 32px;
-    height: 4px;
-    background: black;
+    height: 2px;
+    background: rgba(131, 30, 210, 100);
     margin-bottom: 6px;
   }
 
