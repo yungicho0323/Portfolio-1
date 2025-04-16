@@ -1,34 +1,21 @@
-on:
+on: 
   push:
     branches: [ deploy ]
-
 name: 🚀 Deploy website on push
-
 jobs:
   web-deploy:
-    name: 🚀 Deploy React
+    name: 🚀 Deploy HTML/CSS/JS
     runs-on: ubuntu-latest
     steps:
-      - name: Get latest code
+      steps:
+      - name: 🚚 Get latest code
         uses: actions/checkout@v4
-
-      - name: Use Node.js 20
-        uses: actions/setup-node@v2
+      - name: 📁 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          node-version: '20'
-
-      - name: 🛠️ Build Project
-        run: |
-          npm install
-          npm run build
-
-      - name: 📤 Upload via SFTP
-        uses: appleboy/scp-action@v0.1.3
-        with:
-          host: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USER }}
-          key: ${{ secrets.SFTP_PRIVATE_KEY }}
-          port: 22
-          source: "dist/"
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: "public_html/"
           target: "public_html/"
 
