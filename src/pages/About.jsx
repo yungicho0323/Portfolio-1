@@ -4,7 +4,11 @@ import React from "react";
 import profileImage from "../assets/images/Profile.jpg";
 import emailIcon from "../assets/images/Email.png";
 import linkedinIcon from "../assets/images/LinkedIn.png";
-import instagramIcon from "../assets/images/Instagram.png";
+import image1 from "../assets/images/img1.jpeg";
+import image2 from "../assets/images/img2.jpeg";
+import image3 from "../assets/images/img3.jpeg";
+import image4 from "../assets/images/img4.jpeg";
+import image5 from "../assets/images/img5.jpeg";
 import "./About.css";
 
 
@@ -71,11 +75,11 @@ function About() {
     <section className="gallery-container">
      {/* Image Gallery - Dynamic Layout */}
     <div className="flex flex-wrap justify-center items-center gap-4 mb-10">
-    <img src="/images/img1.jpg" alt="Gallery 1" className="gallery-image small low" />
-    <img src="/images/img2.jpg" alt="Gallery 2" className="gallery-image medium mid-low" />
-    <img src="/images/img3.jpg" alt="Gallery 3" className="gallery-image large highest" />
-    <img src="/images/img4.jpg" alt="Gallery 4" className="gallery-image medium mid-low" />
-    <img src="/images/img5.jpg" alt="Gallery 5" className="gallery-image small low" />
+    <img src={image1} alt="Gallery 1" className="gallery-image small low" />
+    <img src={image2} alt="Gallery 2" className="gallery-image medium mid-low" />
+    <img src={image3} alt="Gallery 3" className="gallery-image large highest" />
+    <img src={image4} alt="Gallery 4" className="gallery-image medium mid-low" />
+    <img src={image5} alt="Gallery 5" className="gallery-image small low" />
     </div>
     </section>
 
