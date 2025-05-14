@@ -112,8 +112,8 @@
 }
 
 .card-button {
-  background-color: #FFFEEE;
-  color: rgb(0, 0, 0);
+  background-color: #000000;
+  color: #FFFEEE;
   border: 1px solid #000000;
   padding: 8px 10px;
   font-size: 14px;
@@ -153,8 +153,8 @@
 }
 
 .project-type-button {
-  background-color: #000; /* or try a soft purple to match your brand */
-  color: #fff;
+  background-color: #FFFEEE; /* or try a soft purple to match your brand */
+  color: #000000;
   padding: 6px 12px;
   font-size: 14px;
   border: none;

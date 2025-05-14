@@ -9,7 +9,6 @@ import avatarMe from '../assets/images/Me.png';
 import avatarSuin from '../assets/images/our team 2.png';
 import avatarTina from '../assets/images/our team 3.png';
 import avatarKritika from '../assets/images/our team 4.png';
-import qnaImage from '../assets/images/Q&As.png';
 import moodboardImg from '../assets/images/Competitive analysis & moodboard.png';
 import sitemapImg from '../assets/images/Sitemaps.png';
 import wireframesImg from '../assets/images/Wireframe.png';
@@ -249,10 +248,6 @@ return (
         </p>
       </div>
 
- {/*Q&A Image*/}
- <div className="qa-image-wrapper">
-        <img src={qnaImage} alt="Client Q&A Screenshot" />
-      </div>
 </section>
 
 {/*section divider*/}

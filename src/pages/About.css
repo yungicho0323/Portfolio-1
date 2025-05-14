@@ -188,23 +188,23 @@ border-bottom: 2px solid #ddd; /* Optional: Adds a subtle underline */
 
 .statement-divider1 {
   width: 95px;
-  height: 2px;
+  height: 1px;
   margin: 8px 0 16px;
-  background-color: #ddd;
+  background-color: #222222;
 }
 
 .statement-divider2 {
   width: 170px;
-  height: 2px;
+  height: 1px;
   margin: 8px 0 16px;
-  background-color: #ddd;
+  background-color: #222222;
 }
 
 .statement-divider3 {
   width: 125px;
-  height: 2px;
+  height: 1px;
   margin: 8px 0 16px;
-  background-color: #ddd;
+  background-color: #222222;
 }
 
 

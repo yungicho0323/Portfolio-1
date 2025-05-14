@@ -89,21 +89,21 @@ function About() {
           <h4>Traveling</h4>
           <div className="statement-divider1"></div>
          <p>
-          <strong>1.</strong> "With an adventurous and open-minded spirit, I have always embraced new experiences. Growing up in a family passionate about travel, I had the privilege of exploring diverse cultures from an early age, shaping my global perspective and appreciation for different ways of life."
+           "With an adventurous and open-minded spirit, I have always embraced new experiences. Growing up in a family passionate about travel, I had the privilege of exploring diverse cultures from an early age, shaping my global perspective and appreciation for different ways of life."
         </p>
         <br/>
 
         <h4>Beauty in Details</h4>
         <div className="statement-divider2"></div>
         <p>
-          <strong>2.</strong> "I find beauty in the details—whether in nature, a perfectly brewed cup of coffee, typography, spatial design, or photography. Over the years, I have cultivated a refined aesthetic, continuously exploring and defining the visual language that resonates with me."
+           "I find beauty in the details—whether in nature, a perfectly brewed cup of coffee, typography, spatial design, or photography. Over the years, I have cultivated a refined aesthetic, continuously exploring and defining the visual language that resonates with me."
         </p>
         <br/>
 
         <h4>Authenticity</h4>
         <div className="statement-divider3"></div>
         <p>
-          <strong>3.</strong>"Authenticity is at the core of my personal and professional journey. I strive to stay true to myself, actively shaping a life filled with passion, continuous growth, and meaningful challenges. As both an individual and a UI/UX designer, I am committed to refining my skills, embracing new perspectives, and confidently evolving into the best version of myself."
+          "Authenticity is at the core of my personal and professional journey. I strive to stay true to myself, actively shaping a life filled with passion, continuous growth, and meaningful challenges. As both an individual and a UI/UX designer, I am committed to refining my skills, embracing new perspectives, and confidently evolving into the best version of myself."
         </p>
            </div>
     </section>

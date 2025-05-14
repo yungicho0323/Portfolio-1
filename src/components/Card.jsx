@@ -60,27 +60,6 @@ export function CardComponent() {
         </div>
     </div>
 
-    <div class="image-wrapper animate__animated animate__slideInUp">
-        <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />
-      {/*2 Seconds Title*/}
-          <Typography variant="h5" color="blue-gray" className="two-seconds"> 
-           2 Seconds: Online Consignment Store Website Design
-          </Typography>
-
-      {/*Card Bottom Section */}
-        <div className="bottom-section">
-          <div className="left-section">
-        <CardFooter className="cardFooter-wrapper">
-          <Button className="card-button">Read More</Button>
-        </CardFooter>
-        </div>
-
-        <div className="project-type-badge">
-        <button className="project-type-button">Website Design</button>
-        </div> 
-        </div>
-      </div>
-
       <div class="image-wrapper animate__animated animate__slideInUp">
         <img src={babelImage} alt="Project-4" className="project-image4" />
       {/*2 Seconds Title*/}
@@ -101,6 +80,29 @@ export function CardComponent() {
         </div> 
         </div>
       </div>
+      
+    <div class="image-wrapper animate__animated animate__slideInUp">
+        <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />
+      {/*2 Seconds Title*/}
+          <Typography variant="h5" color="blue-gray" className="two-seconds"> 
+           2 Seconds: Online Consignment Store Website Design
+          </Typography>
+
+      {/*Card Bottom Section */}
+        <div className="bottom-section">
+          <div className="left-section">
+        <CardFooter className="cardFooter-wrapper">
+          <Button className="card-button">Read More</Button>
+        </CardFooter>
+        </div>
+
+        <div className="project-type-badge">
+        <button className="project-type-button">Website Design</button>
+        </div> 
+        </div>
+      </div>
+      
+
 
 
     </Card>
