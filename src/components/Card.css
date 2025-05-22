@@ -55,11 +55,6 @@
   z-index: -1;
 }
 
-.zynergy {
-  padding: 5px 0;
-  font-weight: Medium;
-  padding-bottom: 10px;
-}
 
 .bottom-section {
   display: flex;
@@ -127,20 +122,25 @@
   color: white;
 }
 
+.zynergy {
+  padding: 8px 0;
+  font-weight: Medium;
+  padding-bottom: 10px;
+}
 .furryTales {
-    padding: 5px 0;
+    padding: 8px 0;
     font-weight: medium;
     padding-bottom: 10px;
 }
 
 .two-seconds {
-  padding: 5px 0;
+  padding: 8px 0;
   font-weight: medium;
   padding-bottom: 10px;
 }
 
 .babel {
-  padding: 5px 0;
+  padding: 8px 0;
   font-weight: medium;
   padding-bottom: 10px;
 }
