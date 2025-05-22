@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import FurryTales from "./pages/FurryTales";
 import Zynergy from "./pages/Zynergy";
+import Babel from "./pages/Babel";
 import StyleGuide from "./pages/StyleGuide";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/furrytales" element={<FurryTales />} />
         <Route path="/zynergy" element={<Zynergy />} />
+        <Route path="/babel" element={<Babel />} />
         <Route path="style-guide" element={ <StyleGuide />}></Route>
     </Routes>
  

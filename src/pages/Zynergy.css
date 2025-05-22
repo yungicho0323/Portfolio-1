@@ -70,72 +70,135 @@
     justify-content: center;
   }
   
-  .project-image img {
-    max-width: 100%;
+  .overview-section .project-image img {
+    max-width: 70%;
+    margin-top: 20px;
     height: auto;
     border-radius: 12px;
   }
 
   /*Overview*/
   .overview-section {
-    padding: 60px 30px;
-    max-width: 1000px;
+    padding: 60px 200px;
+    max-width: 100%;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
-    color: #111;
-  }
-  
-  .section-title {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    font-weight: 600px;
-  }
-  
-  .headline {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 40px;
-    line-height: 1.4;
-    color:#364AD9;
-  }
-  
-  .problem-section,
-  .solution-section {
-    margin-bottom: 40px;
-  }
-  
-  .problem-section h4,
-  .solution-section h4 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  
-  .problem-section p,
-  .solution-section p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: #333;
-  }
-  
-  .down-arrow {
-    display: block;
-    font-size: 2rem;
-    text-align: center;
-    margin: 20px 0;
+    color: #F9F6ED;
+    background-color: #202020;
   }
 
-  .solution-points p {
-    margin-bottom: 20px;
-    line-height: 1.6;
-  }
+  /* Section Titles */
+.overview-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
 
-  .solution-points strong {
-    font-size: 1.2rem;
-    color:#364AD9;
-    font-weight: 500;
-  }
-  
+.overview-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #FFFEEE;
+}
+
+.overview-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Highlighted Phrases */
+.overview-section .highlight-blue {
+  color: #364AD9;
+  font-weight: 600;
+}
+
+.overview-section .highlight-link {
+  color: #364AD9;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+   /* Problem Statement Block */
+.overview-section .problem-statement-block {
+  background-color: #364AD9;
+  padding: 40px 100px;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  color: #F9F6ED;
+}
+
+.problem-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.problem-question p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.highlight-question {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Key Problems Section */
+.key-problems-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.problems-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.problem-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fffef7;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+.problem-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #2a2a2a;
+}
+
+.problem-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #535353;
+}
+
+/* Spacing Utility */
+.section-spacing {
+  margin-top: 60px;
+}
+
+/* Project Goal */
+.babel-section .goal-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #FFFEEE;
+}
+
   /*Design Process */
 .process-section {
     background-color: #FFFEEE;
@@ -183,6 +246,22 @@
   }
 
   /*Research*/
+
+  .research-section {
+  background-color: #FFFEEE;
+  padding: 60px 30px;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.research-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
 
   .research-grid {
     display: grid;
@@ -278,8 +357,9 @@
     margin-top: 60px;
   }
 
-  .competitive-section p strong {
-    font-weight: 600px;
+  .competitive-section .highlight-blue {
+    color: #364AD9;
+    font-weight: 600;
   }
   
   .competitive-image {
@@ -288,7 +368,7 @@
   }
   
   .competitive-image img {
-    max-width:900px;
+    max-width:100%;
     border-radius: 10px;
   }
 
@@ -304,7 +384,7 @@
   
   .ideation-section h2 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 30px;
   }
   
@@ -357,7 +437,7 @@
 
 .design-section h2 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
@@ -397,7 +477,7 @@
 
 .validation-section h2 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 

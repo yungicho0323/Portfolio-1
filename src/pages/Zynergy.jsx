@@ -5,11 +5,13 @@ import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
 import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
-import CompetitiveImg from '../assets/images/competitive analysis(Zynergy).png';
+import classpass from '../assets/images/Classpass.png';
 import SitemapImg from '../assets/images/Sitemap.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
 import StyleGuideImg from '../assets/images/Zynergy-Styleguide.png';
 import highFidelityImg from '../assets/images/Zynergy-highfidelity.png'
+import keyresults from '../assets/images/solutions.png';
+import diagram from '../assets/images/Zynergy_Diagram.png';
 
 
 
@@ -53,41 +55,56 @@ function Zynergy() {
 
 {/*Overview*/}
     <section className="overview-section">
-      <h3 className="section-title">Overview</h3>
-      <h1 className="headline">Unlock Your Potential with Lifting Up Each other.</h1>
+      <h2>Overview</h2>
+    {/*Problem Statement Block */}
+    <div className="problem-statement-block">
+      <h3 className="problem-heading">Problem Statement</h3>
+      <p className="problem-question">
+        <span className="highlight-question">
+          How might we </span> we transform traditional fitness booking apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
+      </p>
+    </div>
 
-      <div className="problem-section">
-        <h4>Problem</h4>
-        <p>
-          Currently, ClassPass focuses on booking classes but lacks personalization of creating their own fitness journey. Additionally, while users can join
-          group classes, there is no dedicated feature to connect with others, form workout groups, or participate in
-          community-driven fitness challenges.
-        </p>
-      </div>
-
-      <div className="solution-section">
-        <h4>Solution</h4>
-        <p>
-          Our solution enhances the existing ClassPass model by introducing Group Workout Challenges — a feature that
-          allows users to connect with others, schedule group workout challenges, and create shared fitness goals.
-          By shifting from a simple booking tool to an interactive, community-based platform, Zynergy encourages a
-          stronger sense of belonging within the fitness journey.
-        </p>
-
-        <span className="down-arrow">↓</span>
-
-        <div className="solution-points">
-          <p>
-            <strong>#1 Create Your Own Group Workout Challenges</strong><br />
-            introduces group workout challenges where users can connect, schedule group workouts and share fitness goals.
-          </p>
-
-          <p>
-            <strong>#2 Grow a fitness community</strong><br />
-            fosters a supportive fitness community, users stay more motivated, consistent, and inspired—turning individual goals into shared achievements.
-          </p>
+  {/*Key Problems*/}
+       <h2 className="key-problems-heading">Key Problems</h2>
+      <div className="problems-grid">
+        <div className="problem-card">
+          <h4>Lack of Community and Social Engagement</h4>
+          <p>Most fitness booking apps operate in isolation—focusing only on class reservations without offering ways for users to interact, form connections, or build community. As a result, users often lose motivation and accountability over time due to the absence of a supportive social environment.</p>
+        </div>
+        <div className="problem-card">
+          <h4>Disconnections</h4>
+          <p>After COVID-19, people increasingly seek social connection and group experiences to support their physical and mental well-being. However, most fitness booking apps still promote individual usage, lacking features that foster community or shared progress. This disconnection limits user motivation, retention, and emotional engagement—missing the opportunity to turn fitness into a socially driven lifestyle habit.</p>
         </div>
       </div>
+
+    {/*Key results*/}
+        <h2>KEY RESULTS</h2>
+        <p>Zynergy app increases user engagement and retention by including <span className="highlight-blue"> Group Workout Challenges</span> enabling users to connect with others, set shared fitness goals, and build a sense of community within their fitness journey.</p>
+        <div className="project-image">
+          <img src={keyresults} alt="key results" />
+        </div>
+        
+    {/*Context*/}
+        <div className="section-spacing" />
+        <h2>CONTEXT</h2>
+        <p>
+       During a product design exploration, we identified a growing post-pandemic shift in fitness behavior. People not only seek physical wellness but also crave meaningful social connection. We aimed to address this behavioral shift by introducing a community-based fitness experience.
+        </p>
+        <br/>
+        <p>
+        We focused on <span className="highlight-blue">Social Motivation</span> through shared fitness goals and <span className="highlight-blue">Community-Driven Accountability</span> by integrating <span className="highlight-blue">Group Workout Challenges</span> that empower users to connect, collaborate, and stay consistent on their wellness journey.
+        </p>
+
+        <div className="project-image">
+          <img src={diagram} alt="Diagram"></img>
+        </div>
+
+      {/*Project Goal*/}
+       <div className="section-spacing" />
+        <h2>PROJECT GOAL</h2>
+        <h3 className="goal-heading">We aim to drive long-term user engagement and brand loyalty in the fitness industry by integrating social motivation and community-based features into the booking experience.</h3>
+        <p>The primary goal of the Zynergy app is to address a key gap in the fitness tech market: the lack of socially engaging features that promote sustained motivation and user retention. While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering Group Workout Challenges that allow users to connect, collaborate, and commit to shared fitness goals.</p>
     </section>
 
 {/* Design Process */}
@@ -188,20 +205,14 @@ function Zynergy() {
       <div className="competitive-section">
         <h4>Competitive Analysis</h4>
         <p>
-          Through our analysis of ClassPass, we examined the application's layout and user flow to identify key
-          design patterns and features. One notable strength of ClassPass is its social integration — it allows
-          users to see their friends' registered classes and activities.<strong>However, the platform lacks dedicated
-          community-focused features that foster group engagement or shared fitness experiences.</strong> 
-        </p>
-        <p>
-          Zynergy builds upon ClassPass’s strong layout foundation, particularly its homepage and search
-          structure, but addresses this gap by introducing a <strong>Group Workout Challenge</strong> feature — enabling users to connect,
-          collaborate, and grow within a community-driven fitness environment.
+          We selected ClassPass as a benchmark fitness class booking app for our competitive analysis. Our evaluation focused on its layout, user flow, and core features to identify prevailing design patterns. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However, it <span className="highlight-blue">lacks dedicated community-driven features that promote group participation or foster deeper engagement through shared fitness experiences.</span>
         </p>
 
         <div className="competitive-image">
-          <img src={CompetitiveImg} alt="Competitive Analysis Screenshot" />
+          <img src={classpass} alt="Classpass App" />
         </div>
+
+
       </div>
     </section>
 

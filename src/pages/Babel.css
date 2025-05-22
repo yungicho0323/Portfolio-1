@@ -1,0 +1,376 @@
+* {
+    margin: auto 0;
+    padding: 0;
+    background-color: #FFFEEE;
+  
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Merchant Font', 'Manrope','sans-serif';
+  }
+  
+  .project-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFEEE;
+    padding: 60px 40px;
+    font-family: 'Manrope', sans-serif;
+    max-width: 100%;
+  }
+  
+  .project-text {
+    flex: 1 1 50%;
+    padding-right: 40px;
+  }
+  
+  .project-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #111;
+  }
+
+  
+  .project-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #222;
+    max-width: 700px;
+    margin-bottom: 40px;
+  }
+  
+
+  .project-text p strong{
+    font-weight: 600;
+  }
+  .project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-top: 1px solid #444;
+    padding-top: 30px;
+    color: #111;
+  }
+  
+  .project-meta h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .project-meta p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .project-image {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-image img {
+    max-width: 100%;
+    margin-top: 20px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.babel-section {
+  background-color: #202020;
+  padding: 60px 200px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  color: #F9F6ED;
+}
+  /*Project Context */
+  /* Problem Statement Block */
+.problem-statement-block {
+  background-color: #F7A881;
+  padding: 40px 100px;
+  border-radius: 8px;
+  margin: 0 auto;
+  text-align: center;
+  color: #F9F6ED;
+}
+
+.problem-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.problem-question p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.highlight-question {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+/* Key Problems Section */
+.key-problems-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.problems-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.problem-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fffef7;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+
+.problem-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #2a2a2a;
+}
+
+.problem-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #535353;
+}
+
+
+
+/* Section Titles */
+.babel-section h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.babel-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #FFFEEE;
+}
+
+.babel-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Highlighted Phrases */
+.babel-section .highlight-orange {
+  color: #f5a623;
+  font-weight: 600;
+}
+
+.babel-section .highlight-link {
+  color: #f5a623;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Quote-style Blocks */
+.babel-quotes {
+  margin-top: 20px;
+  padding-left: 20px;
+  border-left: 3px solid #444;
+  font-style: italic;
+  color: #999;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+
+/* Venn Diagram Section */
+.venn-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #aaa;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.venn-wrapper {
+  margin: 80px auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* Spacing Utility */
+.section-spacing {
+  margin-top: 60px;
+}
+
+/* Project Goal */
+.babel-section .goal-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #FFFEEE;
+}
+
+/*Design Process */
+.process-section {
+    background-color: #FFFEEE;
+    padding: 0 30px;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 100;
+    object-fit: fill;
+    top: 0;
+    left: 0%;
+    right: 0%;
+  }
+  
+  .process-container {
+    display: flex;
+    gap: 200px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: #FFFEEE;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .process-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+    font-weight: medium;
+    color: #222;
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #d9b6f2;
+  }
+
+/*Research*/
+.research-section {
+  background-color: #FFFEEE;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+  padding: 60px 200px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.research-section h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+
+.research-section .subheading h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 10px;
+}
+
+.research-section .subheading .underline {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #111;
+}
+
+
+
+/* Glowing quote bubble */
+.quote-bubble p {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 60px auto;
+  border-radius: 20px;
+  max-width: 900px;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #2a2a2a;
+  font-weight: 500;
+}
+
+/*Analysis*/
+.analysis-section {
+  background-color: #FFFEEE;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+  padding: 60px 200px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.analysis-section h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.analysis-section h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.analysis-section p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.analysis-image img {
+    margin-top: 10px;
+}
+
+.competitive-analysis h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.competitive-analysis .subheading {
+    font-weight: 600;
+}

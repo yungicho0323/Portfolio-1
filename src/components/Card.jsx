@@ -71,7 +71,7 @@ export function CardComponent() {
         <div className="bottom-section">
           <div className="left-section">
         <CardFooter className="cardFooter-wrapper">
-          <Button className="card-button">Read More</Button>
+          <Link to="/babel" className="card-button">Read More</Link>
         </CardFooter>
         </div>
 
@@ -80,7 +80,7 @@ export function CardComponent() {
         </div> 
         </div>
       </div>
-      
+
     <div class="image-wrapper animate__animated animate__slideInUp">
         <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />
       {/*2 Seconds Title*/}
