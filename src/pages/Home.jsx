@@ -27,7 +27,6 @@ function Home() {
             <div className="col-text-right">
                 <div className="blur-2">
                 <p className="text-lg text-gray-700 max-w-md animate__animated animate__fadeInUp">
-                <span className="block w-8 h-1 bg-black mb-2"></span>
                 As a UI/UX designer, I’m driven by continuous growth and the power of collaboration with passionate, like-minded creatives.
                  Through thoughtful, empathetic design and purposeful digital experiences, I aim to craft a more convenient, human-centered life.
                 </p>
