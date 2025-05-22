@@ -140,46 +140,69 @@ function Zynergy() {
 </section>
 
 {/*Research*/}
-
-<section id="research" className="research-section">
+  <section id="research" className="research-section">
       <h2>01 Research</h2>
-      <h4 className="subheading">Target Audience/ Market Research</h4>
+      <h4 className="subheading">Focus Areas</h4>
 
-<div className="research-grid">
-  <div className="box">
-    <h5>Demand</h5>
-    <p>
-      There is high demand for tailored fitness experiences and functional workouts over traditional cardio.
-      Consumers also prioritize mental wellness integration and sustainable practices.
-    </p>
-  </div>
+      <div className="focus-table-wrapper">
+        <table className="focus-table">
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Focus Area Question</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>What motivates users to attend fitness classes instead of working out alone?</td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>What social features do users find most valuable when joining group fitness activities?</td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>What are users’ biggest frustrations with current fitness class apps?</td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>How do users define a “successful” and enjoyable fitness class experience?</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-  <div className="box">
-    <h5>Trend</h5>
-    <p>
-      Strength training and functional fitness are replacing traditional cardio as preferred workout methods.
-      Digital fitness platforms with user-friendly interfaces are highly sought after, especially those
-      integrating tracking and progress features.
-    </p>
-  </div>
+      <h4 className="subheading">User Survey Insights</h4>
+      <div className="survey-grid">
+        <div className="box">
+          <h5>Social Motivation</h5>
+          <p>
+            Most users feel more committed to fitness when sharing the experience with others. Classes provide accountability and social energy that workouts alone can’t replicate.
+          </p>
+        </div>
 
-  <div className="box">
-    <h5>Needs</h5>
-    <p>
-      Consumers need flexible, accessible fitness solutions with personalized workout plans and diverse options.
-      Social interaction through group classes is important for motivation and community.
-    </p>
-  </div>
+        <div className="box">
+          <h5>Desire for Group Interaction</h5>
+          <p>
+            Users are drawn to features that support group engagement, such as buddy systems, challenges, and chat tools that foster a sense of community.
+          </p>
+        </div>
 
-  <div className="box">
-    <h5>Target Audience</h5>
-    <ul>
-      <li><strong>Young Professionals (20–35):</strong> Flexible, budget-conscious, seeking variety.</li>
-      <li><strong>Mid-Career Professionals (35–45):</strong> Family-friendly, low-intensity options.</li>
-      <li><strong>Wellness Enthusiasts (45–60):</strong> Accessibility, joint-friendly classes, community focus.</li>
-    </ul>
-  </div>
-</div>
+        <div className="box">
+          <h5>Lack of Personalization</h5>
+          <p>
+            Many find current fitness apps too generic. They want personalized recommendations based on fitness levels, habits, and preferences.
+          </p>
+        </div>
+
+        <div className="box">
+          <h5>Clear Goals & Progress Tracking</h5>
+          <p>
+            Users define success through visible progress, motivation from instructors, and features that help them track milestones and celebrate achievements.
+          </p>
+        </div>
+      </div>
     </section>
 
 {/*section divider*/}
