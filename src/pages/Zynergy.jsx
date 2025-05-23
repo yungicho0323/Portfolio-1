@@ -3,6 +3,7 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
+import thumbnail from '../assets/images/Zynergy-Thumbnail.png';
 import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
 import classpass from '../assets/images/Classpass.png';
@@ -52,6 +53,11 @@ function Zynergy() {
                 <img src={heroImage} alt="Zynergy Project Preview" />
               </div>
             </section>
+
+ {/*Thumbnail*/}
+        <div className="project-thumbnail">
+            <img src={thumbnail} alt="Zynergy Thumbnail"/>
+        </div>
 
 {/*Overview*/}
     <section className="overview-section">
