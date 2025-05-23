@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
           <a href="https://www.linkedin.com/in/yungi-cho/" target="_blank" rel="LinkedIn" className="social-link">LinkedIn
           <span className="arrow">↗</span></a>
-          <a href="https://www.instagram.com/yungi_0323/" target="_blank" rel="Instagram" className="social-link">Instagram
+          <a href="https://www.instagram.com/yungicho_/" target="_blank" rel="Instagram" className="social-link">Instagram
           <span className="arrow">↗</span></a>
         </div>
       </div>

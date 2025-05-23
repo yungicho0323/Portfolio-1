@@ -37,11 +37,12 @@ function Babel() {
                     </div>
                     <div>
                     <h4>Project Types</h4>
-                    <p> UI/UX </p>
+                    <p> UI/UX  <br/>
+                    Visual Design <br/> Mobile App Design</p>
                     </div>
                     <div>
                     <h4>Roles/Responsibilities</h4>
-                    <p>UI/ UX designer</p>
+                    <p>Product & Visual Designer</p>
                     </div>
                 </div>
                 </div>

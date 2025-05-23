@@ -8,6 +8,7 @@ import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
 import classpass from '../assets/images/Classpass.png';
 import SitemapImg from '../assets/images/Sitemap.png';
+import IA from '../assets/images/IA.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
 import StyleGuideImg from '../assets/images/Zynergy-Styleguide.png';
 import highFidelityImg from '../assets/images/Zynergy-highfidelity.png'
@@ -41,11 +42,11 @@ function Zynergy() {
                   </div>
                   <div>
                     <h4>Project Types</h4>
-                    <p> UI/UX <br/>Visual Design <br/> Product Design </p>
+                    <p> UI/UX <br/>Visual Design <br/> Mobile App Design </p>
                   </div>
                   <div>
                     <h4>Roles/Responsibilities</h4>
-                    <p>UI/ UX designer</p>
+                    <p>Product & Visual Designer</p>
                   </div>
                 </div>
               </div>
@@ -201,13 +202,6 @@ function Zynergy() {
             Many find current fitness apps too generic. They want personalized recommendations based on fitness levels, habits, and preferences.
           </p>
         </div>
-
-        <div className="box">
-          <h5>Clear Goals & Progress Tracking</h5>
-          <p>
-            Users define success through visible progress, motivation from instructors, and features that help them track milestones and celebrate achievements.
-          </p>
-        </div>
       </div>
     </section>
 
@@ -240,8 +234,6 @@ function Zynergy() {
         <div className="competitive-image">
           <img src={classpass} alt="Classpass App" />
         </div>
-
-
       </div>
     </section>
 
@@ -264,6 +256,15 @@ function Zynergy() {
       <div className="wireframe-image-wrapper">
         <img src={WireframeImage} alt="Zynergy App Wireframes" />
       </div>
+
+      <h3> Information Architecture</h3>
+      <p className="IA-description">
+         I designed the information architecture for the whole application based on the key product features.
+
+        <div className="IA-image">
+          <img src={IA} alt="Information Architecture" />
+        </div>
+      </p>
 
       </div>
 </section>

@@ -45,7 +45,7 @@ function About() {
             <img src={emailIcon} alt="YungiCho_Email" className="social-icon" />
           </a>
 
-           <a href="https://www.linkedin.com/in/yungi-cho-717439234/" target="_blank" rel="Yungicho_linkedin">
+           <a href="https://www.linkedin.com/in/yungi-cho/" target="_blank" rel="Yungicho_linkedin">
             <img src={linkedinIcon} alt="LinkedIn" className="social-icon" />
           </a>
         </div>

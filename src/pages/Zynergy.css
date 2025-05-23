@@ -357,7 +357,7 @@
     line-height: 1.7;
     color: #333;
     margin-bottom: 16px;
-    max-width: 1000px;
+    max-width: 100%;
   }
   
   .persona-grid {
@@ -369,6 +369,7 @@
   
   .persona-img {
     max-width: 900px;
+    margin: 0 400px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   }
@@ -416,7 +417,7 @@
   
 
   .sitemap-img {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     margin-top: 20px;
     border-radius: 8px;
@@ -439,6 +440,20 @@
   }
   
   .wireframe-image-wrapper img {
+    width: 100%;
+    max-width: 900px;
+    margin: auto 0;
+  }
+
+  .IA-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    max-width: 1000px;
+    margin-bottom: 40px;
+  }
+
+  .IA-image {
     width: 100%;
     max-width:900px;
     margin: auto 0;
