@@ -16,8 +16,8 @@ function Home() {
             <div className="col">
             <div className="blur-2">
             <h1 className="text-7xl font-bold leading-tight"> Heyy <br /> I’m{" "} <br />
-            <span>UI/UX <br /> Designer</span>
-            <br /> Yungi Cho
+            <span>YunGi Cho</span>
+            <br /> UI/UX Designer
             </h1>
             </div>
             </div>
@@ -26,9 +26,9 @@ function Home() {
             
             <div className="col-text-right">
                 <div className="blur-2">
-                <p className="text-lg text-gray-700 max-w-md animate__animated animate__fadeInUp">
+                <p className="text-lg text-gray-700 max-w-md animate__animated animate__fadeInUp"><strong>
                 As a UI/UX designer, I’m driven by continuous growth and the power of collaboration with passionate, like-minded creatives.
-                 Through thoughtful, empathetic design and purposeful digital experiences, I aim to craft a more convenient, human-centered life.
+                 Through thoughtful, empathetic design and purposeful digital experiences, I aim to craft a more convenient, human-centered life.</strong>
                 </p>
                 </div>
             </div>

@@ -4,6 +4,8 @@
   width: 1000px;
   margin: 0 auto;
   padding: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-wrapper {

@@ -3,11 +3,9 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
-import thumbnail from '../assets/images/Zynergy-Thumbnail.png';
 import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
 import classpass from '../assets/images/Classpass.png';
-import SitemapImg from '../assets/images/Sitemap.png';
 import IA from '../assets/images/IA.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
 import StyleGuideImg from '../assets/images/Zynergy-Styleguide.png';
@@ -55,10 +53,6 @@ function Zynergy() {
               </div>
             </section>
 
- {/*Thumbnail*/}
-        <div className="project-thumbnail">
-            <img src={thumbnail} alt="Zynergy Thumbnail"/>
-        </div>
 
 {/*Overview*/}
     <section className="overview-section">
@@ -245,8 +239,8 @@ function Zynergy() {
       <h2>03 Ideation</h2>
 
       <div className="ideation-content">
-        <h4>Sitemap</h4>
-        <img src={SitemapImg} alt="Sitemap Structure" className="sitemap-img" />
+        {/* <h4>Sitemap</h4>
+        <img src={SitemapImg} alt="Sitemap Structure" className="sitemap-img" /> */}
 
       <h3>Wireframes</h3>
       <p className="wireframes-description">

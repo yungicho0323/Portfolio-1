@@ -433,7 +433,8 @@ body {
 
 
 .moodboard-image-wrapper img {
-  max-width: 900px;
+  max-width: 600px;
+  margin-left: 200px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -442,7 +443,7 @@ body {
 .ideation-section {
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -588,7 +589,7 @@ body {
 
 .final-section h2 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 12px;
 }
 

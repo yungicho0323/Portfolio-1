@@ -3,7 +3,6 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Babel.css';
 import heroImage from '../assets/images/BabelMockup.png';
-import thumbnail from '../assets/images/Babel_Thumbnail.png';
 import diagram from '../assets/images/diagram.png';
 import keyresults from '../assets/images/KeyResults.png'
 import NarrativeArc from '../assets/images/Narrative_Arc.png';
@@ -51,11 +50,7 @@ function Babel() {
                 </div>
         </section>
 
-        {/*Thumbnail*/}
-        <div className="project-thumbnail">
-            <img src={thumbnail} alt="Babel Project thumbnail"/>
-        </div>
-
+  
 {/*Project Context*/}
 
 <section className="babel-section">

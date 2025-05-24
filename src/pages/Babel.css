@@ -81,6 +81,14 @@
     border-radius: 12px;
 }
 
+.project-thumbnail {
+    /* max-height: 800px; */
+    width: auto;
+    display: block;
+    margin: auto;
+    max-width: 100vw;
+}
+
 .babel-section {
   background-color: #202020;
   padding: 60px 200px;

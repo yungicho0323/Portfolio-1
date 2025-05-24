@@ -63,6 +63,10 @@ margin-bottom: 1.5rem;
 font-size: 1.2rem;
 }
 
+.about-text strong {
+  font-weight: 600;
+}
+
 /* Social Media Icons Container */
 .social-icons {
 display: flex;
