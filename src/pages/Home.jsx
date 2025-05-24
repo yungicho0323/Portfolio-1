@@ -35,7 +35,7 @@ function Home() {
             </section>
 
             <section className="selected-works">
-                <h1>Selected Works.</h1>
+                {/* <h1>Selected Works.</h1> */}
                 { /*Card Component Section */}
                 <div className="card-section flex justify-center mt-10">
                     <CardComponent />
