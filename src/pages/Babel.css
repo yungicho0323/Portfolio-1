@@ -82,7 +82,7 @@
 }
 
 .project-thumbnail {
-    /* max-height: 800px; */
+    max-height: 800px;
     width: auto;
     display: block;
     margin: auto;
