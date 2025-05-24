@@ -36,15 +36,15 @@
 }
 
 .image-wrapper:hover .project-image2 {
-  transform: scale(1.45);
+  transform: scale(1.50);
 }
 
 .image-wrapper:hover .project-image3 {
-  transform: scale(1.42);
+  transform: scale(1.50);
 }
 
 .image-wrapper:hover .project-image4 {
-  transform: scale(1.42);
+  transform: scale(1.50);
 }
 
 
