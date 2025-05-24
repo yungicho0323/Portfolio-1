@@ -377,8 +377,8 @@
   }
   
   .persona-img {
-    max-width: 900px;
-    margin: 0 400px;
+    max-width: 1000px;
+    margin: 0 200px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   }
@@ -397,7 +397,7 @@
   }
   
   .competitive-image img {
-    max-width:100%;
+    max-width:80%;
     border-radius: 10px;
   }
 
