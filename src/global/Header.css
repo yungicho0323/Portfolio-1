@@ -38,11 +38,12 @@ nav a:hover::after {
   width: 100%;
 }
 
-  .logo p {
+  .logo {
     height: 40px;
     z-index: 1;
     position: relative;
     font-size: 20px;
+    color: #8231ED; /* Light purple */
   }
   
   /* Media Queries */

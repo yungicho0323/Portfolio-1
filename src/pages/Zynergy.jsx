@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from "react";
 import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Zynergy.css';
@@ -16,6 +17,7 @@ import diagram from '../assets/images/Zynergy_Diagram.png';
 
 
 function Zynergy() {
+
     return(
         <>
         <Header />
