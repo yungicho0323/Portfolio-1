@@ -127,7 +127,7 @@ body {
   opacity: 0.75;
   border-radius: 70%;
   filter: blur(45px);
-  top: -300px;
+  top: -250px;
   left: 60px;
   transform: rotate(-20deg);
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
