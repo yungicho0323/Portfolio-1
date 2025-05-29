@@ -4,7 +4,6 @@ import Footer from "../global/Footer.jsx";
 import './Babel.css';
 import heroImage from '../assets/images/BabelMockup.png';
 import diagram from '../assets/images/diagram.png';
-import keyresults from '../assets/images/KeyResults.png'
 import NarrativeArc from '../assets/images/Narrative_Arc.png';
 import UserPersona from '../assets/images/UserPersona.png';
 
@@ -19,11 +18,11 @@ function Babel() {
             <div className="project-text">
                 <h1>Babel</h1>
 
-                <p>
+                <p> <strong>
                A location-based safety app designed to support minority communities (BIPOC, LGBTQ+, and other marginalized groups) during urban events.
                <p/> 
                It is designed to protect and make minorities feel safe when they are attending events in the city by <strong>tracking the location of each others.</strong> Also, it offers<strong> alarming function</strong> so that when they are in danger or emergency, the users can notify their friends by applying emergency alarm built in the app.
-                </p>
+                </strong></p>
                 <div className="project-meta">
                     <div>
                     <h4>Timeline</h4>
@@ -84,9 +83,7 @@ function Babel() {
     {/*Key results*/}
         <h2>KEY RESULTS</h2>
         <p>Babel app prioritizes minority safety by enabling discreet location tracking and quick emergency contact access, while maintaining user privacy through secure linking with trusted personal contacts.</p>
-        <div className="project-image">
-        <img src={keyresults} alt="Key results" />
-        </div>
+       
 
 
         <div className="section-spacing" />
@@ -129,27 +126,27 @@ function Babel() {
 
     <a href="#research" className="process-step">
       <div className="dot" />
-      <p>Research</p>
+      <p>1. Research</p>
     </a>
 
     <a href="#analysis" className="process-step">
       <div className="dot" />
-      <p>Analysis</p>
+      <p>2. Analysis</p>
     </a>
 
     <a href="#ideation" className="process-step">
       <div className="dot" />
-      <p>Ideation</p>
+      <p>3. Ideation</p>
     </a>
 
     <a href="#design" className="process-step">
       <div className="dot" />
-      <p>Design</p>
+      <p>4. Final Designs</p>
     </a>
 
     <a href="#validation" className="process-step">
       <div className="dot" />
-      <p>Validation</p>
+      <p>5. Reflection</p>
     </a>
 
   </div>
@@ -157,6 +154,7 @@ function Babel() {
 
 {/*01 Research*/}
 <section id="research" className="research-section">
+  <div className="research-container">
     <h2>01 Research</h2>
     <h4 className="subheading">Understanding User Experience with <span className="underline">Narrative Arc</span></h4>
 
@@ -170,10 +168,11 @@ function Babel() {
        <div className="research-image">
         <img src={NarrativeArc} alt="Narrative Arc" />
         </div>
+        </div>
 </section>
 
 {/*Analysis*/}
-<section id="analysis" className="analysis-section">
+<section id="analysis" className="babel-analysis-section">
     <h2>02 Analysis</h2>
     <h4 className="subheading">Target Users</h4>
     <p>1. BIPOC, LGBTQ and other minority groups (racial, religious, cultural, sexual, gender, etc). <br/>

@@ -30,7 +30,7 @@
   }
   
   .project-text h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     color: #111;
   }
@@ -39,15 +39,12 @@
    .project-text p {
     font-size: 1.3rem;
     line-height: 1.6;
-    color: #222;
+    color: #111;
     max-width: 700px;
     margin-bottom: 40px;
   }
   
 
-  .project-text p strong{
-    font-weight: 600;
-  }
   .project-meta {
     display: flex;
     flex-wrap: wrap;
@@ -76,8 +73,8 @@
   
   .project-image img {
     max-width: 100%;
-    margin-top: 20px;
     height: auto;
+    margin-top: 20px;
     border-radius: 12px;
 }
 
@@ -264,7 +261,7 @@
     border: 1px solid #aaa;
     border-radius: 10px;
     padding: 15px 30px;
-    background-color: #FFFEEE;
+    background-color: #e9d4ff;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -286,23 +283,22 @@
     background-color: transparent;
     border-radius: 50%;
     margin-bottom: 10px;
-    border: 1px solid #d9b6f2;
+    border: 2px solid #FFFEEE;
   }
 
 /*Research*/
 .research-section {
-  background-color: #FFFEEE;
+ background-color:#FFFEEE;
+  padding: 4rem 2rem;
   font-family: 'Manrope', sans-serif;
   color: #111;
-  padding: 60px 200px;
-  max-width: 100%;
-  margin: 0 auto;
-  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .research-section h2 {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 
@@ -337,30 +333,29 @@
 }
 
 /*Analysis*/
-.analysis-section {
-  background-color: #FFFEEE;
+.babel-analysis-section {
+ background-color: #FFFEEE;
+  padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
-  padding: 60px 200px;
-  max-width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
-  margin-top: 40px;
 }
 
-.analysis-section h2 {
+.babel-analysis-section h2 {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 
-.analysis-section h4 {
+.babel-analysis-section h4 {
   font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 0.5rem;
   padding-bottom: 10px;
 }
 
-.analysis-section p {
+.babel-analysis-section p {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 20px;
@@ -374,7 +369,7 @@
 .competitive-analysis h4 {
     font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
     padding-bottom: 10px;
     margin-top: 40px;
 }

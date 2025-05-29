@@ -184,27 +184,27 @@ return (
 
     <a href="#research" className="process-step">
       <div className="dot" />
-      <p>Research</p>
+      <p>1. Research</p>
     </a>
 
     <a href="#analysis" className="process-step">
       <div className="dot" />
-      <p>Analysis</p>
+      <p>2. Analysis</p>
     </a>
 
     <a href="#ideation" className="process-step">
       <div className="dot" />
-      <p>Ideation</p>
+      <p>3. Ideation</p>
     </a>
 
     <a href="#design" className="process-step">
       <div className="dot" />
-      <p>Design</p>
+      <p>4. Design</p>
     </a>
 
     <a href="#validation" className="process-step">
       <div className="dot" />
-      <p>Validation</p>
+      <p>5. Validation</p>
     </a>
 
   </div>
@@ -212,6 +212,7 @@ return (
 
 {/*01 Research */}
 <section id="research" className="research-section">
+  <div className="research-container">
       <h2>01 Research</h2>
 
       <div className="research-block">
@@ -246,6 +247,7 @@ return (
           specific goals and priorities to ensure that our redesign approach would align closely with
           the client’s values, needs, and business objectives.
         </p>
+      </div>
       </div>
 
 </section>

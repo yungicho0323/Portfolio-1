@@ -4,15 +4,23 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
+import features from '../assets/images/zynergy-features.png';
+import ZynergyVideo from '../assets/Videos/Zynergy.mp4';
 import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
-import classpass from '../assets/images/Classpass.png';
+import UserJourney from '../assets/images/UserJourney.png';
+import Brainstorming from '../assets/images/Brainstorming.png';
 import IA from '../assets/images/IA.png';
+import analysis from '../assets/images/Zynergy-analysis.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
-import StyleGuideImg from '../assets/images/Zynergy-Styleguide.png';
-import highFidelityImg from '../assets/images/Zynergy-highfidelity.png'
-import keyresults from '../assets/images/solutions.png';
 import diagram from '../assets/images/Zynergy_Diagram.png';
+import mockup from '../assets/images/Zynergy-mockup.png';
+import mockup2 from '../assets/images/Zynergy-mockup2.png';
+import mockup3 from '../assets/images/Zynergy-mockup3.png';
+import Feature1 from '../assets/videos/Feature1.mp4';
+import Feature2 from '../assets/videos/Feature2.mp4';
+import Feature3 from '../assets/videos/Feature3.mp4';
+
 
 
 
@@ -26,9 +34,10 @@ function Zynergy() {
             <section className="project-hero">
               <div className="project-text">
                 <h1>Zynergy</h1>
-                <p>
-                A fitness and wellness subscription app that lets users explore diverse workout studios, join or create group workout challenges, and connect with others to grow supportive fitness communities.
+                <p> <strong>
+                A fitness and wellness subscription app that lets users explore diverse workout studios, join or create group workout challenges, and connect with others to grow supportive fitness communities.</strong>
                 </p>
+                <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness booking into a community-driven experience with group challenges and buddy systems. </p>
                 <div className="project-meta">
                   <div>
                     <h4>Timeline</h4>
@@ -55,60 +64,70 @@ function Zynergy() {
               </div>
             </section>
 
+  {/*Zynergy feature images*/}
+ <section className="zynergy-section">
+      <div className="zynergy-container">
+        <img src={features} alt="Zynergy App Features" className="zynergy-image" />
+      </div>
+    </section>
+
+
 
 {/*Overview*/}
-    <section className="overview-section">
-      <h2>Overview</h2>
-    {/*Problem Statement Block */}
-    <div className="problem-statement-block">
-      <h3 className="problem-heading">Problem Statement</h3>
-      <p className="problem-question">
-        <span className="highlight-question">
-          How might we </span> we transform traditional fitness booking apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
-      </p>
-    </div>
+    <section className="zynergy-overview-section">
+      <div className="zynergy-overview-container">
+        <h2 className="overview-heading">overview</h2>
+        <h1 className="main-heading">Unlock Your Potential with Lifting Up Each other.</h1>
 
-  {/*Key Problems*/}
-       <h2 className="key-problems-heading">Key Problems</h2>
-      <div className="problems-grid">
-        <div className="problem-card">
-          <h4>Lack of Community and Social Engagement</h4>
-          <p>Most fitness booking apps operate in isolation—focusing only on class reservations without offering ways for users to interact, form connections, or build community. As a result, users often lose motivation and accountability over time due to the absence of a supportive social environment.</p>
+        <div className="problem-section">
+          <h3 className="section-title">Problem</h3>
+          <p className="problem-description">
+            Many people lose motivation to work out due to the isolating nature of individual fitness and wellness apps that lack social interaction.
+          </p>
+
+          <div className="problem-question-box">
+            <p>
+              <strong>How might we</strong> transform traditional fitness booking apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
+            </p>
+          </div>
+          </div>
         </div>
-        <div className="problem-card">
-          <h4>Disconnections</h4>
-          <p>After COVID-19, people increasingly seek social connection and group experiences to support their physical and mental well-being. However, most fitness booking apps still promote individual usage, lacking features that foster community or shared progress. This disconnection limits user motivation, retention, and emotional engagement—missing the opportunity to turn fitness into a socially driven lifestyle habit.</p>
+      </section>
+
+    <section className="solution-section">
+      <div className="solution-container">
+        <h2>Solution</h2>
+        <h3 className="solution-tagline">
+       A social, goal-driven, and empowering take on <br/> transforming fitness into a shared journey.
+        </h3>
+        <p className="solution-subtext">
+          Create a challenge for Group Workout with your friends
+        </p>
+      
+        <div className="solution-video-wrapper">
+          <video
+            className="solution-video"
+            src={ZynergyVideo}
+            controls
+            playsInline
+            muted
+            loop
+          />
         </div>
+
+        <div className="prototype-button-wrapper">
+        <a
+          href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/Zynergy-app-redesign?page-id=1%3A3&node-id=233-7154&viewport=558%2C-192%2C0.05&t=sodJLDreuvS5qU8v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=233%3A7154&show-proto-sidebar=1"
+          target="_blank"
+          rel="FurryTales website prototyping"
+          className="prototype-button"
+        >
+          View Prototype
+        </a>
       </div>
-
-    {/*Key results*/}
-        <h2>KEY RESULTS</h2>
-        <p>Zynergy app increases user engagement and retention by including <span className="highlight-blue"> Group Workout Challenges</span> enabling users to connect with others, set shared fitness goals, and build a sense of community within their fitness journey.</p>
-        <div className="project-image">
-          <img src={keyresults} alt="key results" />
-        </div>
-        
-    {/*Context*/}
-        <div className="section-spacing" />
-        <h2>CONTEXT</h2>
-        <p>
-       During a product design exploration, we identified a growing post-pandemic shift in fitness behavior. People not only seek physical wellness but also crave meaningful social connection. We aimed to address this behavioral shift by introducing a community-based fitness experience.
-        </p>
-        <br/>
-        <p>
-        We focused on <span className="highlight-blue">Social Motivation</span> through shared fitness goals and <span className="highlight-blue">Community-Driven Accountability</span> by integrating <span className="highlight-blue">Group Workout Challenges</span> that empower users to connect, collaborate, and stay consistent on their wellness journey.
-        </p>
-
-        <div className="project-image">
-          <img src={diagram} alt="Diagram"></img>
-        </div>
-
-      {/*Project Goal*/}
-       <div className="section-spacing" />
-        <h2>PROJECT GOAL</h2>
-        <h3 className="goal-heading">We aim to drive long-term user engagement and brand loyalty in the fitness industry by integrating social motivation and community-based features into the booking experience.</h3>
-        <p>The primary goal of the Zynergy app is to address a key gap in the fitness tech market: the lack of socially engaging features that promote sustained motivation and user retention. While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering Group Workout Challenges that allow users to connect, collaborate, and commit to shared fitness goals.</p>
+      </div>
     </section>
+    
 
 {/* Design Process */}
 <section className="process-section">
@@ -116,27 +135,27 @@ function Zynergy() {
 
     <a href="#research" className="process-step">
       <div className="dot" />
-      <p>Research</p>
+      <p>1. Research</p>
     </a>
 
     <a href="#analysis" className="process-step">
       <div className="dot" />
-      <p>Analysis</p>
+      <p>2. Analysis</p>
     </a>
 
     <a href="#ideation" className="process-step">
       <div className="dot" />
-      <p>Ideation</p>
+      <p>3. Ideation</p>
     </a>
 
     <a href="#design" className="process-step">
       <div className="dot" />
-      <p>Design</p>
+      <p>4. Final Designs</p>
     </a>
 
     <a href="#validation" className="process-step">
       <div className="dot" />
-      <p>Validation</p>
+      <p>5. Reflection</p>
     </a>
 
   </div>
@@ -144,61 +163,65 @@ function Zynergy() {
 
 {/*Research*/}
   <section id="research" className="research-section">
-      <h2>01 Research</h2>
-      <h4 className="subheading">Focus Areas</h4>
+        <div className="research-container">
+        <h2 className="research-title">01 Research</h2>
 
-      <div className="focus-table-wrapper">
-        <table className="focus-table">
-          <thead>
-            <tr>
-              <th>No.</th>
-              <th>Focus Area Question</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>01</td>
-              <td>What motivates users to attend fitness classes instead of working out alone?</td>
-            </tr>
-            <tr>
-              <td>02</td>
-              <td>What social features do users find most valuable when joining group fitness activities?</td>
-            </tr>
-            <tr>
-              <td>03</td>
-              <td>What are users’ biggest frustrations with current fitness class apps?</td>
-            </tr>
-            <tr>
-              <td>04</td>
-              <td>How do users define a “successful” and enjoyable fitness class experience?</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="context-section">
+          <h3 className="context-title">Indentifying Problem Discovery</h3>
+          <p>
+            During a product design exploration, we identified a growing post-pandemic shift in fitness behavior. People not only seek physical wellness but also crave meaningful social connection. We aimed to address this behavioral shift by introducing a community-based fitness experience.
+          </p>
+          <p>
+            We focused on <span className="highlight">Social Motivation</span> through shared fitness goals and <span className="highlight">Community-Driven Accountability</span> by integrating <span className="highlight-link">  Group Workout Challenges</span> that empower users to connect, collaborate, and stay consistent on their wellness journey.
+          </p>
+          <div className="diagram-placeholder">
+            <img src={diagram} alt="Zynergy Diagram" className="Zynergy-Diagram" />
+          </div>
+        </div>
+
+        <h3 className="research-subtitle">Key Problems</h3>
+        <div className="problem-card">
+          <h4>Lack of Community and Social Engagement</h4>
+          <p>
+            Most fitness booking apps operate in isolation—focusing only on class reservations without offering ways for users to interact, form connections, or build community. As a result, users often lose motivation and accountability over time due to the absence of a supportive social environment.
+          </p>
+        </div>
+
+        <div className="problem-card">
+          <h4>Disconnections</h4>
+          <p>
+            After COVID-19, people increasingly seek social connection and group experiences to support their physical and mental well-being. However, most fitness booking apps still promote individual usage, lacking features that foster community or shared progress. This disconnection limits user motivation, retention, and emotional engagement—missing the opportunity to turn fitness into a socially driven lifestyle habit.
+          </p>
+        </div>
+
+
+        <div className="goal-section">
+          <h3 className="goal-title">Project Goal</h3>
+          <p> <strong>  We aim to drive long-term user engagement and brand loyalty in the fitness industry by integrating social motivation and community-based features into the booking experience.
+          </strong>
+          </p>
+          <p>
+            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: the lack of socially engaging features that promote sustained motivation and user retention. While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering Group Workout Challenges that allow users to connect, collaborate, and commit to shared fitness goals.
+          </p>
+        </div>
+
+      <div className="competitive-section">
+      <h4>Competitive Analysis</h4>
+      <p>
+      We selected <span className="highlight-keyword">ClassPass</span> as a benchmark fitness class booking app for our competitive analysis. Our evaluation focused on its layout, user flow, and core features to identify prevailing design patterns. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However, it lacks features such as 
+      <strong className="highlight-keyword"> group participation</strong>, 
+      <strong className="highlight-keyword"> community-driven tools</strong>, and 
+      <strong className="highlight-keyword"> shared fitness engagement</strong>, 
+      which are essential for fostering deeper user connection.
+    </p>
+
+    {/*Competitive Analysis Image*/}
+    <div className="analysis-placeholder">
+            <img src={analysis} alt="zynergy Competitve Analysis" className="Zynergy-analysis" />
+          </div>
+      </div>
       </div>
 
-      <h4 className="subheading">User Survey Insights</h4>
-      <div className="survey-grid">
-        <div className="box">
-          <h5>Social Motivation</h5>
-          <p>
-            Most users feel more committed to fitness when sharing the experience with others. Classes provide accountability and social energy that workouts alone can’t replicate.
-          </p>
-        </div>
-
-        <div className="box">
-          <h5>Desire for Group Interaction</h5>
-          <p>
-            Users are drawn to features that support group engagement, such as buddy systems, challenges, and chat tools that foster a sense of community.
-          </p>
-        </div>
-
-        <div className="box">
-          <h5>Lack of Personalization</h5>
-          <p>
-            Many find current fitness apps too generic. They want personalized recommendations based on fitness levels, habits, and preferences.
-          </p>
-        </div>
-      </div>
     </section>
 
 {/*section divider*/}
@@ -220,16 +243,22 @@ function Zynergy() {
           <img src={Persona2} alt="Persona 2 - Sarah Thompson" className="persona-img" />
         </div>
       </div>
+    </section>
 
-      <div className="competitive-section">
-        <h4>Competitive Analysis</h4>
-        <p>
-          We selected ClassPass as a benchmark fitness class booking app for our competitive analysis. Our evaluation focused on its layout, user flow, and core features to identify prevailing design patterns. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However, it <span className="highlight-blue">lacks dedicated community-driven features that promote group participation or foster deeper engagement through shared fitness experiences.</span>
+{/*User Journey*/}
+<section className="pain-point-section">
+      <div className="text-container">
+        <h3 className="subheading">Identifying the Pain Points</h3>
+        <h2 className="main-heading">
+          Lack of motivation and isolated challenge-based features hinder consistent engagement in wellness routines.
+        </h2>
+        <p className="description">
+          Many users begin their fitness journey with high energy and enthusiasm, often setting personal goals or joining challenges. However, when these challenges are designed for individual effort without meaningful interaction or social accountability, motivation tends to fade. Users struggle to stay committed without a sense of community, encouragement, or an easy way to involve friends.
         </p>
+      </div>
 
-        <div className="competitive-image">
-          <img src={classpass} alt="Classpass App" />
-        </div>
+      <div className="Zynergy-userjourney">
+        <img src={UserJourney} alt="User Pain Point Journey" className="userjoruney-image" />
       </div>
     </section>
 
@@ -240,18 +269,24 @@ function Zynergy() {
 <section id="ideation" className="ideation-section">
       <h2>03 Ideation</h2>
 
-      <div className="ideation-content">
-        {/* <h4>Sitemap</h4>
-        <img src={SitemapImg} alt="Sitemap Structure" className="sitemap-img" /> */}
-
-      <h3>Wireframes</h3>
-      <p className="wireframes-description">
-        After defining the key features, we progressed to the design phase, developing wireframes with a minimalist, user-centered approach. These wireframes enabled us to visualize the integration of essential information on each page.
-      </p>
-
-      <div className="wireframe-image-wrapper">
-        <img src={WireframeImage} alt="Zynergy App Wireframes" />
+      {/*Brainstorming*/}
+       <div className="text-block">
+        <h3 className="section-title">Brainstorming</h3>
+        <p className="section-description">
+          Following the user research phase, we mainly focused on thinking about features that we want to implement in the app. 
+          So, we had a brainstorming session to come up with features, then built an information sitemap, and started building wireframes.
+        </p>
       </div>
+
+      <div className="brainstorming-image-wrapper">
+        <img 
+          src={Brainstorming} 
+          alt="Feature Prioritization: Must Have, Nice to Have, Extras" 
+          className="brainstorming-image"
+        />
+      </div>
+      
+
 
       <h3> Information Architecture</h3>
       <p className="IA-description">
@@ -262,29 +297,119 @@ function Zynergy() {
         </div>
       </p>
 
+      <div className="ideation-content">
+      <h3>Wireframes</h3>
+      <p className="wireframes-description">
+        After defining the key features, we progressed to the design phase, developing wireframes with a minimalist, user-centered approach. These wireframes enabled us to visualize the integration of essential information on each page.
+      </p>
+
+      <div className="wireframe-image-wrapper">
+        <img src={WireframeImage} alt="Zynergy App Wireframes" />
+      </div>
+
+
       </div>
 </section>
 
 {/*section divider*/}
 <div className="section-divider"></div>
 
-{/*Design*/}
+{/*Final Designs*/}
 <section id="design" className="design-section">
-      <h2>04 Design</h2>
-      <p className="design-description">
-        Prior to developing high-fidelity prototypes, we created a style guide that would allow multiple
-        designers to approach the app design in a clear, unified way. This guide was created to ensure
-        consistency across all design and content. The style guide served as a reference point for all
-        team members, ensuring that everyone was on the same page and that our design remained cohesive
-        and aligned with our overall brand identity.
-      </p>
+      <div className="design-container">
+        <h2>04 Final Designs</h2>
+        <p className="design-intro">
+          We conducted user testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, we were able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
+        </p>
 
-      <h3>Style Guide</h3>
-      <div className="design-image">
-        <img src={StyleGuideImg} alt="Zynergy Style Guide" />
+        <h3 className="design-title">Iterations from Usability Tests</h3>
+        <p className="design-description">
+          We conducted user testing with three participants from our target audience after developing high-fidelity prototypes. The feedback offered valuable insights into user needs, expectations, and overall experience.
+        </p>
+
+        {/* Iteration 1 */}
+         <div className="iteration-row">
+          <div className="iteration-image-set">
+            <img src={mockup} alt="Group Challenge Before/After" />
+          </div>
+          <div className="iteration-text">
+            <h4>1. Streamlined Group Challenge Creation</h4>
+            <p><strong>Before:</strong> The process of creating a group challenge required multiple screens and excessive steps.</p>
+            <p><strong>After:</strong> A “+” button was added directly on the “Create a Group” screen, allowing users to easily add members and navigate to the “Invite Your Buddies” screen. “Add to Calendar” was added directly on the screen as well to improve flow.</p>
+          </div>
+        </div>
+
+        {/* Iteration 2 */}
+  <div className="iteration-row">
+    <div className="iteration-text">
+      <h4>2. Integrating Workout Tracker into the Upcoming Screen</h4>
+      <p><strong>Before:</strong> Users had to navigate to a separate screen to access the Workout Tracker.</p>
+      <p><strong>After:</strong> The Workout Tracker was added to the Upcoming screen, eliminating unnecessary navigation. This integration allows users to instantly see their workout history, providing a more seamless and rewarding experience.</p>
+    </div>
+    <div className="iteration-image-set">
+      <img src={mockup2} alt="Workout Tracker Before/After" />
+    </div>
+  </div>
+
+
+        {/* Iteration 3 */}
+        <div className="iteration-row">
+          <div className="iteration-image-set">
+            <img src={mockup3} alt="Friend Profile Before/After" />
+          </div>
+          <div className="iteration-text">
+            <h4>3. Simplified Interaction on Friend’s Profile</h4>
+            <p><strong>Before:</strong> Adding and messaging a friend required navigating through separate screens.</p>
+            <p><strong>After:</strong> Both “Add Buddy” and “Message” actions are now accessible directly from the friend’s profile, reducing steps and improving clarity in user flow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/*Final Product*/}
+  
+   <section className="final-product-section">
+    <div className="solution-container">
+      <h2 className="final-heading">Final Product</h2>
+
+      {/* Feature 01 */}
+      <div className="feature-wrapper">
+        <video className="feature-video" src={Feature1} controls playsInline muted loop />
+        <div className="feature-text">
+          <h3>Feature 01: Create a Group Challenge & Invite Your Buddies</h3>
+          <ul>
+            <li><strong>Custom scheduling</strong> – Select the date, time, and location that works for your group.</li>
+            <li><strong>Member invitations</strong> – Choose who to invite and build your challenge team.</li>
+            <li><strong>Calendar integration</strong> – Add the challenge to your calendar for easy tracking and reminders.</li>
+          </ul>
+        </div>
       </div>
 
-</section>
+      {/* Feature 02 */}
+      <div className="feature-wrapper reverse">
+        <video className="feature-video" src={Feature2} controls playsInline muted loop />
+        <div className="feature-text">
+          <h3>Feature 02: Message Your Buddy</h3>
+          <ul>
+            <li><strong>Messaging friends directly</strong> – Ask questions, clarify details, or confirm participation for upcoming challenges.</li>
+            <li><strong>Managing group members</strong> – Add or adjust participants within each challenge for better coordination.</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Feature 03 */}
+      <div className="feature-wrapper">
+        <video className="feature-video" src={Feature3} controls playsInline muted loop />
+        <div className="feature-text">
+          <h3>Feature 03: Workout Tracker</h3>
+          <ul>
+            <li><strong>Automatic activity tracking</strong> – Monitor your completed workouts and challenge participation through your history.</li>
+            <li><strong>Progress visualization</strong> – View your performance over time with simple, easy-to-read graphs.</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </section>
 
 
 {/*section divider*/}
@@ -292,15 +417,23 @@ function Zynergy() {
 
 {/*Validation*/}
 <section id="validation" className="validation-section">
-  <h2>05 Validation</h2>
-  <p className="validation-description">
-  After we designed wireframes and created a style guide, we conducted user testings with our target audience to understand exactly which parts of the design frustrate people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, we were able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
-  </p>
-      {/* <div className="validation-image-wrapper">
-                <img src={highFidelityImg} alt="High-fidelity Wireframes" />
-      </div> */}
+  <h2>05 Reflection</h2>
 
+  <h3 className="takeaway-heading">Project Takeaways</h3>
+  <div className="takeaway-box">
+    <ul className="takeaway-list">
+      <li>Gained insight into the emotional and social drivers behind fitness behavior.</li>
+      <li>Findings shifted design direction toward:
+        <ul>
+          <li>Integrating group challenges</li>
+          <li>Implementing buddy systems</li>
+        </ul>
+      </li>
+      <li>To further enhance the community-driven experience and boost user motivation, I considered adding features such as Shared Progress Tracking and Reminders & Streaks in the next design iteration.</li>
+    </ul>
+  </div>
 </section>
+
 
 
 
