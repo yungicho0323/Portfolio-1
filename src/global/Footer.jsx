@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <p>DESIGNED & CODED BY YUNGI CHO</p>
+        <p>DESIGNED & CODED BY YUNGI CHO @2024</p>
       </div>
     </footer>
   );

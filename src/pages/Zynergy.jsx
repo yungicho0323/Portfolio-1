@@ -5,7 +5,7 @@ import Footer from "../global/Footer.jsx";
 import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
 import features from '../assets/images/zynergy-features.png';
-import ZynergyVideo from '../assets/Videos/Zynergy.mp4';
+import ZynergyVideo from '../assets/videos/Zynergy.mp4';
 import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
 import UserJourney from '../assets/images/UserJourney.png';
