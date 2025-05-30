@@ -122,7 +122,7 @@ function Zynergy() {
           rel="FurryTales website prototyping"
           className="prototype-button"
         >
-          View Prototype
+         Try it yourself
         </a>
       </div>
       </div>

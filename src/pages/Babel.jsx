@@ -26,7 +26,7 @@ function Babel() {
                 <div className="project-meta">
                     <div>
                     <h4>Timeline</h4>
-                    <p>4 weeks, Designed in 2024
+                    <p>4 weeks, Designed in 2024 <br/> Redesigned in 2025
                     </p>
                     </div>
                     <div>
