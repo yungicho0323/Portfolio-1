@@ -434,8 +434,8 @@ body {
 
 .moodboard-image-wrapper img {
   max-width: 600px;
-  margin-left: 200px;
   border-radius: 12px;
+  margin: 0 auto;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
