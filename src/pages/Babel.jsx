@@ -19,10 +19,10 @@ function Babel() {
                 <h1>Babel</h1>
 
                 <p> <strong>
-               A location-based safety app designed to support minority communities (BIPOC, LGBTQ+, and other marginalized groups) during urban events.
+               A location-based safety app designed to enhance safety and community support for minorities living in urban areas.</strong>
                <p/> 
-               It is designed to protect and make minorities feel safe when they are attending events in the city by <strong>tracking the location of each others.</strong> Also, it offers<strong> alarming function</strong> so that when they are in danger or emergency, the users can notify their friends by applying emergency alarm built in the app.
-                </strong></p>
+               It is designed to protect and make minorities feel safe when they are attending events in the city by tracking the location of each others. Also, it offers alarming function so that when they are in danger or emergency, the users can notify their friends by applying emergency alarm built in the app.
+                </p>
                 <div className="project-meta">
                     <div>
                     <h4>Timeline</h4>

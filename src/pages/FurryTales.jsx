@@ -27,9 +27,9 @@ return (
     <section className="project-hero">
       <div className="project-text">
         <h1>FurryTales Pet</h1>
-        <p>
+        <p><strong>
           A Vancouver based small business that specializes in handcrafted dehydrated and
-          freshly baked pet treats for dogs and cats.
+          freshly baked pet treats for dogs and cats.</strong>
         </p>
         <div className="project-meta">
           <div>
