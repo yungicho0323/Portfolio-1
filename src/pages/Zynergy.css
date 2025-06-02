@@ -107,7 +107,7 @@
   width: 100%;
   max-width: 1000px;
   height: auto;
-  border-radius: 12px;
+  border-radius: px;
 }
 
   /*Overview*/
@@ -203,7 +203,7 @@
 
 .solution-video {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 55x;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
@@ -696,7 +696,7 @@
 .feature-video {
   flex: 1;
   max-width: 290px;
-  border-radius: 12px;
+  border-radius: 55px;
 }
 
 .feature-text {

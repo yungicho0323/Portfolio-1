@@ -64,7 +64,7 @@ export function CardComponent() {
         <img src={babelImage} alt="Project-4" className="project-image4" />
       {/*2 Seconds Title*/}
           <Typography variant="h5" color="blue-gray" className="babel"> 
-          Babel: Safety-driven, Real-time Location Tracking App For Minorities
+          Babel: Safety-driven, Real-time Location Sharing App For Minorities
           </Typography>
 
       {/*Card Bottom Section */}

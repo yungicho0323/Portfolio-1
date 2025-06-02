@@ -20,7 +20,8 @@ import mockup3 from '../assets/images/Zynergy-mockup3.png';
 import Feature1 from '../assets/videos/Feature1.mp4';
 import Feature2 from '../assets/videos/Feature2.mp4';
 import Feature3 from '../assets/videos/Feature3.mp4';
-
+import Babel from '../assets/images/BabelMockup.png';
+import FurryTales from '../assets/images/FurryTales.png';
 
 
 
@@ -433,6 +434,7 @@ function Zynergy() {
     </ul>
   </div>
 </section>
+
 
 
 
