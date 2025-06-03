@@ -31,6 +31,7 @@ return (
           A Vancouver based small business that specializes in handcrafted dehydrated and
           freshly baked pet treats for dogs and cats.</strong>
         </p>
+        <p>It was UI UX design competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr university.</p>
         <div className="project-meta">
           <div>
             <h4>Timeline</h4>

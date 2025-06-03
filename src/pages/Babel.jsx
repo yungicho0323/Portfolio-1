@@ -21,7 +21,7 @@ function Babel() {
                 <p> <strong>
                A location-based safety app designed to enhance safety and community support for minorities living in urban areas.</strong>
                <p/> 
-               It is designed to protect and make minorities feel safe when they are attending events in the city by tracking the location of each others. Also, it offers alarming function so that when they are in danger or emergency, the users can notify their friends by applying emergency alarm built in the app.
+              It is designed to help minorities feel safe at city events, the app lets users share their location with friends and trigger an emergency alarm to alert them in dangerous situations.
                 </p>
                 <div className="project-meta">
                     <div>

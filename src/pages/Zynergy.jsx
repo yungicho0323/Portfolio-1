@@ -36,7 +36,7 @@ function Zynergy() {
               <div className="project-text">
                 <h1>Zynergy</h1>
                 <p> <strong>
-                A community-focused fitness and wellness app that encourages motivation and consistency through group challenges, progress tracking, and social connection.</strong>
+                A community-focused fitness and wellness app that encourages motivation and consistency through group challenges, progress tracking, and social connection.</strong> 
                 </p>
                 <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness booking into a community-driven experience with group challenges and buddy systems. </p>
                 <div className="project-meta">

@@ -45,6 +45,7 @@ body {
 
 .project-text p strong {
   font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .project-meta {
