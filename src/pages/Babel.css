@@ -536,8 +536,8 @@
   color: #111;
 }
 
-.analysis-image img {
-    margin-top: 10px;
+.analysis-image  {
+    margin-top: 2rem;
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
