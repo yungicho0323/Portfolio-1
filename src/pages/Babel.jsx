@@ -296,7 +296,7 @@ function Babel() {
       Information Architecture
     </h3>
     <p className="IA-description">
-      Based on the task analysis, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities. Following this decision, we designed a revised information architecture to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
+      Based on the task analysis, we created wireframes and high-fidelty. <strong> After we did a user testing, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities.</strong> Following this decision, we designed a revised information architecture to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
     </p>
 
     <p>

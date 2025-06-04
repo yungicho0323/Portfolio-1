@@ -585,6 +585,10 @@
     margin-bottom: 40px;
   }
 
+  .IA-description strong {
+    font-weight: 600;
+  }
+
   .text-block p {
     font-size: 1.1rem;
   }
