@@ -30,7 +30,7 @@ function Babel() {
                 <div className="project-meta">
                     <div>
                     <h4>Timeline</h4>
-                    <p>4 weeks, Designed in 2024 <br/> Redesigned in 2025
+                    <p>4 weeks, Designed in 2025 <br/> Redesigned in 2025
                     </p>
                     </div>
                     <div>
@@ -311,6 +311,23 @@ function Babel() {
 
       <div className="IA-image">
         <img src={IA} alt="Information Architecture" />
+    </div>
+
+    {/*Redesign Highfidelity*/}
+    <div className="Redesign">
+      <h3 className="section-title">
+        Redesign Goals
+      </h3>
+      <p className="Redesign-description">
+         <p>
+            We redesigned high-fidelity based on revised information architecture focused on:
+             <ul className="problem-list">
+              <li>Simplify user navigation for a more intuitive flow</li>
+              <li>Prioritize core features over secondary ones</li>
+              <li>Enhance safety and support functionalities for everday use</li>
+             </ul>
+        </p>
+      </p>
     </div>
   </div>
 </section>
