@@ -320,7 +320,7 @@ function Babel() {
       </h3>
       <p className="Redesign-description">
          <p>
-            We redesigned high-fidelity based on revised information architecture focused on:
+            We redesigned high-fidelity based on revised information architecture to:
              <ul className="problem-list">
               <li>Simplify user navigation for a more intuitive flow</li>
               <li>Prioritize core features over secondary ones</li>
