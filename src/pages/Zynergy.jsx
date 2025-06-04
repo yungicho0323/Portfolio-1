@@ -88,7 +88,7 @@ function Zynergy() {
 
           <div className="problem-question-box">
             <p>
-              <strong>How might we</strong> transform traditional fitness booking apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
+              <strong>How might we</strong> transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
             </p>
           </div>
           </div>
@@ -221,7 +221,7 @@ function Zynergy() {
             The primary goal of the Zynergy app is to address a key gap in the fitness tech market: the lack of socially engaging features that promote sustained motivation and user retention. While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering Group Workout Challenges that allow users to connect, collaborate, and commit to shared fitness goals.
           </p>
         </div>
-        
+
       </div>
     </section>
 
@@ -291,7 +291,7 @@ function Zynergy() {
 
       <h3> Information Architecture</h3>
       <p className="IA-description">
-         I designed the information architecture for the whole application based on the key product features.
+         We designed information architecture for the whole application based on the key product features.
 
         <div className="IA-image">
           <img src={IA} alt="Information Architecture" />
@@ -320,12 +320,12 @@ function Zynergy() {
       <div className="design-container">
         <h2>04 Final Designs</h2>
         <p className="design-intro">
-          We conducted user testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, we were able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
+          We conducted usability testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, we were able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
         </p>
 
         <h3 className="design-title">Iterations from Usability Tests</h3>
         <p className="design-description">
-          We conducted user testing with three participants from our target audience after developing high-fidelity prototypes. The feedback offered valuable insights into user needs, expectations, and overall experience.
+          We conducted usability testing with three participants from our target audience after developing high-fidelity prototypes. The feedback offered valuable insights into user needs, expectations, and overall experience.
         </p>
 
         {/* Iteration 1 */}

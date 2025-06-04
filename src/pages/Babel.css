@@ -523,7 +523,7 @@
 }
 
 .babel-analysis-section h4 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   padding-bottom: 0.5rem;
@@ -553,3 +553,44 @@
     max-width: 900px;
     margin: 0 auto;
 }
+
+/*Ideation*/
+.ideation-section {
+    background-color: #FFFEEE;
+    padding: 60px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    color: #111;
+  }
+  
+  .ideation-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+   .ideation-section h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 40px;
+  }
+  
+    .IA-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    max-width: 900px;
+    margin-bottom: 40px;
+  }
+
+  .text-block p {
+    font-size: 1.1rem;
+  }
+
+  .IA-image {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 2rem;
+  }

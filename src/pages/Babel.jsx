@@ -8,6 +8,7 @@ import painpoints from '../assets/images/painpoints.png';
 import analysis from '../assets/images/analysis.png';
 import UserPersona from '../assets/images/UserPersona.png';
 import UserJourney from '../assets/images/Babel-UserJourney.png';
+import IA from '../assets/images/Babel-IA.png';
 
 
 function Babel() {
@@ -232,7 +233,7 @@ function Babel() {
        <div className="diagram-placeholder">
             <img
           src={analysis}
-          alt="Babel Competitv Analysis"
+          alt="Babel Competitive Analysis"
           className="babel-Competitive-Analysis"
         />
       </div>
@@ -274,7 +275,7 @@ function Babel() {
   <div className="user-journey">
      <h4 className="babel-section-title">Identifying user's behaviors </h4>
      <h2 className="babel-highlight">
-      Task Analysis: Discovering what steps users take for user goals
+      Task Analysis: Discovering what steps users take to achieve user goal
       </h2>
     <p>We created a user journey map by breaking down tasks at each stage of the experience, guided by a specific user scenario to ensure a realistic and goal-oriented flow.</p>
     <div className="analysis-image">
@@ -287,6 +288,33 @@ function Babel() {
 <div className="section-divider"></div>
 
 {/*Ideation*/}
+<section id="ideation" className="ideation-section">
+  <h2>03 Ideation</h2>
+
+  <div className="text-block">
+    <h3 className="section-title">
+      Information Architecture
+    </h3>
+    <p className="IA-description">
+      Based on task analysis, we designed information architecture to visualize key functions on each page and map out how users navigate the app to complete tasks.
+    </p>
+
+    <p>
+            We designed the information architecture for key product functions:
+             <ul className="problem-list">
+              <li>Location sharing map with contacts</li>
+              <li>Quick call and messaging with contacts</li>
+              <li>Emergency calls with contacts or with help center based on location</li>
+              <li>Notification when user gets home safe</li>
+             </ul>
+        </p>
+
+      <div className="IA-image">
+        <img src={IA} alt="Information Architecture" />
+    </div>
+  </div>
+</section>
+
 
 
 
