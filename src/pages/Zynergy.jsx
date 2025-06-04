@@ -431,6 +431,7 @@ function Zynergy() {
         </ul>
       </li>
       <li>To further enhance the community-driven experience and boost user motivation, I considered adding features such as Shared Progress Tracking and Reminders & Streaks in the next design iteration.</li>
+      <li> To deepen my research insights, I plan to conduct user interviews to better understand users’ pain points and uncover opportunities for improvement.</li>
     </ul>
   </div>
 </section>
