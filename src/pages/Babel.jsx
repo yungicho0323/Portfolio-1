@@ -5,7 +5,7 @@ import './Babel.css';
 import heroImage from '../assets/images/BabelMockup.png';
 import survey from '../assets/images/survey.png';
 import painpoints from '../assets/images/painpoints.png';
-import analysis from '../assets/images/Babel-analysis.png';
+import analysis from '../assets/images/analysis.png';
 import UserPersona from '../assets/images/UserPersona.png';
 import UserJourney from '../assets/images/Babel-UserJourney.png';
 
