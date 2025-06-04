@@ -18,7 +18,7 @@ export function CardComponent() {
         <img src={ZynergyImage} alt="Project-1" className="project-image1" />
         {/*Znergy Title*/}
           <Typography variant="h5" color="blue-gray" className="zynergy">
-            Zynergy: Fitness & Wellness Class Subscription Mobile App
+            Zynergy: A fitness app with Group Challenges and Social Support
           </Typography>
         {/*Card Bottom Section*/}
         <div className="bottom-section">
@@ -85,7 +85,7 @@ export function CardComponent() {
         <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />
       {/*2 Seconds Title*/}
           <Typography variant="h5" color="blue-gray" className="two-seconds"> 
-           2 Seconds: Online Consignment Store Website Design
+           2 Seconds: Second-hand Online Consignment Store Website 
           </Typography>
 
       {/*Card Bottom Section */}
