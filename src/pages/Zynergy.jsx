@@ -197,7 +197,7 @@ function Zynergy() {
 
 
         <div className="goal-section">
-          <h3 className="goal-title">Project Goal</h3>
+          <h3 className="goal-title">Proposed Solution</h3>
           <p> <strong>  We aim to drive long-term user engagement and brand loyalty in the fitness industry by integrating social motivation and community-based features into the booking experience.
           </strong>
           </p>

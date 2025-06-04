@@ -141,17 +141,20 @@
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   margin-top: 2rem;
 }
 
-.problem-description,
 .solution-description {
   font-size: 1.2rem;
   line-height: 1.6;
   color: #333;
+}
+
+.problem-description {
+  font-size: 1.5rem;
 }
 
 .problem-question-box {
@@ -161,7 +164,7 @@
   border-radius: 8px;
   font-size: 1.2rem;
   line-height: 1.6;
-}
+} 
 
 .solution-section {
   background-color: #fefdef;
@@ -177,13 +180,13 @@
 }
 
 .solution-container h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .solution-tagline {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -304,16 +307,16 @@
 .research-subtitle {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .problem-card {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 1.2rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fffef7;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
 
 .problem-card h4 {
@@ -333,7 +336,7 @@
 
 .context-title,
 .goal-title {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
