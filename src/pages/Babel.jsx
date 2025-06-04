@@ -296,11 +296,11 @@ function Babel() {
       Information Architecture
     </h3>
     <p className="IA-description">
-      Based on task analysis, we designed information architecture to visualize key functions on each page and map out how users navigate the app to complete tasks.
+      Based on the task analysis, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities. Following this decision, we designed a revised information architecture to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
     </p>
 
     <p>
-            We designed the information architecture for key product functions:
+            We designed the information architecture for key product features:
              <ul className="problem-list">
               <li>Location sharing map with contacts</li>
               <li>Quick call and messaging with contacts</li>
