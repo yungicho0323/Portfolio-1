@@ -196,16 +196,7 @@ function Zynergy() {
         </div>
 
 
-        <div className="goal-section">
-          <h3 className="goal-title">Proposed Solution</h3>
-          <p> <strong>  We aim to drive long-term user engagement and brand loyalty in the fitness industry by integrating social motivation and community-based features into the booking experience.
-          </strong>
-          </p>
-          <p>
-            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: the lack of socially engaging features that promote sustained motivation and user retention. While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering Group Workout Challenges that allow users to connect, collaborate, and commit to shared fitness goals.
-          </p>
-        </div>
-
+    {/*Competitive Analysis Image*/}
       <div className="competitive-section">
       <h4>Competitive Analysis</h4>
       <p>
@@ -215,14 +206,23 @@ function Zynergy() {
       <strong className="highlight-keyword"> shared fitness engagement</strong>, 
       which are essential for fostering deeper user connection.
     </p>
-
-    {/*Competitive Analysis Image*/}
     <div className="analysis-placeholder">
             <img src={analysis} alt="zynergy Competitve Analysis" className="Zynergy-analysis" />
-          </div>
+    </div>
+    </div>
+    
+      {/*Proposed Solution*/}
+        <div className="goal-section">
+          <h3 className="goal-title">Proposed Solution</h3>
+          <p> <strong>  We aim to drive long-term user engagement and brand loyalty in the fitness industry by integrating social motivation and community-based features into the booking experience.
+          </strong>
+          </p>
+          <p>
+            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: the lack of socially engaging features that promote sustained motivation and user retention. While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering Group Workout Challenges that allow users to connect, collaborate, and commit to shared fitness goals.
+          </p>
+        </div>
+        
       </div>
-      </div>
-
     </section>
 
 {/*section divider*/}
