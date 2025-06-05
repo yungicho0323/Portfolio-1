@@ -201,14 +201,14 @@
 
 .solution-video-wrapper {
   width: 100%;
-  max-width: 290px;
   margin: 0 auto;
 }
 
 .solution-video {
   width: 100%;
-  border-radius: 55x;
+  border-radius: 55px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 290px;
 }
 
 .prototype-button-wrapper {
