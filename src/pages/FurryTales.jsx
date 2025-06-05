@@ -45,7 +45,7 @@ return (
             <p>Website Redesign<br /> UI/UX</p>
           </div>
           <div>
-            <h4>Roles/Responsibilities</h4>
+            <h4>My Roles/Responsibilities</h4>
             <p>Project Manager</p>
           </div>
         </div>
