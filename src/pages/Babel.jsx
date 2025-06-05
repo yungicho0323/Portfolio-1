@@ -43,7 +43,7 @@ function Babel() {
                     Visual Design <br/> Mobile App Design</p>
                     </div>
                     <div>
-                    <h4>Roles/Responsibilities</h4>
+                    <h4>My Roles/Responsibilities</h4>
                     <p>Product & Visual Designer</p>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ function Babel() {
       <div className="context-section">
         <h3 className="context-title">Identifying Problem Discovery</h3>
         <p>
-             During our design jam, we explored global wicked problems and developed a concept app to address one of the most pressing issues: <strong>Discrimination against minorities, which has become more prominent with rising immigration. </strong> The key challenges we identified are outlined below: 
+             During our design jam, I explored global wicked problems and developed a concept app to address one of the most pressing issues: <strong>Discrimination against minorities, which has become more prominent with rising immigration. </strong> The key challenges I identified are outlined below: 
 
              <ul className="problem-list">
               <li>The systemic exclusion minorities face</li>
@@ -185,7 +185,7 @@ function Babel() {
       </h2>
       <p className="babel-body">
         We conducted a user survey with our target audience to validate our initial research 
-        and gain deeper insights into how minorities experience disconnection or discrimination, 
+        and I gained deeper insights into how minorities experience disconnection or discrimination, 
         as well as to identify the features they find most valuable in a daily-use safety app.
       </p>
       <p className="babel-body">
@@ -208,7 +208,7 @@ function Babel() {
         User Pain Points
       </h3>
       <p className="babel-body">
-        And after user survey, we can canclude that:
+        And after user survey, I can canclude that:
       </p>
 
       <div className="diagram-placeholder">
@@ -227,7 +227,7 @@ function Babel() {
       Competitve Analysis: Identifying Gaps in Minority-Focused Safety Apps
       </h2>
       <p className="babel-body">
-      Before designing Babel, we analyzed existing safety apps—Green Book Global, Citizen, and Safetipin—to understand how they support marginalized users. 
+      Before designing Babel, I analyzed existing safety apps—Green Book Global, Citizen, and Safetipin—to understand how they support marginalized users. 
       While each offers valuable features like travel reviews, public alerts, and environmental safety scores, they lack <strong> real-time, personal safety communication within trusted networks.</strong></p>
 
        <div className="diagram-placeholder">
@@ -277,7 +277,7 @@ function Babel() {
      <h2 className="babel-highlight">
       Task Analysis: Discovering what steps users take to achieve user goal
       </h2>
-    <p>We created a user journey map by breaking down tasks at each stage of the experience, guided by a specific user scenario to ensure a realistic and goal-oriented flow.</p>
+    <p>I created a user journey map by breaking down tasks at each stage of the experience, guided by a specific user scenario to ensure a realistic and goal-oriented flow.</p>
     <div className="analysis-image">
         <img src={UserJourney} alt="User Journey Map" />
     </div>
@@ -296,11 +296,11 @@ function Babel() {
       Information Architecture
     </h3>
     <p className="IA-description">
-      Based on the task analysis, we created wireframes and high-fidelty. <strong> After we did a user testing, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities.</strong> Following this decision, we designed a revised information architecture to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
+      Based on the task analysis, we created wireframes and high-fidelty. <strong> After we did a user testing, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities.</strong> Following this decision, I designed a revised information architecture to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
     </p>
 
     <p>
-            We designed the information architecture for key product features:
+            I designed the information architecture for key product features:
              <ul className="problem-list">
               <li>Location sharing map with contacts</li>
               <li>Quick call and messaging with contacts</li>
@@ -320,7 +320,7 @@ function Babel() {
       </h3>
       <p className="Redesign-description">
          <p>
-            We redesigned high-fidelity based on revised information architecture to:
+            I redesigned high-fidelity based on revised information architecture to:
              <ul className="problem-list">
               <li>Simplify user navigation for a more intuitive flow</li>
               <li>Prioritize core features over secondary ones</li>

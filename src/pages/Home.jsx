@@ -21,14 +21,13 @@ function Home() {
             </h1>
             </div>
             </div>
-
+ 
             <div></div>
             
             <div className="col-text-right">
                 <div className="blur-2">
                 <p className="text-lg text-gray-700 max-w-md animate__animated animate__fadeInUp"><strong>
-                As a UI/UX designer, I’m driven by continuous growth and the power of collaboration with passionate, like-minded creatives.
-                 Through thoughtful, empathetic design and purposeful digital experiences, I aim to craft a more convenient, human-centered life.</strong>
+         With a background in business and a heart for purposeful design, I aim to create digital experiences that not only serve users but also support ethical, value-driven business goals where empathy meets strategy for positive impact. </strong>
                 </p>
                 </div>
             </div>

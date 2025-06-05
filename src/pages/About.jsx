@@ -28,8 +28,7 @@ function About() {
         </div>
         <div className="about-text">
           <p>
-            Hi there! I'm a UI/ UX designer based in Vancouver, BC. <br/>
-            I’m passionate about designing intuitive and impactful digital experiences that make everyday life easier for real people. Grounded in user research, people-centered thinking, and intuitive design, I strive to turn everyday challenges into thoughtful solutions that make life a little better—one experience at a time. Whether it’s a mobile app or a responsive website, I always aim to design with purpose and empathy at the core.
+          Hi there! I’m a UI/UX designer based in Vancouver, BC, with a background in business and a passion for thoughtful, human-centered design. I believe that great design sits at the intersection of user needs and ethical business goals—where empathy meets strategy. My approach is grounded in research, intentional thinking, and a desire to create digital experiences that are both intuitive and impactful.
           </p>
 
             <p>

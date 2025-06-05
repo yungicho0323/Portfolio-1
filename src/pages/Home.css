@@ -39,10 +39,12 @@ body {
   transform-style: preserve-3d;
 }
 
+
 .col .blur:hover {
   transform: rotate (-15deg) scale (1.05);
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
 }
+
 
 .col .blur-2:before {
   content: "";
@@ -82,7 +84,7 @@ body {
 
   
 .hero-section h1 {
-  font-size: 5rem;
+  font-size: 4.8rem;
   font-weight: medium;
   line-height: 1.2;
   position: relative;
@@ -157,7 +159,7 @@ body {
     z-index: 1;
     position: relative;
   }
-  
+
   .hero-section p span {
     display: block;
     width: 32px;

@@ -13,15 +13,13 @@ import Brainstorming from '../assets/images/Brainstorming.png';
 import IA from '../assets/images/IA.png';
 import analysis from '../assets/images/Zynergy-analysis.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
-import diagram from '../assets/images/Zynergy_Diagram.png';
 import mockup from '../assets/images/Zynergy-mockup.png';
 import mockup2 from '../assets/images/Zynergy-mockup2.png';
 import mockup3 from '../assets/images/Zynergy-mockup3.png';
 import Feature1 from '../assets/videos/Feature1.mp4';
 import Feature2 from '../assets/videos/Feature2.mp4';
 import Feature3 from '../assets/videos/Feature3.mp4';
-import Babel from '../assets/images/BabelMockup.png';
-import FurryTales from '../assets/images/FurryTales.png';
+
 
 
 
@@ -55,8 +53,8 @@ function Zynergy() {
                     <p> UI/UX <br/>Visual Design <br/> Mobile App Design </p>
                   </div>
                   <div>
-                    <h4>Roles/Responsibilities</h4>
-                    <p>Product & Visual Designer</p>
+                    <h4>My Roles/Responsibilities</h4>
+                    <p>Product & Visual Designer <br/> Project Manager</p>
                   </div>
                 </div>
               </div>
@@ -170,14 +168,13 @@ function Zynergy() {
         <div className="context-section">
           <h3 className="context-title">Indentifying Problem Discovery</h3>
           <p>
-            During a product design exploration, we identified a growing post-pandemic shift in fitness behavior. People not only seek physical wellness but also crave meaningful social connection. We aimed to address this behavioral shift by introducing a community-based fitness experience.
+       Despite the growing popularity of digital fitness and wellness platforms, many users struggle with long-term engagement. <span className="highlight-keyword">A key issue identified through qualitative research is the lack of social interaction, which can lead to feelings of isolation and low motivation—especially when users work out alone using individual fitness apps.</span>
           </p>
           <p>
-            We focused on <span className="highlight">Social Motivation</span> through shared fitness goals and <span className="highlight">Community-Driven Accountability</span> by integrating <span className="highlight-link">  Group Workout Challenges</span> that empower users to connect, collaborate, and stay consistent on their wellness journey.
+           A qualitative study on the <span className="highlight-keyword">Choose to Move program (British Columbia)</span> emphasized the role of peer support and group settings in helping participants sustain physical activity. Interviewees described the program as "a reason to get out and move" and "a way to stay connected."</p>
+           <p>
+           <strong>Key Insight:Participants who exercised alone struggled to stay consistent, often citing lack of social accountability.</strong> 
           </p>
-          <div className="diagram-placeholder">
-            <img src={diagram} alt="Zynergy Diagram" className="Zynergy-Diagram" />
-          </div>
         </div>
 
         <h3 className="research-subtitle">Key Problems</h3>
@@ -189,9 +186,9 @@ function Zynergy() {
         </div>
 
         <div className="problem-card">
-          <h4>Disconnections</h4>
+          <h4>Absence of Social Accountability</h4>
           <p>
-            After COVID-19, people increasingly seek social connection and group experiences to support their physical and mental well-being. However, most fitness booking apps still promote individual usage, lacking features that foster community or shared progress. This disconnection limits user motivation, retention, and emotional engagement—missing the opportunity to turn fitness into a socially driven lifestyle habit.
+         Participants who were not part of a group or peer-based activity often reported low motivation to continue their routines. Without someone to check in, encourage them, or share progress with, many found it easy to skip workouts or abandon their goals altogether.
           </p>
         </div>
 
@@ -200,8 +197,8 @@ function Zynergy() {
       <div className="competitive-section">
       <h4>Competitive Analysis</h4>
       <p>
-      We selected <span className="highlight-keyword">ClassPass</span> as a benchmark fitness class booking app for our competitive analysis. Our evaluation focused on its layout, user flow, and core features to identify prevailing design patterns. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However, it lacks features such as 
-      <strong className="highlight-keyword"> group participation</strong>, 
+      I selected <span className="highlight-keyword">ClassPass</span> as a benchmark fitness class booking app for our competitive analysis because since 2024, ClassPass has been the most growing fitness app as obtaining many new subscribed users. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However,  <strong className="highlight-keyword">it lacks features such as 
+      group participation</strong>, 
       <strong className="highlight-keyword"> community-driven tools</strong>, and 
       <strong className="highlight-keyword"> shared fitness engagement</strong>, 
       which are essential for fostering deeper user connection.
@@ -214,7 +211,7 @@ function Zynergy() {
       {/*Proposed Solution*/}
         <div className="goal-section">
           <h3 className="goal-title">Proposed Solution</h3>
-          <p> <strong>  We aim to drive long-term user engagement and brand loyalty in the fitness industry by integrating social motivation and community-based features into the booking experience.
+          <p> <strong>  We aim to drive long-term user engagement in the fitness industry by integrating social motivation and community-based features into the booking experience.
           </strong>
           </p>
           <p>
@@ -235,8 +232,8 @@ function Zynergy() {
       <div className="persona-section">
         <h4>Personas</h4>
         <p>
-          These personas helped us create a user-centric approach that addressed the specific needs
-          and preferences of our target audience, resulting in a more effective and tailored solution.
+          These personas helped me create a user-centric approach that addressed the specific needs
+          and preferences of target audience, resulting in a more effective and tailored solution.
         </p>
 
         <div className="persona-grid">
@@ -274,8 +271,8 @@ function Zynergy() {
        <div className="text-block">
         <h3 className="section-title">Brainstorming</h3>
         <p className="section-description">
-          Following the user research phase, we mainly focused on thinking about features that we want to implement in the app. 
-          So, we had a brainstorming session to come up with features, then built an information sitemap, and started building wireframes.
+          Following the user research phase, I mainly focused on thinking about features that I want to implement in the app. 
+          So, I had a brainstorming session to come up with features, then built an information sitemap, and started building wireframes.
         </p>
       </div>
 
@@ -291,7 +288,7 @@ function Zynergy() {
 
       <h3> Information Architecture</h3>
       <p className="IA-description">
-         We designed information architecture for the whole application based on the key product features.
+         I designed information architecture for the whole application based on the key product features.
 
         <div className="IA-image">
           <img src={IA} alt="Information Architecture" />
@@ -301,7 +298,7 @@ function Zynergy() {
       <div className="ideation-content">
       <h3>Wireframes</h3>
       <p className="wireframes-description">
-        After defining the key features, we progressed to the design phase, developing wireframes with a minimalist, user-centered approach. These wireframes enabled us to visualize the integration of essential information on each page.
+        After defining the key features, I progressed to the design phase, developing wireframes with a minimalist, user-centered approach. These wireframes enabled me to visualize the integration of essential information on each page.
       </p>
 
       <div className="wireframe-image-wrapper">
@@ -320,12 +317,12 @@ function Zynergy() {
       <div className="design-container">
         <h2>04 Final Designs</h2>
         <p className="design-intro">
-          We conducted usability testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, we were able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
+          I conducted usability testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, I was able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
         </p>
 
         <h3 className="design-title">Iterations from Usability Tests</h3>
         <p className="design-description">
-          We conducted usability testing with three participants from our target audience after developing high-fidelity prototypes. The feedback offered valuable insights into user needs, expectations, and overall experience.
+          I conducted usability testing with three participants from our target audience after developing high-fidelity prototypes. The feedback offered valuable insights into user needs, expectations, and overall experience.
         </p>
 
         {/* Iteration 1 */}
