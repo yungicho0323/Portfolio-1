@@ -6,6 +6,7 @@ import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
 import features from '../assets/images/zynergy-features.png';
 import ZynergyVideo from '../assets/videos/Zynergy.mp4';
+import problem from '../assets/images/Zynergy-problem.jpg';
 import Persona1 from '../assets/images/Persona 1.png';
 import Persona2 from '../assets/images/Persona 2.png';
 import UserJourney from '../assets/images/UserJourney.png';
@@ -172,9 +173,14 @@ function Zynergy() {
           </p>
           <p>
            A qualitative study on the <span className="highlight-keyword">Choose to Move program (British Columbia)</span> emphasized the role of peer support and group settings in helping participants sustain physical activity. Interviewees described the program as "a reason to get out and move" and "a way to stay connected."</p>
+
+
            <p>
            <strong>Key Insight:Participants who exercised alone struggled to stay consistent, often citing lack of social accountability.</strong> 
           </p>
+            <div className="research-placeholder">
+            <img src={problem} alt="Lack of Motivation for Fitness" className="Zynergy-research" />
+           </div>
         </div>
 
         <h3 className="research-subtitle">Key Problems</h3>

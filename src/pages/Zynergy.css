@@ -311,6 +311,17 @@
   margin-bottom: 1rem;
 }
 
+.research-placeholder img {
+  max-width: 100%;
+  margin-top: 40px;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
 .problem-card {
   border: 1px solid #ddd;
   border-radius: 10px;
