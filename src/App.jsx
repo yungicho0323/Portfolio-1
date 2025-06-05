@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-
+// import { Router, Routes, Route } from "react-router";
 import PageWrap from "./global/PageWrap";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,13 +9,14 @@ import Zynergy from "./pages/Zynergy";
 import Babel from "./pages/Babel";
 import StyleGuide from "./pages/StyleGuide";
 
+
+
 function App() {
 
   //Logic
 
   //HTML
   return (
-
     <Routes>
       <Route path="/" element={< PageWrap />} />
         <Route index element={< Home/>}></Route>

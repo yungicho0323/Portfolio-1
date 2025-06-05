@@ -1,39 +1,16 @@
 
-import React, { useEffect, useState } from 'react';
-import './ScrollToTop.css';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-const ScrollToTop = () => {
-  const [isVisible, setIsVisible] = useState(false);
+ function ScrollToTop() {
+  const { pathname } = useLocation();
 
-  // Show button after scrolling down
   useEffect(() => {
-    const toggleVisibility = () => {
-      if (window.scrollY > 50) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
-    window.addEventListener('scroll', toggleVisibility);
-    return () => window.removeEventListener('scroll', toggleVisibility);
-  }, []);
-
-  // Scroll to top smoothly
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
-  return (
-    isVisible && (
-      <div className="scroll-to-top" onClick={scrollToTop}>
-        ↑
-      </div>
-    )
-  );
-};
+  return null;
+}
 
 export default ScrollToTop;
+

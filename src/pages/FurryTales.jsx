@@ -14,7 +14,6 @@ import sitemapImg from '../assets/images/Sitemaps.png';
 import wireframesImg from '../assets/images/Wireframe.png';
 import designSystemImg from '../assets/images/Design System.png';
 import highFidelityImg from '../assets/images/high-fidelity.png';
-import ScrollToTop from '../components/ScrollToTop';
 
 
 function FurryTales() {
@@ -31,7 +30,7 @@ return (
           A Vancouver based small business that specializes in handcrafted dehydrated and
           freshly baked pet treats for dogs and cats.</strong>
         </p>
-        <p>It was UI UX design competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr university.</p>
+        <p>It was UI UX design competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr University.</p>
         <div className="project-meta">
           <div>
             <h4>Timeline</h4>
