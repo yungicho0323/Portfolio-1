@@ -81,7 +81,7 @@ function Zynergy() {
         <div className="problem-section">
           <h3 className="section-title">Problem</h3>
           <p className="problem-description">
-            Many people lose motivation to work out due to the isolating nature of individual fitness and wellness apps that lack social interaction.
+           Exercising alone can lead to decreased motivation, lack of accountability, and feelings of isolation, which often result in reduced consistency and early drop-off from fitness routines. Without social interaction or support, individuals may struggle to stay engaged and committed to long-term fitness goals.
           </p>
 
           <div className="problem-question-box">
