@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <p>DESIGNED & CODED BY YUNGI CHO</p>
+        <p>&copy; 2025, YUNGI CHO  <br/>Designed in Figma & Coded with React.js.</p>
       </div>
     </footer>
   );
