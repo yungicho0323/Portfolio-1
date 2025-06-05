@@ -176,7 +176,7 @@ function Zynergy() {
 
 
            <p>
-           <strong>Key Insight:Participants who exercised alone struggled to stay consistent, often citing lack of social accountability.</strong> 
+           <strong><li>Key Insight: Participants who exercised alone struggled to stay consistent, often citing lack of social accountability.</li></strong> 
           </p>
             <div className="research-placeholder">
             <img src={problem} alt="Lack of Motivation for Fitness" className="Zynergy-research" />
