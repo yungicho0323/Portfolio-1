@@ -8,7 +8,6 @@ import features from '../assets/images/zynergy-features.png';
 import ZynergyVideo from '../assets/videos/Zynergy.mp4';
 import problem from '../assets/images/Zynergy-problem.jpg';
 import Persona1 from '../assets/images/Persona 1.png';
-import Persona2 from '../assets/images/Persona 2.png';
 import UserJourney from '../assets/images/UserJourney.png';
 import Brainstorming from '../assets/images/Brainstorming.png';
 import IA from '../assets/images/IA.png';
@@ -236,15 +235,14 @@ function Zynergy() {
       <h2>02 Analysis</h2>
 
       <div className="persona-section">
-        <h4>Personas</h4>
+        <h4>Persona</h4>
         <p>
-          These personas helped me create a user-centric approach that addressed the specific needs
+          The persona helped me create a user-centric approach that addressed the specific needs
           and preferences of target audience, resulting in a more effective and tailored solution.
         </p>
 
         <div className="persona-grid">
           <img src={Persona1} alt="Persona 1 - Alex Walker" className="persona-img" />
-          <img src={Persona2} alt="Persona 2 - Sarah Thompson" className="persona-img" />
         </div>
       </div>
     </section>

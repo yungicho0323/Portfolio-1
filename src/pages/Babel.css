@@ -137,7 +137,7 @@
 }
 
 .problem-description {
- font-size: 1.5rem;
+ font-size: 1.3rem;
  line-height: 1.4;
 }
 
@@ -177,7 +177,7 @@
 }
 
 .solution-tagline {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -319,6 +319,11 @@
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 30px;
+}
+
+.context-section .highlight-keyword {
+  color: #f27e30;
+  font-weight: 600;
 }
 
 .context-section p strong {

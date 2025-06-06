@@ -150,19 +150,13 @@ function Babel() {
       <div className="context-section">
         <h3 className="context-title">Identifying Problem Discovery</h3>
         <p>
-             During our design jam, I explored global wicked problems and developed a concept app to address one of the most pressing issues: <strong>Discrimination against minorities, which has become more prominent with rising immigration. </strong> The key challenges I identified are outlined below: 
-
-             <ul className="problem-list">
-              <li>The systemic exclusion minorities face</li>
-              <li>The complex, deeply rooted social structures that the issue difficult to solve</li>
-              <li>The lack of access to safety, or resources in urban areas</li>
-             </ul>
+           In Canada, a significant portion of racialized individuals report experiencing discrimination. <span className="highlight-keyword">According to Statistics Canada, over half (51%) of racialized people aged 15 and older reported facing discrimination or unfair treatment in the five years preceding 2024. </span>This is nearly double the proportion reported by non-racialized individuals (27%). The key challenges I identified are outlined below: 
         </p>
       </div>
 
       
       {/* Key Problems */}
-      <h3 className="research-subtitle">Key Problems</h3>
+      <h3 className="research-subtitle">Key Challenges</h3>
         <div className="problem-card">
           <h4>Lack of Trust and Communication</h4>
           <p>Minorities often face difficulty building trust and communication with the majority population when navigating unfamiliar urban environments.</p>
