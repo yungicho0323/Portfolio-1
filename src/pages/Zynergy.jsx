@@ -168,10 +168,10 @@ function Zynergy() {
         <div className="context-section">
           <h3 className="context-title">Indentifying Problem Discovery</h3>
           <p>
-       Despite the growing popularity of digital fitness and wellness platforms, many users struggle with long-term engagement. <span className="highlight-keyword">A key issue identified through qualitative research is the lack of social interaction, which can lead to feelings of isolation and low motivation—especially when users work out alone using individual fitness apps.</span>
+       Despite the growing popularity of digital fitness and wellness platforms, many users struggle with long-term engagement. <span className="zynergy-highlight-keyword">A key issue identified through qualitative research is the lack of social interaction, which can lead to feelings of isolation and low motivation—especially when users work out alone using individual fitness apps.</span>
           </p>
           <p>
-           A qualitative study on the <span className="highlight-keyword">Choose to Move program (British Columbia)</span> emphasized the role of peer support and group settings in helping participants sustain physical activity. Interviewees described the program as "a reason to get out and move" and "a way to stay connected."</p>
+           A qualitative study on the <span className="zynergy-highlight-keyword">Choose to Move program (British Columbia)</span> emphasized the role of peer support and group settings in helping participants sustain physical activity. Interviewees described the program as "a reason to get out and move" and "a way to stay connected."</p>
 
 
            <p>
