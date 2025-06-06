@@ -607,3 +607,7 @@
   .Redesign {
     margin-top: 4rem;
   }
+
+  .problem-list strong {
+    font-weight: 600;
+  }

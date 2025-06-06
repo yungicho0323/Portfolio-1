@@ -316,9 +316,11 @@ function Babel() {
          <p>
             I redesigned high-fidelity based on revised information architecture to:
              <ul className="problem-list">
+              <strong>
               <li>Simplify user navigation for a more intuitive flow</li>
               <li>Prioritize core features over secondary ones</li>
               <li>Enhance safety and support functionalities for everday use</li>
+              </strong>
              </ul>
         </p>
       </p>
