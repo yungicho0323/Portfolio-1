@@ -636,10 +636,14 @@
   }
 
   .feature-image {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    max-height: 600px;  
+    max-height: 700px;  
     margin-bottom: 6rem;
+  }
+
+  .ideation-content {
+    margin-top: 4rem;
   }
 
 

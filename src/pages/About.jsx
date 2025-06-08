@@ -2,6 +2,7 @@ import Header from "../global/Header";
 import Footer from "../global/Footer";
 import React from "react";
 import profileImage from "../assets/images/Profile.jpg";
+import resumeIcon from "../assets/images/cv.png";
 import emailIcon from "../assets/images/Email.png";
 import linkedinIcon from "../assets/images/LinkedIn.png";
 import image1 from "../assets/images/img1.jpeg";
@@ -40,6 +41,10 @@ function About() {
         
          {/* Social Media Icons Section */}
          <div className="social-icons">
+          <a href="/Resume.pdf" target="_blank" rel="resume">
+            <img src={resumeIcon} alt="YungiCho_Resume" className="social-icon" />
+          </a>
+
           <a href="mailto:t0908003@gmail.com" target="_blank" rel="gmail">
             <img src={emailIcon} alt="YungiCho_Email" className="social-icon" />
           </a>

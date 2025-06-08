@@ -340,8 +340,8 @@ function Babel() {
         </p>
          <div className="Userflow-image">
         <img src={userflow} alt="User Flow" />
-    </div>
         </div>
+      </div>
 </section>
 
 

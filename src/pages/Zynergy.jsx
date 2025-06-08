@@ -215,10 +215,10 @@ function Zynergy() {
       <div className="competitive-section">
       <h4>Competitive Analysis</h4>
       <p>
-      I selected <span className="highlight-keyword">ClassPass</span> as a benchmark fitness class booking app for our competitive analysis because since 2024, ClassPass has been the most growing fitness app as obtaining many new subscribed users. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However,  <strong className="highlight-keyword">it lacks features such as 
+      I selected <span className="zynergy-highlight-keyword">ClassPass</span> as a benchmark fitness class booking app for our competitive analysis because since 2024, ClassPass has been the most growing fitness app as obtaining many new subscribed users. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However,  <strong className="zynergy-highlight-keyword">it lacks features such as 
       group participation</strong>, 
-      <strong className="highlight-keyword"> community-driven tools</strong>, and 
-      <strong className="highlight-keyword"> shared fitness engagement</strong>, 
+      <strong className="zynergy-highlight-keyword"> community-driven tools</strong>, and 
+      <strong className="zynergy-highlight-keyword"> shared fitness engagement</strong>, 
       which are essential for fostering deeper user connection.
     </p>
     <div className="analysis-placeholder">
