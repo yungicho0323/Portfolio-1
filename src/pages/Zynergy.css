@@ -619,6 +619,30 @@
     margin: auto 0;
   }
 
+  /*Main features*/
+  .feature-section {
+    background-color: #FFFEEE;
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    color: #111;
+  }
+
+  .feature-section {
+    font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+
+  .feature-image {
+    max-width: 800px;
+    margin: auto 0;
+    max-height: 700px;  
+  }
+
+
   /* Competitive Section */
   .competitive-section {
     margin-top: 40px;

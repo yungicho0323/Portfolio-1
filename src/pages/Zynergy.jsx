@@ -11,6 +11,7 @@ import UserInterview from '../assets/images/UserInterview.png';
 import Persona1 from '../assets/images/Persona 1.png';
 import UserJourney from '../assets/images/UserJourney.png';
 import Brainstorming from '../assets/images/Brainstorming.png';
+import mainfeatures from '../assets/images/mainfeatures.png';
 import IA from '../assets/images/IA.png';
 import analysis from '../assets/images/Zynergy-analysis.png';
 import analysis2 from '../assets/images/Zynergy-analysis2.png';
@@ -303,12 +304,20 @@ function Zynergy() {
           className="brainstorming-image"
         />
       </div>
+
+      {/*Main Features*/}
+      <p className="feature-section">
+        We decided 4 main features based on brainstorming and research:
+      </p>
+      <div className="diagram-placeholder">
+        <img src={mainfeatures} alt="Main Features" className="feature-image"/>
+      </div>
       
 
 
       <h3> Information Architecture</h3>
       <p className="IA-description">
-         I designed information architecture for the whole application based on the key product features.
+         After brainstorming about main features, I designed information architecture for the whole application based on the key product features.
 
         <div className="IA-image">
           <img src={IA} alt="Information Architecture" />
