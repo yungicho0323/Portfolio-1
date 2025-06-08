@@ -247,7 +247,7 @@ function Babel() {
     {/*Proposed Solution*/}
        <div className="goal-section">
           <h3 className="goal-title">Proposed Solution</h3>
-          <p> <strong>  We want to provide minority communities with a sense of safety and belonging when attending events in urban areas.
+          <p> <strong>  We want to provide minority communities with a sense of safety and belonging in urban areas.
           </strong>
           </p>
           <p>
