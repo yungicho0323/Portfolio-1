@@ -135,7 +135,7 @@
 }
 
 .main-heading {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }
@@ -320,26 +320,57 @@
   margin: 0 auto;
   border-radius: 0.5rem;
 }
-
-
-.problem-card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background-color: #fffef7;
-  padding: 30px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+ /*User interview*/
+ .interview-section {
+  padding: 4rem 2rem;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.problem-card h4 {
-  font-size: 1.2rem;
+.interview-title {
+  font-size: 1.3rem;
   font-weight: 600;
+  color: #364AD9; /* blue accent */
+  text-transform: capitalize;
   margin-bottom: 0.5rem;
+  margin-top: 4rem;
 }
 
-.problem-card p {
-  font-size: 1rem;
-  line-height: 1.6;
+.interview-section .interview-highlight {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
+
+.interview-body {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #111;
+}
+
+.interview-question-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.interview-list {
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  list-style-type: disc;
+}
+
+
 
 .context-section {
   margin-top: 40px;
@@ -347,13 +378,14 @@
 
 .context-title,
 .goal-title {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .goal-section p strong {
   font-weight: 600;
+  font-weight: 1.6rem;
 }
 
 .context-section p,
@@ -392,7 +424,6 @@
   max-width: 100%;
   margin-top: 40px;
   margin-bottom: 1.2rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   justify-content: center;
 }
 

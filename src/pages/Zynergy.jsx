@@ -7,11 +7,13 @@ import heroImage from '../assets/images/iphone-16-mockup.png';
 import features from '../assets/images/zynergy-features.png';
 import ZynergyVideo from '../assets/videos/Zynergy.mp4';
 import problem from '../assets/images/Zynergy-problem.jpg';
+import UserInterview from '../assets/images/UserInterview.png';
 import Persona1 from '../assets/images/Persona 1.png';
 import UserJourney from '../assets/images/UserJourney.png';
 import Brainstorming from '../assets/images/Brainstorming.png';
 import IA from '../assets/images/IA.png';
 import analysis from '../assets/images/Zynergy-analysis.png';
+import analysis2 from '../assets/images/Zynergy-analysis2.png';
 import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
 import mockup from '../assets/images/Zynergy-mockup.png';
 import mockup2 from '../assets/images/Zynergy-mockup2.png';
@@ -181,22 +183,32 @@ function Zynergy() {
             <img src={problem} alt="Lack of Motivation for Fitness" className="Zynergy-research" />
            </div>
         </div>
+       {/*User Interview*/}
+ <div className="interview-section">
+      <h4 className="interview-title">validating the problem</h4>
+      <h2 className="interview-highlight">
+      User Interviews
+      </h2>
+      <p className="interview-body">
+          To validate the problem, I gathered feedback from 4 people who use fitness apps regularly. While most people found value in individual tracking features, many shared that over time, working out alone felt repetitive, isolating, or hard to sustain. Even users who were committed to fitness shared that they missed the sense of community, often expressing they <span className="highlight">“wished the app made them feel less alone.”</span>
+      </p>
 
-        <h3 className="research-subtitle">Key Problems</h3>
-        <div className="problem-card">
-          <h4>Lack of Community and Social Engagement</h4>
-          <p>
-            Most fitness booking apps operate in isolation—focusing only on class reservations without offering ways for users to interact, form connections, or build community. As a result, users often lose motivation and accountability over time due to the absence of a supportive social environment.
-          </p>
-        </div>
+         <h3 className="interview-question-heading">Interview Questions:</h3>
+        <ul className="interview-list">
+          <li>Can you walk me through your experience using fitness or wellness apps?</li>
+          <li>What features do you use the most, and how do you usually stay motivated?</li>
+          <li>Have you felt ever unmotivated or disconnected while using a fitness app?</li>
+          <li>Have you ever participated in a fitness challenge with others (in-person or online)? If yes, what was that experience like compared to doing it alone?</li>
+        </ul>
 
-        <div className="problem-card">
-          <h4>Absence of Social Accountability</h4>
-          <p>
-         Participants who were not part of a group or peer-based activity often reported low motivation to continue their routines. Without someone to check in, encourage them, or share progress with, many found it easy to skip workouts or abandon their goals altogether.
-          </p>
-        </div>
-
+       <div className="diagram-placeholder">
+            <img
+          src={UserInterview}
+          alt="User Interview Themes"
+          className="zynergy-interview"
+        />
+      </div>
+    </div>
 
     {/*Competitive Analysis Image*/}
       <div className="competitive-section">
@@ -209,7 +221,11 @@ function Zynergy() {
       which are essential for fostering deeper user connection.
     </p>
     <div className="analysis-placeholder">
-            <img src={analysis} alt="zynergy Competitve Analysis" className="Zynergy-analysis" />
+            <img src={analysis} alt="Zynergy Competitve Analysis" className="Zynergy-analysis" />
+    </div>
+    <div className="analysis-placeholder">
+            <img src={analysis2} alt="Zynergy IA"
+            className="Zynergy-analysis"/>
     </div>
     </div>
     

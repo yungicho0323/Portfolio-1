@@ -172,7 +172,7 @@ function Babel() {
 
         {/*User Survey*/}
       <div className="babel-validation">
-      <h4 className="babel-section-title">Validating Our Assumptions</h4>
+      <h4 className="babel-section-title">Validating Our Problems</h4>
       <h2 className="babel-highlight">
         Surveyed with 9 participants and survey respondents shared the struggle 
         as minorities living in urban city.
@@ -213,6 +213,7 @@ function Babel() {
         />
       </div>
      </div>
+
 
      {/*competitive analysis*/}
       <div className="babel-competitve-analysis">
@@ -293,8 +294,8 @@ function Babel() {
       Based on the task analysis, we created wireframes and high-fidelty. <strong> After we did a user testing, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities.</strong> Following this decision, I designed a revised information architecture to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
     </p>
 
-    <p>
-            I designed the information architecture for key product features:
+    <p className>
+           I designed the information architecture for key product features:
              <ul className="problem-list">
               <li>Location sharing map with contacts</li>
               <li>Quick call and messaging with contacts</li>
