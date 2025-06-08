@@ -9,6 +9,7 @@ import analysis from '../assets/images/analysis.png';
 import UserPersona from '../assets/images/UserPersona.png';
 import UserJourney from '../assets/images/Babel-UserJourney.png';
 import IA from '../assets/images/Babel-IA.png';
+import userflow from '../assets/images/userflow.png';
 
 
 function Babel() {
@@ -172,7 +173,7 @@ function Babel() {
 
         {/*User Survey*/}
       <div className="babel-validation">
-      <h4 className="babel-section-title">Validating Our Problems</h4>
+      <h4 className="babel-section-title">Validating The Problem</h4>
       <h2 className="babel-highlight">
         Surveyed with 9 participants and survey respondents shared the struggle 
         as minorities living in urban city.
@@ -267,7 +268,7 @@ function Babel() {
     </div>
 
   {/*Task Analysis (User journey)*/}
-  <div className="user-journey">
+  <div className="user-journey"> 
      <h4 className="babel-section-title">Identifying user's behaviors </h4>
      <h2 className="babel-highlight">
       Task Analysis: Discovering what steps users take to achieve user goal
@@ -291,7 +292,7 @@ function Babel() {
       Information Architecture
     </h3>
     <p className="IA-description">
-      Based on the task analysis, we created wireframes and high-fidelty. <strong> After we did a user testing, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities.</strong> Following this decision, I designed a revised information architecture to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
+      Based on the task analysis, we created wireframes and high-fidelty. <strong> After we did a user testing, we chose to prioritize safety-related features and remove the event booking function to avoid overwhelming users with too many functionalities.</strong> Following this decision, I designed <span className="highlight-keyword"> a revised information architecture </span>to clearly outline the core features on each screen and map how users would navigate the app to complete key tasks.
     </p>
 
     <p className>
@@ -307,7 +308,7 @@ function Babel() {
       <div className="IA-image">
         <img src={IA} alt="Information Architecture" />
     </div>
-
+  </div>
     {/*Redesign Highfidelity*/}
     <div className="Redesign">
       <h3 className="section-title">
@@ -315,7 +316,7 @@ function Babel() {
       </h3>
       <p className="Redesign-description">
          <p>
-            I redesigned high-fidelity based on revised information architecture to:
+            I redesigned user flow and high-fidelity based on revised information architecture to:
              <ul className="problem-list">
               <strong>
               <li>Simplify user navigation for a more intuitive flow</li>
@@ -326,7 +327,21 @@ function Babel() {
         </p>
       </p>
     </div>
-  </div>
+
+      <div className="Userflow">
+       <h3 className="section-title">
+        User Flow</h3>
+        <p className="scenario-description">
+          After revising information architecture, I developed user flow based on two scenarios:
+          <ul className="problem-list">
+            <strong><li><span className="highlight-keyword">Scenario 1:</span> Maya gets in danger on the way home after the event.</li>
+            <li><span className="highlight-keyword">Scenario 2:</span> Maya gets home safe after the event.</li></strong>
+          </ul>
+        </p>
+         <div className="Userflow-image">
+        <img src={userflow} alt="User Flow" />
+    </div>
+        </div>
 </section>
 
 
