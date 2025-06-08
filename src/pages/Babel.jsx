@@ -223,7 +223,7 @@ function Babel() {
       </h2>
       <p className="babel-body">
       Before designing Babel, I analyzed existing safety apps—Green Book Global, Citizen, and Safetipin—to understand how they support marginalized users. 
-      While each offers valuable features like travel reviews, public alerts, and environmental safety scores, they lack <strong> real-time, personal safety communication within trusted networks.</strong></p>
+      While each offers valuable features like travel reviews, public alerts, and environmental safety scores, they lack <span className="highlight-keyword"> real-time, personal safety communication within trusted networks.</span></p>
 
        <div className="diagram-placeholder">
             <img

@@ -404,6 +404,10 @@
   margin-bottom: 20px;
 }
 
+.babel-body .highlight-keyword {
+   color: #f27e30;
+}
+
 .babel-survey-box {
   background-color: #f5f5f5;
   border: 1px solid #dcdcdc;
@@ -478,9 +482,6 @@
     margin-top: 6rem;
 }
 
-.babel-body strong {
-  font-weight: 600;
-}
 
 .babel-Competitve-Analysis {
   max-width: 900px;

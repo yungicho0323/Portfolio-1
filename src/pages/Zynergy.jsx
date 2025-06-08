@@ -190,7 +190,7 @@ function Zynergy() {
       User Interviews
       </h2>
       <p className="interview-body">
-          To validate the problem, I gathered feedback from 4 people who use fitness apps regularly. While most people found value in individual tracking features, many shared that over time, working out alone felt repetitive, isolating, or hard to sustain. Even users who were committed to fitness shared that they missed the sense of community, often expressing they <span className="highlight">“wished the app made them feel less alone.”</span>
+          To validate the problem, I gathered feedback from 4 people who use fitness apps regularly. While most people found value in individual tracking features, many shared that over time, working out alone felt repetitive, isolating, or hard to sustain. Even users who were committed to fitness shared that they missed the sense of community, often expressing they <span className="zynergy-highlight-keyword">“wished the app made them feel less alone.”</span>
       </p>
 
          <h3 className="interview-question-heading">Interview Questions:</h3>
@@ -337,7 +337,8 @@ function Zynergy() {
       <div className="design-container">
         <h2>04 Final Designs</h2>
         <p className="design-intro">
-          I conducted usability testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions. By observing and analyzing user behavior and feedback, I was able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
+          <strong>
+          I conducted usability testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions.</strong> By observing and analyzing user behavior and feedback, I was able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
         </p>
 
         <h3 className="design-title">Iterations from Usability Tests</h3>

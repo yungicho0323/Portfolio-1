@@ -310,6 +310,12 @@
   margin-bottom: 1rem;
 }
 
+
+.zynergy-highlight-keyword {
+  color: #364AD9; /* blue tone */
+  font-weight: 600;
+}
+
 .research-placeholder img {
   max-width: 100%;
   margin-top: 40px;
@@ -351,10 +357,6 @@
   margin-bottom: 2rem;
 }
 
-.highlight {
-  font-weight: 600;
-  color: #111;
-}
 
 .interview-question-heading {
   font-size: 1.1rem;
@@ -395,7 +397,7 @@
   margin-bottom: 1rem;
 }
 
-.zynergy-highlight-keyword {
+.highlight-keyword {
   color: #364AD9; /* blue tone */
   font-weight: 600;
 }
@@ -651,6 +653,10 @@
 .design-intro {
   font-size: 1.1rem;
   line-height: 1.6;
+}
+
+.design-intro strong {
+  font-weight: 600;
 }
 
 .design-title {
