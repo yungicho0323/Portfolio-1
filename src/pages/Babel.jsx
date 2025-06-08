@@ -3,6 +3,7 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Babel.css';
 import heroImage from '../assets/images/BabelMockup.png';
+import babelfeatures from '../assets/images/babelfeatures.png'
 import survey from '../assets/images/survey.png';
 import painpoints from '../assets/images/painpoints.png';
 import analysis from '../assets/images/analysis.png';
@@ -10,6 +11,8 @@ import UserPersona from '../assets/images/UserPersona.png';
 import UserJourney from '../assets/images/Babel-UserJourney.png';
 import IA from '../assets/images/Babel-IA.png';
 import userflow from '../assets/images/userflow.png';
+import before from "../assets/images/before.png";
+import after from  "../assets/images/after.png";
 
 
 function Babel() {
@@ -55,6 +58,11 @@ function Babel() {
         </section>
 
   {/*Babel feature images*/}
+   <section className="babel-section">
+        <div className="babel-container">
+          <img src={babelfeatures} alt="Babel App Features" className="babel-image" />
+        </div>
+      </section>
 
   {/*Overview*/}
     <section className="babel-overview-section">
@@ -340,6 +348,21 @@ function Babel() {
         </p>
          <div className="Userflow-image">
         <img src={userflow} alt="User Flow" />
+        </div>
+      </div>
+
+      {/*High-fidelity*/}
+      <div className="High-fidelity">
+        <h3 className="section-title"> Redesigned high-fidelity</h3>
+        <p className="high-fidelity-description">
+          Based on user flow, I redesigned high-fidelity including two scenarios after user testing.
+        </p>
+        <div className="Before-image">
+          <img src={before} alt="Before High-Fidelity" />
+        </div>
+
+        <div className="After-image">
+          <img src={after} alt="After High-Fidelity" />
         </div>
       </div>
 </section>
