@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router";
-// import { Router, Routes, Route } from "react-router";
 import PageWrap from "./global/PageWrap";
 import Home from "./pages/Home";
 import About from "./pages/About";
