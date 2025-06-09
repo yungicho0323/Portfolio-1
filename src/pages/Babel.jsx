@@ -69,7 +69,7 @@ function Babel() {
     <section className="babel-overview-section">
       <div className="babel-overview-container">
         <h2 className="overview-heading">overview</h2>
-        <h1 className="main-heading">Stay in Safe Mode, Wherever You Go</h1>
+        <h1 className="main-heading"><span className="highlight-keyword">Stay in Safe Mode, Wherever You Go</span></h1>
 
         <div className="problem-section">
           <h3 className="section-title">Problem</h3>
