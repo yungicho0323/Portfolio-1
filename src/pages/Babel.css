@@ -492,7 +492,7 @@
 }
 
 
-.babel-Competitve-Analysis {
+.diagram-placeholder .babel-Competitve-Analysis {
   max-width: 900px;
   margin: 0 auto;
   width: 100%;
@@ -562,10 +562,10 @@
   font-size: 1.3rem;
 }
 
-.analysis-image {
-   margin-top: 10px;
+.user-journey .analysis-image {
+   margin-top: 2rem;
     width: 100%;
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
