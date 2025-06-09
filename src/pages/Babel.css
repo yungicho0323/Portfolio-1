@@ -556,6 +556,7 @@
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    padding-top: 1rem;
 }
 
 .user-journey h4 {
@@ -567,6 +568,7 @@
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    padding-top: 1rem;
 }
 
 /*Ideation*/
