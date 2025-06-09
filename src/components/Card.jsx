@@ -85,7 +85,7 @@ export function CardComponent() {
         <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />
       {/*2 Seconds Title*/}
           <Typography variant="h5" color="blue-gray" className="two-seconds"> 
-           2 Seconds: Second-hand Online Consignment Store Website (Coming soon)
+           2 Seconds: Second-hand Online Consignment Store Website (Coming Soon)
           </Typography>
 
       {/*Card Bottom Section */}
