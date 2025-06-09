@@ -3,6 +3,7 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Babel.css';
 import heroImage from '../assets/images/BabelMockup.png';
+import BabelVideo from '../assets/videos/Babel.mp4';
 import babelfeatures from '../assets/images/babelfeatures.png'
 import survey from '../assets/images/survey.png';
 import painpoints from '../assets/images/painpoints.png';
@@ -95,22 +96,22 @@ function Babel() {
                 stay connected with your friends as attending the event
               </p>
             
-              {/* <div className="solution-video-wrapper">
+              <div className="solution-video-wrapper">
                 <video
                   className="solution-video"
-                  src={ZynergyVideo}
+                  src={BabelVideo}
                   controls
                   playsInline
                   muted
                   loop
                 />
-              </div> */}
+              </div>
       
               <div className="prototype-button-wrapper">
               <a
-                href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/Zynergy-app-redesign?page-id=1%3A3&node-id=233-7154&viewport=558%2C-192%2C0.05&t=sodJLDreuvS5qU8v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=233%3A7154&show-proto-sidebar=1"
+                href="https://www.figma.com/proto/7zfkCQxKAUP608I5cfSsKj/Babel_Project-4?page-id=1%3A1362&node-id=2121-1840&p=f&viewport=-1878%2C-25%2C0.15&t=8MsVa4LL3PJRKrcL-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2121%3A1840&show-proto-sidebar=1"
                 target="_blank"
-                rel="FurryTales website prototyping"
+                rel="Babel website prototyping"
                 className="prototype-button"
               >
                Try it yourself

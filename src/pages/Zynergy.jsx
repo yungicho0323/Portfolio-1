@@ -121,7 +121,7 @@ function Zynergy() {
         <a
           href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/Zynergy-app-redesign?page-id=1%3A3&node-id=233-7154&viewport=558%2C-192%2C0.05&t=sodJLDreuvS5qU8v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=233%3A7154&show-proto-sidebar=1"
           target="_blank"
-          rel="FurryTales website prototyping"
+          rel="Zynergy website prototyping"
           className="prototype-button"
         >
          Try it yourself
