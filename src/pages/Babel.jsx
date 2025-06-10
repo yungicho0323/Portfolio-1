@@ -43,7 +43,7 @@ function Babel() {
               </a>
             </div>
                 </p>
-                
+
                 <div className="project-meta">
                     <div>
                     <h4>Timeline</h4>

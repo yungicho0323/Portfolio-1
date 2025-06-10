@@ -23,7 +23,9 @@ function work() {
             </div>
          </div>
         </div>
+
          <Footer />
+         
         </>
     )
 }
