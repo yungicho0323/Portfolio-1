@@ -116,7 +116,7 @@ margin: 0 auto;
 .expertise-list li {
 font-size: 1.2rem;
 font-weight: 400;
-border-bottom: 2px solid #ddd; /* Optional: Adds a subtle underline */
+/* border-bottom: 2px solid #ddd;  */
 }  
 
 /* Image Gallery with Variable Sizes */

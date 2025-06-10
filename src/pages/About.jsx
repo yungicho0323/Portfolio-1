@@ -71,7 +71,7 @@ function About() {
         <li>Project Management</li>
         <li>Adobe Photoshop / Adobe Illustrator</li>
         <li>Graphic Design</li>
-        <li>HTML / CSS / JavaScript/ React</li>
+        <li>HTML / CSS / JavaScript</li>
       </ul>
     </div>
     </section>
