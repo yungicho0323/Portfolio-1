@@ -22,6 +22,7 @@
     padding: 60px 40px;
     font-family: 'Manrope', sans-serif;
     max-width: 100%;
+    padding: 0 4rem;
   }
   
   .project-text {
@@ -47,6 +48,11 @@
 .project-text p strong {
   font-weight: 600;
     font-size: 1.4rem;
+}
+
+.project-hero .prototype-button-wrapper {
+  justify-content: left;
+  align-items: left;
 }
 
   .project-meta {
@@ -213,8 +219,8 @@
 .prototype-button {
   background-color: #e9d4ff ;
   color: #111;
-  padding: 10px 22px;
-  font-size: 1rem;
+  padding: 12px 24px;
+  font-size: 1.2rem;
   border: none;
   border-radius: 999px;
   text-decoration: none;

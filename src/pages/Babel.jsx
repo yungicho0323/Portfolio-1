@@ -31,7 +31,19 @@ function Babel() {
                A location-based safety app designed to enhance safety and community support for minorities living in urban areas.</strong>
                <p/> 
               It is designed to help minorities feel safe at city events, the app lets users share their location with friends and trigger an emergency alarm to alert them in dangerous situations.
+
+                  <div className="prototype-button-wrapper">
+              <a
+                href="https://www.figma.com/proto/7zfkCQxKAUP608I5cfSsKj/Babel_Project-4?page-id=1%3A1362&node-id=2121-1840&p=f&viewport=-1878%2C-25%2C0.15&t=8MsVa4LL3PJRKrcL-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2121%3A1840&show-proto-sidebar=1"
+                target="_blank"
+                rel="Babel website prototyping"
+                className="prototype-button"
+              >
+               View
+              </a>
+            </div>
                 </p>
+                
                 <div className="project-meta">
                     <div>
                     <h4>Timeline</h4>
@@ -114,7 +126,7 @@ function Babel() {
                 rel="Babel website prototyping"
                 className="prototype-button"
               >
-               Try it yourself
+               View
               </a>
             </div>
             </div>

@@ -39,7 +39,19 @@ function Zynergy() {
                 <p> <strong>
                 A community-focused fitness and wellness app that encourages motivation and consistency through group challenges, progress tracking, and social connection.</strong> 
                 </p>
-                <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness app into a community-driven experience with group challenges and buddy systems. </p>
+                <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness app into a community-driven experience with group challenges and buddy systems.
+
+          <div className="prototype-button-wrapper">
+          <a
+            href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/Zynergy-app-redesign?page-id=1%3A3&node-id=233-7154&viewport=558%2C-192%2C0.05&t=sodJLDreuvS5qU8v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=233%3A7154&show-proto-sidebar=1"
+            target="_blank"
+            rel="Zynergy website prototyping"
+            className="prototype-button"
+          >
+          View
+          </a>
+        </div>
+        </p>
                 <div className="project-meta">
                   <div>
                     <h4>Timeline</h4>
@@ -124,7 +136,7 @@ function Zynergy() {
           rel="Zynergy website prototyping"
           className="prototype-button"
         >
-         Try it yourself
+         View
         </a>
       </div>
       </div>

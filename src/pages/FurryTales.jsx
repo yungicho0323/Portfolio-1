@@ -30,7 +30,20 @@ return (
           A Vancouver based small business that specializes in handcrafted dehydrated and
           freshly baked pet treats for dogs and cats.</strong>
         </p>
-        <p>It was UI UX design competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr University.</p>
+        <p>It was UI UX design competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr University.
+            <div className="prototype-button-wrapper">
+        <a
+          href="https://www.figma.com/proto/0XZFxXzgway1yDoCsUPLXT/FurryTales-Pet?page-id=0%3A1&node-id=122-2783&viewport=1271%2C244%2C0.15&t=J2Sa25xrUqP9f5vs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=122%3A2783"
+          target="_blank"
+          rel="FurryTales website prototyping"
+          className="prototype-button"
+        >
+         View
+        </a>
+      </div>
+        </p>
+
+        
         <div className="project-meta">
           <div>
             <h4>Timeline</h4>
@@ -60,17 +73,6 @@ return (
     <source src={furryTalesVideo} type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-
-  <div className="prototype-button-wrapper">
-        <a
-          href="https://www.figma.com/proto/0XZFxXzgway1yDoCsUPLXT/FurryTales-Pet?page-id=0%3A1&node-id=122-2783&viewport=1271%2C244%2C0.15&t=J2Sa25xrUqP9f5vs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=122%3A2783"
-          target="_blank"
-          rel="FurryTales website prototyping"
-          className="prototype-button"
-        >
-          Try it yourself
-        </a>
-      </div>
     </section>
 
     {/*flui hackathon overview*/}
