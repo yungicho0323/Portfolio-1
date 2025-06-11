@@ -249,7 +249,7 @@ function Zynergy() {
           </strong>
           </p>
           <p>
-            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: the lack of socially engaging features that promote sustained motivation and user retention. While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering Group Workout Challenges that allow users to connect, collaborate, and commit to shared fitness goals.
+            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: <span className="zynergy-highlight-keyword">the lack of socially engaging features that promote sustained motivation and user retention.</span> While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering <span className="zynergy-highlight-keyword">Group Workout Challenges </span>that allow users to connect, collaborate, and commit to shared fitness goals.
           </p>
         </div>
 

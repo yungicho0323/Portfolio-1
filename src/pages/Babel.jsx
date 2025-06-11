@@ -499,7 +499,7 @@ function Babel() {
 <section id="validation" className="validation-section">
   <h2>05 Reflection</h2>
 
-  <h3 className="takeaway-heading">Project Takeaways</h3>
+  <h3 className="babel-takeaway-heading">Project Takeaways</h3>
   <div className="takeaway-box">
     <ul className="takeaway-list">
       <li>Learned that simplifying features and placing clear, accessible CTA buttons significantly improves usability.</li>
