@@ -18,7 +18,7 @@ export function CardComponent() {
         <img src={babelImage} alt="Project-4" className="project-image4" />
       {/*2 Seconds Title*/}
           <Typography variant="h5" color="blue-gray" className="babel"> 
-          Babel: Safety-driven, Real-time Location Sharing App For Minorities
+          Babel: Safety-driven, Real-time Location Sharing App
           </Typography>
 
       {/*Card Bottom Section */}
@@ -35,12 +35,12 @@ export function CardComponent() {
         </div>
       </div>
 
-      
+
     <div class="image-wrapper animate__animated animate__slideInUp">
         <img src={ZynergyImage} alt="Project-1" className="project-image1" />
         {/*Znergy Title*/}
           <Typography variant="h5" color="blue-gray" className="zynergy">
-            Zynergy: A fitness app with Group Challenges and Social Support
+            Zynergy: Group Workout Challenge Fitness App
           </Typography>
         {/*Card Bottom Section*/}
         <div className="bottom-section">
