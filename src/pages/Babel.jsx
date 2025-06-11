@@ -176,7 +176,8 @@ function Babel() {
       <div className="context-section">
         <h3 className="context-title">Identifying Problem Discovery</h3>
         <p>
-           In Canada, a significant portion of racialized individuals report experiencing discrimination. <span className="highlight-keyword">According to Statistics Canada, over half (51%) of racialized people aged 15 and older reported facing discrimination or unfair treatment in the five years preceding 2024. </span>This is nearly double the proportion reported by non-racialized individuals (27%). The key challenges I identified are outlined below: 
+          Violent and non-violent hate crimes in Canada have more than doubled since 2019, often fueled by <span className="highlight-keyword">anti-immigrant sentiment.</span> In particular, <span className="highlight-keyword">visible minorities</span>—especially South Asians, Arabs, and Jews—are being disproportionately targeted. One report notes that hate crimes against South Asians rose 143% between 2019–2022, with many instances tied to growing international student communities. (source: Wikipedia)
+           {/* In Canada, a significant portion of racialized individuals report experiencing discrimination. <span className="highlight-keyword">According to Statistics Canada, over half (51%) of racialized people aged 15 and older reported facing discrimination or unfair treatment in the five years preceding 2024. </span>This is nearly double the proportion reported by non-racialized individuals (27%). The key challenges I identified are outlined below:  */}
         </p>
       </div>
 
