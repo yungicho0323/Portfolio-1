@@ -43,7 +43,7 @@ function Babel() {
                 rel="Babel website prototyping"
                 className="prototype-button"
               >
-               View
+               View Prototype
               </a>
             </div>
                 </p>
@@ -130,7 +130,7 @@ function Babel() {
                 rel="Babel website prototyping"
                 className="prototype-button"
               >
-               View
+               View Prototype
               </a>
             </div>
             </div>
@@ -222,7 +222,21 @@ function Babel() {
           <div className="diagram-placeholder">
                     <img src={survey} alt="Babel User Survey" className="Babel-survey" />
           </div>
+          
+          {/*User Survey Responses*/}
+          <div className="prototype-button-wrapper">
+          <a
+            href="https://forms.gle/mDfQGKQfjUaJjHft5"
+            target="_blank"
+            rel="User Survey Response"
+            className="prototype-button"
+          >
+            View User Survey
+          </a>
+        </div>
       </div>
+
+
      {/*user painpoints*/}
      <div className="babel-painpoints">
       <h3 className="painpoints-title">
@@ -250,7 +264,7 @@ function Babel() {
       </h2>
       <p className="babel-body">
       Before designing Babel, I analyzed existing safety apps—Green Book Global, Citizen, and Safetipin—to understand how they support marginalized users. 
-      While each offers valuable features like travel reviews, public alerts, and environmental safety scores, they lack <span className="highlight-keyword"> real-time, personal safety communication within trusted networks.</span></p>
+      While each offers valuable features like travel reviews, public alerts, and environmental safety scores, they <span className="highlight-keyword"> lack real-time, personal safety communication within trusted networks.</span></p>
 
        <div className="diagram-placeholder">
             <img
@@ -269,7 +283,7 @@ function Babel() {
           </strong>
           </p>
           <p>
-        The primary goal of the Babel app is to address a critical gap in urban safety solutions for minority communities: the lack of connected, responsive, and peer-based safety tools. While existing apps focus on general alerts or navigation, Babel differentiates itself by offering real-time location sharing, quick access to personal contacts, and a direct emergency assistance feature to ensure users feel supported, visible, and safe in public spaces.
+        The primary goal of the Babel app is to address a critical gap in urban safety solutions for minority communities: <span className="highlight-keyword">the lack of connected, responsive, and peer-based safety tools.</span> While existing apps focus on general alerts or navigation, Babel differentiates itself by offering <span className="highlight-keyword"> real-time location sharing, quick access to personal contacts, and a direct emergency assistance feature</span> to ensure users feel supported, visible, and safe in public spaces.
           </p>
         </div>
 
@@ -367,7 +381,19 @@ function Babel() {
          <div className="Userflow-image">
         <img src={userflow} alt="User Flow" />
         </div>
+
+        <div className="prototype-button-wrapper">
+          <a
+            href="https://www.figma.com/board/v5HV3wc6jMfhvWd5EnkiaG/Babel_Project-Development?node-id=80-1732&t=r6vFSgVgIlp73Wul-1"
+            target="_blank"
+            rel="User Survey Response"
+            className="prototype-button"
+          >
+          View User Flow
+          </a>
+        </div>
       </div>
+      
 
       {/*High-fidelity*/}
       <div className="High-fidelity">
@@ -413,6 +439,17 @@ function Babel() {
           <h4 className="change-heading">3. Addition: Proactive Home Arrival Detection</h4>
           <img src={change3} alt="Home Arrival Detection" className="change-image3" />
         </div>
+        </div>
+
+         <div className="prototype-button-wrapper">
+          <a
+            href="https://www.figma.com/board/v5HV3wc6jMfhvWd5EnkiaG/Babel_Project-Development?node-id=98-3128&t=r6vFSgVgIlp73Wul-1"
+            target="_blank"
+            rel="Key Changes"
+            className="prototype-button"
+          >
+            View Key Changes
+          </a>
         </div>
   </section>
 

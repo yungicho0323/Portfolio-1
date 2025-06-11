@@ -48,7 +48,7 @@ function Zynergy() {
             rel="Zynergy website prototyping"
             className="prototype-button"
           >
-          View
+          View Prototype
           </a>
         </div>
         </p>
@@ -136,7 +136,7 @@ function Zynergy() {
           rel="Zynergy website prototyping"
           className="prototype-button"
         >
-         View
+         View Prototype
         </a>
       </div>
       </div>

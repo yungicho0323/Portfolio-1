@@ -38,7 +38,7 @@ return (
           rel="FurryTales website prototyping"
           className="prototype-button"
         >
-         View
+         View Prototype
         </a>
       </div>
         </p>
@@ -245,9 +245,9 @@ return (
         <h4>Client Meeting & Redesign Direction</h4>
         <p>
           We had the opportunity to meet with the client and presented a set of targeted questions
-          based on pain points we identified in the existing website. During the meeting, we clarified
+          based on pain points we identified in the existing website. <strong>During the meeting, we clarified
           specific goals and priorities to ensure that our redesign approach would align closely with
-          the client’s values, needs, and business objectives.
+          the client’s values, needs, and business objectives.</strong>
         </p>
       </div>
       </div>
