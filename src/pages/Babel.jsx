@@ -14,6 +14,10 @@ import IA from '../assets/images/Babel-IA.png';
 import userflow from '../assets/images/userflow.png';
 import before from "../assets/images/before.png";
 import after from  "../assets/images/after.png";
+import change1 from "../assets/images/change1.png";
+import change2 from "../assets/images/change2.png";
+import change3 from "../assets/images/change3.png";
+import BabelVideo2 from "../assets/videos/Babel2.mp4";
 
 
 function Babel() {
@@ -379,6 +383,100 @@ function Babel() {
         </div>
       </div>
 </section>
+
+{/*section divider*/}
+<div className="section-divider"></div>
+
+{/*Final Designs*/}
+<section id="design" className="design-section">
+      <div className="design-container">
+        <h2>04 Final Designs</h2>
+
+        <h3 className="design-title"><span className="highlight-keyword">Key Changes</span></h3>
+
+        <p className="design-description">
+          The feedback from user testing offered valuable insights into user needs, expectations, and overall experience. And these are main key changes: 
+        </p>
+
+      <div className="change-block">
+          <h4 className="change-heading">1. Before & After: Visual Clarity and Interface Consistency</h4>
+          <img src={change1} alt="Visual Clarity and Interface Consistency" className="change-image1" />
+        </div>
+
+        <div className="change-block">
+          <h4 className="change-heading">2. Addition: Intuitive Emergency Interaction</h4>
+          <img src={change2} alt="Emergency Interaction" className="change-image2" />
+        </div>
+
+        <div className="change-block">
+          <h4 className="change-heading">3. Addition: Proactive Home Arrival Detection</h4>
+          <img src={change3} alt="Home Arrival Detection" className="change-image3" />
+        </div>
+        </div>
+  </section>
+
+        
+    {/*Final Product*/}
+  
+    <section className="final-product-section">
+    <div className="solution-container">
+      <h2 className="final-heading">Final Product</h2>
+
+      <p className="design-description">
+       I developed final product by showcasing two core user goals, <span className="highlight-keyword">Safe Arrival</span> and <span className="highlight-keyword">Unsafe Situation</span> to highlight how Babel's main features (location sharing, quick emergency call, in-app messaging/calling, and the "I'm Home" notification) support user safety and connection in real time.
+      </p>
+
+      {/* User Goal 01 */}
+      <div className="feature-wrapper">
+        <video className="feature-video" src={BabelVideo} controls playsInline muted loop />
+        <div className="feature-text">
+          <h3>User Goal 1: User gets home safe from the event.</h3>
+          <ul>
+            <li>"I'm Home" Notification– automatically asks if the user is home: confirms safety with one tap and notifies friends.</li>
+            <li>Emphasizes peaceful closure, emotional reassurance, and <span className="highlight-keyword">low-effort safety confirmation</span> through automated "I'm Home" flows.</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* User Goal 02 */}
+      <div className="feature-wrapper reverse">
+        <video className="feature-video" src={BabelVideo2} controls playsInline muted loop />
+        <div className="feature-text">
+          <h3>User Goal 2: User gets in danger on the way from the event.</h3>
+          <ul>
+            <li>Quick Emergency Call(3-sec Hold)- easily activated when feeling threatened: triggered calls to trusted contacts or emergency services. </li>
+            <li>Shifts to real-time protection, offering active tools like quick call, live location, and direct contact to provide <span className="highlight-keyword">immediate help</span> and comfort.</li>
+          </ul>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    
+{/*section divider*/}
+<div className="section-divider"></div>
+
+{/*Reflection*/}
+<section id="validation" className="validation-section">
+  <h2>05 Reflection</h2>
+
+  <h3 className="takeaway-heading">Project Takeaways</h3>
+  <div className="takeaway-box">
+    <ul className="takeaway-list">
+      <li>Learned that simplifying features and placing clear, accessible CTA buttons significantly improves usability.</li>
+
+      <li>Understood the need to strike a balance between offering useful tools and maintaining a simple, focused interface to avoid overwhelming users.</li>
+
+      <li>Focusing on core features helped clarify the app’s purpose.</li>
+
+      <li> Found that grounding design decisions in a clear social or ethical purpose can lead to more focused and impactful user experience.</li>
+      <li>To continue improving, further user testing is needed to assess how design changes affect user behaviors and needs.</li>
+    </ul>
+  </div>
+</section>
+
+
 
 
 

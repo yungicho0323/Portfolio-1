@@ -27,7 +27,8 @@ function Home() {
             <div className="col-text-right">
                 <div className="blur-2">
                 <p className="text-lg text-gray-700 max-w-md animate__animated animate__fadeInUp"><strong>
-         With a background in business and a heart for purposeful design, I aim to create digital experiences that not only serve users but also support ethical, value-driven business goals where empathy meets strategy for positive impact. </strong>
+                With a background in business and a passion for thoughtful design, I create digital experiences where empathy and strategy come together to make a real impact.
+                </strong>
                 </p>
                 </div>
             </div>

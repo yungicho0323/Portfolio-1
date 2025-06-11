@@ -673,3 +673,117 @@
 .After-image {
   margin-top: 2rem;
 }
+
+/*final designs*/
+.design-section {
+    background-color: #FFFEEE;
+    padding: 60px 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    color: #111;
+}
+
+.design-container {
+  max-width: 900px;
+  width: 100%;
+}
+
+.design-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.design-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 0.5rem;
+  padding-bottom: 10px;
+}
+
+.change-block {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.change-heading {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  color: #333;
+  margin-top: 6rem;
+  font-weight: 600;
+}
+
+.change-image1 {
+  width: 100%;
+  max-width: 800px;
+  margin-left: 12rem;
+}
+
+.change-image2 {
+  width: 100%;
+  max-width: 900px;
+  margin-left: 5rem;
+}
+
+.change-image3 {
+  width: 100%;
+  max-width: 900px;
+  margin-left: 8rem;
+}
+
+/*Reflection*/
+.validation-section {
+  background-color: #FFFEEE;
+  padding: 60px 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+}
+
+.validation-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.takeaway-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f27e30;
+  margin-bottom: 1.5rem;
+}
+
+.takeaway-box {
+  background-color: #f7f3eb;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.takeaway-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #111;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.takeaway-list li {
+  margin-bottom: 0.75rem;
+}
+
+.takeaway-list ul {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+
+
+  
+  
