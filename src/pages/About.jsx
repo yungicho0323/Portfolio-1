@@ -35,7 +35,7 @@ function About() {
             <p>
               Connect with me to gain insights into my design process and to see how I can help bring your ideas to life.
               <br/>
-              Check out my work and shoot me an email at <strong>t0908003@gmail.com</strong>
+              Check out my work and shoot me an email at <strong>yungicho8@gmail.com</strong>
           </p>
 
         
@@ -45,7 +45,7 @@ function About() {
             <img src={resumeIcon} alt="YungiCho_Resume" className="social-icon" />
           </a>
 
-          <a href="mailto:t0908003@gmail.com" target="_blank" rel="gmail">
+          <a href="mailto:yungicho8@gmail.com" target="_blank" rel="gmail">
             <img src={emailIcon} alt="YungiCho_Email" className="social-icon" />
           </a>
 

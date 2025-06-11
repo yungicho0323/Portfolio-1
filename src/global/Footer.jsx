@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="/Resume.pdf" target="_blank" rel="Resume" className="footer-link">Resume</a>
         </div>
         <div className="social-links">
-          <a href="mailto:t0908003@gmail.com" className="social-link">Email
+          <a href="mailto:yungicho8@gmail.com" className="social-link">Email
           <span className="arrow">↗</span>
           </a>
           <a href="https://www.linkedin.com/in/yungi-cho/" target="_blank" rel="LinkedIn" className="social-link">LinkedIn
