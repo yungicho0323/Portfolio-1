@@ -286,6 +286,8 @@ function Zynergy() {
         <p className="description">
           Many users begin their fitness journey with high energy and enthusiasm, often setting personal goals or joining challenges. However, when these challenges are designed for individual effort without meaningful interaction or social accountability, motivation tends to fade. Users struggle to stay committed without a sense of community, encouragement, or an easy way to involve friends.
         </p>
+        <br/>
+        <p className="description"><span className="zynergy-highlight-keyword"> Opportunity:</span> a key moment to re-engage unmotivated users by introducing the Group Workout Challenge feature, helping them feel supported and motivated through social connection.</p>
       </div>
 
       <div className="Zynergy-userjourney">
