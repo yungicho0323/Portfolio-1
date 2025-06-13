@@ -336,7 +336,18 @@ function Zynergy() {
         <div className="IA-image">
           <img src={IA} alt="Information Architecture" />
         </div>
+         <div className="prototype-button-wrapper">
+        <a
+          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=67-892&t=JAv0BoQwe5YF8Sia-1"
+          target="_blank"
+          rel="Zynergy Information Architecture"
+          className="prototype-button"
+        >
+         View IA
+        </a>
+      </div>
       </p>
+      
 
       <div className="ideation-content">
       <h3>Wireframes</h3>
