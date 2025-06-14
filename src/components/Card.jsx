@@ -87,7 +87,7 @@ export function CardComponent() {
         <img src={MediLingoImage} alt="Project-3" className="project-image3" />
       {/*2 Seconds Title*/}
           <Typography variant="h5" color="blue-gray" className="MediLingo"> 
-          MediLingo: AI-powered medical translation app (COMING SOON)
+          MediLingo: AI-powered Medical Translation App (COMING SOON)
           </Typography>
 
       {/*Card Bottom Section */}
