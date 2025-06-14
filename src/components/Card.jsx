@@ -4,7 +4,7 @@ import './Card.css';
 import "animate.css";
 import ZynergyImage from "../assets/images/iphone-16-mockup.png";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
-import TwoSecondsImage from "../assets/images/2Seconds.png";
+import MediLingoImage from "../assets/images/MediLingo.png";
 import { Link }from 'react-router';
 import babelImage from '../assets/images/BabelMockup.png';
 
@@ -84,10 +84,10 @@ export function CardComponent() {
 
 
     <div class="image-wrapper animate__animated animate__slideInUp">
-        <img src={TwoSecondsImage} alt="Project-3" className="project-image3" />
+        <img src={MediLingoImage} alt="Project-3" className="project-image3" />
       {/*2 Seconds Title*/}
-          <Typography variant="h5" color="blue-gray" className="two-seconds"> 
-           2 Seconds: Second-hand Online Consignment Store Website (Coming Soon)
+          <Typography variant="h5" color="blue-gray" className="MediLingo"> 
+          MediLingo: AI-powered medical translation app (COMING SOON)
           </Typography>
 
       {/*Card Bottom Section */}
@@ -99,7 +99,7 @@ export function CardComponent() {
         </div>
 
         <div className="project-type-badge">
-        <button className="project-type-button">Website Design</button>
+        <button className="project-type-button">UI/ UX</button>
         </div> 
         </div>
       </div>

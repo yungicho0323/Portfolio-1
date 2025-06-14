@@ -101,16 +101,13 @@
   z-index: -1;
 }
 
-.image-wrapper:hover .two-seconds {
-  color: white;
-}
-
 .image-wrapper:hover .babel {
   color: white;
 }
 
 .image-wrapper:hover .zynergy {
   color: white;
+  
 }
 
 .card-button {
@@ -133,6 +130,7 @@
   font-weight: 500;
   padding-bottom: 8px;
   font-size: 1.35rem;
+
 }
 
 .furryTales {
@@ -142,7 +140,7 @@
     font-size: 1.35rem;
 }
 
-.two-seconds {
+.MediLingo {
   padding: 4px 0;
   font-weight: medium;
   padding-bottom: 8px;
