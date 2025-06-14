@@ -226,6 +226,7 @@ body {
     font-size: 1.25rem;
     margin: 1rem auto;
     text-align: center;
+    line-height: 1.6;
   }
 
   .col,
@@ -250,12 +251,22 @@ body {
 
 /* Small devices (tablets/phones, 768px and down) */
 @media (max-width: 768px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+
   .hero-section h1 {
     font-size: 2.75rem;
+    margin-left: 0;
   }
 
   .hero-section p {
     font-size: 1.1rem;
+    line-height: 1.6;
   }
 
   .selected-works {
@@ -263,8 +274,11 @@ body {
   }
 
   .view-all-btn {
-    font-size: 0.95rem;
-    padding: 0.5rem 1rem;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem auto;
+    text-align: center;
   }
 
   .col .blur-2:before,
@@ -286,9 +300,14 @@ body {
   }
 
   .view-all-btn {
-    width: 100%;
     margin: 1rem auto;
     font-size: 0.9rem;
+  }
+
+  .col .blur-2,
+  .col-text-right .blur-2 {
+    animation: none;
+    transform: scale(0.9);
   }
 
   .col .blur-2:before,
