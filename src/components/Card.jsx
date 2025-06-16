@@ -4,7 +4,7 @@ import './Card.css';
 import "animate.css";
 import ZynergyImage from "../assets/images/iphone-16-mockup.png";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
-import MediLingoImage from "../assets/images/MediLingo.png";
+import MedSpeakImage from "../assets/images/MedSpeak.png";
 import { Link }from 'react-router';
 import babelImage from '../assets/images/BabelMockup.png';
 
@@ -84,10 +84,10 @@ export function CardComponent() {
 
 
     <div class="image-wrapper animate__animated animate__slideInUp">
-        <img src={MediLingoImage} alt="Project-3" className="project-image3" />
+        <img src={MedSpeakImage} alt="Project-3" className="project-image3" />
       {/*2 Seconds Title*/}
-          <Typography variant="h5" color="blue-gray" className="MediLingo"> 
-          MediLingo: AI-powered Medical Translation App (COMING SOON)
+          <Typography variant="h5" color="blue-gray" className="MedSpeak"> 
+          MedSpeak: AI-powered Medical Translation App (COMING SOON)
           </Typography>
 
       {/*Card Bottom Section */}

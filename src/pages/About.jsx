@@ -35,7 +35,7 @@ function About() {
             <p>
               Connect with me to gain insights into my design process and to see how I can help bring your ideas to life.
               <br/>
-              Check out my work and shoot me an email at <strong>yungicho8@gmail.com</strong>
+              Check out my work and shoot me an email at <strong>yungicho8@gmail.com.</strong>
           </p>
 
         
