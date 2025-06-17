@@ -3,35 +3,17 @@ import Footer from "../global/Footer.jsx";
 import CardComponent from "../components/Card.jsx";
 import "./Home.css";
 import CustomCursor from "../components/CustomCursor.jsx";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import React from "react";
 import { Link } from 'react-router';
 
 function Home() {
     const [hoveringHero, setHoveringHero] = useState(false);
-    const [showCursor, setShowCursor] = useState(true);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollY = window.scrollY;
-            const windowHeight = window.innerHeight;
-            
-            // Hide cursor after scrolling more than 50% of viewport height
-            if (scrollY > windowHeight * 0.5) {
-                setShowCursor(false);
-            } else {
-                setShowCursor(true);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
 
     return (
         <>
             <Header />
-            <CustomCursor visible={showCursor && hoveringHero} />
+            <CustomCursor visible={hoveringHero} />
             <main className="home">
                 <section 
                     className="hero-section"
