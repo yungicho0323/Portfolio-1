@@ -21,6 +21,10 @@ body {
 }
 
 .hero-section {
+  cursor: none;
+}
+
+.hero-section {
     display: flex;
     align-items: center;
     height: 100vh;
