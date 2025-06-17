@@ -17,10 +17,10 @@ const CustomCursor = ({ visible }) => {
       // Show cursor immediately when hovering
       setShowCursor(true);
       
-      // Set timer to hide cursor after 3 seconds
+      // Set timer to hide cursor after 1.2 seconds
       timer = setTimeout(() => {
         setShowCursor(false);
-      }, 1000);
+      }, 1500);
     } else {
       // Hide cursor immediately when not hovering
       setShowCursor(false);
