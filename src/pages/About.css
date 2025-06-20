@@ -79,7 +79,7 @@ body {
    ========================= */
 
 .expertise-container {
-    margin: 2rem 0;
+    margin: 4rem 0;
     padding: 1rem 0;
 }
 
@@ -191,8 +191,8 @@ body {
    ========================= */
 
 .about-container2 {
-    padding: 2rem;
     margin: 2rem 0;
+    margin-bottom: 6rem;
 }
 
 .about-me {
