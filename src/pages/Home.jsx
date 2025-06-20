@@ -22,7 +22,7 @@ function Home() {
                 >
                     <div className="col">
                         <div className="blur-2">
-                            <h1 className="text-7xl font-bold leading-tight">
+                            <h1 className="hero-title">
                                 Heyy <br /> I'm{" "} <br />
                                 <span>YunGi Cho</span>
                                 <br /> UI/UX Designer
@@ -30,11 +30,11 @@ function Home() {
                         </div>
                     </div>
 
-                    <div></div>
+                    <div className="col-spacer"></div>
                     
                     <div className="col-text-right">
                         <div className="blur-2">
-                            <p className="text-lg text-gray-700 max-w-md animate__animated animate__fadeInUp">
+                            <p className="hero-description">
                                 <strong>
                                     With a background in business and a passion for thoughtful design, I create digital experiences where empathy and strategy come together to make a real impact.
                                 </strong>
@@ -44,9 +44,8 @@ function Home() {
                 </section>
 
                 <section className="selected-works">
-                    {/* <h1>Selected Works.</h1> */}
                     {/* Card Component Section */}
-                    <div className="card-section flex justify-center mt-10">
+                    <div className="card-section">
                         <CardComponent />
                         <Link to='/work' className="view-all-btn">View All</Link>
                     </div>

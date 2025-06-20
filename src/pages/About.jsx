@@ -58,7 +58,7 @@ function About() {
         </div>
     </section>
 
-    <section clssName="expertise-container">
+    <section className="expertise-container">
     <div className="expertise">
       <h1 className="title">Expertise</h1>
       <ul className="expertise-list">

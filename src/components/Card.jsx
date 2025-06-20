@@ -45,7 +45,7 @@ export function CardComponent() {
         {/*Card Bottom Section*/}
         <div className="bottom-section">
           <div className="left-section">
-        <CardFooter>
+        <CardFooter className="cardFooter-wrapper">
           <Link to="/zynergy" className="card-button">Read More</Link>
         </CardFooter>
         </div>
