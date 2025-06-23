@@ -244,8 +244,8 @@ function Zynergy() {
     
       {/*Proposed Solution*/}
         <div className="goal-section">
-          <h3 className="goal-title">Proposed Solution</h3>
-          <p> <strong>  We aim to drive long-term user engagement in the fitness industry by integrating social motivation and community-based features into the booking experience.
+          <h3 className="goal-title">Approach</h3>
+          <p> <strong>  How might we transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
           </strong>
           </p>
           <p>
