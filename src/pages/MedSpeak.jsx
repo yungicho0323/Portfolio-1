@@ -20,13 +20,11 @@ function MedSpeak() {
             <h1>MedSpeak</h1>
             <p>
                 <strong>
-                An AI-powered health app that translates everyday symptom descriptions into medical terms,
-                helping patients talk clearly with doctors and keep track of their health
+               An AI-powered health app that translates everyday symptom descriptions into medical terms, helping patients talk clearly with doctors and keep track of their health
                 </strong>
             </p>
             <p>
-                It is designed to reduce language barriers in healthcare and ensure patients feel understood,
-                supported, and confident during medical appointments.
+               It is designed to break down language barriers, improve diagnostic accuracy in healthcare, and help patients feel heard, supported, and confident during medical visits.
             </p>
             <div className="prototype-button-wrapper">
                 <a
