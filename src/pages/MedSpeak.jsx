@@ -30,8 +30,7 @@ function MedSpeak() {
             </p>
             <div className="prototype-button-wrapper">
                 <a
-                href="https://www.figma.com/proto/7zfkCQxKAUP608I5cfSsKj/Babel_Project-4?page-id=1%3A1362&node-id=2121-1840&p=f&viewport=-1878%2C-25%2C0.15&t=8MsVa4LL3PJRKrcL-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2121%3A1840&show-proto-sidebar=1"
-                target="_blank"
+                href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App_Design?page-id=1%3A4&node-id=187-1628&p=f&viewport=426%2C276%2C0.09&t=sXVJV9Fqg5CnBc6x-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=187%3A1628"
                 rel="noopener noreferrer"
                 className="prototype-button"
                 >
