@@ -57,12 +57,12 @@ function Babel() {
             <div className="project-meta Babel-updated-meta">
                 <div>
                 <h4>Timeline</h4>
-                <p>4 weeks, Designed in 2025 <br/> Redesigned in 2025
+                <p>4 weeks <br/> Designed in March, 2025 <br/> Redesigned in 2025
                 </p>
                 </div>
                 <div>
                 <h4>Tools</h4>
-                <p>Figma, <br /> Photoshop</p>
+                <p>Figma <br/> Photoshop</p>
                 </div>
                 <div>
                 <h4>Project Types</h4>
@@ -130,7 +130,7 @@ function Babel() {
                 />
               </div>
       
-              <div className="solution-prototype-button-wrapper">
+              <div className="Babel-prototype-button-wrapper">
               <a
                 href="https://www.figma.com/proto/7zfkCQxKAUP608I5cfSsKj/Babel_Project-4?page-id=1%3A1362&node-id=2121-1840&p=f&viewport=-1878%2C-25%2C0.15&t=8MsVa4LL3PJRKrcL-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2121%3A1840&show-proto-sidebar=1"
                 target="_blank"
@@ -184,7 +184,6 @@ function Babel() {
         <h3 className="context-title">Identifying Problem Discovery</h3>
         <p>
           Violent and non-violent hate crimes in Canada have more than doubled since 2019, often fueled by <span className="highlight-keyword">anti-immigrant sentiment.</span> In particular, <span className="highlight-keyword">visible minorities</span>—especially South Asians, Arabs, and Jews—are being disproportionately targeted. One report notes that hate crimes against South Asians rose 143% between 2019–2022, with many instances tied to growing international student communities. (source: Wikipedia)
-           {/* In Canada, a significant portion of racialized individuals report experiencing discrimination. <span className="highlight-keyword">According to Statistics Canada, over half (51%) of racialized people aged 15 and older reported facing discrimination or unfair treatment in the five years preceding 2024. </span>This is nearly double the proportion reported by non-racialized individuals (27%). The key challenges I identified are outlined below:  */}
         </p>
       </div>
 
@@ -231,7 +230,7 @@ function Babel() {
           </div>
           
           {/*User Survey Responses*/}
-          <div className="prototype-button-wrapper">
+          <div className="Babel-prototype-button-wrapper">
           <a
             href="https://forms.gle/mDfQGKQfjUaJjHft5"
             target="_blank"
@@ -389,7 +388,7 @@ function Babel() {
         <img src={userflow} alt="User Flow" />
         </div>
 
-        <div className="prototype-button-wrapper">
+        <div className="Babel-prototype-button-wrapper">
           <a
             href="https://www.figma.com/board/v5HV3wc6jMfhvWd5EnkiaG/Babel_Project-Development?node-id=80-1732&t=r6vFSgVgIlp73Wul-1"
             target="_blank"
@@ -448,7 +447,7 @@ function Babel() {
         </div>
         </div>
 
-         <div className="prototype-button-wrapper">
+         <div className="Babel-prototype-button-wrapper">
           <a
             href="https://www.figma.com/board/v5HV3wc6jMfhvWd5EnkiaG/Babel_Project-Development?node-id=98-3128&t=r6vFSgVgIlp73Wul-1"
             target="_blank"

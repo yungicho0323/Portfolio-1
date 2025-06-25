@@ -60,13 +60,13 @@ function Zynergy() {
                 <div className="project-meta zynergy-updated-meta">
                   <div>
                     <h4>Timeline</h4>
-                    <p>Designed in November, 2024 <br/>
+                    <p>4 weeks <br/>Designed in November, 2024 <br/>
                         Redesigned in 2025
                     </p>
                   </div>
                   <div>
                     <h4>Tools</h4>
-                    <p>Figma, <br /> Photoshop, <br /> Illustrator, <br/> ClickUp</p>
+                    <p>Figma<br/> Photoshop<br /> Illustrator<br/> ClickUp</p>
                   </div>
                   <div>
                     <h4>Project Types</h4>
@@ -74,7 +74,7 @@ function Zynergy() {
                   </div>
                   <div>
                     <h4>Team</h4>
-                    <p>4 Members</p>
+                    <p>5 Members</p>
                   </div>
                   <div>
                     <h4>My Roles/Responsibilities</h4>
@@ -342,7 +342,7 @@ function Zynergy() {
         <div className="IA-image">
           <img src={IA} alt="Information Architecture" />
         </div>
-         <div className="prototype-button-wrapper">
+         <div className="Zynergy-prototype-button-wrapper">
         <a
           href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=67-892&t=JAv0BoQwe5YF8Sia-1"
           target="_blank"

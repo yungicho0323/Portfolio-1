@@ -55,7 +55,7 @@ return (
           </div>
           <div>
             <h4>Tools</h4>
-            <p>Figma, <br /> Photoshop, <br /> Illustrator</p>
+            <p>Figma <br /> Photoshop<br /> Illustrator</p>
           </div>
           <div>
             <h4>Project Types</h4>
