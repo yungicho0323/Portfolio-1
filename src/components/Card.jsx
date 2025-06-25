@@ -94,7 +94,7 @@ export function CardComponent() {
         <div className="bottom-section">
           <div className="left-section">
         <CardFooter className="cardFooter-wrapper">
-          <Button className="card-button">Read More</Button>
+          <Link to="/MedSpeak" className="card-button">Read More</Link>
         </CardFooter>
         </div>
 

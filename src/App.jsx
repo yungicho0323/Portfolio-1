@@ -6,6 +6,7 @@ import Work from "./pages/Work";
 import FurryTales from "./pages/FurryTales";
 import Zynergy from "./pages/Zynergy";
 import Babel from "./pages/Babel";
+import MedSpeak from "./pages/MedSpeak";
 import StyleGuide from "./pages/StyleGuide";
 
 import ScrollToTop from "./components/ScrollToTop";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/furrytales" element={<FurryTales />} />
         <Route path="/zynergy" element={<Zynergy />} />
         <Route path="/babel" element={<Babel />} />
+        <Route path="/MedSpeak" element={<MedSpeak />} />
         <Route path="style-guide" element={<StyleGuide />}></Route>
       </Routes>
     </ScrollToTop>

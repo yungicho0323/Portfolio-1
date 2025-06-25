@@ -23,15 +23,16 @@ return (
     {/*Intro Section*/}
     <main div className="Project-detail-container">
     {/*Project-hero*/}
-    <section className="project-hero">
+    <section className="project-hero-updated">
+      <div className="top-layout">
       <div className="project-text">
         <h1>FurryTales Pet</h1>
         <p><strong>
           A Vancouver based small business that specializes in handcrafted dehydrated and
-          freshly baked pet treats for dogs and cats.</strong>
+          freshly baked pet treats for dogs and cats</strong>
         </p>
-        <p>It was UI UX design competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr University.
-            <div className="prototype-button-wrapper">
+        <p>It was UI UX redesign competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr University. </p>
+            <div className="prototype-button-wrapper"> 
         <a
           href="https://www.figma.com/proto/0XZFxXzgway1yDoCsUPLXT/FurryTales-Pet?page-id=0%3A1&node-id=122-2783&viewport=1271%2C244%2C0.15&t=J2Sa25xrUqP9f5vs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=122%3A2783"
           target="_blank"
@@ -41,10 +42,13 @@ return (
          View Prototype
         </a>
       </div>
-        </p>
+      </div>
 
+      <div className="project-image">
+        <img src={heroImage} alt="FurryTales Laptop Preview" />
+      </div>
         
-        <div className="project-meta">
+        <div className="project-meta updated-meta">
           <div>
             <h4>Timeline</h4>
             <p>72 hours February, 2025</p>
@@ -58,13 +62,14 @@ return (
             <p>Website Redesign<br /> UI/UX</p>
           </div>
           <div>
+            <h4>Team</h4>
+            <p>4 Members</p>
+          </div>
+          <div>
             <h4>My Roles/Responsibilities</h4>
             <p>Project Manager</p>
           </div>
         </div>
-      </div>
-      <div className="project-image">
-        <img src={heroImage} alt="FurryTales Laptop Preview" />
       </div>
     </section>
 

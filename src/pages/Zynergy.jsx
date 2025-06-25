@@ -33,13 +33,14 @@ function Zynergy() {
         <Header />
         <main div className="Project-detail-container">
             {/*Project-hero*/}
-            <section className="project-hero">
-              <div className="project-text">
+            <section className="project-hero-updated">
+              <div className="top-layout">
+              <div className="Zynergy-project-text">
                 <h1>Zynergy</h1>
                 <p> <strong>
-                A community-focused fitness and wellness app that encourages motivation and consistency through group challenges, progress tracking, and social connection.</strong> 
+                A community-focused fitness and wellness app that encourages motivation and consistency through group challenges, progress tracking, and social connection</strong> 
                 </p>
-                <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness app into a community-driven experience with group challenges and buddy systems.
+                <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness app into a community-driven experience with group challenges and buddy systems.    </p>
 
           <div className="prototype-button-wrapper">
           <a
@@ -51,8 +52,12 @@ function Zynergy() {
           View Prototype
           </a>
         </div>
-        </p>
-                <div className="project-meta">
+        </div>
+              <div className="Zynergy-project-image">
+                <img src={heroImage} alt="Zynergy Project Preview" />
+              </div>
+
+                <div className="project-meta zynergy-updated-meta">
                   <div>
                     <h4>Timeline</h4>
                     <p>Designed in November, 2024 <br/>
@@ -65,16 +70,17 @@ function Zynergy() {
                   </div>
                   <div>
                     <h4>Project Types</h4>
-                    <p> UI/UX <br/>Visual Design <br/> Mobile App Design </p>
+                    <p>UI/UX <br/>Visual Design <br/> Mobile App Design </p>
+                  </div>
+                  <div>
+                    <h4>Team</h4>
+                    <p>4 Members</p>
                   </div>
                   <div>
                     <h4>My Roles/Responsibilities</h4>
                     <p>Product & Visual Designer <br/> Project Manager</p>
                   </div>
                 </div>
-              </div>
-              <div className="project-image">
-                <img src={heroImage} alt="Zynergy Project Preview" />
               </div>
             </section>
 
@@ -129,7 +135,7 @@ function Zynergy() {
           />
         </div>
 
-        <div className="prototype-button-wrapper">
+        <div className="Zynergy-prototype-button-wrapper">
         <a
           href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/Zynergy-app-redesign?page-id=1%3A3&node-id=233-7154&viewport=558%2C-192%2C0.05&t=sodJLDreuvS5qU8v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=233%3A7154&show-proto-sidebar=1"
           target="_blank"

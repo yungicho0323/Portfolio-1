@@ -27,16 +27,17 @@ function Babel() {
         {/*Intro section*/}
         <main div className="Project-detail-container">
         {/*Project-hero*/}
-        <section className="project-hero">
-            <div className="project-text">
+        <section className="project-hero-updated">
+          <div className="top-layout">
+            <div className="Babel-project-text">
                 <h1>Babel</h1>
 
                 <p> <strong>
-               A location-based safety app designed to enhance safety and community support for minorities living in urban areas.</strong>
+               A location-based safety app designed to enhance safety and community support for minorities living in urban areas</strong>
                <p/> 
-              It is designed to help minorities feel safe at city events, the app lets users share their location with friends and trigger an emergency alarm to alert them in dangerous situations.
+              It is designed to help minorities feel safe at city events, the app lets users share their location with friends and trigger an emergency alarm to alert them in dangerous situations. </p>
 
-                  <div className="prototype-button-wrapper">
+              <div className="prototype-button-wrapper">
               <a
                 href="https://www.figma.com/proto/7zfkCQxKAUP608I5cfSsKj/Babel_Project-4?page-id=1%3A1362&node-id=2121-1840&p=f&viewport=-1878%2C-25%2C0.15&t=8MsVa4LL3PJRKrcL-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2121%3A1840&show-proto-sidebar=1"
                 target="_blank"
@@ -46,32 +47,38 @@ function Babel() {
                View Prototype
               </a>
             </div>
-                </p>
+            </div>
+               
 
-                <div className="project-meta">
-                    <div>
-                    <h4>Timeline</h4>
-                    <p>4 weeks, Designed in 2025 <br/> Redesigned in 2025
-                    </p>
-                    </div>
-                    <div>
-                    <h4>Tools</h4>
-                    <p>Figma, <br /> Photoshop</p>
-                    </div>
-                    <div>
-                    <h4>Project Types</h4>
-                    <p> UI/UX  <br/>
-                    Visual Design <br/> Mobile App Design</p>
-                    </div>
-                    <div>
-                    <h4>My Roles/Responsibilities</h4>
-                    <p>Product & Visual Designer</p>
-                    </div>
+            <div className="project-image">
+            <img src={heroImage} alt="Babel Project Preview" />
+            </div>
+
+            <div className="project-meta Babel-updated-meta">
+                <div>
+                <h4>Timeline</h4>
+                <p>4 weeks, Designed in 2025 <br/> Redesigned in 2025
+                </p>
                 </div>
+                <div>
+                <h4>Tools</h4>
+                <p>Figma, <br /> Photoshop</p>
                 </div>
-                <div className="project-image">
-                <img src={heroImage} alt="Babel Project Preview" />
+                <div>
+                <h4>Project Types</h4>
+                <p> UI/UX  <br/>
+                Visual Design <br/> Mobile App Design</p>
                 </div>
+                <div>
+                  <h4>Team</h4>
+                  <p>2 Members</p>
+                </div>
+                <div>
+                <h4>My Roles/Responsibilities</h4>
+                <p>Product & Visual Designer</p>
+                </div>
+            </div>
+            </div>
         </section>
 
   {/*Babel feature images*/}
@@ -123,7 +130,7 @@ function Babel() {
                 />
               </div>
       
-              <div className="prototype-button-wrapper">
+              <div className="solution-prototype-button-wrapper">
               <a
                 href="https://www.figma.com/proto/7zfkCQxKAUP608I5cfSsKj/Babel_Project-4?page-id=1%3A1362&node-id=2121-1840&p=f&viewport=-1878%2C-25%2C0.15&t=8MsVa4LL3PJRKrcL-9&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2121%3A1840&show-proto-sidebar=1"
                 target="_blank"
