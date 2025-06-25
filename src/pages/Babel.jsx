@@ -145,7 +145,7 @@ function Babel() {
 
 
     {/* Design Process */}
-<section className="process-section">
+{/* <section className="process-section">
   <div className="process-container">
 
     <a href="#research" className="process-step">
@@ -174,7 +174,7 @@ function Babel() {
     </a>
 
   </div>
-</section>
+</section> */}
 
 {/*01 Research*/}
 <section id="research" className="research-section">

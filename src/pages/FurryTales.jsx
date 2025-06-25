@@ -186,7 +186,7 @@ return (
     </section>
 
 {/* Design Process */}
-<section className="process-section">
+{/* <section className="process-section">
   <div className="process-container">
 
     <a href="#research" className="process-step">
@@ -215,7 +215,7 @@ return (
     </a>
 
   </div>
-</section>
+</section> */}
 
 {/*01 Research */}
 <section id="research" className="research-section">

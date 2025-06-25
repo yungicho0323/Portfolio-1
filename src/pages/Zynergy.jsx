@@ -150,7 +150,7 @@ function Zynergy() {
     
 
 {/* Design Process */}
-<section className="process-section">
+{/* <section className="process-section">
   <div className="process-container">
 
     <a href="#research" className="process-step">
@@ -179,7 +179,7 @@ function Zynergy() {
     </a>
 
   </div>
-</section>
+</section> */}
 
 {/*Research*/}
   <section id="research" className="research-section">
