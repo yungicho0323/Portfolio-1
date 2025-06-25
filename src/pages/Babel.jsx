@@ -75,7 +75,7 @@ function Babel() {
                 </div>
                 <div>
                 <h4>My Roles/Responsibilities</h4>
-                <p>Product & Visual Designer</p>
+                <p>UI UX Designer</p>
                 </div>
             </div>
             </div>

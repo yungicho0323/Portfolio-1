@@ -78,7 +78,7 @@ function Zynergy() {
                   </div>
                   <div>
                     <h4>My Roles/Responsibilities</h4>
-                    <p>Product & Visual Designer <br/> Project Manager</p>
+                    <p>UI UX Designer <br/> Project Manager</p>
                   </div>
                 </div>
               </div>
