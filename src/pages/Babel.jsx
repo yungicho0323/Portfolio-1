@@ -53,11 +53,11 @@ function Babel() {
             <div className="project-image">
             <img src={heroImage} alt="Babel Project Preview" />
             </div>
-
+            
             <div className="project-meta Babel-updated-meta">
                 <div>
                 <h4>Timeline</h4>
-                <p>4 weeks <br/> Designed in March, 2025 <br/> Redesigned in 2025
+                <p>6 weeks <br/> Designed in March, 2025 <br/> Redesigned in 2025
                 </p>
                 </div>
                 <div>

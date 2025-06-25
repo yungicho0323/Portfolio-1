@@ -60,8 +60,9 @@ function Zynergy() {
                 <div className="project-meta zynergy-updated-meta">
                   <div>
                     <h4>Timeline</h4>
-                    <p>4 weeks <br/>Designed in November, 2024 <br/>
-                        Redesigned in 2025
+                    <p>6 weeks <br/>Designed in November, 2024
+                     <br/>
+                      Redesigned in 2025
                     </p>
                   </div>
                   <div>

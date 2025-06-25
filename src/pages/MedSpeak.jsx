@@ -57,10 +57,10 @@ function MedSpeak() {
             </div>
             <div>
             <h4>Team</h4>
-            <p>Individual Project</p>
+            <p>Solo Project</p>
             </div>
             <div>
-            <h4>Roles/Responsibilities</h4>
+            <h4>Role</h4>
             <p>UI UX Designer</p>
             </div>
         </div>
