@@ -342,7 +342,7 @@ function Babel() {
     </p>
 
     <p className>
-           I designed the information architecture for key product features:
+           <strong>I designed the information architecture for key product features:</strong>
              <ul className="problem-list">
               <li>Location sharing map with contacts</li>
               <li>Quick call and messaging with contacts</li>
@@ -380,8 +380,8 @@ function Babel() {
         <p className="scenario-description">
           After revising information architecture, I developed user flow based on two scenarios:
           <ul className="problem-list">
-            <strong><li><span className="highlight-keyword">Scenario 1:</span> Maya gets in danger on the way home after the event.</li>
-            <li><span className="highlight-keyword">Scenario 2:</span> Maya gets home safe after the event.</li></strong>
+           <li><span className="highlight-keyword">Scenario 1:</span> Maya gets in danger on the way home after the event.</li>
+            <li><span className="highlight-keyword">Scenario 2:</span> Maya gets home safe after the event.</li>
           </ul>
         </p>
          <div className="Userflow-image">
