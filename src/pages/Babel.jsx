@@ -89,7 +89,7 @@ function Babel() {
                 <p>2 Members</p>
               </div>
               <div>
-                <h4>My Roles/Responsibilities</h4>
+                <h4>Role</h4>
                 <p>UI UX Designer</p>
               </div>
             </div>
