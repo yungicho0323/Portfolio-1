@@ -86,11 +86,11 @@ function Zynergy() {
             </section>
 
   {/*Zynergy feature images*/}
- <section className="zynergy-section">
+ {/* <section className="zynergy-section">
       <div className="zynergy-container">
         <img src={features} alt="Zynergy App Features" className="zynergy-image" />
       </div>
-    </section>
+    </section> */}
 
 
 

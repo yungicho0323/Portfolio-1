@@ -82,11 +82,11 @@ function Babel() {
         </section>
 
   {/*Babel feature images*/}
-   <section className="babel-section">
+   {/* <section className="babel-section">
         <div className="babel-container">
           <img src={babelfeatures} alt="Babel App Features" className="babel-image" />
         </div>
-      </section>
+      </section> */}
 
   {/*Overview*/}
     <section className="babel-overview-section">
