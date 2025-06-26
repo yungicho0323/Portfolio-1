@@ -37,10 +37,13 @@ function Zynergy() {
               <div className="top-layout">
               <div className="Zynergy-project-text">
                 <h1>Zynergy</h1>
-                <p> <strong>
+
+                <p> 
+                  <strong>
                 A community-focused fitness and wellness app that encourages motivation and consistency through group challenges, progress tracking, and social connection</strong> 
                 </p>
-                <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness app into a community-driven experience with group challenges and buddy systems.    </p>
+                <p>It is designed to foster social connection and long-term motivation by transforming traditional fitness app into a community-driven experience with group challenges and buddy systems. 
+                 </p>
 
           <div className="prototype-button-wrapper">
           <a
@@ -53,9 +56,12 @@ function Zynergy() {
           </a>
         </div>
         </div>
+
               <div className="Zynergy-project-image">
                 <img src={heroImage} alt="Zynergy Project Preview" />
               </div>
+              </div>
+          
 
                 <div className="project-meta zynergy-updated-meta">
                   <div>
@@ -82,7 +88,6 @@ function Zynergy() {
                     <p>UI UX Designer <br/> Project Manager</p>
                   </div>
                 </div>
-              </div>
             </section>
 
   {/*Zynergy feature images*/}

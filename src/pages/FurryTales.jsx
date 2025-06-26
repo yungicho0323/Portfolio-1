@@ -47,6 +47,7 @@ return (
       <div className="project-image">
         <img src={heroImage} alt="FurryTales Laptop Preview" />
       </div>
+       </div>
         
         <div className="project-meta updated-meta">
           <div>
@@ -70,7 +71,6 @@ return (
             <p>Project Manager</p>
           </div>
         </div>
-      </div>
     </section>
 
     <section className="project-video-container">
