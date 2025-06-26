@@ -179,6 +179,10 @@ margin-bottom: 40px;
   line-height: 1.6;
 } 
 
+.problem-question-box p strong {
+    font-weight: 600;
+}
+
 .solution-section {
   background-color: #fefdef;
   padding: 4rem 2rem;
@@ -243,7 +247,8 @@ margin-bottom: 40px;
 }
 
 .prototype-button:hover {
-  color: #fefdef;
+  color: #222;
+   background-color:#e9d4ff;
 }
 
 

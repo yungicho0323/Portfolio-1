@@ -171,6 +171,10 @@ margin-bottom: 40px;
   color: #333;
 }
 
+.problem-question-box p strong {
+    font-weight: 600;
+}
+
 
 .problem-question-box {
   background-color: #f0ebe5;
@@ -233,8 +237,8 @@ margin-bottom: 40px;
 }
 
 .prototype-button {
-  background-color: #e9d4ff ;
-  color: #111;
+  background-color: #111 ;
+  color: #fff;
   padding: 0.5rem 1.5rem;
   font-size: 1.1rem;
   border: none;
@@ -246,35 +250,8 @@ margin-bottom: 40px;
 }
 
 .prototype-button:hover {
-   color: #fefdef;
-}
-
-
-
-  /* Problem Statement Block */
-.problem-statement-block {
-  background-color: #F7A881;
-  padding: 40px 100px;
-  border-radius: 8px;
-  margin: 0 auto;
-  text-align: center;
-  color: #F9F6ED;
-}
-
-.problem-heading {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.problem-question p {
-  font-size: 1.5rem;
-  line-height: 1.6;
-}
-
-.highlight-question {
-  font-weight: 600;
-  text-decoration: underline;
+   color: #222;
+   background-color:#e9d4ff;
 }
 
 
