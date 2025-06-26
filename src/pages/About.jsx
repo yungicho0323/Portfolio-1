@@ -30,7 +30,7 @@ function About() {
         <div className="about-text">
           <p>
           Hi there! I’m an aspiring UI/UX designer based in Vancouver, BC, with a strong drive to learn, grow, and design with purpose. With a background in business, I bring a strategic mindset to design considering both user needs and business goals to create solutions.
-          <br/> I believe meaningful design begins with understanding, grounded in product and user research to uncover real needs and opportunities. My process values thoughtful exploration, open collaboration, and continuous feedback as essential to designing with empathy, clarity, and intention.
+          <br/> I believe meaningful design starts with understanding—grounded in product and user research to uncover real needs and opportunities. Also, I value curiosity, open collaboration, and honest feedback throughout the design process.
           </p>
 
             <p>
