@@ -29,13 +29,14 @@ function About() {
         </div>
         <div className="about-text">
           <p>
-          Hi there! I’m a UI/UX designer based in Vancouver, BC, with a background in business and a passion for thoughtful, human-centered design. I believe that great design sits at the intersection of user needs and ethical business goals—where empathy meets strategy. My approach is grounded in research, intentional thinking, and a desire to create digital experiences that are both intuitive and impactful.
+          Hi there! I’m an aspiring UI/UX designer based in Vancouver, BC, with a strong drive to learn, grow, and design with purpose. With a background in business, I bring a strategic mindset to design considering both user needs and business goals to create solutions.
+          <br/> I believe meaningful design begins with understanding, grounded in product and user research to uncover real needs and opportunities. My process values thoughtful exploration, open collaboration, and continuous feedback as essential to designing with empathy, clarity, and intention.
           </p>
 
             <p>
-              Connect with me to gain insights into my design process and to see how I can help bring your ideas to life.
+              Let’s connect and explore how my design thinking and creative process can help turn your ideas into impactful user experiences.
               <br/>
-              Check out my work and shoot me an email at <strong>yungicho8@gmail.com.</strong>
+             Check out my work and reach out at <strong>yungicho8@gmail.com</strong>.
           </p>
 
         
@@ -63,11 +64,11 @@ function About() {
       <h1 className="title">Expertise</h1>
       <ul className="expertise-list">
         <li>Mobile App UI Design</li>
-        <li>Website UI Design</li>
+        <li>Product Design</li>
         <li>Wireframes / Prototyping</li>
         <li>Figma</li>
         <li>Branding</li>
-        <li>UX Research</li>
+        <li>User & Product Research</li>
         <li>Project Management</li>
         <li>Adobe Photoshop / Adobe Illustrator</li>
         <li>Graphic Design</li>
