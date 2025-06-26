@@ -34,7 +34,7 @@ function Babel() {
               <p>
                 {" "}
                 <strong>
-                  p A location-based safety app designed to enhance safety and
+                  A location-based safety app designed to enhance safety and
                   community support for minorities living in urban areas
                 </strong>
                 <p />
