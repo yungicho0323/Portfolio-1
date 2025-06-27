@@ -74,6 +74,71 @@ body {
     transform: scale(1.1);
 }
 
+/* Design Process/ tools */
+.Design-process {
+  background-color: #FFFEEF;
+  padding: 4rem 0;
+}
+
+.Design-process strong{
+    font-weight: 600;
+}
+
+.design-process-context {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Shared block for each section */
+.design-process-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 25rem;
+  flex-wrap: wrap;
+}
+
+/* Left-aligned heading */
+.design-process-block h4 {
+  flex: 1;
+  min-width: 150px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  margin-top: 0.4rem;
+  text-align: left;
+}
+
+/* Right-aligned paragraph */
+.design-process-block p {
+  flex: 3;
+  min-width: 250px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-family: 'Manrope', sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+/* Responsive stacking on small screens */
+@media screen and (max-width: 768px) {
+  .design-process-block {
+    flex-direction: column;
+  }
+
+  .design-process-block h4,
+  .design-process-block p {
+    flex: unset;
+    min-width: 100%;
+    text-align: left;
+  }
+}
+
+
 /* =========================
    EXPERTISE SECTION
    ========================= */
@@ -85,26 +150,26 @@ body {
 
 .expertise {
     text-align: center;
-    padding: 1.5rem 2rem;
-    max-width: 1200px;
+    padding: 0 4rem;
+    max-width: 1000px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
 }
 
 .title {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
 }
 
 .expertise-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem 2rem;
+    gap: 2rem 2rem;
     list-style: none;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .expertise-list li {

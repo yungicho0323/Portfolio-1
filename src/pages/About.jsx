@@ -28,17 +28,14 @@ function About() {
           <img src={profileImage} alt="Profile" className="profile-image" />
         </div>
         <div className="about-text">
-          <p>
-          Hi there! I’m an aspiring UI/UX designer based in Vancouver, BC, with a strong drive to learn, grow, and design with purpose. With a background in business, I bring a strategic mindset to design considering both user needs and business goals to create solutions.
-          <br/> I believe meaningful design begins with a deep understanding of the product and the people who use it, grounded in research to uncover real needs and opportunities. Also, I value curiosity, open collaboration, and honest feedback as essential parts of the design process.
+        <p>
+         Hi there! I’m an aspiring UI/UX designer based in Vancouver, BC, with a strong drive to learn, grow, and design with purpose. With a background in business, I bring a strategic mindset to design by considering both user needs and business goals to create thoughtful and effective solutions.
+          <br/>I believe meaningful design starts with a deep understanding of the product and the people who use it. My process is grounded in research to uncover real needs and opportunities. 
+          <br/>Also, I value curiosity, open collaboration, and honest feedback as essential parts of the design journey.
           </p>
-
-            <p>
-              Let’s connect and explore how my design thinking and creative process can help turn your ideas into impactful user experiences.
-              <br/>
-             Check out my work and reach out at <strong>yungicho8@gmail.com</strong>.
+           <p>Let’s connect and explore how my design thinking and creative process can help turn your ideas into impactful user experiences.
+          Check out my work and feel free to reach out at <strong>yungicho8@gmail.com.</strong>
           </p>
-
         
          {/* Social Media Icons Section */}
          <div className="social-icons">
@@ -54,10 +51,35 @@ function About() {
             <img src={linkedinIcon} alt="LinkedIn" className="social-icon" />
           </a>
         </div>
-        
+
         </div>
         </div>
     </section>
+
+
+  <section className="Design-process">
+  <div className="design-process-context">
+
+    <div className="design-process-block">
+      <h4>Design Process</h4>
+      <p>
+        I follow an <strong>agile and iterative design approach</strong>. After gathering feedback or conducting usability testing, I revisit and refine my designs to make sure they truly meet user expectations and align with the original purpose. I believe design is never really finished until cycles of testing, feedback, and improvement.
+        <br/><br/>
+        When it comes to research, <strong>I always take the time to validate whether the problem I am solving is real.</strong> I gather insights through user interviews and surveys, then analyze competitors to recognize gaps and opportunities. This helps me define the problem more clearly and design solutions that are actually meaningful to users.
+      </p>
+    </div>
+
+    <div className="design-process-block">
+      <h4>Tools</h4>
+      <p>
+        I mainly work with tools like <strong>Figma, FigJam, and project management tools</strong> to ideate, collaborate, and manage projects from start to finish.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
 
     <section className="expertise-container">
     <div className="expertise">
