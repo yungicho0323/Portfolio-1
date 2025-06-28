@@ -72,7 +72,7 @@ function About() {
     <div className="design-process-block">
       <h4>Tools</h4>
       <p>
-        I mainly work with tools like <strong>Figma, FigJam, and project management tools</strong> to ideate, collaborate, and manage projects from start to finish.
+        I mainly work with tools like <strong>Figma, FigJam, Adobe Creative Suite, and project management tools</strong> to ideate, collaborate, and manage projects from start to finish.
       </p>
     </div>
 
