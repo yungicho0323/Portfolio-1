@@ -334,7 +334,7 @@ function Babel() {
                   </span>
                 </p>
 
-                <div className="diagram-placeholder">
+                <div className="babel-diagram-placeholder">
                   <img
                     src={analysis}
                     alt="Babel Competitive Analysis"

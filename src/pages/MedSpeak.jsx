@@ -31,7 +31,7 @@ function MedSpeak() {
               </p>
               <div className="prototype-button-wrapper">
                 <a
-                  href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App_Design?page-id=1%3A4&node-id=187-1628&p=f&viewport=426%2C276%2C0.09&t=sXVJV9Fqg5CnBc6x-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=187%3A1628"
+                  href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App_Design?page-id=1%3A4&node-id=328-2111&viewport=-264%2C215%2C0.08&t=BOIegCgJnDismKml-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=328%3A2111&show-proto-sidebar=1"
                   rel="noopener noreferrer"
                   className="prototype-button"
                 >
@@ -137,7 +137,7 @@ function MedSpeak() {
 
             <div className="MedSpeak-prototype-button-wrapper">
               <a
-                href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App_Design?page-id=1%3A4&node-id=187-1628&p=f&viewport=426%2C276%2C0.09&t=sXVJV9Fqg5CnBc6x-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=187%3A1628"
+                href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App_Design?page-id=1%3A4&node-id=328-2111&viewport=-264%2C215%2C0.08&t=BOIegCgJnDismKml-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=328%3A2111&show-proto-sidebar=1"
                 target="_blank"
                 rel="MedSpeak App prototyping"
                 className="prototype-button"

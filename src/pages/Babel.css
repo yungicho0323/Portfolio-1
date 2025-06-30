@@ -493,7 +493,7 @@ margin-bottom: 40px;
 }
 
 
-.diagram-placeholder .babel-Competitve-Analysis {
+.babel-Competitve-Analysis {
   max-width: 900px;
   margin: 0 auto;
   width: 100%;
@@ -552,6 +552,10 @@ margin-bottom: 40px;
   color: #111;
 }
 
+.user-journey h4 {
+  font-size: 1.3rem;
+}
+
 .analysis-image  {
     margin-top: 2rem;
     width: 100%;
@@ -560,9 +564,6 @@ margin-bottom: 40px;
     padding-top: 1rem;
 }
 
-.user-journey h4 {
-  font-size: 1.3rem;
-}
 
 .user-journey .analysis-image {
    margin-top: 2rem;
@@ -571,6 +572,7 @@ margin-bottom: 40px;
     margin: 0 auto;
     padding-top: 1rem;
 }
+
 
 /*Ideation*/
 .ideation-section {
