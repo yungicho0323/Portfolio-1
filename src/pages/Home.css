@@ -53,7 +53,7 @@ body {
 .col .blur-2:before {
   content: "";
   display: block;
-  width: 600px;
+  width: 500px;
   height: 700px;
   background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
   position: absolute;
@@ -94,6 +94,7 @@ body {
   position: relative;
   z-index: 1;
   margin-left: 2.5rem;
+  margin-top: -5rem;
 }
 
 
@@ -126,15 +127,15 @@ body {
 .col-text-right .blur-2:before {
   content: "";
   display: block;
-  width: 550px;
-  height: 600px;
+  width: 420px;
+  height: 500px;
   background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
   position: absolute;
   opacity: 0.75;
   border-radius: 70%;
   filter: blur(45px);
   top: -250px;
-  left: 60px;
+  left: 30px;
   transform: rotate(-20deg);
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
   
@@ -274,3 +275,4 @@ body {
     transform: rotate(-10deg);
   }
 }
+
