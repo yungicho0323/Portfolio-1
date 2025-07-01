@@ -54,7 +54,7 @@ body {
   content: "";
   display: block;
   width: 500px;
-  height: 700px;
+  height: 600px;
   background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
   position: absolute;
   opacity: 0.75;
@@ -94,7 +94,7 @@ body {
   position: relative;
   z-index: 1;
   margin-left: 2.5rem;
-  margin-top: -5rem;
+  margin-top: -4rem;
 }
 
 
