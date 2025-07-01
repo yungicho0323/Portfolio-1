@@ -323,6 +323,22 @@ body {
     .about-text p {
         font-size: 1.1rem;
     }
+      .Design-process {
+    padding: 3rem 4rem;
+  }
+
+  .design-process-context {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .design-process-block h4 {
+    font-size: 1.6rem;
+  }
+
+  .design-process-block p {
+    font-size: 1rem;
+  }
     
     .expertise {
         padding: 1.5rem 1rem;
@@ -425,6 +441,18 @@ body {
         width: 45px;
         height: 45px;
     }
+
+    .Design-process {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .design-process-block h4 {
+    font-size: 1.4rem;
+  }
+
+  .design-process-block p {
+    font-size: 0.95rem;
+  }
     
     .expertise {
         padding: 1rem;
