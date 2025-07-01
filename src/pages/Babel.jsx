@@ -211,10 +211,9 @@ function Babel() {
                   anti-immigrant sentiment.
                 </span>{" "}
                 In particular,{" "}
-                <span className="highlight-keyword">visible minorities</span>
-                —especially South Asians, Arabs, and Jews—are being
+                <span className="highlight-keyword">visible minorities</span> (especially South Asians, Arabs, and Jews) are being
                 disproportionately targeted. One report notes that hate crimes
-                against South Asians rose 143% between 2019–2022, with many
+                against South Asians rose 143% between 2019-2022, with many
                 instances tied to growing international student communities.
                 (source: Wikipedia)
               </p>
@@ -322,8 +321,8 @@ function Babel() {
                   Safety Apps
                 </h2>
                 <p className="babel-body">
-                  Before designing Babel, I analyzed existing safety apps—Green
-                  Book Global, Citizen, and Safetipin—to understand how they
+                  Before designing Babel, I analyzed existing safety apps such as Green
+                  Book Global, Citizen, and Safetipin to understand how they
                   support marginalized users. While each offers valuable
                   features like travel reviews, public alerts, and environmental
                   safety scores, they{" "}
