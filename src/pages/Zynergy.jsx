@@ -501,11 +501,6 @@ function Zynergy() {
   </div>
 </section>
 
-
-
-
-
-
         </main>
 
         <Footer />

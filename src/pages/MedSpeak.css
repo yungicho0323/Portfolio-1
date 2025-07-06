@@ -69,13 +69,31 @@ margin-bottom: 40px;
   align-items: left;
 }
 
+.figjam-button-wrapper {
+  margin-left: 1rem;
+}
+
+.figjam-button {
+  padding: 0.5rem 1.2rem;
+  background-color: #111;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+.figjam-button:hover {
+   color: #222;
+   background-color:#e9d4ff;
+}
+
 .prototype-button {
   padding: 0.5rem 1.2rem;
   background-color: #111;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   display: inline-block;
 }
 
@@ -235,3 +253,599 @@ margin-bottom: 40px;
    background-color:#e9d4ff;
 }
 
+/*Research*/
+.research-section {
+  background-color:#FFFEEE;
+  padding: 4rem 2rem;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+  display: flex;
+  justify-content: center;
+}
+
+.medspeak-research-placeholder {
+  margin-top: 2rem;
+}
+.medspeak-research-placeholder img {
+  max-width: 100%;
+  margin-bottom: 1.2rem;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.medspeak-highlight-keyword {
+  color:#6F9AA9;
+}
+
+/*key challenges*/
+.medspeak-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.medspeak-card {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex: 1;
+  min-width: 300px;
+}
+
+.medspeak-circle {
+  border: 1px solid #7ca3af;
+  color: #1c3c4e;
+  font-weight: 600;
+  font-size: 1.3rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.medspeak-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.medspeak-content ul {
+  font-size: 1rem;
+  list-style-type: disc;
+  color: #333;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  margin-left: 1rem;
+}
+
+.medspeak-content li {
+  margin-bottom: column;
+}
+
+@media (max-width: 1024px) {
+  .medspeak-wrapper {
+    flex-direction: column;
+  }
+}
+
+/*user interview*/
+.medspeak-context-section {
+  margin-top: 4rem;
+}
+
+.medspeak-context-section p {
+  font-size: 1.1rem;
+}
+.medspeak-validation {
+ background-color:#FFFEEE;
+  font-family: 'Manrope', sans-serif;
+  margin-top: 8rem;
+  color: #111;
+  justify-content: center;
+}
+
+.medspeak-section-title {
+  color: #6F9AA9;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.medspeak-validation .medspeak-highlight {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+/*interview summary*/
+.interview-summary {
+  padding: 2rem 0rem;
+  font-family: 'Manrope', sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+th {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #111;
+  padding-bottom: 1rem;
+}
+
+td {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 1rem;
+}
+
+thead tr {
+  border-bottom: 1px solid #000;
+}
+
+@media (max-width: 900px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  th {
+    padding-top: 1rem;
+  }
+
+  td {
+    padding-bottom: 1rem;
+  }
+
+  thead tr {
+    border-bottom: none;
+  }
+}
+
+/*key insights under user interview*/
+.miscommunication-text ul {
+  font-size: 1rem;
+  list-style-type: disc;
+  color: #333;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  margin-left: 1rem;
+}
+
+.miscommunication-text li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.miscommunication-text h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.quote-box {
+  background-color:#e3f0f8;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  color: #111;
+}
+
+.quote-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.quote-box ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.quote-box li {
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+  color: #111;
+}
+
+/* Left-side opening quote */
+.quote-box li::before {
+  content: "❝";
+  position: absolute;
+  left: 0;
+  color: #444;
+  font-size: 1.25rem;
+  top: 0;
+  line-height: 1;
+}
+
+/* Right-side closing quote */
+.quote-box li::after {
+  content: "❞";
+  right: 0;
+  color: #444;
+  font-size: 1.25rem;
+  top: 0;
+  line-height: 1;
+}
+
+.MedSpeak-prototype-button-wrapper {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Design*/
+.design-section {
+ background-color: #FFFEEE;
+  /* padding: 4rem 2rem; */
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+}
+
+
+.design-description {
+  font-size: 1.1rem;
+}
+
+/*features*/
+.medspeak-section {
+  padding: 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+}
+
+.medspeak-section h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Key Solution Elements Grid */
+.solution-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.solution-card {
+  background-color: #e7f1f2;
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: transform 0.2s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-2px);
+}
+
+.solution-card img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+/*features*/
+/* Exact layout wrapper */
+.feature-cards-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Full card layout */
+.feature-card-exact {
+  background-color: #e9f1f0;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  width: 420px;
+  min-height: 180px;
+}
+
+/* Left side: icon + title */
+.feature-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+}
+
+.feature-left img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background:#e9f1f0;
+}
+
+.feature-left p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Divider */
+.feature-divider {
+  width: 1px;
+  background-color: #ccc;
+  margin: 0 1rem;
+}
+
+/* Right side: features list */
+.feature-right {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.feature-right ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 0.85rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.feature-right li {
+  margin-bottom: 0.3rem;
+}
+
+/*Sitemap*/
+.information-architecture {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  color: #111;
+}
+
+.information-architecture h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.information-architecture p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 1200px;
+}
+
+.information-architecture img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  background-color: #f9f6ed;
+}
+
+.MedSpeak-prototype-button-wrapper {
+  margin-top: 1rem;
+}
+
+/*wireframes & high-fidelity*/
+.design-showcase-section {
+  /* padding: 4rem 2rem; */
+  font-family: 'Manrope', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #111;
+  margin-top:6rem;
+}
+
+
+.wireframe-block h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.wireframe-block img {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: -2rem;
+}
+
+.UIdesign-section {
+  font-family: 'Manrope', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #111;
+  margin-top: 8rem;
+}
+
+.design-block {
+  margin-bottom: 3rem;
+}
+
+.design-block h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.design-block p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  /* margin-bottom: 1.25rem; */
+  max-width: 1200px;
+}
+
+.design-block p strong {
+  font-weight: 600;
+}
+
+.design-block img {
+  width: 110%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin-left: -3rem;
+}
+
+.profile-block h4 {
+    font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.profile-block img {
+  width: 20%;
+  
+}
+
+.profile-block p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin-bottom: 2rem;
+}
+
+
+/*Develop*/
+.design-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.design-intro strong {
+  font-weight: 600;
+}
+
+.design-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 0.5rem;
+  padding-bottom: 10px;
+}
+
+.iteration-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+
+.iteration-image-set {
+  flex: 1;
+  min-width: 500px;
+  max-width: 500px;
+  margin-top: -2rem;
+  margin-left: -2rem;
+}
+
+.iteration-image-set img {
+  width: 100%;
+}
+
+.iteration-text {
+  flex: 1;
+  min-width: 280px;
+  margin-top: 50px;
+}
+
+.iteration-text p strong {
+  font-weight: 600;
+}
+
+.iteration-text h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.iteration-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0.6rem;
+}
+
+/*Final product*/
+.solution-container .final-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    color: #1c1c1c;
+}
+.section-description {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 700px;
+  margin-bottom: 2rem;
+}
+
+.figma-embed-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/*Reflection*/
+.medspeak-takeaway-heading {
+  color:#6F9AA9;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.takeaway-list li strong {
+  font-weight: 600;
+}
