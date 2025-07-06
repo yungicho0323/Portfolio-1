@@ -324,7 +324,7 @@ function MedSpeak() {
       <div className="design-container">
       <h2>02 Design</h2>
         <h3 className="section-title">Brainstorming</h3>
-        <p className="design-description">After reviewing and gaining insights from our research and analysis, I moved onto iterating over the features in our application. This would range from deciding the intended user-flow, addressing key pain points from our insights, and finally a system map to base the flow on.</p>
+        <p className="design-description">After reviewing insights from research and analysis, I began refining the app by brainstorming and prioritizing features into Must Have, Nice to Have, and Extras. I revisited key pain points and opportunities from user interviews and journey mapping. In the end, I was able to define key solution elements and features that directly addressed user needs.</p>
       </div>
     
         {/*key solution elements from user needs*/}
@@ -429,7 +429,8 @@ function MedSpeak() {
     {/*wireframes & high-fidelity*/}
      <section className="design-showcase-section">
       <div className="wireframe-block">
-        <h4>Wireframes</h4>
+        <h3>Wireframes</h3>
+        <p>Based on the information architecture, I sketched low-fidelity designs as considering user flows. Then, I created wireframes to visualize how each screen would present essential information and support the user flow. </p>
         <img src={wireframes} alt="Wireframes" />
       </div>
 

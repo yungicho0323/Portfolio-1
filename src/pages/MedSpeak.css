@@ -684,12 +684,19 @@ thead tr {
 }
 
 
-.wireframe-block h4 {
+.wireframe-block h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 4rem;
+   margin-bottom: 1.5rem;
 }
 
+.wireframe-block p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 1200px;
+}
 .wireframe-block img {
   width: 90%;
   max-width: 1200px;
