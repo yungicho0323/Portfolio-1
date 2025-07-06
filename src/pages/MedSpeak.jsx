@@ -34,9 +34,7 @@ function MedSpeak() {
               <h1>MedSpeak</h1>
               <p>
                 <strong>
-                  An AI-powered health app that translates everyday symptom
-                  descriptions into medical terms, helping patients talk clearly
-                  with doctors and keep track of their health
+                 An AI-powered health app that helps people describe their symptoms in clear medical terms and translates them into different languages, making it easier to talk with doctors and keep track of their health
                 </strong>
               </p>
               <p>
