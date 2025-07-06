@@ -15,6 +15,27 @@ export function CardComponent() {
     <Card className="card-container">
 
       <div class="image-wrapper animate__animated animate__slideInUp">
+        <img src={MedSpeakImage} alt="Project-3" className="project-image3" />
+      {/*MedSpeak Title*/}
+          <Typography variant="h5" color="blue-gray" className="MedSpeak"> 
+          MedSpeak: AI-powered Medical Translation App
+          </Typography>
+
+      {/*Card Bottom Section */}
+        <div className="bottom-section">
+          <div className="left-section">
+        <CardFooter className="cardFooter-wrapper">
+          <Link to="/MedSpeak" className="card-button">Read More</Link>
+        </CardFooter>
+        </div>
+
+        <div className="project-type-badge">
+        <button className="project-type-button">UI/ UX</button>
+        </div> 
+        </div>
+      </div>
+
+      <div class="image-wrapper animate__animated animate__slideInUp">
         <img src={babelImage} alt="Project-4" className="project-image4" />
       {/*2 Seconds Title*/}
           <Typography variant="h5" color="blue-gray" className="babel"> 
@@ -34,29 +55,6 @@ export function CardComponent() {
         </div> 
         </div>
       </div>
-
-
-    <div class="image-wrapper animate__animated animate__slideInUp">
-        <img src={ZynergyImage} alt="Project-1" className="project-image1" />
-        {/*Znergy Title*/}
-          <Typography variant="h5" color="blue-gray" className="zynergy">
-            Zynergy: Group Workout Challenge Fitness App
-          </Typography>
-        {/*Card Bottom Section*/}
-        <div className="bottom-section">
-          <div className="left-section">
-        <CardFooter className="cardFooter-wrapper">
-          <Link to="/zynergy" className="card-button">Read More</Link>
-        </CardFooter>
-        </div>
-        
-        <div className="project-type-badge">
-        <button className="project-type-button">UI / UX</button>
-        </div>
-        </div>
-    </div>
-
-    
 
     <div class="image-wrapper animate__animated animate__slideInUp">
         <img src={FurryTaleImage} alt="Project-2" className="project-image2" />
@@ -82,28 +80,27 @@ export function CardComponent() {
         </div>
       </div>
 
-
     <div class="image-wrapper animate__animated animate__slideInUp">
-        <img src={MedSpeakImage} alt="Project-3" className="project-image3" />
-      {/*2 Seconds Title*/}
-          <Typography variant="h5" color="blue-gray" className="MedSpeak"> 
-          MedSpeak: AI-powered Medical Translation App (COMING SOON)
+        <img src={ZynergyImage} alt="Project-1" className="project-image1" />
+        {/*Znergy Title*/}
+          <Typography variant="h5" color="blue-gray" className="zynergy">
+            Zynergy: Group Workout Challenge Fitness App
           </Typography>
-
-      {/*Card Bottom Section */}
+        {/*Card Bottom Section*/}
         <div className="bottom-section">
           <div className="left-section">
         <CardFooter className="cardFooter-wrapper">
-          <Link to="/MedSpeak" className="card-button">Read More</Link>
+          <Link to="/zynergy" className="card-button">Read More</Link>
         </CardFooter>
         </div>
-
+        
         <div className="project-type-badge">
-        <button className="project-type-button">UI/ UX</button>
-        </div> 
+        <button className="project-type-button">UI / UX</button>
         </div>
-      </div>
-      
+        </div>
+    </div>
+
+    
 
 
 
