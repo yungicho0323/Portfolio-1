@@ -574,7 +574,7 @@ function MedSpeak() {
             In future iterations, I want to explore how users feel about trusting AI with their medical information especially when it comes to translation. Since this involves sensitive health data, understanding user concerns around privacy and confidentiality will be really important.</li>
         <li><strong>Feature Expansion Idea:</strong>
         <br/>
-            A potential feature I'd like to explore is doctor appointment booking within the app, allowing patients to manage their healthcare journey from pre-visit to post-visit in one place.</li>
+            A potential feature I'd like to explore is appointment booking with available doctors within the app, allowing patients to manage their healthcare journey from pre-visit to post-visit in one place.</li>
       </ul>
     </div>
   </section>
