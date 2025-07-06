@@ -463,7 +463,7 @@ function MedSpeak() {
 
       <div className="profile-block">
         <h4>Profile</h4>
-        <p>In case of an emergency, the patient’s profile can be quickly shared with a doctor. It includes important details like language preferences, medical history, and the doctor’s contact information ensuring fast and accurate support when it’s needed most.</p>
+        <p>In case of an emergency, the patient’s profile can be quickly shared with a doctor. It includes important details such as <span className="medspeak-highlight-keyword"> language preferences, medical information, and the doctor’s contact information</span> ensuring fast and accurate support when it’s needed most.</p>
         <img src={profile} alt="Profile screen" />
       </div>
     </section>
@@ -474,10 +474,10 @@ function MedSpeak() {
     {/*section divider*/}
     <div className="section-divider"></div>
 
-    {/*Develop*/}
+    {/*Improvement*/}
     <section id="design" className="design-section">
       <div className="design-container">
-        <h2>03 Develop</h2>
+        <h2>03 Improvement</h2>
         <h3 className="section-title">
           Usability Testing
         </h3>
