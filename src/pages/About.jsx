@@ -29,7 +29,7 @@ function About() {
         </div>
         <div className="about-text">
         <p>
-         Hi there! I’m an aspiring UI/UX designer based in Vancouver, BC, with a strong drive to learn, grow, and design with purpose. With a background in business, I bring a strategic mindset to design by considering both user needs and business goals to create thoughtful and effective solutions.
+         Hi there! I’m an aspiring UX/UI designer based in Vancouver, BC, with a strong drive to learn, grow, and design with purpose. With a background in business, I bring a strategic mindset to design by considering both user needs and business goals to create thoughtful and effective solutions.
           <br/>I believe meaningful design starts with a deep understanding of the product and the people who use it. My process is grounded in research to uncover real needs and opportunities. 
           <br/>Also, I value curiosity, open collaboration, and honest feedback as essential parts of the design journey.
           </p>

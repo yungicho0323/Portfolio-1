@@ -24,92 +24,12 @@ body {
   cursor: none;
 }
 
-.hero-section {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    padding: 0 4rem;
-    background-color:#FFFEEE;
-}
-
-.animate__fadeInUp {
-  animation-name: fadeInUp;
-}
-
-.col .blur-2 {
-  position: relative;
-  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
-  will-change: transform;
-  transform-style: preserve-3d;
-}
-
-
-.col .blur:hover {
-  transform: rotate (-15deg) scale (1.05);
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-}
-
-
-.col .blur-2:before {
-  content: "";
-  display: block;
-  width: 500px;
-  height: 600px;
-  background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
-  position: absolute;
-  opacity: 0.75;
-  border-radius: 70%;
-  filter: blur(45px);
-  bottom: -120px;
-  transform: rotate(-20deg);
-  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
-}
-
-.col .blur-2:hover:before {
-  transform: rotate(-10deg) translateY(-20px) scale(1.1); /* Slight movement up and reduced rotation */
-  opacity: 1;
-}
 
 /* Smooth back transition */
 .col .blur-2.tilt-reset {
   transform: rotate3d(0, 0, 0, 0deg) scale(1);
 }
 
-/* Optional: Floating Animation */
-@keyframes floating {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
-  100% { transform: translateY(0); }
-}
-
-.col .blur-2 {
-  animation: floating 3s infinite ease-in-out;
-}
-
-  
-.hero-section h1 {
-  font-size: 5rem;
-  font-weight: medium;
-  line-height: 1.2;
-  position: relative;
-  z-index: 1;
-  margin-left: 2.5rem;
-  margin-top: -4rem;
-}
-
-
-.hero-section  {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.col {
-  grid-column: span 1;
-}
-
-.col-text-right {
-  grid-column: span 1;
-}
 
 .col-text-right .blur-2 {
   position: relative;
@@ -121,26 +41,25 @@ body {
 
 .col-text-right .blur:hover {
   transform: rotate (-20deg) scale (1.05);
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); 
 }
 
 .col-text-right .blur-2:before {
   content: "";
   display: block;
   width: 420px;
-  height: 500px;
-  background: radial-gradient(rgba(131, 30, 210, 100), rgba(254, 254, 255, 0.75));
+  height: 450px;
+  background: radial-gradient(#831ED2, rgba(254, 254, 255, 0.75));
   position: absolute;
-  opacity: 0.75;
+  opacity: 0.65;
   border-radius: 70%;
-  filter: blur(45px);
+  filter: blur(55px);
   top: -250px;
-  left: 30px;
+  left: 40px;
   transform: rotate(-20deg);
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
-  
 }
-
+  
   /* Hover Effect: Tilt + Slight Movement */
 .col-text-right .blur-2:hover:before {
   transform: rotate(-5deg) translateY(-20px) scale(1.1);
@@ -152,27 +71,31 @@ body {
 }
   
   .home h1 span {
-    color: #FFFACD ;
+    color: rgba(131, 30, 210, 100) ;
   }
   
-  .hero-section p {
-    font-size: 1.5rem;
-    color: #000000;
-    max-width: 700px;
-    text-align: left;
-    margin-left: auto;
-    z-index: 1;
-    position: relative;
-  }
+  .hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  text-align: left;
+}
 
-  .hero-section p span {
-    display: block;
-    width: 32px;
-    height: 1.5px;
-    background: rgba(131, 30, 210, 100);
-    margin-bottom: 6px;
-  }
-  
+.intro-text {
+  font-size: 1.3rem;
+  color: #111;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.hero-title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
 
   .hero-section .selected-works {
     padding: 4rem 10%;
@@ -203,77 +126,85 @@ body {
 
   /* Media Queries */
 
-/* ========== TABLET (768px–1023px) ========== */
-@media (max-width: 1023px) and (min-width: 768px) {
-  .hero-section {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    height: auto;
-    text-align: center;
+/* 💻 Laptop (1024px and below) */
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding: 5rem 2rem;
   }
 
-  .hero-section h1 {
-    font-size: 3.5rem;
-    margin: 0;
-    text-align: center;
+  .hero-title {
+    font-size: 2.2rem;
   }
 
-  .hero-section p {
-    font-size: 1.2rem;
-    margin: 1rem auto;
-    max-width: 80%;
-    text-align: center;
+  .view-all-btn {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .col-text-right .blur-2:before {
+    width: 380px;
+    height: 420px;
+    top: -230px;
+    left: 30px;
+  }
+}
+
+/* 📱 Tablet (768px and below) */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 4rem 1.5rem;
+  }
+
+  .intro-text {
+    font-size: 1.1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
   .view-all-btn {
     margin: 2rem auto;
+    font-size: 1rem;
   }
 
-  .col .blur-2:before,
   .col-text-right .blur-2:before {
-    width: 400px;
-    height: 450px;
-    transform: rotate(-15deg);
+    width: 300px;
+    height: 360px;
+    top: -200px;
+    left: 20px;
   }
 }
 
-/* ========== MOBILE (≤ 767px) ========== */
-@media (max-width: 767px) {
-  .hero-section {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 1.5rem;
-    height: auto;
-    text-align: center;
+/* 📱 Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+  .hero {
+    padding: 3rem 1rem;
   }
 
-  .hero-section h1 {
-    font-size: 2.5rem;
-    line-height: 1.3;
-    margin: 0;
-  }
-
-  .hero-section p {
+  .intro-text {
     font-size: 1rem;
-    margin: 1rem auto;
-    max-width: 100%;
-    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    line-height: 1.4;
   }
 
   .view-all-btn {
-    padding: 0.5rem 1.25rem;
+    padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
-    margin: 1.5rem auto;
+    margin: 2rem auto;
   }
 
-  .col .blur-2:before,
   .col-text-right .blur-2:before {
-    width: 300px;
-    height: 350px;
-    bottom: -100px;
-    left: 0;
-    transform: rotate(-10deg);
+    width: 220px;
+    height: 280px;
+    top: -180px;
+    left: 10px;
   }
 }
+
+
 
