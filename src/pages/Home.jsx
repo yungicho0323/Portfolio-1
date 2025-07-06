@@ -25,7 +25,7 @@ function Home() {
                             <h1 className="hero-title">
                                 Heyy<br /> I'm{" "} <br />
                                 <span>YunGi Cho</span>
-                                <br /> UI/UX Designer
+                                <br /> UX/ UI Designer
                             </h1>
                         </div>
                     </div>
