@@ -12,7 +12,7 @@ const Header = () => {
      </div>
 
       <nav className="flex gap-8 text-lg text-purple-400">
-        <Link to="/work" className="hover:text-purple-600">UI/UX</Link>
+        <Link to="/work" className="hover:text-purple-600">UX/UI</Link>
         <Link to="/about" className="hover:text-purple-600">ABOUT</Link>
         
       </nav>
