@@ -309,7 +309,7 @@ function MedSpeak() {
                 </strong>
               </p>
               <p>
-               The primary goal of the MedSpeak app is to understand language barriers between non-native speakers and healthcare providers, and define key user needs through user research and observation.
+               The primary goal of the MedSpeak app was to understand language barriers between non-native speakers and healthcare providers, and define key user needs through user research and observation.
               </p>
             </div>
       </div>
