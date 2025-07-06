@@ -577,6 +577,12 @@ thead tr {
   justify-content: center;
 }
 
+
+.feature-card-exact:hover {
+  transform: translateY(-2px);
+}
+
+
 /* Full card layout */
 .feature-card-exact {
   background-color: #e7f1f2;
