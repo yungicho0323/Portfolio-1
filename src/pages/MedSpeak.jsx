@@ -74,7 +74,7 @@ function MedSpeak() {
             <div>
               <h4>Timeline</h4>
               <p>
-                3 weeks
+                4 weeks
                 <br />
                 Designed in June, 2025
               </p>
