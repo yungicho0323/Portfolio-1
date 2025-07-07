@@ -8,6 +8,20 @@
   justify-content: center;
 }
 
+/* Make the entire card clickable */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .image-wrapper {
   text-align: left;
   background: #ffffff;
@@ -23,10 +37,13 @@
   overflow: hidden;
   margin-bottom: 5rem;
   max-width: 800px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .image-wrapper:hover {
   transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .image-wrapper:hover .project-image1,
@@ -49,6 +66,10 @@
   z-index: -1;
 }
 
+.clickable-image {
+  cursor: pointer;
+}
+
 .bottom-section {
   display: flex;
   justify-content: space-between;
@@ -69,11 +90,18 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .card-button:hover {
   background-color: #d6b8fe;
   color: white;
+}
+
+/* Prevent double-click issues when card is clickable */
+.card-link .card-button {
+  pointer-events: none;
 }
 
 .zynergy,
@@ -105,6 +133,7 @@
   border-radius: 20px;
   font-weight: 500;
   cursor: default;
+  pointer-events: none; /* Prevent interference with card click */
 }
 
 /* Icons Section */
@@ -117,6 +146,24 @@
   width: 30px;
   height: auto;
   opacity: 1;
+}
+
+/* Accessibility improvements */
+.card-link:focus {
+  /* outline: 2px solid #d6b8fe; */
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-container {
+    width: 90%;
+    padding: 0.5rem;
+  }
+  
+  .image-wrapper {
+    margin-bottom: 3rem;
+  }
 }
 
 /* ========== MEDIA QUERIES ========== */
