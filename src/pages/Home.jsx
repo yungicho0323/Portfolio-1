@@ -22,7 +22,7 @@ function Home() {
                 <section className="hero">
             <p className="intro-text">Hey there, I'm YunGi!</p>
             <h1 className="hero-title">
-                UX/UI Designer driven by <span>purpose</span>, grounded in researching <span> user needs</span>, and focused on creating <span>human-centered</span> digital experiences.
+                UX/UI Designer driven by <span>collaboration</span>, grounded in researching <span> user needs</span>, and focused on creating <span>human-centered</span> digital experiences.
             </h1>
             </section>
 
