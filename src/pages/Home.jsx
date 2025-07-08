@@ -23,7 +23,7 @@ function Home() {
             <p className="intro-text">Hi, I’m YunGi👋 UX/UI Designer with a people-first mindset.</p>
             <h1 className="hero-title">
                 {/* UX/UI Designer driven by <span>collaboration</span>, grounded in researching <span> user needs</span>, and focused on creating <span>human-centered</span> digital experiences. */}
-               "<span className="bold-word">Real people</span> shaped how I design → <br/> Business taught me how to <span className="bold-word">think</span>. Customer service taught me how to <span className="bold-word">listen</span>. UX/UI brings it all <span className="bold-word">together</span>." </h1>
+               "<span className="bold-word-space">Real people  </span> shaped how I design → <br/> Business taught me how to <span className="bold-word-space">think</span>. Customer service taught me how to <span className="bold-word-space">listen</span>. UX/UI brings it all <span className="bold-word-space">together</span>."</h1>
             </section>
 
             <section 
