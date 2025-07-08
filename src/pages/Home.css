@@ -24,6 +24,7 @@ body {
   cursor: none;
 }
 
+
 /* Smooth back transition */
 .col .blur-2.tilt-reset {
   transform: rotate3d(0, 0, 0, 0deg) scale(1);
