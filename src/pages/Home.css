@@ -116,7 +116,7 @@ body {
   transform: rotate3d(0, 0, 0, 0deg) scale(1);
 }
   
-  .home h1 span {
+  .home h1 .bold-word-space {
     color: rgba(131, 30, 210, 100) ;
   }
   
@@ -142,6 +142,14 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.quote-mark {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color:#111;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 1rem;
+}
 
 .bold-word-space {
   font-size: 3.5rem;
