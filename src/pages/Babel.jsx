@@ -107,7 +107,7 @@ function Babel() {
           <div className="babel-overview-container">
             <h2 className="overview-heading">overview</h2>
             <h1 className="main-heading">
-              <span className="highlight-keyword">
+              <span className="highlight-keyword-overview">
                 Stay in Safe Mode, Wherever You Go
               </span>
             </h1>

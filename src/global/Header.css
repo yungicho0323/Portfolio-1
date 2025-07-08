@@ -50,6 +50,10 @@ nav a:hover::after {
     font-size: 20px;
     color: #8231ED; /* Light purple */
   }
+
+  .logo a:hover {
+    color:  #d4b4ff;
+  }
   
   /* Media Queries */
 
