@@ -22,7 +22,7 @@ function Home() {
             <section className="hero">
             <p className="intro-text">Hi, I’m YunGi👋 UX/UI Designer with a people-first mindset.</p>
             <h1 className="hero-title">
-               <span className="quote-mark">“</span><span className="bold-word-space">Real people  </span> shaped how I design → <br/> Business taught me how to <span className="bold-word-space">think</span>. Customer service taught me how to <span className="bold-word-space">listen</span>. UX/UI brings it all <span className="bold-word-space">together</span>. <span className="quote-mark">”</span></h1>
+               <span className="quote-mark">“</span><span className="bold-word-space word1">Real people  </span> shaped how I design → <br/> Business taught me how to <span className="bold-word-space word2">think</span>. Customer service taught me how to <span className="bold-word-space word3">listen</span>. UX/UI brings it all <span className="bold-word-space word4">together</span>. <span className="quote-mark">”</span></h1>
             </section>
 
             <section 
