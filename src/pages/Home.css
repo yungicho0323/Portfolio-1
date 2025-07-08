@@ -24,6 +24,51 @@ body {
   cursor: none;
 }
 
+/* Smooth back transition */
+.col .blur-2.tilt-reset {
+  transform: rotate3d(0, 0, 0, 0deg) scale(1);
+}
+
+
+.col-text-left .blur-2 {
+  position: relative;
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+  will-change: transform;
+  transform-style: preserve-3d;
+
+}
+
+.col-text-left .blur:hover {
+  transform: rotate (-20deg) scale (1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); 
+}
+
+.col-text-left .blur-2:before {
+  content: "";
+  display: block;
+  width: 420px;
+  height: 450px;
+  background: radial-gradient(#831ED2, rgba(254, 254, 255, 0.75));
+  position: absolute;
+  opacity: 0.65;
+  border-radius: 70%;
+  filter: blur(55px);
+  top: -100px;
+  left: -680px;
+  transform: rotate(-20deg);
+  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+  
+  /* Hover Effect: Tilt + Slight Movement */
+.col-text-left .blur-2:hover:before {
+  transform: rotate(-5deg) translateY(-20px) scale(1.1);
+  opacity: 1;
+}
+  /* Smooth back transition */
+.col-text-left .blur-2.tilt-reset {
+  transform: rotate3d(0, 0, 0, 0deg) scale(1);
+}
+
 
 /* Smooth back transition */
 .col .blur-2.tilt-reset {
@@ -54,8 +99,8 @@ body {
   opacity: 0.65;
   border-radius: 70%;
   filter: blur(55px);
-  top: -250px;
-  left: 40px;
+  top: -200px;
+  left: 250px;
   transform: rotate(-20deg);
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
 }
@@ -75,9 +120,9 @@ body {
   }
   
   .hero {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 6rem 2rem;
+  padding: 6rem;
   text-align: left;
 }
 
@@ -89,11 +134,46 @@ body {
 }
 
 .hero-title {
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1.4;
   color: #000;
   margin-bottom: 1.5rem;
+}
+
+.bold-word {
+  font-size: 3.6rem;
+  font-weight: 600;
+  display: inline-block;
+  font-weight: 600;
+  position: relative;
+  animation: fadeSlideUp 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+/* Optional: Add some delay per word for a staggered effect */
+.bold-word:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+.bold-word:nth-of-type(2) {
+  animation-delay: 1s;
+}
+.bold-word:nth-of-type(3) {
+  animation-delay: 1.5s;
+}
+.bold-word:nth-of-type(4) {
+  animation-delay: 2s;
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 

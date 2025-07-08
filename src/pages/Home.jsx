@@ -19,12 +19,20 @@ function Home() {
                     </div>
                 </section> 
 
-                <section className="hero">
-            <p className="intro-text">Hey there, I'm YunGi!</p>
+            <section className="hero">
+            <p className="intro-text">Hi, I’m YunGi👋 UX/UI Designer with a people-first mindset.</p>
             <h1 className="hero-title">
-                UX/UI Designer driven by <span>collaboration</span>, grounded in researching <span> user needs</span>, and focused on creating <span>human-centered</span> digital experiences.
-            </h1>
+                {/* UX/UI Designer driven by <span>collaboration</span>, grounded in researching <span> user needs</span>, and focused on creating <span>human-centered</span> digital experiences. */}
+               "<span className="bold-word">Real people</span> shaped how I design → <br/> Business taught me how to <span className="bold-word">think</span>. Customer service taught me how to <span className="bold-word">listen</span>. UX/UI brings it all <span className="bold-word">together</span>." </h1>
             </section>
+
+            <section 
+                    className="hero-section">
+                    <div className="col-text-left">
+                        <div className="blur-2">
+                        </div>
+                    </div>
+                </section> 
 
                 <section className="selected-works">
                     {/* Card Component Section */}
