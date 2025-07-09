@@ -51,9 +51,6 @@ nav a:hover::after {
     color: #8231ED; /* Light purple */
   }
 
-  .logo a:hover {
-    color:  #d4b4ff;
-  }
   
   /* Media Queries */
 
