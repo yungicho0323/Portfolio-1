@@ -459,11 +459,21 @@ function MedSpeak() {
         <img src={myhealth} alt="My Health section" />
       </div>
 
-      <div className="profile-block">
-        <h4>Profile</h4>
-        <p>In case of an emergency, the patient’s profile can be quickly shared with a doctor. It includes important details such as <span className="medspeak-highlight-keyword"> language preferences, medical information, and the doctor’s contact information</span> ensuring fast and accurate support when it’s needed most.</p>
-        <img src={profile} alt="Profile screen" />
-      </div>
+    <div className="profile-block">
+    <div className="profile-content">
+    <div className="profile-text">
+      <h4>Profile</h4>
+      <p>
+        In case of an emergency, the patient’s profile can be quickly shared with a doctor. It includes important details such as
+        <span className="medspeak-highlight-keyword"> language preferences, medical information, and the doctor’s contact information</span>,
+        ensuring fast and accurate support when it’s needed most.
+      </p>
+    </div>
+    <div className="profile-image">
+      <img src={profile} alt="Profile screen" />
+    </div>
+  </div>
+</div>
     </section>
     </section>
     

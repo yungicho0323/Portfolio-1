@@ -749,23 +749,49 @@ thead tr {
   margin-left: -3rem;
 }
 
-.profile-block h4 {
-    font-size: 1.3rem;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
+.profile-block {
+  width: 100%;
+  padding: 2rem 1rem;
 }
 
-.profile-block img {
-  width: 20%;
-  
+.profile-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-text {
+  flex: 1;
+}
+
+.profile-block h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
 }
 
 .profile-block p {
   font-size: 1.1rem;
   color: #333;
   line-height: 1.6;
-  max-width: 1200px;
   margin-bottom: 2rem;
+}
+
+.profile-image {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
 }
 
 
