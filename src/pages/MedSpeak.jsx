@@ -177,7 +177,7 @@ function MedSpeak() {
           <h2>01 Research</h2>
           <div className="context-section">
             <h3 className="context-title">Background</h3>
-            <p>When patients and healthcare providers don’t share the same language, it becomes difficult to communicate symptoms accurately. This often leads to misunderstandings, misdiagnoses, and added stress for patients. The idea for MedSpeak started from recognizing how language barriers can prevent people from getting the care they need.</p>
+            <p>When patients and healthcare providers don’t share the same language, it becomes difficult to communicate symptoms accurately. This often leads to misunderstandings, misdiagnoses, and added stress for patients. <br/> The idea for MedSpeak started from recognizing how language barriers can prevent people from getting the care they need.</p>
           </div>
 
           <div className="medspeak-context-section">
