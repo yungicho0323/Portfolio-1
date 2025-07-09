@@ -29,7 +29,7 @@ export function CardComponent() {
             </div>
 
             <div className="project-type-badge">
-              <button className="project-type-button">UI/ UX</button>
+              <button className="project-type-button">UX/UI</button>
             </div> 
           </div>
         </div>
@@ -53,7 +53,7 @@ export function CardComponent() {
             </div>
 
             <div className="project-type-badge">
-              <button className="project-type-button">UI/ UX</button>
+              <button className="project-type-button">UX/UI</button>
             </div> 
           </div>
         </div>
@@ -101,7 +101,7 @@ export function CardComponent() {
             </div>
             
             <div className="project-type-badge">
-              <button className="project-type-button">UI / UX</button>
+              <button className="project-type-button">UX/UI</button>
             </div>
           </div>
         </div>
