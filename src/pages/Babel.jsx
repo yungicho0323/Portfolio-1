@@ -80,7 +80,7 @@ function Babel() {
                 <h4>Project Types</h4>
                 <p>
                   {" "}
-                  UI/UX <br />
+                  UX/UI <br />
                   Visual Design <br /> Mobile App Design
                 </p>
               </div>

@@ -77,7 +77,7 @@ function Zynergy() {
                   </div>
                   <div>
                     <h4>Project Types</h4>
-                    <p>UI/UX <br/>Visual Design <br/> Mobile App Design </p>
+                    <p>UX/UI <br/>Visual Design <br/> Mobile App Design </p>
                   </div>
                   <div>
                     <h4>Team</h4>

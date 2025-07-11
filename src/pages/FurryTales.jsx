@@ -60,7 +60,7 @@ return (
           </div>
           <div>
             <h4>Project Types</h4>
-            <p>Website Redesign<br /> UI/UX</p>
+            <p>Website Redesign<br /> UX/UI </p>
           </div>
           <div>
             <h4>Team</h4>

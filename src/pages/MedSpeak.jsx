@@ -88,9 +88,9 @@ function MedSpeak() {
             <div>
               <h4>Project Types</h4>
               <p>
-                UI/UX
+                UX/UI 
                 <br />
-                Mobile App Design
+                Product Design
               </p>
             </div>
             <div>
