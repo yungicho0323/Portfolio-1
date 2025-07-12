@@ -386,7 +386,7 @@ function MedSpeak() {
       </div>
 
     {/*Features*/}
-    <h3>Features to address user needs</h3>
+    <h3>Features to Address User Needs</h3>
 
       <div className="feature-cards-layout">
 
