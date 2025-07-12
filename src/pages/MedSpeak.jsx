@@ -5,7 +5,7 @@ import "./MedSpeak.css";
 import heroImage from "../assets/images/MedSpeak.png";
 import MedSpeakVideo from "../assets/videos/MedSpeak.mp4";
 import problem from "../assets/images/MedSpeak_ProblemDiscovery.png";
-import brainstorming from "../assets/images/MedSpeak_brainstorming.png";
+import brainstorming from "../assets/images/MedSpeak_Brainstorming.png";
 import empathymap from "../assets/images/MedSpeak_Empathymap.png";
 import keyIcon from "../assets/images/key.png";
 import feature1 from '../assets/images/feature1.png';
