@@ -93,7 +93,7 @@ margin-bottom: 40px;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   display: inline-block;
 }
 
@@ -239,7 +239,7 @@ margin-bottom: 40px;
 .prototype-button {
   color: #fff;
   padding: 0.5 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border: none;
   border-radius: 8px;
   text-decoration: none;
@@ -573,10 +573,11 @@ thead tr {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 3rem; /* space between the two blocks */
+  gap: 2rem; /* space between the two blocks */
   margin: 3rem auto;
   padding: 30px;
   max-width: 1200px;
+  margin-left: -2rem;
 }
 
 .left-image-block {
@@ -606,9 +607,6 @@ thead tr {
   background-color: #f9f6ed;
   border-radius: 12px;
 }
-
-
-
 
 .MedSpeak-prototype-button-wrapper {
   margin-top: 1rem;

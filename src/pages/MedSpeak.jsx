@@ -324,27 +324,12 @@ function MedSpeak() {
       <div className="design-container">
       <h2>02 Design</h2>
         <h3 className="section-title">Brainstorming</h3>
-        <p className="design-description">After reviewing insights from research and analysis, I began refining the app by brainstorming features into Must Have, Nice to Have, and Extras, and empathy map to recognize user needs. I also revisited key pain points and opportunities from user interviews and journey mapping. In the end, I was able to define key solution elements and features that directly addressed user needs.</p>
+        <p className="design-description">After reviewing insights from research and analysis, I began refining the app by empathy map to recognize user needs and brainstorming features into Must Have, Nice to Have, and Extras. I also revisited key pain points and opportunities from user interviews and journey mapping. In the end, I was able to define <span className="medspeak-highlight-keyword">key solution elements and features</span> that directly addressed user needs.</p>
       </div>
 
-      <div className="side-by-side-images">
-  {/* Brainstorming section (left) */}
+  <div className="side-by-side-images">
+  {/* Empathymap section (left) */}
   <div className="left-image-block">
-    <img src={brainstorming} alt="Brainstorming" />
-    <div className="MedSpeak-prototype-button-wrapper">
-      <a
-        href="https://www.figma.com/board/DvfQpGAck7P8B6t0xFpPXl/MedSpeak_UIUX-Case-Study?node-id=25-829&t=g8G3sIJNXFY5EZRg-1"
-        target="_blank"
-        rel="MedSpeak_Brainstorming"
-        className="prototype-button"
-      >
-        View Feature Brainstorming
-      </a>
-    </div>
-  </div>
-
-  {/* Empathy Map section (right) */}
-  <div className="right-image-block">
     <img src={empathymap} alt="Empathy Map" />
     <div className="MedSpeak-prototype-button-wrapper">
       <a
@@ -357,7 +342,23 @@ function MedSpeak() {
       </a>
     </div>
   </div>
-</div>
+
+  {/* Brainstorming section (right) */}
+  <div className="right-image-block">
+    <img src={brainstorming} alt="Brainstorming" />
+    <div className="MedSpeak-prototype-button-wrapper">
+      <a
+        href="https://www.figma.com/board/DvfQpGAck7P8B6t0xFpPXl/MedSpeak_UIUX-Case-Study?node-id=25-829&t=g8G3sIJNXFY5EZRg-1"
+        target="_blank"
+        rel="MedSpeak_Brainstorming"
+        className="prototype-button"
+      >
+        View Feature Brainstorming
+      </a>
+    </div>
+  </div>
+  </div>
+
 
 
         {/*key solution elements from user needs*/}
