@@ -568,6 +568,59 @@ thead tr {
   margin-top: 0.2rem;
 }
 
+/*brainstorming */
+.side-by-side-images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem; /* space between the two blocks */
+  margin: 3rem auto;
+  padding: 30px;
+  max-width: 1200px;
+}
+
+.left-image-block {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 50%;
+  max-width: 500px;
+}
+
+.left-image-block img {
+  width: 100%;
+  background-color: #f9f6ed;
+  border-radius: 12px;
+}
+
+.right-image-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  max-width: 500px;
+}
+
+.right-image-block img {
+  width: 100%;
+  background-color: #f9f6ed;
+  border-radius: 12px;
+}
+
+
+
+
+.MedSpeak-prototype-button-wrapper {
+  margin-top: 1rem;
+}
+
+
+/*key solution elements from user needs*/
+.medspeak-section {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
 /*features*/
 /* Exact layout wrapper */
 .feature-cards-layout {
