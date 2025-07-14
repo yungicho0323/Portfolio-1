@@ -6,7 +6,7 @@ import heroImage from "../assets/images/MedSpeak.png";
 import MedSpeakVideo from "../assets/videos/MedSpeak.mp4";
 import problem from "../assets/images/MedSpeak_ProblemDiscovery.png";
 import brainstorming from "../assets/images/MedSpeak_Brainstorming.png";
-import empathymap from "../assets/images/MedSpeak_Empathymap.png";
+import keyinsights from "../assets/images/MedSpeak_keyinsights.png";
 import keyIcon from "../assets/images/key.png";
 import feature1 from '../assets/images/feature1.png';
 import feature2 from '../assets/images/feature2.png';
@@ -282,6 +282,9 @@ function MedSpeak() {
         <li>
           Without the right tools to bridge that gap, these moments of miscommunication led to frustration, anxiety, and missed opportunities for accurate care.
         </li>
+        <li>
+          Non-English speakers reported frequent miscommunication during medical emergencies while traveling, due to language barriers.
+        </li>
         </ul>
       </div>
 
@@ -324,21 +327,21 @@ function MedSpeak() {
       <div className="design-container">
       <h2>02 Design</h2>
         <h3 className="section-title">Brainstorming</h3>
-        <p className="design-description">After reviewing insights from research and analysis, I began refining the app by empathy map to recognize user needs and brainstorming features into Must Have, Nice to Have, and Extras. I also revisited key pain points and opportunities from user interviews and journey mapping. In the end, I was able to define <span className="medspeak-highlight-keyword">key solution elements and features</span> that directly addressed user needs.</p>
+        <p className="design-description">After reviewing insights from research and analysis, I began refining the app by<span className="medspeak-highlight-keyword"> key insights from user interviews to recognize user needs and brainstorming features into Must Have, Nice to Have, and Extras.</span>  I also revisited user pain points and opportunities from empathy map and journey mapping. In the end, I was able to define <span className="medspeak-highlight-keyword">key solution elements and features</span> that directly addressed user needs.</p>
       </div>
 
   <div className="side-by-side-images">
   {/* Empathymap section (left) */}
   <div className="left-image-block">
-    <img src={empathymap} alt="Empathy Map" />
+    <img src={keyinsights} alt="Key Insights" />
     <div className="MedSpeak-prototype-button-wrapper">
       <a
-        href="https://www.figma.com/board/DvfQpGAck7P8B6t0xFpPXl/MedSpeak_UIUX-Case-Study?node-id=21-483&t=0dyMNuWMxqodMeep-1"
+        href="https://www.figma.com/board/DvfQpGAck7P8B6t0xFpPXl/MedSpeak_UIUX-Case-Study?node-id=165-1757&t=3jg1T3amdf7RZ2AD-1"
         target="_blank"
-        rel="MedSpeak_Empathy Map"
+        rel="MedSpeak_Key Insights"
         className="prototype-button"
       >
-        View Empathy Map
+        View Key Insights from User Interviews
       </a>
     </div>
   </div>
