@@ -693,9 +693,23 @@ thead tr {
   margin-bottom: 0.3rem;
 }
 
+.why {
+  margin-top: 6rem;
+}
+
+.why h2 {
+  font-size: 1.7rem;
+}
+
+.why img {
+  margin-top: -2rem;
+  width: 1200px;
+}
+
+
 /*Sitemap*/
 .information-architecture {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
   font-family: 'Manrope', sans-serif;
@@ -732,12 +746,11 @@ thead tr {
 
 /*wireframes & high-fidelity*/
 .design-showcase-section {
-  /* padding: 4rem 2rem; */
   font-family: 'Manrope', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
   color: #111;
-  margin-top:6rem;
+  margin-top: 8rem;
 }
 
 
@@ -767,7 +780,7 @@ thead tr {
   max-width: 1200px;
   margin: 0 auto;
   color: #111;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 .design-block {
@@ -802,7 +815,7 @@ thead tr {
 
 .profile-block {
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 0 1rem;
 }
 
 .profile-content {

@@ -11,6 +11,7 @@ import keyIcon from "../assets/images/key.png";
 import feature1 from '../assets/images/feature1.png';
 import feature2 from '../assets/images/feature2.png';
 import feature3 from '../assets/images/feature3.png';
+import whyAI from "../assets/images/WhyAI.png";
 import IA from "../assets/images/MedSpeak_IA.png";
 import wireframes from '../assets/images/MedSpeak_wireframes.png';
 import onboarding from '../assets/images/onboarding.png';
@@ -331,7 +332,7 @@ function MedSpeak() {
       </div>
 
   <div className="side-by-side-images">
-  {/* Empathymap section (left) */}
+  {/* Key Insights (left) */}
   <div className="left-image-block">
     <img src={keyinsights} alt="Key Insights" />
     <div className="MedSpeak-prototype-button-wrapper">
@@ -443,6 +444,15 @@ function MedSpeak() {
         </div>
 
       </div>
+    
+    <div className="why">
+      <h4 className="medspeak-section-title">Improving User Experience Through AI Feature</h4>
+      <h2>Then, Why AI Voice Reader/ AI Language Translator Feature?</h2>
+      <div className="why-image">
+        <img src={whyAI} alt="Why AI Feature" />
+      </div>
+      </div>
+
     </section>
 
     {/*Site Map*/}
