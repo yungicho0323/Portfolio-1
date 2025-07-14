@@ -11,7 +11,7 @@ import keyIcon from "../assets/images/key.png";
 import feature1 from '../assets/images/feature1.png';
 import feature2 from '../assets/images/feature2.png';
 import feature3 from '../assets/images/feature3.png';
-import whyAI from "../assets/images/WhyAI.png";
+import whyAI from "../assets/images/whyAI.png";
 import IA from "../assets/images/MedSpeak_IA.png";
 import wireframes from '../assets/images/MedSpeak_wireframes.png';
 import onboarding from '../assets/images/onboarding.png';
