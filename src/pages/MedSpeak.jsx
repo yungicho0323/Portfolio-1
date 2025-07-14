@@ -198,7 +198,7 @@ function MedSpeak() {
           <div className="medspeak-content">
             <h3>Inaccurate Diagnosis</h3>
             <ul>
-              <li>77% of medical visits involving untrained interpreters (such as family members) resulted in errors, and over half of those were considered clinically significant.</li>
+              <li>BC Health Services Research showed that 52.4% of medical errors among patients with limited English skills were caused by communication issues.</li>
             </ul>
           </div>
         </div>
