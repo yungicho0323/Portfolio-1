@@ -110,7 +110,7 @@ function MedSpeak() {
         {/*Overview*/}
         <section className="medspeak-overview-section">
           <div className="medspeak-overview-container">
-            <h2 className="overview-heading">overview</h2>
+            <h2 className="overview-heading">Overview</h2>
             <h1 className="main-heading">
               <span className="medspeak-highlight-keyword">
                 Speak Your Symptoms with Confidence and No Language Barriers.

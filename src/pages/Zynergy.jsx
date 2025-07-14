@@ -102,7 +102,7 @@ function Zynergy() {
 {/*Overview*/}
     <section className="zynergy-overview-section">
       <div className="zynergy-overview-container">
-        <h2 className="overview-heading">overview</h2>
+        <h2 className="overview-heading">Overview</h2>
         <h1 className="main-heading"><span className="zynergy-highlight-keyword">Unlock Your Potential with Lifting Up Each other.</span></h1>
 
         <div className="problem-section">
