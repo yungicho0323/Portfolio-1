@@ -694,7 +694,7 @@ thead tr {
 }
 
 .why {
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 .why h2 {
@@ -703,8 +703,9 @@ thead tr {
 
 .why img {
   margin-top: -2rem;
-  width: 1200px;
-  margin-left: -2rem;
+  width: 95%;
+  margin-left:-3rem;
+  
 }
 
 

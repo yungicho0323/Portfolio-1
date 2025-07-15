@@ -447,7 +447,7 @@ function MedSpeak() {
     
     <div className="why">
       <h4 className="medspeak-section-title">Improving User Experience Through AI Feature</h4>
-      <h2>Then, Why AI Voice Reader/ AI Language Translator Feature?</h2>
+      <h2>Why AI Voice Reader/ AI Language Translator Feature?</h2>
       <div className="why-image">
         <img src={whyAI} alt="Why AI Feature" />
       </div>
