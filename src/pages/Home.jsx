@@ -20,9 +20,11 @@ function Home() {
                 </section> 
 
             <section className="hero">
-            <p className="intro-text">Hi, I’m YunGi👋 UX/UI Designer with a people-first mindset.</p>
-            <h1 className="hero-title">
-               <span className="quote-mark">“</span><span className="bold-word-space word1">Real people  </span> shaped how I design → <br/> Business taught me how to <span className="bold-word-space word2">think</span>. Customer service taught me how to <span className="bold-word-space word3">listen</span>. UX/UI brings it all <span className="bold-word-space word4">together</span>. <span className="quote-mark">”</span></h1>
+            <p className="intro-text">Hi,<span className="highlight"> I’m YunGi</span> — a <span className="highlight">purposeful</span> UX/UI designer, crafting thoughtful digital experiences that make everyday life feel <span className="highlight">easier</span> and <span className="highlight"> more human</span>. 💡🌿</p>
+            </section>
+
+            <section className="explore">
+                <p className="scroll">SCROLL TO EXPLORE WORK ↓</p>
             </section>
 
             <section 
