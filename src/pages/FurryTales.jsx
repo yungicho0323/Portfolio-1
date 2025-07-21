@@ -82,7 +82,7 @@ return (
 
     {/*flui hackathon overview*/}
     <section className="flui-container">
-      <h2 className="flui-title">FLUI Hackathon Overview</h2>
+      <h2 className="flui-title">01. FLUI Hackathon Overview</h2>
 
       <div className="flui-image-container">
         <img src={fluiImage} alt="FLUI Hackathon Preview" />
@@ -103,7 +103,7 @@ return (
 <section className="goals-section">
       <div className="goals-header">
         <h2>Our Client’s Goals</h2>
-        <a href="https://www.furrytalespet.ca/" className="current-site-link">Current Website</a>
+        {/* <a href="https://www.furrytalespet.ca/" className="current-site-link">Current Website</a> */}
       </div>
 
       <div className="goals-grid">
@@ -185,6 +185,10 @@ return (
       </div>
     </section>
 
+    
+{/*section divider*/}
+<div className="section-divider"></div>
+
 {/* Design Process */}
 {/* <section className="process-section">
   <div className="process-container">
@@ -220,7 +224,7 @@ return (
 {/*01 Research */}
 <section id="research" className="research-section">
   <div className="research-container">
-      <h2>01 Research</h2>
+      <h2>02. Research</h2>
 
       <div className="research-block">
         <h4>Current Website Issues</h4>
@@ -264,7 +268,7 @@ return (
 
 {/* 02 Analysis */}
 <section id="analysis" className="analysis-section">
-      <h2>02 Analysis</h2>
+      <h2>03. Analysis</h2>
 
       <div className="analysis-block">
         <h4>Competitive Analysis & Moodboard</h4>
@@ -287,7 +291,7 @@ return (
 
 {/*03 Ideation*/}
 <section id="ideation" className="ideation-section">
-      <h2>03 Ideation</h2>
+      <h2>04. Ideation</h2>
       <p className="ideation-description">
         Following the user research phase, we mainly focused on thinking about features that we want
         to implement in the app. So, we had a brainstorming session to come up with features and then
@@ -318,7 +322,7 @@ return (
 
 {/*04 Design*/}
 <section id="design" className="design-section">
-      <h2>04 Design</h2>
+      <h2>05. Design</h2>
 
       <p className="design-description">
         <h4>Design Systems</h4>
@@ -334,12 +338,9 @@ return (
       </div>
     </section>
 
-{/*section divider*/}
-   <div className="section-divider"></div>
 
 {/*05 Validation*/}
   <section id="validation" className="validation-section">
-      <h2>05 Validation</h2>
 
       <div className="validation-subsection">
         <h4>High-fidelity Wireframes</h4>
@@ -362,7 +363,7 @@ return (
 
 {/*Final Prototype*/}
 <section className="final-section">
-      <h2>06 Final Design & Reflection</h2>
+      <h2>06. Final Design</h2>
       <h4>High-fidelity Prototypes</h4>
 
       <div className="final-video-wrapper">
@@ -376,7 +377,7 @@ return (
 {/*Reflection*/}
 <section className="reflection-section">
       <div className="reflection-card">
-        <h3>Project Reflection</h3>
+        <h3>Reflection</h3>
         <p>
           Participating in the FLUI Hackathon was my first UI design challenge under a tight 5-day
           timeframe, and it proved to be both eye-opening and rewarding. One of the biggest challenges

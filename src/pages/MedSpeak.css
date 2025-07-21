@@ -888,7 +888,7 @@ thead tr {
 }
 
 
-.iteration-image-set {
+.MedSpeak-iteration-image-set {
   flex: 1;
   min-width: 500px;
   max-width: 500px;
@@ -896,7 +896,7 @@ thead tr {
   margin-left: -2rem;
 }
 
-.iteration-image-set img {
+.MedSpeak-iteration-image-set img {
   width: 100%;
 }
 

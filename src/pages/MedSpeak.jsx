@@ -110,7 +110,7 @@ function MedSpeak() {
         {/*Overview*/}
         <section className="medspeak-overview-section">
           <div className="medspeak-overview-container">
-            <h2 className="overview-heading">Overview</h2>
+            <h2 className="overview-heading">01. Overview</h2>
             <h1 className="main-heading">
               <span className="medspeak-highlight-keyword">
                 Speak Your Symptoms with Confidence and No Language Barriers.
@@ -177,7 +177,7 @@ function MedSpeak() {
         {/*Research*/}
         <section id="research" className="research-section">
           <div className="research-container">
-          <h2>01 Research</h2>
+          <h2>02. Research</h2>
           <div className="context-section">
             <h3 className="context-title">Background</h3>
             <p>When patients and healthcare providers don’t share the same language, it becomes difficult to communicate symptoms accurately. This often leads to misunderstandings, misdiagnoses, and added stress for patients. <br/> The idea for MedSpeak started from recognizing how language barriers can prevent people from getting the care they need.</p>
@@ -326,7 +326,7 @@ function MedSpeak() {
     {/*Design*/}
     <section id="design" className="design-section">
       <div className="design-container">
-      <h2>02 Design</h2>
+      <h2>03. Design</h2>
         <h3 className="section-title">Brainstorming</h3>
         <p className="design-description">After reviewing insights from research and analysis, I began refining the app by<span className="medspeak-highlight-keyword"> key insights from user interviews to recognize user needs and brainstorming features into Must Have, Nice to Have, and Extras.</span>  I also revisited user pain points and opportunities from empathy map and journey mapping. In the end, I was able to define <span className="medspeak-highlight-keyword">key solution elements and features</span> that directly addressed user needs.</p>
       </div>
@@ -536,7 +536,7 @@ function MedSpeak() {
     {/*Improvement*/}
     <section id="design" className="design-section">
       <div className="design-container">
-        <h2>03 Improvement</h2>
+        <h2>04. Improvement</h2>
         <h3 className="section-title">
           Usability Testing
         </h3>
@@ -552,7 +552,7 @@ function MedSpeak() {
 
            {/* Iteration 1 */}
                  <div className="iteration-row">
-                  <div className="iteration-image-set">
+                  <div className="MedSpeak-iteration-image-set">
                     <img src={iteration1} alt="Group Challenge Before/After" />
                   </div>
                   <div className="iteration-text">
@@ -571,7 +571,7 @@ function MedSpeak() {
               <p><strong>After:</strong> Introduced a visual “Auto Saved” prompt to make the process feel more complete and trustworthy, and clearly showed where the input was saved so users understood the next step. </p>
               <p><strong>→ Improved User Behavior:</strong> Users were more confident their data was saved and navigated to the history section without hesitation.</p>
             </div>
-            <div className="iteration-image-set">
+            <div className="MedSpeak-iteration-image-set">
               <img src={iteration2} alt="Workout Tracker Before/After" />
             </div>
           </div>
@@ -579,7 +579,7 @@ function MedSpeak() {
         
                 {/* Iteration 3 */}
                 <div className="iteration-row">
-                  <div className="iteration-image-set">
+                  <div className="MedSpeak-iteration-image-set">
                     <img src={iteration3} alt="Friend Profile Before/After" />
                   </div>
                   <div className="iteration-text">
@@ -595,7 +595,7 @@ function MedSpeak() {
     {/*Final product*/}
     <section className="final-product-section">
     <div className="solution-container">
-      <h2 className="final-heading">Final Product</h2>
+      <h2 className="final-heading">05. Final Product</h2>
        <p className="section-description">
         Explore the MedSpeak app prototype below and experience how users can translate and share medical information quickly and effectively.
       </p>

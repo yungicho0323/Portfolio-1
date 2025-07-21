@@ -102,7 +102,7 @@ function Zynergy() {
 {/*Overview*/}
     <section className="zynergy-overview-section">
       <div className="zynergy-overview-container">
-        <h2 className="overview-heading">Overview</h2>
+        <h2 className="overview-heading">01. Overview</h2>
         <h1 className="main-heading"><span className="zynergy-highlight-keyword">Unlock Your Potential with Lifting Up Each other.</span></h1>
 
         <div className="problem-section">
@@ -190,7 +190,7 @@ function Zynergy() {
 {/*Research*/}
   <section id="research" className="research-section">
         <div className="research-container">
-        <h2 className="research-title">01 Research</h2>
+        <h2 className="research-title">02. Research</h2>
 
         <div className="context-section">
           <h3 className="context-title">Indentifying Problem Discovery</h3>
@@ -273,7 +273,7 @@ function Zynergy() {
 
 {/*Analysis*/}
 <section id="analysis" className="analysis-section">
-      <h2>02 Analysis</h2>
+      <h2>03. Analysis</h2>
 
       <div className="persona-section">
         <h4>Persona</h4>
@@ -312,7 +312,7 @@ function Zynergy() {
 
 {/*Ideation*/}
 <section id="ideation" className="ideation-section">
-      <h2>03 Ideation</h2>
+      <h2>04. Ideation</h2>
 
       {/*Brainstorming*/}
        <div className="text-block">
@@ -381,7 +381,7 @@ function Zynergy() {
 {/*Final Designs*/}
 <section id="design" className="design-section">
       <div className="design-container">
-        <h2>04 Final Designs</h2>
+        <h2>05. Final Designs</h2>
         <p className="design-intro">
           <strong>
           I conducted usability testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions.</strong> By observing and analyzing user behavior and feedback, I was able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
@@ -435,7 +435,7 @@ function Zynergy() {
   
    <section className="final-product-section">
     <div className="solution-container">
-      <h2 className="final-heading">Final Product</h2>
+      <h2 className="final-heading">06. Final Product</h2>
 
       {/* Feature 01 */}
       <div className="feature-wrapper">
@@ -482,7 +482,7 @@ function Zynergy() {
 
 {/*Validation*/}
 <section id="validation" className="validation-section">
-  <h2>05 Reflection</h2>
+  <h2>Reflection</h2>
 
   <h3 className="takeaway-heading">Project Takeaways</h3>
   <div className="takeaway-box">

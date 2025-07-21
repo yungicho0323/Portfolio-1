@@ -105,7 +105,7 @@ function Babel() {
         {/*Overview*/}
         <section className="babel-overview-section">
           <div className="babel-overview-container">
-            <h2 className="overview-heading">Overview</h2>
+            <h2 className="overview-heading">01. Overview</h2>
             <h1 className="main-heading">
               <span className="highlight-keyword-overview">
                 Stay in Safe Mode, Wherever You Go
@@ -201,7 +201,7 @@ function Babel() {
         {/*01 Research*/}
         <section id="research" className="research-section">
           <div className="research-container">
-            <h2>01 Research</h2>
+            <h2>02. Research</h2>
             <div className="context-section">
               <h3 className="context-title">Identifying Problem Discovery</h3>
               <p>
@@ -380,7 +380,7 @@ function Babel() {
 
         {/*Analysis*/}
         <section id="analysis" className="babel-analysis-section">
-          <h2>02 Analysis</h2>
+          <h2>03. Analysis</h2>
           <div className="persona-section">
             <h4>Persona</h4>
             <p>
@@ -425,7 +425,7 @@ function Babel() {
 
         {/*Ideation*/}
         <section id="ideation" className="ideation-section">
-          <h2>03 Ideation</h2>
+          <h2>04. Ideation</h2>
 
           <div className="text-block">
             <h3 className="section-title">Information Architecture</h3>
@@ -542,7 +542,7 @@ function Babel() {
         {/*Final Designs*/}
         <section id="design" className="design-section">
           <div className="design-container">
-            <h2>04 Final Designs</h2>
+            <h2>05. Final Designs</h2>
 
             <h3 className="design-title">
               <span className="highlight-keyword">Key Changes</span>
@@ -604,7 +604,7 @@ function Babel() {
 
         <section className="final-product-section">
           <div className="solution-container">
-            <h2 className="final-heading">Final Product</h2>
+            <h2 className="final-heading">06. Final Product</h2>
 
             <p className="design-description">
               I developed final product by showcasing two core user goals,{" "}
@@ -680,7 +680,7 @@ function Babel() {
 
         {/*Reflection*/}
         <section id="validation" className="validation-section">
-          <h2>05 Reflection</h2>
+          <h2>Reflection</h2>
 
           <h3 className="babel-takeaway-heading">Project Takeaways</h3>
           <div className="takeaway-box">
