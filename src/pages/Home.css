@@ -136,13 +136,31 @@ body {
 }
 
 .highlight {
-  background-color: #d6b8fe; /* or choose your brand color */
-  border-radius: 40px;
-  padding: 2px 14px;
+  position: relative;
   display: inline-block;
-  line-height: 1.4;
+  padding: 2px 14px;
+  border-radius: 40px;
   font-weight: 500;
-  color: #000; /* black text for contrast */
+  color: #000;
+  z-index: 1; /* Keep text above the animation */
+}
+
+
+.highlight::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #d6b8fe; /* <-- your brand highlight color */
+  z-index: -1; /* Sit behind the text */
+  border-radius: 40px;
+  animation: fillHighlight 1s ease forwards;
+}
+
+@keyframes fillHighlight {
+  from { width: 0%; }
+  to { width: 100%; }
 }
 
 .explore {
