@@ -317,7 +317,7 @@ function Zynergy() {
       {/*Brainstorming*/}
        <div className="text-block">
         <h3 className="section-title">Brainstorming</h3>
-        <p className="section-description">
+        <p className="zynergy-section-description">
           Following the user research phase, I mainly focused on thinking about features that I want to implement in the app. 
           So, I had a brainstorming session to come up with features, then built an information sitemap, and started building wireframes.
         </p>
