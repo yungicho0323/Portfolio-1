@@ -1,10 +1,11 @@
 .selected-works {
+  padding-top: 2rem;
   padding-bottom: 6rem;
   text-align: left;
 }
 
 .selected-works h1 {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: medium;
 }
 
