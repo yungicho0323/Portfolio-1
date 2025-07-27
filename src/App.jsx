@@ -9,28 +9,31 @@ import Babel from "./pages/Babel";
 import MedSpeak from "./pages/MedSpeak";
 import StyleGuide from "./pages/StyleGuide";
 
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTopButton from "./components/ScrollToTopButton.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
-  //Logic
-
-  //HTML
   return (
+    <>
     <ScrollToTop>
       <Routes>
         <Route path="/" element={<PageWrap />} />
-        <Route index element={<Home />}></Route>
-        <Route path="Home" element={<Home />}></Route>
-        <Route path="work" element={<Work />}></Route>
-        <Route path="about" element={<About />}></Route>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
+        <Route path="home" element={<Home />} />
+        <Route path="work" element={<Work />} />
+        <Route path="about" element={<About />} />
         <Route path="/furrytales" element={<FurryTales />} />
         <Route path="/zynergy" element={<Zynergy />} />
         <Route path="/babel" element={<Babel />} />
         <Route path="/MedSpeak" element={<MedSpeak />} />
-        <Route path="style-guide" element={<StyleGuide />}></Route>
+        <Route path="style-guide" element={<StyleGuide />} />
       </Routes>
-    </ScrollToTop>
+
+      {/* 🔼 Scroll to Top Button */}
+      <ScrollToTopButton />
+
+       </ScrollToTop>
+    </>
   );
 }
 
