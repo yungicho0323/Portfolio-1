@@ -163,9 +163,9 @@ body {
   to { width: 100%; }
 }
 
-.explore {
+.explore .scroll {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
   .view-all-btn {

@@ -42,7 +42,7 @@ body {
 
 .about-text {
     flex: 1;
-    line-height: 1.8;
+    line-height: 1.9;
     text-align: left;
     max-width: 70%;
 }
