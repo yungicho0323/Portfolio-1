@@ -29,7 +29,7 @@ function About() {
         </div>
         <div className="about-text">
         <p>
-         Hey there! I’m an aspiring UX/UI designer based in Vancouver, BC, with a strong drive to learn, grow, and design with purpose. With a background in business, I bring a strategic mindset to design by considering both user needs and business goals to create thoughtful and effective solutions.
+         <span className="intro-about">Hey there! Making everyday moments easier and brighter is what drives my design.</span> I’m a purpose-driven UX/UI designer based in Vancouver, BC. With a background in business, I bring a strategic mindset to design by considering both user needs and business goals to create thoughtful and effective solutions.
           <br/>I believe meaningful design starts with a deep understanding of the product and the people who use it. My process is grounded in research to uncover real needs and opportunities. 
           <br/>Also, I value curiosity, open collaboration, and honest feedback as essential parts of the design journey.
           </p>
@@ -114,21 +114,19 @@ function About() {
     <section className="about-container2">
         <div className="about-me">
           <h4>Traveling</h4>
-          <div className="statement-divider1"></div>
+  
          <p>
            "With an adventurous and open-minded spirit, I have always embraced new experiences. Growing up in a family passionate about travel, I had the privilege of exploring diverse cultures from an early age, shaping my global perspective and appreciation for different ways of life."
         </p>
         <br/>
 
         <h4>Beauty in Details</h4>
-        <div className="statement-divider2"></div>
         <p>
            "I find beauty in the details—whether in nature, a perfectly brewed cup of coffee, typography, spatial design, or photography. Over the years, I have cultivated a refined aesthetic, continuously exploring and defining the visual language that resonates with me."
         </p>
         <br/>
 
         <h4>Authenticity</h4>
-        <div className="statement-divider3"></div>
         <p>
           "Authenticity is at the core of my personal and professional journey. I strive to stay true to myself, actively shaping a life filled with passion, continuous growth, and meaningful challenges. As both an individual and a UI/UX designer, I am committed to refining my skills, embracing new perspectives, and confidently evolving into the best version of myself."
         </p>

@@ -40,6 +40,10 @@ body {
     border-radius: 8px;
 }
 
+.intro-about {
+    font-weight: 600;
+}
+
 .about-text {
     flex: 1;
     line-height: 1.9;
