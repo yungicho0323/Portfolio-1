@@ -39,9 +39,9 @@ function Home() {
                     {/* Card Component Section */}
                     <div className="card-section">
                         <CardComponent />
-                        <Link to='/work' className="view-all-btn">View All</Link>
                     </div>
                 </section>
+                        <Link to='/work' className="view-all-btn">View All</Link>
             </main>
             
             <Footer />
