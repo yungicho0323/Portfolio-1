@@ -51,6 +51,126 @@ nav a:hover::after {
     color: #8231ED; /* Light purple */
   }
 
+  /* Hide hamburger by default */
+.hamburger {
+  display: none;
+}
+
+/* Sidebar default */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  background-color: #FFFEEE;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1001;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+}
+
+.sidebar nav a {
+  font-size: 1.1rem;
+  color: #8231ED;
+  text-decoration: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #8231ED;
+  cursor: pointer;
+}
+
+/* Overlay background */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3); /* dim effect */
+  z-index: 998; /* Behind the sidebar */
+}
+
+/* Mobile menu toggle container */
+.mobile-menu-toggle {
+  display: none;
+  z-index: 20;
+}
+
+/* Hamburger icon */
+.hamburger-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hamburger-icon div {
+  width: 24px;
+  height: 3px;
+  background-color: #8231ED;
+  margin: 4px 0;
+}
+
+/* X icon */
+/* .close-icon {
+  font-size: 28px;
+  color: #8231ED;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+/* Show toggle only on mobile */
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+  }
+}
+
+
+
+/* ===== Mobile only ===== */
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 1002;
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #8231ED;
+    margin: 4px 0;
+    transition: 0.3s;
+  }
+}
+
+
   
   /* Media Queries */
 
@@ -91,7 +211,6 @@ nav a:hover::after {
 /* Small devices (≤768px) */
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
     align-items: flex-start;
     padding: 1rem 1.5rem;
   }
