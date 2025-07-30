@@ -29,7 +29,7 @@ function About() {
         </div>
         <div className="about-text">
         <p>
-         <span className="intro-about">Hey there! Making everyday moments easier and brighter is what drives my design.</span> I’m a purpose-driven UX/UI designer based in Vancouver, BC. With a background in business, I bring a strategic mindset to design by considering both user needs and business goals to create thoughtful and effective solutions.
+         <span className="intro-about">Hey there! At the heart of my design practice is a belief that digital experiences should make everyday work feel easier, more intuitive, and more human.</span> I’m a purpose-driven UX/UI designer based in Vancouver, BC. With a background in business and a strong foundation in UX design, I bring both strategic thinking and hands-on execution to every project.
           <br/>I believe meaningful design starts with a deep understanding of the product and the people who use it. My process is grounded in research to uncover real needs and opportunities. 
           <br/>Also, I value curiosity, open collaboration, and honest feedback as essential parts of the design journey.
           </p>
