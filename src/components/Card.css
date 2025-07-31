@@ -33,10 +33,10 @@
   animation-duration: 2s;
   visibility: visible !important;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   aspect-ratio: 20/14;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* margin-bottom: 5rem; */
   max-width: 800px;
   cursor: pointer;
@@ -63,12 +63,6 @@
 
 .clickable-image {
   cursor: pointer;
-}
-
-.bottom-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .bottom-section {
@@ -111,7 +105,7 @@
 .furryTales,
 .MedSpeak,
 .babel {
-  padding: 4px 0 8px;
+  padding: 15px 0 15px;
   font-weight: 500;
   font-size: 1.35rem;
 }
@@ -249,15 +243,12 @@
     font-size: 10px;
   }
 
-  .tool-icon {
-    width: 22px;
-  }
-
   .bottom-section {
     flex-direction: column;
     align-items: center;
     gap: 0.75rem;
   }
+
 .project-type-badge {
     gap: 6px;
     justify-content: flex-start;
