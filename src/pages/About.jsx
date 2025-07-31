@@ -122,7 +122,7 @@ function About() {
 
         <h4>Beauty in Details</h4>
         <p>
-           "I find beauty in the details—whether in nature, a perfectly brewed cup of coffee, typography, spatial design, or photography. Over the years, I have cultivated a refined aesthetic, continuously exploring and defining the visual language that resonates with me."
+           "I find beauty in the details whether in nature, a perfectly brewed cup of coffee, typography, spatial design, or photography. Over the years, I have cultivated a refined aesthetic, continuously exploring and defining the visual language that resonates with me."
         </p>
         <br/>
 
