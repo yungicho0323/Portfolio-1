@@ -382,7 +382,7 @@ function Babel() {
           <h2>03. Analysis</h2>
           <div className="persona-section">
             <h4>Target Audience</h4>
-            <ul className="problem-list">
+            <ul className="target-audience">
           <li>
             <strong>LGBTQ+ individuals</strong> navigating potentially unsafe public spaces, dating, and nightlife with strong community networks seeking discrete group safety coordination.
           </li>

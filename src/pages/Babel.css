@@ -551,7 +551,14 @@ margin-bottom: 40px;
   padding-bottom: 0.5rem;
 }
 
-.bold {
+
+.target-audience {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.target-audience strong {
   font-weight: 600;
 }
 
