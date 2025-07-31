@@ -48,12 +48,12 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-.image-wrapper:hover .project-image1,
+/* .image-wrapper:hover .project-image1,
 .image-wrapper:hover .project-image2,
 .image-wrapper:hover .project-image3,
 .image-wrapper:hover .project-image4 {
   transform: scale(1.5);
-}
+} */
 
 .project-image1,
 .project-image2,
@@ -77,6 +77,25 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-type-badge {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+   gap: 8px; /* space between buttons */
+}
+
 
 .left-section {
   display: flex;
@@ -115,10 +134,10 @@
   font-size: 1.35rem;
 }
 
-.image-wrapper:hover .babel,
+/* .image-wrapper:hover .babel,
 .image-wrapper:hover .zynergy {
   color: white;
-}
+} */
 
 .project-type-badge {
   display: flex;
@@ -127,8 +146,8 @@
 }
 
 .project-type-button {
-  background-color: #FFFEEE;
-  color: #000000;
+  background-color: #f5f5f5;      /* Light neutral background */
+  color: #333333;      
   padding: 6px 12px;
   font-size: 14px;
   border: none;
@@ -138,17 +157,6 @@
   pointer-events: none; /* Prevent interference with card click */
 }
 
-/* Icons Section */
-.tools-wrapper {
-  display: flex;
-  gap: 15px;
-}
-
-.tool-icon {
-  width: 30px;
-  height: auto;
-  opacity: 1;
-}
 
 /* Accessibility improvements */
 .card-link:focus {

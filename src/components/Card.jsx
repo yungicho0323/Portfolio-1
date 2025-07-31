@@ -20,18 +20,22 @@ export function CardComponent() {
             MedSpeak: AI-powered Medical Translation App
           </Typography>
 
-          {/*Card Bottom Section */}
+         {/*Card Bottom Section */}
           <div className="bottom-section">
-            <div className="left-section">
+            <div className="project-type-badge">
+          <button className="project-type-button">AI-Powered Mobile App</button>
+          <button className="project-type-button">Healthcare</button>
+          <button className="project-type-button">Symptom Translation</button>
+          <button className="project-type-button">Patient Data Storage</button>
+            </div>
+
+            <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
                 <span className="card-button">Read More</span>
               </CardFooter>
             </div>
-
-            <div className="project-type-badge">
-              <button className="project-type-button">UX/UI</button>
-            </div> 
           </div>
+
         </div>
       </Link>
 
@@ -44,17 +48,19 @@ export function CardComponent() {
             Babel: Emergency Response & Safety Communication App
           </Typography>
 
-          {/*Card Bottom Section */}
+         {/*Card Bottom Section */}
           <div className="bottom-section">
-            <div className="left-section">
+            <div className="project-type-badge">
+              <button className="project-type-button">Safety & Community</button>
+              <button className="project-type-button">Real-Time Location Sharing</button>
+              <button className="project-type-button">Emergency Coordination</button>
+                          </div>
+
+            <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
                 <span className="card-button">Read More</span>
               </CardFooter>
             </div>
-
-            <div className="project-type-badge">
-              <button className="project-type-button">UX/UI</button>
-            </div> 
           </div>
         </div>
       </Link>
@@ -65,20 +71,22 @@ export function CardComponent() {
           <img src={FurryTaleImage} alt="Project-2" className="project-image2" />
           {/*FurryTales Title*/}
           <Typography variant="h5" color="blue-gray" className="furryTales"> 
-            FurryTales Pet: 
-            FLUI Hackathon 2025
+            FurryTales Pet: Pet Snack Brand E-commerce Website
           </Typography>
 
-          {/*Card Bottom Section */}
+         {/*Card Bottom Section */}
           <div className="bottom-section">
-            <div className="left-section">
+            <div className="project-type-badge">
+             <button className="project-type-button">Website Redesign</button>
+              <button className="project-type-button">E-commerce</button>
+              <button className="project-type-button">Visual Storytelling</button>
+              <button className="project-type-button">FLUI Hackathon 2025</button>
+            </div>
+
+            <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
                 <span className="card-button">Read More</span>
               </CardFooter>
-            </div>
-
-            <div className="project-type-badge">
-              <button className="project-type-button">Website Redesign</button>
             </div>
           </div>
         </div>
@@ -92,16 +100,19 @@ export function CardComponent() {
           <Typography variant="h5" color="blue-gray" className="zynergy">
             Zynergy: Group Workout Challenge Fitness App
           </Typography>
-          {/*Card Bottom Section*/}
+          
+         {/*Card Bottom Section */}
           <div className="bottom-section">
-            <div className="left-section">
+            <div className="project-type-badge">
+              <button className="project-type-button">Fitness & Wellness App</button>
+              <button className="project-type-button">Social Challenges</button>
+              <button className="project-type-button">Group Challenge Creation</button>
+            </div>
+
+            <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
                 <span className="card-button">Read More</span>
               </CardFooter>
-            </div>
-            
-            <div className="project-type-badge">
-              <button className="project-type-button">UX/UI</button>
             </div>
           </div>
         </div>
