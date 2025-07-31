@@ -51,6 +51,15 @@ function Babel() {
                 >
                   View Prototype
                 </a>
+               {/*Figjam button*/}
+                <div className="figjam-button-wrapper">
+                <a
+                  href="https://www.figma.com/board/v5HV3wc6jMfhvWd5EnkiaG/Babel_Project-Development?node-id=0-1&t=2wXOoeow0Nm7nrQO-1"
+                  className="figjam-button"
+                >
+                  View FigJam
+                </a>
+              </div>
               </div>
             </div>
 
