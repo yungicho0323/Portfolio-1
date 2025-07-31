@@ -221,7 +221,7 @@
   }
 
   .image-wrapper {
-    aspect-ratio: 4/3;
+    aspect-ratio: 4/4;
     padding: 15px;
   }
 
@@ -244,14 +244,9 @@
     margin-left: 12rem;
   }
 
-  .card-button {
+  .cardFooter-wrapper .card-button {
     padding: 6px 9px;
-    font-size: 8px;
-  }
-
-  .project-type-button {
-    padding: 4px 8px;
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .tool-icon {
@@ -263,10 +258,16 @@
     align-items: center;
     gap: 0.75rem;
   }
-
-  .left-section {
-    align-items: center;
+.project-type-badge {
+    gap: 6px;
+    justify-content: flex-start;
   }
+
+  .project-type-button {
+    font-size: 6px;
+    padding: 5px 10px;
+  }
+ 
 }
 
 /* Extra small devices (≤480px) */
