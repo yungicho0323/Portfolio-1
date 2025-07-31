@@ -48,13 +48,6 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* .image-wrapper:hover .project-image1,
-.image-wrapper:hover .project-image2,
-.image-wrapper:hover .project-image3,
-.image-wrapper:hover .project-image4 {
-  transform: scale(1.5);
-} */
-
 .project-image1,
 .project-image2,
 .project-image3,
@@ -97,12 +90,6 @@
 }
 
 
-.left-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .card-button {
   background-color: #d6b8fe;
   color: #000000;
@@ -133,11 +120,6 @@
   font-weight: 500;
   font-size: 1.35rem;
 }
-
-/* .image-wrapper:hover .babel,
-.image-wrapper:hover .zynergy {
-  color: white;
-} */
 
 .project-type-badge {
   display: flex;
