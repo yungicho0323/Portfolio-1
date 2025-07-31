@@ -551,6 +551,10 @@ margin-bottom: 40px;
   padding-bottom: 0.5rem;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .babel-analysis-section p {
   font-size: 1.1rem;
   font-weight: 500;
@@ -574,7 +578,7 @@ margin-bottom: 40px;
 .user-journey .analysis-image {
    margin-top: 2rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
     padding-top: 1rem;
 }
@@ -635,7 +639,7 @@ margin-bottom: 40px;
   }
 
   .Redesign {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
 
   .problem-list strong {
@@ -649,7 +653,7 @@ margin-bottom: 40px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     color: #111;
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
 
 .scenario-description {
@@ -668,7 +672,7 @@ margin-bottom: 40px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     color: #111;
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
 
 .high-fidelity-description {

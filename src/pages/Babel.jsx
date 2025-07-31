@@ -34,8 +34,7 @@ function Babel() {
               <p>
                 {" "}
                 <strong>
-                  A location-based safety app designed to enhance safety and
-                  community support for minorities living in urban areas
+                 A secure communication app designed to help minority communities stay safely connected with friends and support networks in public settings.
                 </strong>
                 <p />
                 It is designed to help minorities feel safe at city events, the
@@ -312,12 +311,12 @@ function Babel() {
               </div>
 
               {/*competitive analysis*/}
-              <div className="babel-competitve-analysis">
+              {/* <div className="babel-competitve-analysis">
                 <h4 className="babel-section-title">
                   Analyzing Market & Competitions
                 </h4>
                 <h2 className="babel-highlight">
-                  Competitve Analysis: Identifying Gaps in Minority-Focused
+                  Competitve Analysis: Identifying Gaps in Community-Focused
                   Safety Apps
                 </h2>
                 <p className="babel-body">
@@ -340,7 +339,7 @@ function Babel() {
                     className="babel-Competitive-Analysis"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/*Proposed Solution*/}
@@ -382,18 +381,25 @@ function Babel() {
         <section id="analysis" className="babel-analysis-section">
           <h2>03. Analysis</h2>
           <div className="persona-section">
-            <h4>Persona</h4>
+            <h4>Target Audience</h4>
+            <ul className="problem-list">
+          <li>
+            <strong>LGBTQ+ individuals</strong> navigating potentially unsafe public spaces, dating, and nightlife with strong community networks seeking discrete group safety coordination.
+          </li>
+          <li>
+            <strong>Racial/ethnic minorities</strong> in urban areas who experience safety concerns in certain environments and value collective community protection.
+          </li>
+
+          <li>
+            <strong>Women in male-dominated spaces, religious minorities, activists, and international students</strong> who need secure group communication and emergency response capabilities.
+          </li>
+        </ul>
+
+        <br/>
             <p>
               These persona helped us create a user-centric approach that
               addressed the specific needs and preferences of our target
               audience, resulting in a more effective and tailored solution.
-            </p>
-            <p>
-              1. BIPOC, LGBTQ and other minority groups (racial, religious,
-              cultural, sexual, gender, etc). <br />
-              2. Anyone that is not considered a minority group looking for safe
-              spaces to hang out and share their preferred activities and meet
-              other cultures.{" "}
             </p>
             <div className="analysis-image">
               <img src={UserPersona} alt="User Persona" />
@@ -465,6 +471,16 @@ function Babel() {
 
             <div className="IA-image">
               <img src={IA} alt="Information Architecture" />
+               <div className="MedSpeak-prototype-button-wrapper">
+              <a
+                href="https://www.figma.com/board/v5HV3wc6jMfhvWd5EnkiaG/Babel_Project-Development?node-id=3-23&t=FjZTJWRSjtZNSxoq-1"
+                target="_blank"
+                rel="Information Architecture"
+                className="prototype-button"
+              >
+                View IA
+              </a>
+            </div>
             </div>
           </div>
           {/*Redesign Highfidelity*/}
