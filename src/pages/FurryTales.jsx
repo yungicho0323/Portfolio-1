@@ -94,8 +94,7 @@ return (
         <strong> Emily Carr University</strong>.
         <br /><br />
         The event focused on addressing real-world UI/UX challenges faced by small businesses through
-        thoughtful website redesigns. As part of the process, our team had the <strong> opportunity to meet directly with the client to gain a clear understanding of their goals, needs, and expectations</strong>
-        —ensuring our design aligned closely with client’s requirements/needs.
+        thoughtful website redesigns. As part of the process, our team had the <strong> opportunity to meet directly with the client to gain a clear understanding of their goals, needs, and expectations</strong> ensuring our design aligned closely with client’s requirements/needs.
       </p>
     </section>
 
@@ -305,7 +304,7 @@ return (
         <p>
           After finalizing the moodboard and design direction, we restructured the information
           architecture to create a more streamlined sitemap. Key navigation elements were reorganized
-          based on the client’s priorities—such as keeping the “Wholesale” section—to improve clarity
+          based on the client’s priorities such as keeping the “Wholesale” section to improve clarity
           and overall user experience.
         </p>
         <div className="ideation-image">
@@ -381,8 +380,8 @@ return (
         <p>
           Participating in the FLUI Hackathon was my first UI design challenge under a tight 5-day
           timeframe, and it proved to be both eye-opening and rewarding. One of the biggest challenges
-          I faced as the project manager was planning and executing the entire redesign process—from
-          brand identity ideation to high-fidelity prototyping—within such a limited period.
+          I faced as the project manager was planning and executing the entire redesign process from
+          brand identity ideation to high-fidelity prototyping within such a limited period.
         </p>
         <p>
           As it was also our first time working with a real client, we focused on asking the right
