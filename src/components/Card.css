@@ -248,7 +248,7 @@
 .project-type-badge {
     gap: 6px;
     justify-content: flex-start;
-    display:none;
+    /* display:none; */
   }
 
   .project-type-button {
