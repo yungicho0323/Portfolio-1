@@ -223,8 +223,8 @@ body {
     padding: 4rem 1.5rem;
   }
 
-  .intro-text {
-    font-size: 2rem;
+  .highlight {
+    padding: 2px 8px;
   }
 
   .hero-title {
@@ -252,7 +252,7 @@ body {
   }
 
   .intro-text {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
      line-height: 2;
   }
 

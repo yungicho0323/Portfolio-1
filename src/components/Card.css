@@ -215,7 +215,7 @@
   }
 
   .image-wrapper {
-    aspect-ratio: 4/4;
+    aspect-ratio: 5/4;
     padding: 15px;
   }
 
@@ -230,23 +230,23 @@
   .furryTales,
   .MedSpeak,
   .babel {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     text-align: center;
+    padding: 10px 0;
   }
 
   .cardFooter-wrapper {
-    margin-left: 12rem;
+    margin-left: 14rem;
   }
 
   .cardFooter-wrapper .card-button {
     padding: 6px 9px;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .bottom-section {
     flex-direction: column;
     align-items: center;
-    gap: 0.75rem;
   }
 
 .project-type-badge {
@@ -257,6 +257,11 @@
   .project-type-button {
     font-size: 6px;
     padding: 5px 10px;
+    display: none;
+  }
+
+  .card-link {
+    margin-bottom: 2rem;
   }
  
 }
