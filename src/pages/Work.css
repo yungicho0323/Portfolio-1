@@ -37,8 +37,8 @@
   }
 
   .image-wrapper {
-    max-width: 90%;
-    padding: 0.75rem;
+    max-width: 100%;
+    padding: 1rem;
   }
 
   .card-section {
