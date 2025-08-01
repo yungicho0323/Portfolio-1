@@ -196,10 +196,6 @@
     font-size: 12px;
   }
 
-  .tool-icon {
-    width: 24px;
-  }
-
   .zynergy,
   .furryTales,
   .MedSpeak,
@@ -252,12 +248,12 @@
 .project-type-badge {
     gap: 6px;
     justify-content: flex-start;
+    display:none;
   }
 
   .project-type-button {
     font-size: 6px;
     padding: 5px 10px;
-    display: none;
   }
 
   .card-link {
