@@ -260,6 +260,7 @@ body {
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
     margin: 2rem auto;
+    display:none;
   }
 
   .col-text-right .blur-2:before {
