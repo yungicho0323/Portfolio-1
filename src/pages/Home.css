@@ -36,7 +36,7 @@ body {
   transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
   will-change: transform;
   transform-style: preserve-3d;
-
+   z-index: 0; /* Add this */
 }
 
 .col-text-left .blur:hover {
@@ -125,6 +125,7 @@ body {
   margin: 0 auto;
   padding: 6rem;
   text-align: left;
+   z-index: 1; /* Add this */
 }
 
 .intro-text {
@@ -134,6 +135,7 @@ body {
   font-weight: 500;
   line-height: 1.6;
 }
+
 
 .highlight {
   position: relative;
