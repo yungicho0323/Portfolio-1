@@ -39,22 +39,23 @@ export function CardComponent() {
         </div>
       </Link>
 
-      {/* Babel Card - Entire card is clickable */}
-      <Link to="/babel" className="card-link">
+      {/* Zynergy Card - Entire card is clickable */}
+      <Link to="/zynergy" className="card-link">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={babelImage} alt="Project-4" className="project-image4" />
-          {/*Babel Title*/}
-          <Typography variant="h5" color="blue-gray" className="babel"> 
-            Babel: Emergency Response & Safety Communication App
+          <img src={ZynergyImage} alt="Project-1" className="project-image1" />
+          {/*Zynergy Title*/}
+          <Typography variant="h5" color="blue-gray" className="zynergy">
+            Zynergy: Group Workout Challenge Fitness App
           </Typography>
-
+          
          {/*Card Bottom Section */}
           <div className="bottom-section">
             <div className="project-type-badge">
-              <button className="project-type-button">Safety & Community</button>
-              <button className="project-type-button">Real-Time Location Sharing</button>
-              <button className="project-type-button">Emergency Coordination</button>
-                          </div>
+              <button className="project-type-button">Fitness & Wellness App</button>
+              <button className="project-type-button">Social Connection</button>
+              <button className="project-type-button">Group Workout</button>
+              <button className="project-type-button">Workout Progress Tracker</button>
+            </div>
 
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
@@ -92,22 +93,22 @@ export function CardComponent() {
         </div>
       </Link>
 
-      {/* Zynergy Card - Entire card is clickable */}
-      <Link to="/zynergy" className="card-link">
+      {/* Babel Card - Entire card is clickable */}
+      <Link to="/babel" className="card-link">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={ZynergyImage} alt="Project-1" className="project-image1" />
-          {/*Zynergy Title*/}
-          <Typography variant="h5" color="blue-gray" className="zynergy">
-            Zynergy: Group Workout Challenge Fitness App
+          <img src={babelImage} alt="Project-4" className="project-image4" />
+          {/*Babel Title*/}
+          <Typography variant="h5" color="blue-gray" className="babel"> 
+            Babel: Emergency Response & Safety Communication App
           </Typography>
-          
+
          {/*Card Bottom Section */}
           <div className="bottom-section">
             <div className="project-type-badge">
-              <button className="project-type-button">Fitness & Wellness App</button>
-              <button className="project-type-button">Social Challenges</button>
-              <button className="project-type-button">Group Challenge Creation</button>
-            </div>
+              <button className="project-type-button">Safety & Community</button>
+              <button className="project-type-button">Real-Time Location Sharing</button>
+              <button className="project-type-button">Emergency Coordination</button>
+                          </div>
 
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
@@ -117,6 +118,7 @@ export function CardComponent() {
           </div>
         </div>
       </Link>
+
 
     </Card>
   );

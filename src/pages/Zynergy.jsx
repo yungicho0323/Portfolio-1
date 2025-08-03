@@ -4,7 +4,6 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
-import features from '../assets/images/zynergy-features.png';
 import ZynergyVideo from '../assets/videos/Zynergy.mp4';
 import problem from '../assets/images/Zynergy-problem.jpg';
 import UserInterview from '../assets/images/UserInterview.png';
@@ -253,6 +252,17 @@ function Zynergy() {
             className="Zynergy-analysis"/>
     </div>
     </div>
+
+     <div className="Zynergy-prototype-button-wrapper">
+        <a
+          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=67-892&t=JAv0BoQwe5YF8Sia-1"
+          target="_blank"
+          rel="Zynergy Competitive Analysis"
+          className="analysis-button"
+        >
+         View Competitive Analysis
+        </a>
+      </div>
     
       {/*Proposed Solution*/}
         <div className="goal-section">
@@ -487,16 +497,24 @@ function Zynergy() {
   <h3 className="takeaway-heading">Project Takeaways</h3>
   <div className="takeaway-box">
     <ul className="takeaway-list">
-      <li>Gained insight into the emotional and social drivers behind fitness behavior.</li>
-      <li>Findings shifted design direction toward:
+      <li>Gained insights into the emotional and social drivers behind fitness behavior through user interviews.</li>
+      <li><strong>Findings shifted design direction toward:</strong>
         <ul>
           <li>Integrating group challenges</li>
           <li>Implementing buddy systems</li>
         </ul>
-      
       </li>
-      <li>To further enhance the community-driven experience and boost user motivation, I considered adding features such as Shared Progress Tracking and Reminders & Streaks in the next design iteration.</li>
-      <li> To deepen my research insights, I plan to conduct user interviews to better understand users’ pain points and uncover opportunities for improvement.</li>
+
+      <li><strong>Designing for Personalization</strong>
+      <ul>
+        <li>Learned the importancce of allowing users to tailor their fitness journey while keeping the interface clean and intuitive.</li>
+      </ul>
+      </li>
+      <li><strong>Goal-oriented UI Encourages Motivation</strong>
+      <ul>
+        <li>Created a progress graph showcasing a success rate for Workout Tracker to create a sense of achievement and momentum so that users feel rewarded and nudged them to keep going.</li>
+        </ul>
+        </li>
     </ul>
   </div>
 </section>
