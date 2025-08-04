@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <h2 className="footer-title">Let's Collaborate!
+        <h2 className="footer-title">Collab over coffee?☕
         </h2>
         <div className="footer-links">
           <a href="/Resume.pdf" target="_blank" rel="Resume" className="social-link">Resume
