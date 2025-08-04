@@ -29,9 +29,8 @@ function About() {
         </div>
         <div className="about-text">
         <p>
-         <span className="intro-about">Hey there! At the heart of my design practice is a belief that digital experiences should make everyday life feel easier, more intuitive, and more human.</span> I’m a purpose-driven UX/UI designer based in Vancouver, BC. With a background in business and a strong foundation in UX design, I bring both strategic thinking and hands-on execution to every project.
-          <br/>I believe meaningful design starts with a deep understanding of the product and the people who use it. My process is grounded in research to uncover real needs and opportunities. 
-          <br/>Also, I value curiosity, open collaboration, and honest feedback as essential parts of the design journey.
+         <span className="intro-about">Hey there! At the core of my design practice is a desire to help people navigate the digital world with more ease and empathy.</span> I'm a purpose-driven UX/UI designer based in Vancouver, BC. With a background in business administration, I developed my design skills through the New Media Design and Web Development program at BCIT.
+          <br/>I naturally approach problems from both a user and business perspective. But it is through real design work such as talking to users, identifying pain points, and testing solutions that I found my purpose which is helping people through thoughtful digital experiences.
           </p>
            <p>Let’s connect and explore how my design thinking and creative process can help turn your ideas into impactful user experiences.
           Check out my work and feel free to reach out at <strong>yungicho8@gmail.com.</strong>
