@@ -102,7 +102,7 @@ function Zynergy() {
 
           <div className="problem-question-box">
             <p>
-              <strong>How might we</strong> transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
+              <strong>How might we</strong> transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s fitness journey?
             </p>
           </div>
           </div>
@@ -229,7 +229,7 @@ function Zynergy() {
       {/*Proposed Solution*/}
         <div className="goal-section">
           <h3 className="goal-title">Approach</h3>
-          <p> <strong>  How might we transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s wellness journey?
+          <p> <strong>  How might we transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s fitness journey?
           </strong>
           </p>
           <p>
