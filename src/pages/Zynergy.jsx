@@ -9,6 +9,7 @@ import problem from '../assets/images/Zynergy-problem.jpg';
 import UserInterview from '../assets/images/UserInterview.png';
 import Persona1 from '../assets/images/Persona 1.png';
 import UserJourney from '../assets/images/UserJourney.png';
+import affinitymapping from '../assets/images/affinity-mapping.png';
 import Brainstorming from '../assets/images/Brainstorming.png';
 import mainfeatures from '../assets/images/mainfeatures.png';
 import IA from '../assets/images/IA.png';
@@ -88,14 +89,6 @@ function Zynergy() {
                   </div>
                 </div>
             </section>
-
-  {/*Zynergy feature images*/}
- {/* <section className="zynergy-section">
-      <div className="zynergy-container">
-        <img src={features} alt="Zynergy App Features" className="zynergy-image" />
-      </div>
-    </section> */}
-
 
 
 {/*Overview*/}
@@ -234,36 +227,8 @@ function Zynergy() {
       </div>
     </div>
 
-    {/*Competitive Analysis Image*/}
-      <div className="competitive-section">
-      <h4>Competitive Analysis</h4>
-      <p>
-      I selected <span className="zynergy-highlight-keyword">ClassPass</span> as a benchmark fitness class booking app for our competitive analysis because since 2024, ClassPass has been the most growing fitness app as obtaining many new subscribed users. A key strength of ClassPass is its social integration, which enables users to view their friends' registered classes and activities. However,  <strong className="zynergy-highlight-keyword">it lacks features such as 
-      group participation</strong>, 
-      <strong className="zynergy-highlight-keyword"> community-driven tools</strong>, and 
-      <strong className="zynergy-highlight-keyword"> shared fitness engagement</strong>, 
-      which are essential for fostering deeper user connection.
-    </p>
-    <div className="analysis-placeholder">
-            <img src={analysis} alt="Zynergy Competitve Analysis" className="Zynergy-analysis" />
-    </div>
-    <div className="analysis-placeholder">
-            <img src={analysis2} alt="Zynergy IA"
-            className="Zynergy-analysis"/>
-    </div>
-    </div>
 
-     <div className="Zynergy-prototype-button-wrapper">
-        <a
-          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=67-892&t=JAv0BoQwe5YF8Sia-1"
-          target="_blank"
-          rel="Zynergy Competitive Analysis"
-          className="analysis-button"
-        >
-         View Competitive Analysis
-        </a>
-      </div>
-    
+
       {/*Proposed Solution*/}
         <div className="goal-section">
           <h3 className="goal-title">Approach</h3>
@@ -317,6 +282,37 @@ function Zynergy() {
       </div>
     </section>
 
+    {/*Affinity Mapping*/}
+  
+  <section className="affinity-mapping-section">
+    <div className="text-container">
+      <h3 className="subheading">Affinity Mapping</h3>
+      <h2 className="main-heading">Identify Core User Needs</h2>
+      <p className="description">
+        Through affinity mapping, I organized user insights and feature ideas into distinct clusters to identify the fundamental needs that would drive user engagement and solve the core problem of declining motivation in fitness journeys. This process revealed how different app functionalities could work together to create a cohesive social fitness experience.
+      </p>
+      <br/>
+      <p className="description">
+        I addressed 6 main clusters based on user insights and feature ideas: 
+        <span className="zynergy-highlight-keyword"> Challenge Management, Social Discovery & Connection, Group Formation & Management, Communication & Integration, Progress & Accountability, and Motiation & Enagement.</span>
+      </p>
+    </div>
+
+      <div className="Zynergy-userjourney">
+        <img src={affinitymapping} alt="Affinity Mapping" className="userjoruney-image" />
+      </div>
+        <div className="Zynergy-prototype-button-wrapper">
+        <a
+          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=87-1427&t=kj96v0WYTDwUrrmi-1"
+          target="_blank"
+          rel="Zynergy Affinity Mapping"
+          className="prototype-button"
+        >
+         View Affinity Mapping
+        </a>
+      </div>
+  </section>
+
 {/*section divider*/}
 <div className="section-divider"></div>
 
@@ -325,11 +321,12 @@ function Zynergy() {
       <h2>04. Ideation</h2>
 
       {/*Brainstorming*/}
-       <div className="text-block">
-        <h3 className="section-title">Brainstorming</h3>
+       <div className="text-container">
+         <h3 className="subheading">Impact-feasibility matrix</h3>
+        <h2 className="main-heading">Prioritizing Features for User Impact</h2>
         <p className="zynergy-section-description">
           Following the user research phase, I mainly focused on thinking about features that I want to implement in the app. 
-          So, I had a brainstorming session to come up with features, then built an information sitemap, and started building wireframes.
+          So, I had a brainstorming session to come up with features with impact-feasibility matrix, then built an information sitemap, and started building wireframes.
         </p>
       </div>
 
@@ -340,17 +337,17 @@ function Zynergy() {
           className="brainstorming-image"
         />
       </div>
-
-      {/*Main Features*/}
-      <p className="feature-section">
-        We decided 4 main features based on brainstorming and research:
-      </p>
-      <div className="diagram-placeholder">
-        <img src={mainfeatures} alt="Main Features" className="feature-image"/>
+      <div className="Zynergy-prototype-button-wrapper">
+        <a
+          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=90-1552&t=kj96v0WYTDwUrrmi-1"
+          rel="Zynergy Impact-feasibility Matrix"
+          className="prototype-button"
+        >
+         View Impact-feasibility Matrix
+        </a>
       </div>
-      
 
-
+    <div className="IA-container">
       <h3> Information Architecture</h3>
       <p className="IA-description">
          After brainstorming about main features, I designed information architecture for the whole application based on the key product features.
@@ -369,6 +366,7 @@ function Zynergy() {
         </a>
       </div>
       </p>
+      </div>
       
 
       <div className="ideation-content">
@@ -498,10 +496,10 @@ function Zynergy() {
   <div className="takeaway-box">
     <ul className="takeaway-list">
       <li>Gained insights into the emotional and social drivers behind fitness behavior through user interviews.</li>
-      <li><strong>Findings shifted design direction toward:</strong>
+      <li><strong>Prioritization of core app features through affinity mapping</strong>
         <ul>
-          <li>Integrating group challenges</li>
-          <li>Implementing buddy systems</li>
+          <li>Ensured that each main functionality addresses a distinct but interconnected user need within the broader goal of maintaining long-term fitness motivation through social connection.</li>
+          <li>The affinity mapping process revealed that sucessful social fitness features must balance individual flexibility with group cohesion while creating authentic social connections.</li>
         </ul>
       </li>
 
