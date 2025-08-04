@@ -5,17 +5,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <h2 className="footer-title">Let’s Connect.</h2>
+        <h2 className="footer-title">Say Hi!
+          <br/>First round’s on me ☕
+        </h2>
         <div className="footer-links">
-          <a href="/Resume.pdf" target="_blank" rel="Resume" className="footer-link">Resume</a>
-        </div>
-        <div className="social-links">
+          <a href="/Resume.pdf" target="_blank" rel="Resume" className="social-link">Resume
+          <span className="arrow">↗</span></a>
           <a href="mailto:yungicho8@gmail.com" className="social-link">Email
           <span className="arrow">↗</span>
           </a>
           <a href="https://www.linkedin.com/in/yungi-cho/" target="_blank" rel="LinkedIn" className="social-link">LinkedIn
-          <span className="arrow">↗</span></a>
-          <a href="https://github.com/yungicho0323/Portfolio-1" target="_blank" rel="GitHub" className="social-link">GitHub
           <span className="arrow">↗</span></a>
         </div>
       </div>

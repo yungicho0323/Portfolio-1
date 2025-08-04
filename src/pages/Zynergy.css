@@ -104,26 +104,6 @@ margin-bottom: 40px;
   line-height: 1.4;
 }
 
-  /*zynergy features*/
-  .zynergy-section {
-  background-color: #FFFEEE;
-  padding: 4rem 2rem;
-  display: flex;
-  justify-content: center;
-}
-
-.zynergy-container {
-  max-width: 1200px;
-  text-align: center;
-}
-
-
-.zynergy-image {
-  width: 100%;
-  max-width: 1000px;
-  height: auto;
-  border-radius: px;
-}
 
   /*Overview*/
 .zynergy-overview-section {

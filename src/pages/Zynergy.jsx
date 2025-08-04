@@ -175,7 +175,6 @@ function Zynergy() {
 
   </div>
 </section> */}
-
 {/*Research*/}
   <section id="research" className="research-section">
         <div className="research-container">
