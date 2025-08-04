@@ -284,7 +284,7 @@ function Zynergy() {
   <section className="affinity-mapping-section">
     <div className="text-container">
       <h3 className="subheading">Affinity Mapping</h3>
-      <h2 className="main-heading">Identify Core User Needs</h2>
+      <h2 className="main-heading">Identifying Core User Needs</h2>
       <p className="description">
         Through affinity mapping, I organized user insights and feature ideas into distinct clusters to identify the fundamental needs that would drive user engagement and solve the core problem of declining motivation in fitness journeys. This process revealed how different app functionalities could work together to create a cohesive social fitness experience.
       </p>
@@ -323,8 +323,14 @@ function Zynergy() {
         <h2 className="main-heading">Prioritizing Features for User Impact</h2>
         <p className="zynergy-section-description">
           Following the user research phase, I mainly focused on thinking about features that I want to implement in the app. 
-          So, I had a brainstorming session to come up with features with impact-feasibility matrix, then built an information sitemap, and started building wireframes.
-        </p>
+          So, I had a brainstorming session to come up with features with impact-feasibility matrix, then built an information sitemap, and started building wireframes.</p>
+          <br/>
+
+         <h3>Why Impact-feasibility matrix?</h3>
+         <p className="zynergy-section-description">
+          To prioritize features that directly solve user pain points while considering real-world design and development constraints, preventing feature bloat and ensuring every element serves the core user journey effectively.
+         </p>
+         
       </div>
 
       <div className="brainstorming-image-wrapper">

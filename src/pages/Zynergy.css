@@ -580,7 +580,6 @@ margin-bottom: 40px;
 
 
 
-
 /* Ideation */
 .ideation-section {
     background-color: #FFFEEE;
@@ -591,17 +590,19 @@ margin-bottom: 40px;
     color: #111;
   }
   
-  .ideation-section h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 30px;
-  }
-
   /*Brainstorming */
   
   .text-block {
     max-width: 1000px;
     margin-bottom: 40px;
+  }
+
+  .text-container .main-heading {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 18px;
+    line-height: 1.5;
   }
 
   .zynergy-section-description {
