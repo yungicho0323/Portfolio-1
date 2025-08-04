@@ -284,14 +284,21 @@ function Zynergy() {
   <section className="affinity-mapping-section">
     <div className="text-container">
       <h3 className="subheading">Affinity Mapping</h3>
-      <h2 className="main-heading">Identifying Core User Needs</h2>
+      <h2 className="main-heading">Clustering User Research Insights and Design Ideas</h2>
       <p className="description">
-        Through affinity mapping, I organized user insights and feature ideas into distinct clusters to identify the fundamental needs that would drive user engagement and solve the core problem of declining motivation in fitness journeys. This process revealed how different app functionalities could work together to create a cohesive social fitness experience.
+        Through affinity mapping, I organized user insights and feature ideas into distinct clusters to find themes and group design ideas into pieces of functionality. This process revealed how different app functionalities could work together to create a cohesive social fitness experience.
       </p>
       <br/>
       <p className="description">
-        I addressed 6 main clusters based on user insights and feature ideas: 
-        <span className="zynergy-highlight-keyword"> Challenge Management, Social Discovery & Connection, Group Formation & Management, Communication & Integration, Progress & Accountability, and Motiation & Enagement.</span>
+        I addressed <strong>6 main clusters</strong> based on core user needs: 
+        <ul className="theme-list">
+          <li>Challenge Management</li>
+          <li>Social Discovery & Connection</li> 
+          <li>Group Formation & Management</li> 
+          <li>Communication & Integration</li>
+          <li>Progress & Accountability</li>
+          <li>Motiation & Enagement.</li>
+          </ul>
       </p>
     </div>
 
