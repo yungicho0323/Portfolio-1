@@ -78,7 +78,8 @@ function Zynergy() {
                   </div>
                   <div>
                     <h4>Team</h4>
-                    <p>5 Members</p>
+                    <p> Mor Keren (UX/UI Designer), <br/>Zoey Huang  (Project Manager), <br/>Nicole Cuason (Graphic Designer), <br/>Truc Quynh Nguyen (Graphic Designer)</p>
+
                   </div>
                   <div>
                     <h4>Role</h4>
