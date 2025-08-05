@@ -55,7 +55,7 @@ function About() {
         </div>
     </section>
 
-
+{/* 
   <section className="Design-process">
   <div className="design-process-context">
 
@@ -76,7 +76,7 @@ function About() {
     </div>
 
   </div>
-</section>
+</section> */}
 
 
 
