@@ -64,10 +64,10 @@ return (
           </div>
           <div>
             <h4>Team</h4>
-            <p>4 Members</p>
+            <p>Suin Kim (UX/UI Designer), <br/> Tina Lin (UX/UI Designer), <br/> Kritika Bhunwal (User Researcher) </p>
           </div>
           <div>
-            <h4>Role</h4>
+            <h4>My Role</h4>
             <p>Project Manager</p>
           </div>
         </div>

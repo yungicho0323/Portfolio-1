@@ -82,7 +82,7 @@ function Zynergy() {
 
                   </div>
                   <div>
-                    <h4>Role</h4>
+                    <h4>My Role</h4>
                     <p>UX UI Designer <br/> Project Manager</p>
                   </div>
                 </div>

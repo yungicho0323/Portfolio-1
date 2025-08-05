@@ -94,11 +94,7 @@ function Babel() {
               </div>
               <div>
                 <h4>Team</h4>
-                <p>2 Members</p>
-              </div>
-              <div>
-                <h4>Role</h4>
-                <p>UX UI Designer</p>
+                <p>YunGi Cho (UX/UI Designer), <br/>Sole Esnaola Scotto (UX/UI Designer)</p>
               </div>
             </div>
         </section>

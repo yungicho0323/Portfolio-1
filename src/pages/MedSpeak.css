@@ -102,7 +102,7 @@ margin-bottom: 40px;
 .updated-meta {
    display: flex;
     flex-wrap: wrap;
-    gap: 10rem;
+    gap: 9rem;
     border-top: 1px solid #444;
     padding-top: 30px;
     color: #111;
