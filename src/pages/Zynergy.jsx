@@ -264,7 +264,7 @@ function Zynergy() {
       <div className="text-container">
         <h3 className="subheading">Identifying the Pain Points</h3>
         <h2 className="main-heading">
-          Lack of motivation and isolated challenge-based features hinder consistent engagement in wellness routines.
+          Lack of motivation and isolated challenge-based features hinder consistent engagement in fitness routines.
         </h2>
         <p className="description">
           Many users begin their fitness journey with high energy and enthusiasm, often setting personal goals or joining challenges. However, when these challenges are designed for individual effort without meaningful interaction or social accountability, motivation tends to fade. Users struggle to stay committed without a sense of community, encouragement, or an easy way to involve friends.
