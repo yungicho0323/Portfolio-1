@@ -296,7 +296,7 @@ function Zynergy() {
           <li>Group Formation & Management</li> 
           <li>Communication & Integration</li>
           <li>Progress & Accountability</li>
-          <li>Motiation & Enagement.</li>
+          <li>Motivation & Enagement</li>
           </ul>
       </p>
     </div>
