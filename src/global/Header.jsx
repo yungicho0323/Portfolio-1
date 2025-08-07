@@ -16,7 +16,7 @@ const Header = () => {
 
       {/* Desktop Nav - keep as is */}
       <nav className="main-nav">
-        <Link to="/work" className="hover:text-purple-600">UX/UI</Link>
+        <Link to="/work" className="hover:text-purple-600">WORKS</Link>
         <Link to="/about" className="hover:text-purple-600">ABOUT</Link>
       </nav>
 

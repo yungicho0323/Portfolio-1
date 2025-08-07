@@ -83,7 +83,7 @@ function Zynergy() {
                   </div>
                   <div>
                     <h4>My Role</h4>
-                    <p>UX UI Designer <br/> Project Manager</p>
+                    <p>UX/UI Designer</p>
                   </div>
                 </div>
             </section>
@@ -233,7 +233,7 @@ function Zynergy() {
           </strong>
           </p>
           <p>
-            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: <span className="zynergy-highlight-keyword">the lack of socially engaging features that promote sustained motivation and user retention.</span> While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering <span className="zynergy-highlight-keyword">Group Workout Challenges </span>that allow users to connect, collaborate, and commit to shared fitness goals.
+            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: <span className="zynergy-highlight-keyword">the lack of socially engaging features that promote sustained motivation and user retention.</span> While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering <span className="zynergy-highlight-keyword"> Group Workout Challenges </span>that allow users to connect, collaborate, and commit to shared fitness goals.
           </p>
         </div>
 
@@ -297,7 +297,7 @@ function Zynergy() {
           <li>Group Formation & Management</li> 
           <li>Communication & Integration</li>
           <li>Progress & Accountability</li>
-          <li>Motivation & Enagement</li>
+          <li>Motivation & Engagement</li>
           </ul>
       </p>
     </div>
@@ -515,7 +515,7 @@ function Zynergy() {
 
       <li><strong>Designing for Personalization</strong>
       <ul>
-        <li>Learned the importancce of allowing users to tailor their fitness journey while keeping the interface clean and intuitive.</li>
+        <li>Learned the importance of allowing users to tailor their fitness journey while keeping the interface clean and intuitive.</li>
       </ul>
       </li>
       <li><strong>Goal-oriented UI Encourages Motivation</strong>

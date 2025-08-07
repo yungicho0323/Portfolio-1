@@ -68,7 +68,7 @@ return (
           </div>
           <div>
             <h4>My Role</h4>
-            <p>Project Manager</p>
+            <p>UX/UI Designer, <br/>Project Manager</p>
           </div>
         </div>
     </section>
