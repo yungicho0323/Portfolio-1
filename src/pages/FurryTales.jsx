@@ -31,7 +31,7 @@ return (
           A Vancouver based small business that specializes in handcrafted dehydrated and
           freshly baked pet treats for dogs and cats</strong>
         </p>
-        <p>It was UI UX redesign competition for 72 hours where students and professionals come together to solve real-world challenges held by Emily Carr University. </p>
+        <p>It is a redesign of the FurryTales Pet e-commerce website to improve usability, strengthen brand identity, and enhance the online shopping experience for pet owners, with the goal of increasing user engagement, simplifying navigation, and boosting online sales. </p>
             <div className="prototype-button-wrapper"> 
         <a
           href="https://www.figma.com/proto/0XZFxXzgway1yDoCsUPLXT/FurryTales-Pet?page-id=0%3A1&node-id=122-2783&viewport=1271%2C244%2C0.15&t=J2Sa25xrUqP9f5vs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=122%3A2783"
