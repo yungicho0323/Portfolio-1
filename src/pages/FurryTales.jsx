@@ -155,7 +155,7 @@ return (
             <img src={avatarMe} alt="Me" />
           </div>
           <p className="team-name">Me</p>
-          <p className="team-role">Project Manager</p>
+          <p className="team-role">UX/UI Designer <br/>Project Manager</p>
         </div>
 
         <div className="team-member">
@@ -163,7 +163,7 @@ return (
             <img src={avatarSuin} alt="Suin" />
           </div>
           <p className="team-name">Suin</p>
-          <p className="team-role">UI/ UX Designer</p>
+          <p className="team-role">UX/UI Designer</p>
         </div>
 
         <div className="team-member">
@@ -171,7 +171,7 @@ return (
             <img src={avatarTina} alt="Tina" />
           </div>
           <p className="team-name">Tina</p>
-          <p className="team-role">UI/UX Designer</p>
+          <p className="team-role">UX/UI Designer</p>
         </div>
 
         <div className="team-member">
@@ -179,7 +179,7 @@ return (
             <img src={avatarKritika} alt="Kritika" />
           </div>
           <p className="team-name">Kritika</p>
-          <p className="team-role">Researcher</p>
+          <p className="team-role">User Researcher</p>
         </div>
       </div>
     </section>
