@@ -36,7 +36,7 @@ function MedSpeak() {
               <h1>MedSpeak</h1>
               <p>
                 <strong>
-                 An AI-powered medical app that allows users to describe their symptoms in their own language, automatically translating them into other languages to eliminate communication barriers with doctors, while also helping users track their health over time.
+                 An AI-powered medical app that allows users to describe their symptoms in their own language, automatically translating them into other languages while also helping users track their health over time.
                 </strong>
               </p>
               <p>
