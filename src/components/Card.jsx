@@ -39,32 +39,6 @@ export function CardComponent() {
         </div>
       </Link>
 
-      {/* Zynergy Card - Entire card is clickable */}
-      <Link to="/zynergy" className="card-link">
-        <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={ZynergyImage} alt="Project-1" className="project-image1" />
-          {/*Zynergy Title*/}
-          <Typography variant="h5" color="blue-gray" className="zynergy">
-            Zynergy: Group Workout Challenge Fitness App
-          </Typography>
-          
-         {/*Card Bottom Section */}
-          <div className="bottom-section">
-            <div className="project-type-badge">
-              <button className="project-type-button">Fitness & Wellness App</button>
-              <button className="project-type-button">Social Connection</button>
-              <button className="project-type-button">Group Workout</button>
-              <button className="project-type-button">Workout Progress Tracker</button>
-            </div>
-
-            <div className="right-section">
-              <CardFooter className="cardFooter-wrapper">
-                <span className="card-button">Read More</span>
-              </CardFooter>
-            </div>
-          </div>
-        </div>
-      </Link>
 
       {/* FurryTales Card - Entire card is clickable */}
       <Link to="/furrytales" className="card-link">
@@ -93,6 +67,32 @@ export function CardComponent() {
         </div>
       </Link>
 
+      {/* Zynergy Card - Entire card is clickable */}
+      <Link to="/zynergy" className="card-link">
+        <div className="image-wrapper animate__animated animate__slideInUp">
+          <img src={ZynergyImage} alt="Project-1" className="project-image1" />
+          {/*Zynergy Title*/}
+          <Typography variant="h5" color="blue-gray" className="zynergy">
+            Zynergy: Group Workout Challenge Fitness App
+          </Typography>
+          
+         {/*Card Bottom Section */}
+          <div className="bottom-section">
+            <div className="project-type-badge">
+              <button className="project-type-button">Fitness & Wellness App</button>
+              <button className="project-type-button">Social Connection</button>
+              <button className="project-type-button">Group Workout</button>
+              <button className="project-type-button">Workout Progress Tracker</button>
+            </div>
+
+            <div className="right-section">
+              <CardFooter className="cardFooter-wrapper">
+                <span className="card-button">Read More</span>
+              </CardFooter>
+            </div>
+          </div>
+        </div>
+      </Link>
       {/* Babel Card - Entire card is clickable */}
       <Link to="/babel" className="card-link">
         <div className="image-wrapper animate__animated animate__slideInUp">
