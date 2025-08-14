@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './FurryTales.css';
@@ -14,9 +14,26 @@ import sitemapImg from '../assets/images/Sitemaps.png';
 import wireframesImg from '../assets/images/Wireframe.png';
 import designSystemImg from '../assets/images/Design System.png';
 import highFidelityImg from '../assets/images/high-fidelity.png';
+import homepageImg from '../assets/images/homepage.png';
+import shoppageImg from '../assets/images/shoppage.png';
+import aboutpageImg from '../assets/images/aboutpage.png';
+import popupImg from '../assets/images/pop-up.png';
 
 
 function FurryTales() {
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openImageModal = (imageSrc, altText) => {
+    setSelectedImage({ src: imageSrc, alt: altText });
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedImage(null);
+  };
+
 return (
     <>
     <Header />
@@ -94,14 +111,14 @@ return (
         <strong> Emily Carr University</strong>.
         <br /><br />
         The event focused on addressing real-world UI/UX challenges faced by small businesses through
-        thoughtful website redesigns. As part of the process, our team had the <strong> opportunity to meet directly with the client to gain a clear understanding of their goals, needs, and expectations</strong> ensuring our design aligned closely with client’s requirements/needs.
+        thoughtful website redesigns. As part of the process, our team had the <strong> opportunity to meet directly with the client to gain a clear understanding of their goals, needs, and expectations</strong> ensuring our design aligned closely with client's requirements/needs.
       </p>
     </section>
 
     {/*our client's goals*/}
 <section className="goals-section">
       <div className="goals-header">
-        <h2>Our Client’s Goals</h2>
+        <h2>Our Client's Goals</h2>
         {/* <a href="https://www.furrytalespet.ca/" className="current-site-link">Current Website</a> */}
       </div>
 
@@ -135,7 +152,7 @@ return (
           <h3>#4 Incorporate Social Proof & Testimonials</h3>
           <p>
             Add a dedicated section or page featuring product reviews and ambassador testimonials
-            to build trust and highlight the brand’s growing community.
+            to build trust and highlight the brand's growing community.
           </p>
         </div>
       </div>
@@ -229,23 +246,59 @@ return (
         <h4>Current Website Issues</h4>
 
         <div className="issue">
-          <strong>01 Lack of Brand Identity</strong>
-          <p>The site lacks a strong brand presence. Inconsistent design makes it forgettable.</p>
+          <div className="issue-content">
+            <strong>01 Lack of Brand Identity</strong>
+            <p>The site lacks a strong brand presence. Inconsistent design makes it forgettable.</p>
+          </div>
+          <button 
+            className="issue-arrow" 
+            onClick={() => openImageModal(homepageImg, "Homepage showing lack of brand identity")}
+            aria-label="View homepage example"
+          >
+            →
+          </button>
         </div>
 
         <div className="issue">
-          <strong>02 Disorganized Information Architecture</strong>
-          <p>The navigation structure and product categories are confusing.</p>
+          <div className="issue-content">
+            <strong>02 Disorganized Information Architecture</strong>
+            <p>The navigation structure and product categories are confusing.</p>
+          </div>
+          <button 
+            className="issue-arrow" 
+            onClick={() => openImageModal(shoppageImg, "Shop page showing disorganized information architecture")}
+            aria-label="View shop page example"
+          >
+            →
+          </button>
         </div>
 
         <div className="issue">
-          <strong>03 Weak Visual Hierarchy & Call-to-Action Placement</strong>
-          <p>Important actions behind CTAs and key info don’t stand out enough.</p>
+          <div className="issue-content">
+            <strong>03 Weak Visual Hierarchy & Call-to-Action Placement</strong>
+            <p>Important actions behind CTAs and key info don't stand out enough.</p>
+          </div>
+          <button 
+            className="issue-arrow" 
+            onClick={() => openImageModal(popupImg, "Homepage pop-up showing weak visual hierarchy")}
+            aria-label="View homepage CTA example"
+          >
+            →
+          </button>
         </div>
 
         <div className="issue">
-          <strong>04 Inconsistent Experience Across Pages</strong>
-          <p>Layout and navigation changes across pages, making the site feel disconnected.</p>
+          <div className="issue-content">
+            <strong>04 Inconsistent Experience Across Pages</strong>
+            <p>Layout and navigation changes across pages, making the site feel disconnected.</p>
+          </div>
+          <button 
+            className="issue-arrow" 
+            onClick={() => openImageModal(aboutpageImg, "About page showing inconsistent experience")}
+            aria-label="View about page example"
+          >
+            →
+          </button>
         </div>
       </div>
 
@@ -255,7 +308,7 @@ return (
           We had the opportunity to meet with the client and presented a set of targeted questions
           based on pain points we identified in the existing website. <strong>During the meeting, we clarified
           specific goals and priorities to ensure that our redesign approach would align closely with
-          the client’s values, needs, and business objectives.</strong>
+          the client's values, needs, and business objectives.</strong>
         </p>
       </div>
       </div>
@@ -304,7 +357,7 @@ return (
         <p>
           After finalizing the moodboard and design direction, we restructured the information
           architecture to create a more streamlined sitemap. Key navigation elements were reorganized
-          based on the client’s priorities such as keeping the “Wholesale” section to improve clarity
+          based on the client's priorities such as keeping the "Wholesale" section to improve clarity
           and overall user experience.
         </p>
         <div className="ideation-image">
@@ -397,6 +450,17 @@ return (
         </p>
       </div>
     </section>
+
+    {/* Image Modal */}
+    {isModalOpen && selectedImage && (
+      <div className="image-modal-overlay" onClick={closeModal}>
+        <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+          <button className="modal-close-btn" onClick={closeModal}>×</button>
+          <img src={selectedImage.src} alt={selectedImage.alt} className="modal-image" />
+          <p className="modal-caption">{selectedImage.alt}</p>
+        </div>
+      </div>
+    )}
 
     </main>
     <Footer />
