@@ -66,7 +66,7 @@ return (
       </div>
        </div>
         
-        <div className="project-meta updated-meta">
+        <div className="project-meta furrytales-updated-meta">
           <div>
             <h4>Timeline</h4>
             <p>72 hours February, 2025</p>
