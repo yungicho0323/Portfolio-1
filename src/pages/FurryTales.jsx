@@ -81,7 +81,7 @@ return (
           </div>
           <div>
             <h4>Team</h4>
-            <p>Suin Kim (UX/UI Designer), <br/> Tina Lin (UX/UI Designer), <br/> Kritika Bhunwal (User Researcher) </p>
+            <p>Suin Kim (UX/UI Designer), <br/> Tina Lin (UX/UI Designer), <br/> Kritika Bhunwal (User Experience Researcher) </p>
           </div>
           <div>
             <h4>My Role</h4>
@@ -196,7 +196,7 @@ return (
             <img src={avatarKritika} alt="Kritika" />
           </div>
           <p className="team-name">Kritika</p>
-          <p className="team-role">User Researcher</p>
+          <p className="team-role">User Experience Researcher</p>
         </div>
       </div>
     </section>
