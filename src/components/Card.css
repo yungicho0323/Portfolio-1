@@ -26,10 +26,21 @@
 
 .image-wrapper {
   text-align: left;
-  background: #ffffff;
+  /* background: rgba(255, 255, 255, 0.75);  */
+  padding: 20px;
+      border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+    background-color: hsla(0, 0%, 98%, .7);
+    background-blend-mode: luminosity;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: #e4e4e7;
+    --tw-backdrop-blur: blur(24px)
   padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
   animation-duration: 2s;
   visibility: visible !important;
   width: 100%;
@@ -85,8 +96,8 @@
 
 
 .cardFooter-wrapper .card-button {
-  background-color: #d6b8fe;
-  color: #000000;
+  background-color: #6C2EB9;
+  color: #FFFFFF;
   padding: 8px 10px;
   font-size: 15px;
   border-radius: 5px;
@@ -94,6 +105,10 @@
   transition: background-color 0.3s ease;
   text-decoration: none;
   display: inline-block;
+}
+
+.cardFooter-wrapper .card-button:hover {
+  background-color:#561F95;
 }
 
 /* Prevent double-click issues when card is clickable */

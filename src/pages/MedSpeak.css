@@ -1,7 +1,7 @@
 * {
     margin: auto 0;
     padding: 0;
-    background-color: #FFFEEE;
+    background-color: #fafafa;
   }
   
   html {
@@ -14,7 +14,7 @@
 
   
 .project-hero-updated {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 2rem 4rem;
   font-family: 'Merchant', 'Manrope', sans-serif;
 }
@@ -125,7 +125,7 @@ margin-bottom: 40px;
 
  /*Overview*/
 .medspeak-overview-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 4rem 2rem;
   display: flex;
   justify-content: center;
@@ -187,7 +187,7 @@ margin-bottom: 40px;
 }
 
 .solution-section {
-  background-color: #fefdef;
+  background-color: #fafafa;
   padding: 4rem 2rem;
   text-align: center;
   font-family: 'Manrope', sans-serif;
@@ -255,7 +255,7 @@ margin-bottom: 40px;
 
 /*Research*/
 .research-section {
-  background-color:#FFFEEE;
+  background-color:#fafafa;
   padding: 4rem 2rem;
   font-family: 'Manrope', sans-serif;
   color: #111;
@@ -348,7 +348,7 @@ margin-bottom: 40px;
   font-size: 1.1rem;
 }
 .medspeak-validation {
- background-color:#FFFEEE;
+ background-color:#fafafa;
   font-family: 'Manrope', sans-serif;
   margin-top: 8rem;
   color: #111;
@@ -511,7 +511,7 @@ thead tr {
 
 /*Design*/
 .design-section {
- background-color: #FFFEEE;
+ background-color: #fafafa;
   /* padding: 4rem 2rem; */
   font-family: 'Manrope', sans-serif;
   color: #111;

@@ -3,7 +3,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 1rem 5rem;
 
   position: sticky;
@@ -63,7 +63,7 @@ nav a:hover::after {
   right: 0;
   width: 70%;
   height: 100%;
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   transform: translateX(100%);
   transition: transform 0.3s ease;
   z-index: 1001;

@@ -1,7 +1,7 @@
 * {
   margin: auto 0;
   padding: 0;
-  background-color: #FFFEEE;
+  background-color: #fafafa;
 
 }
 
@@ -18,7 +18,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   font-family: 'Manrope', sans-serif;
   max-width: 100%;
   padding: 2rem 4rem;
@@ -134,7 +134,7 @@ body {
 
 /*flui hackathon overview */
 .flui-container {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 60px 30px;
   max-width: 1000px;
   margin: 0 auto;
@@ -176,7 +176,7 @@ body {
 
 /* our client's goals */
 .goals-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 60px 40px;
   font-family: 'Manrope', sans-serif;
   max-width: 1000px;
@@ -298,7 +298,7 @@ body {
 
 /*Design Process */
 .process-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 0 30px;
   justify-content: center;
   max-width: 1400px;
@@ -317,7 +317,7 @@ body {
   border: 1px solid #aaa;
   border-radius: 10px;
   padding: 15px 30px;
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -344,7 +344,7 @@ body {
 
 /* Research */
 .research-section {
-  background-color:#FFFEEE;
+  background-color:#fafafa;
   padding: 4rem 2rem;
   font-family: 'Manrope', sans-serif;
   color: #111;
@@ -524,7 +524,7 @@ body {
 
 /*Analysis */
 .analysis-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
@@ -672,7 +672,7 @@ body {
 
 /*Validation */
 .validation-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
@@ -717,7 +717,7 @@ body {
 
 /*Final Design */
 .final-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 20px 30px;
   font-family: 'Manrope', sans-serif;
   color: #111;
@@ -757,7 +757,7 @@ body {
 }
 
 .reflection-card {
-  background-color: #ffffff;
+  background-color: #fafafa;
   border: 1px solid #ccc;
   border-radius: 12px;
   padding: 30px 40px;

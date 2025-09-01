@@ -36,7 +36,7 @@ function MedSpeak() {
               <h1>MedSpeak</h1>
               <p>
                 <strong>
-                 An AI-powered medical app that allows users to describe their symptoms in their own language, automatically translating them into other languages while also helping users track their health over time.
+                 An AI-powered medical translation app that allows users to describe their symptoms in their own language, automatically translating them into other languages while also helping users track their health over time.
                 </strong>
               </p>
               <p>
@@ -46,8 +46,7 @@ function MedSpeak() {
               </p>
               <div className="prototype-button-wrapper">
                 <a
-                  href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App_Design?page-id=1%3A4&node-id=328-2111&viewport=-264%2C215%2C0.08&t=BOIegCgJnDismKml-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=328%3A2111&show-proto-sidebar=1"
-                  rel="noopener noreferrer"
+                  href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App?page-id=1%3A4&node-id=1201-3562&p=f&viewport=-480%2C261%2C0.14&t=fGWNywANzUex1DX9-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1201%3A3562&show-proto-sidebar=1"
                   className="prototype-button"
                 >
                   View Prototype

@@ -1,7 +1,7 @@
 * {
     margin: auto 0;
     padding: 0;
-    background-color: #FFFEEE;
+    background-color: #fafafa;
   
   }
   
@@ -14,7 +14,7 @@
   }
   
 .project-hero-updated {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 2rem 4rem;
   font-family: 'Manrope', sans-serif;
   max-width: 100%;
@@ -107,7 +107,7 @@ margin-bottom: 40px;
 
 /*Babel features*/
   .babel-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -128,7 +128,7 @@ margin-bottom: 40px;
 /* overview */
   /*Overview*/
 .babel-overview-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 4rem 2rem;
   display: flex;
   justify-content: center;
@@ -258,7 +258,7 @@ margin-bottom: 40px;
 
 /*Design Process */
 .process-section {
-    background-color: #FFFEEE;
+    background-color: #fafafa;
     padding: 0 30px;
     justify-content: center;
     max-width: 1400px;
@@ -304,7 +304,7 @@ margin-bottom: 40px;
 
 /*Research*/
 .research-section {
- background-color:#FFFEEE;
+ background-color:#fafafa;
   padding: 4rem 2rem;
   font-family: 'Manrope', sans-serif;
   color: #111;
@@ -380,7 +380,7 @@ margin-bottom: 40px;
 /* Babel.css */
 
 .babel-validation {
- background-color:#FFFEEE;
+ background-color:#fafafa;
   font-family: 'Manrope', sans-serif;
   margin-top: 6rem;
   color: #111;
@@ -455,7 +455,7 @@ margin-bottom: 40px;
 
 /*User painpoints*/
 .babel-painpoints {
- background-color:#FFFEEE;
+ background-color:#fafafa;
   font-family: 'Manrope', sans-serif;
   margin-top: 6rem;
   color: #111;
@@ -483,7 +483,7 @@ margin-bottom: 40px;
 
 /*Competitve Analysis*/
 .babel-competitive-analysis {
-  background-color:#FFFEEE;
+  background-color:#fafafa;
   font-family: 'Manrope', sans-serif;
   color: #111;
   justify-content: center;
@@ -530,7 +530,7 @@ margin-bottom: 40px;
 
 /*Analysis*/
 .babel-analysis-section {
- background-color: #FFFEEE;
+ background-color: #fafafa;
   padding: 4rem 2rem;
   font-family: 'Manrope', sans-serif;
   color: #111;
@@ -593,7 +593,7 @@ margin-bottom: 40px;
 
 /*Ideation*/
 .ideation-section {
-    background-color: #FFFEEE;
+    background-color: #fafafa;
     padding: 60px 30px;
     max-width: 900px;
     margin: 0 auto;
@@ -655,7 +655,7 @@ margin-bottom: 40px;
 
 /*user flow*/
 .Userflow {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
     max-width: 900px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
@@ -674,7 +674,7 @@ margin-bottom: 40px;
 /*High-fidelity*/
 
 .High-fidelity {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
     max-width: 900px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
@@ -696,7 +696,7 @@ margin-bottom: 40px;
 
 /*final designs*/
 .design-section {
-    background-color: #FFFEEE;
+    background-color: #fafafa;
     padding: 60px 30px;
     max-width: 1000px;
     margin: 0 auto;
@@ -767,7 +767,7 @@ margin-bottom: 40px;
 
 /*Reflection*/
 .validation-section {
-  background-color: #FFFEEE;
+  background-color: #fafafa;
   padding: 60px 30px;
   max-width: 1000px;
   margin: 0 auto;
@@ -789,7 +789,7 @@ margin-bottom: 40px;
 }
 
 .takeaway-box {
-  background-color: #f7f3eb;
+  background-color: #efefef;
   padding: 2rem;
   border-radius: 10px;
   max-width: 900px;

@@ -4,14 +4,13 @@
   right: 40px;
   width: 50px;
   height: 50px;
-  background-color: #be63f9;
+  background-color: #6C2EB9;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 1000;
-  box-shadow: 0 4px 6px #e1b3ff;
   transition: background-color 0.3s ease;
 }
 
