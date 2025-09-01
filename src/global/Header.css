@@ -16,8 +16,8 @@ header {
     display: flex;
     gap: 80px;
     font-size: 18px;
-    font-weight: medium;
-    color: #8231ED; 
+    font-weight: bold;
+    color: #8a3dc7; 
   }
   
   nav a {
@@ -47,8 +47,9 @@ nav a:hover::after {
     height: 40px;
     z-index: 1;
     position: relative;
+    font-weight: bold;
     font-size: 20px;
-    color: #8231ED; /* Light purple */
+    color: #8a3dc7; /* Light purple */
   }
 
   /* Hide hamburger by default */
