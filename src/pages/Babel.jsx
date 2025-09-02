@@ -99,13 +99,6 @@ function Babel() {
             </div>
         </section>
 
-        {/*Babel feature images*/}
-        {/* <section className="babel-section">
-        <div className="babel-container">
-          <img src={babelfeatures} alt="Babel App Features" className="babel-image" />
-        </div>
-      </section> */}
-
         {/*Overview*/}
         <section className="babel-overview-section">
           <div className="babel-overview-container">
@@ -170,37 +163,6 @@ function Babel() {
           </div>
         </section>
 
-        {/* Design Process */}
-        {/* <section className="process-section">
-  <div className="process-container">
-
-    <a href="#research" className="process-step">
-      <div className="dot" />
-      <p>1. Research</p>
-    </a>
-
-    <a href="#analysis" className="process-step">
-      <div className="dot" />
-      <p>2. Analysis</p>
-    </a>
-
-    <a href="#ideation" className="process-step">
-      <div className="dot" />
-      <p>3. Ideation</p>
-    </a>
-
-    <a href="#design" className="process-step">
-      <div className="dot" />
-      <p>4. Final Designs</p>
-    </a>
-
-    <a href="#validation" className="process-step">
-      <div className="dot" />
-      <p>5. Reflection</p>
-    </a>
-
-  </div>
-</section> */}
 
         {/*01 Research*/}
         <section id="research" className="research-section">
