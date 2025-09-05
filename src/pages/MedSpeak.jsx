@@ -46,7 +46,7 @@ function MedSpeak() {
               </p>
               <div className="prototype-button-wrapper">
                 <a
-                  href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App?page-id=1%3A4&node-id=1201-3562&p=f&viewport=-480%2C261%2C0.14&t=fGWNywANzUex1DX9-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1201%3A3562&show-proto-sidebar=1"
+                  href="https://www.figma.com/proto/0usV1AjaeCBDzmn5E1NFRh/MedSpeak-App?page-id=1%3A4&node-id=1201-1943&p=f&viewport=-480%2C261%2C0.14&t=Ar0qDCYYzHExKsDo-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1201%3A1943&show-proto-sidebar=1"
                   className="prototype-button"
                 >
                   View Prototype
