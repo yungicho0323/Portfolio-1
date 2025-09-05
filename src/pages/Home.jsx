@@ -20,7 +20,7 @@ function Home() {
                 </section> 
 
             <section className="hero">
-            <p className="intro-text">Hi,<span className="highlight"> I’m YunGi</span> — a <span className="highlight">purposeful</span> UX/UI designer, crafting thoughtful digital experiences that make everyday life feel <span className="highlight">easier</span> and <span className="highlight"> more human</span> 💡🌿.</p>
+            <p className="intro-text">Hi,<span className="highlight"> I’m YunGi </span> — a <span className="highlight">purposeful</span> UX/UI designer, crafting thoughtful digital experiences that make everyday life feel <span className="highlight">easier</span> and <span className="highlight"> more human</span> 💡🌿.</p>
             </section>
 
             <section className="explore">
