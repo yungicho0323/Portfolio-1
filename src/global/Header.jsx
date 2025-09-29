@@ -10,9 +10,11 @@ const Header = () => {
   return (
     <header className="custom-header">
       {/* Logo */}
-      <div className="logo">
-        <Link to="/home" className="hover:text-purple-600">YUNGI CHO</Link>
-      </div>
+    <div className="logo">
+      <Link to="/home" className="hover:text-purple-600 flex items-center gap-4">
+        YUNGI CHO
+      </Link>
+    </div>
 
       {/* Desktop Nav - keep as is */}
       <nav className="main-nav">
@@ -40,7 +42,7 @@ const Header = () => {
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
         {/* <button className="close-btn" onClick={toggleSidebar}>&times;</button> */}
         <nav>
-          <Link to="/work" onClick={toggleSidebar}>UX/UI</Link>
+          <Link to="/work" onClick={toggleSidebar}>WORKS</Link>
           <Link to="/about" onClick={toggleSidebar}>ABOUT</Link>
            <a
             href="/Resume.pdf" /* or use resumeHref */

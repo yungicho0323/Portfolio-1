@@ -24,6 +24,76 @@ body {
   cursor: none;
 }
 
+.hero-subcopy {
+  font-size: 1.25rem;      /* smaller than headline */
+  line-height: 1.7;
+  color: #111;
+  max-width: 850px;
+  font-weight: medium;
+}
+
+.brand-highlight {
+  color: #8a3dc7;          /* your brand color */
+  font-weight: 700;        /* make it stand out */
+}
+
+.hero-title {
+  font-size: 2.3rem;        /* base headline size */
+  line-height: 1.3;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 3rem;
+}
+
+.brand-highlight {
+  color: #8a3dc7;         /* brand purple */
+  font-weight: 700;
+}
+
+.big-highlight {
+  font-size: 4.3rem;      /* larger than base headline */
+  line-height: 1.2;
+  display: inline-block;
+}
+
+/* ===== Tablet (≤ 1024px) ===== */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .big-highlight {
+    font-size: 3.2rem;     /* ~51px */
+    line-height: 1.2;
+  }
+
+  .hero-subcopy {
+    font-size: 1.125rem;   /* ~18px */
+    max-width: 680px;
+    line-height: 1.65;
+  }
+}
+
+/* ===== Mobile (≤ 640px) ===== */
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 1.6rem;     /* ~25.6px */
+    margin-bottom: 1.5rem;
+  }
+
+  .big-highlight {
+    font-size: 2.2rem;     /* ~35.2px */
+    line-height: 1.2;
+  }
+
+  .hero-subcopy {
+    font-size: 1rem;       /* 16px */
+    max-width: 90vw;
+    line-height: 1.6;
+  }
+}
+
 /* Smooth back transition */
 .col .blur-2.tilt-reset {
   transform: rotate3d(0, 0, 0, 0deg) scale(1);
@@ -53,7 +123,7 @@ body {
   opacity: 0.65;
   border-radius: 70%;
   filter: blur(55px);
-  top: -100px;
+  top: -70px;
   left: -680px;
   transform: rotate(-20deg);
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
@@ -81,7 +151,6 @@ body {
   transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
   will-change: transform;
   transform-style: preserve-3d;
-
 }
 
 .col-text-right .blur:hover {
@@ -99,8 +168,8 @@ body {
   opacity: 0.45;
   border-radius: 70%;
   filter: blur(55px);
-  top: -30px;
-  right: -680px;  
+  top: 50px;
+  right: -690px;  
   transform: rotate(-20deg);
   transition: transform 0.4s ease-out, opacity 0.4s ease-out;
 }
@@ -124,7 +193,6 @@ body {
   margin: 0 auto;
   padding: 6rem;
   text-align: left;
-   z-index: 1; /* Add this */
 }
 
 .intro-text {
@@ -133,35 +201,6 @@ body {
   margin-bottom: 1.2rem;
   font-weight: 500;
   line-height: 1.7;
-}
-
-
-.highlight {
-  position: relative;
-  display: inline-block;
-  padding: 5px 20px;
-  border-radius: 40px;
-  font-weight: 500;
-  color: #fafafa;
-  z-index: 1; /* Keep text above the animation */
-}
-
-
-.highlight::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #8a3dc7; /* <-- your brand highlight color */
-  z-index: -1; /* Sit behind the text */
-  border-radius: 40px;
-  animation: fillHighlight 1s ease forwards;
-}
-
-@keyframes fillHighlight {
-  from { width: 0%; }
-  to { width: 100%; }
 }
 
 .explore .scroll {
@@ -227,7 +266,7 @@ body {
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 1.5;
   }
 
