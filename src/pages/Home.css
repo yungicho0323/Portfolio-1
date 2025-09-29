@@ -281,6 +281,10 @@ body {
     top: -200px;
     left: 20px;
   }
+
+  .explore .scroll {
+    font-size: 1rem;
+  }
 }
 
 /* 📱 Mobile (480px and below) */
@@ -306,6 +310,10 @@ body {
     height: 280px;
     top: -180px;
     left: 10px;
+  }
+
+.explore .scroll {
+    font-size: 1rem;
   }
 }
 
