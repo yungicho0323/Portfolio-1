@@ -18,18 +18,39 @@ function Home() {
         </section>
 
         {/* HERO (reference-style structure) */}
-<section className="hero">
-  <h1 className="hero-title">
-    Transforming complex problems into <br />
-    <span className="brand-highlight big-highlight">
-      accessible, human-first experiences
-    </span>
-  </h1>
-  <p className="hero-subcopy">
-    Welcome! -
-    I’m YunGi, a UX/UI designer, I craft accessible, human-first experiences that balance empathy, usability, and strategic design.
-  </p>
-</section>
+        <section className="hero">
+        <h1 className="hero-title">
+            Transforming complex problems into <br />
+            <span className="brand-highlight big-highlight">
+            accessible, human-first experiences
+            </span>
+        </h1>
+
+        <p className="hero-subcopy">
+            Welcome! – I’m YunGi, a UX/UI designer. 
+            I craft accessible, human-first experiences that balance empathy, usability, and strategic design.
+        </p>
+
+        {/* Social Buttons */}
+        <div className="social-buttons">
+            <a
+            href="https://www.linkedin.com/in/yungi-cho"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="brand-button"
+            >
+            LinkedIn
+            </a>
+
+            <a
+            href="mailto:yungicho8@gmail.com"
+            className="brand-button"
+            >
+            Email Me
+            </a>
+        </div>
+        </section>
+
 
 
 

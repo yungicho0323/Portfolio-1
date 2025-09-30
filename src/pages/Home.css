@@ -203,6 +203,48 @@ body {
   line-height: 1.7;
 }
 
+.social-buttons {
+  display: flex;
+  gap: 1rem;            /* space between buttons */
+  margin-top: 1.8rem;   /* spacing under description */
+}
+
+.brand-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 22px;
+
+  color: #8a3dc7;                         /* brand purple */
+  background: rgba(138, 61, 199, 0.08);   /* soft purple background */
+  border: 1px solid rgba(138, 61, 199, 0.25);
+  border-radius: 9999px;                  /* pill shape */
+  box-shadow: 0 2px 6px rgba(138, 61, 199, 0.1);
+
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+/* Hover */
+.brand-button:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #8a3dc7, #561f95);
+  border-color: transparent;
+  box-shadow: 0 6px 14px rgba(138, 61, 199, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Focus for accessibility */
+.brand-button:focus-visible {
+  outline: 2px solid #8a3dc7;
+  outline-offset: 3px;
+}
+
+
 .explore .scroll {
   font-weight: 600;
   font-size: 1.2rem;
