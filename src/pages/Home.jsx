@@ -26,7 +26,8 @@ function Home() {
     </span>
   </h1>
   <p className="hero-subcopy">
-    Hello — I’m YunGi, a UX/UI designer, I craft accessible, human-first experiences that balance empathy, usability, and strategic design.
+    Welcome! -
+    I’m YunGi, a UX/UI designer, I craft accessible, human-first experiences that balance empathy, usability, and strategic design.
   </p>
 </section>
 

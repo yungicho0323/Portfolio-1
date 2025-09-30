@@ -1,6 +1,9 @@
 
 .footer {
-    background-color: #ddcdee;
+  color: #8a3dc7;                         /* brand purple text */
+  background: rgba(138, 61, 199, 0.08);   /* soft translucent purple bg */
+  border: 1px solid rgba(138, 61, 199, 0.25);                  /* pill shape */
+  box-shadow: 0 2px 6px rgba(138, 61, 199, 0.1);
     padding: 2rem;
     justify-content: flex-end;
     border-top: 1px solid rgb(213, 213, 213);
@@ -26,6 +29,7 @@
     flex-direction: column;
     font-weight: medium;
     gap: 1rem;
+    color: #111;
     margin-top: 2rem;
     font-size: 1.6rem;
   }

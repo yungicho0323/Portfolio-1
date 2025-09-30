@@ -209,17 +209,23 @@ body {
 }
 
   .view-all-btn {
-    padding: 0.75rem 1.5rem;
-    border: 2px solid black;
-    border-radius: 9999px; /* full pill shape */
-    background-color: transparent;
-    color: black;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    margin: 0 auto;
-    margin: 0 27rem;
-    margin-bottom: 6rem;
+ display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-bottom: 6rem;
+
+  color: #8a3dc7;                         /* brand purple text */
+  background: rgba(138, 61, 199, 0.08);   /* soft purple background */
+  border: 1px solid rgba(138, 61, 199, 0.25);
+  border-radius: 9999px;                  /* pill shape */
+  box-shadow: 0 2px 6px rgba(138, 61, 199, 0.1);
+
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
   }
 
   
