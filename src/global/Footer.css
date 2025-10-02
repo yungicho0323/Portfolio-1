@@ -4,7 +4,7 @@
   background: rgba(138, 61, 199, 0.08);   /* soft translucent purple bg */
   border: 1px solid rgba(138, 61, 199, 0.25);                  /* pill shape */
   box-shadow: 0 2px 6px rgba(138, 61, 199, 0.1);
-    padding: 2rem;
+    padding: 4rem;
     justify-content: flex-end;
     border-top: 1px solid rgb(213, 213, 213);
     max-width: 100%;
@@ -31,7 +31,9 @@
     gap: 1rem;
     color: #111;
     margin-top: 2rem;
+    margin-bottom: -2rem;
     font-size: 1.6rem;
+    justify-content: center;
   }
 
   .arrow {
