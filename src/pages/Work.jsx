@@ -14,7 +14,7 @@ function work() {
                 <div className="col-12">
                 <section className="selected-works">
                     <h1>Selected Works.</h1>
-                    <span className="arrow">↓</span>
+                    {/* <span className="arrow">↓</span> */}
                     { /*Card Component Section */}
                     <div className="card-section flex justify-center mt-10">
                         <CardComponent />

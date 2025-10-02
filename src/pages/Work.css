@@ -3,17 +3,18 @@
 }
 
 .selected-works h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: medium;
+  margin-top: 3rem;
 }
 
 
-.selected-works .arrow {
+/* .selected-works .arrow {
   font-size: 3.5rem;
   font-weight: medium;
   display: inline-block;
-  margin: 0 2rem;
-}
+  margin: 0 6rem;
+} */
 
 .image-wrapper {
   width: 100%;

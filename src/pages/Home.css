@@ -206,7 +206,7 @@ body {
 .social-buttons {
   display: flex;
   gap: 1rem;            /* space between buttons */
-  margin-top: 1.8rem;   /* spacing under description */
+  margin-top: 1.8rem;      
 }
 
 .brand-button {
@@ -258,7 +258,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   padding: 12px 24px;
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
 
   color: #8a3dc7;                         /* brand purple text */
   background: rgba(138, 61, 199, 0.08);   /* soft purple background */
@@ -276,7 +276,202 @@ body {
     color: white;
     transform: scale(1.05);
   }
+
+  .selected-works, .hero-section, .explore-section {
+  position: relative;
+  z-index: 2;           /* keep these clickable above any decorative elements */
+}
+
   
+/* ABOUT ME – responsive, consistent */
+
+/* ===== Brand tokens (safe defaults) ===== */
+:root {
+  --yc-purple: #8a3dc7;
+  --yc-purple-deep: #6f2cab;
+  --yc-ink: #111111;
+  --yc-ink-2: #3a3a3a;
+  --yc-border: rgba(17, 17, 17, 0.06);
+  --yc-shadow: 0 10px 30px rgba(138, 61, 199, 0.12);
+
+  --section-y: clamp(40px, 8vw, 96px);
+  --page-x: clamp(16px, 4vw, 40px);
+}
+
+/* ===== Section wrapper ===== */
+.about-section {
+  padding: var(--section-y) var(--page-x);
+  padding-bottom: calc(var(--section-y) + 2rem);
+  background: transparent;
+  scroll-margin-top: 80px; /* nice anchor offset for #about links */
+  z-index: 0;
+}
+
+/* ===== Card container ===== */
+.about-container {
+  width: min(100%, 1300px);    /* centers and caps width */
+  margin-inline: auto;
+  padding: clamp(22px, 4.5vw, 56px) clamp(18px, 4vw, 48px);
+  background:
+    radial-gradient(420px 240px at 90% 120%, rgba(138, 61, 199, 0.12), rgba(138, 61, 199, 0) 70%),
+    #ffffff;                   /* removed any yellow/cream */
+  border: 1px solid var(--yc-border);
+  border-radius: clamp(14px, 2vw, 24px);
+  box-shadow: var(--yc-shadow);
+  position: relative;
+}
+
+/* Top accent line */
+.about-container::before {
+  content: "";
+  position: absolute;
+  left: clamp(16px, 2.5vw, 24px);
+  right: clamp(16px, 2.5vw, 24px);
+  top: 0;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--yc-purple) 0%, rgba(138, 61, 199, 0.08) 100%);
+  opacity: 0.55;
+}
+
+/* ===== Eyebrow (kicker) ===== */
+.about-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--yc-purple);
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(138, 61, 199, 0.08);
+  border: 1px solid rgba(138, 61, 199, 0.22);
+  margin-bottom: clamp(12px, 2vw, 20px);
+}
+
+.eyebrow-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--yc-purple);
+  display: inline-block;
+}
+
+/* ===== Title (your one-liner) ===== */
+/* Fix: proper clamp order => min, ideal, max */
+.about-title {
+  margin: 0 0 clamp(18px, 2.4vw, 28px) 0;
+  margin-bottom: 4rem;
+  color: var(--yc-ink);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  font-size: 2.3rem;
+}
+
+.about-highlight {
+  color: var(--yc-purple);
+  font-weight: 900;
+}
+
+/* ===== CTA ===== */
+.about-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Primary button (to match rest of site) */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: var(--yc-purple);
+  text-decoration: none;
+  box-shadow: 0 6px 16px rgba(138, 61, 199, 0.25);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+.btn-primary:hover {
+  background: var(--yc-purple-deep);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(138, 61, 199, 0.30);
+}
+
+/* If you still want an outline variant elsewhere */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--yc-purple);
+  text-decoration: none;
+  border: 1.5px solid rgba(138, 61, 199, 0.35);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+.btn-outline:hover {
+  transform: translateY(-1px);
+  border-color: var(--yc-purple);
+  box-shadow: 0 8px 20px rgba(138, 61, 199, 0.16);
+}
+
+/* 3) Tighten mobile spacing so the card doesn't visually collide */
+@media (max-width: 480px) {
+  .about-section {
+    margin-top: clamp(150px, 7vw, 40px);
+    padding-top: clamp(24px, 6vw, 40px);  /* extra breathing room */
+  }
+}
+
+/* 4) Ensure no decorative layers inside About catch clicks outside the card */
+.about-section::before,
+.about-section::after {
+  pointer-events: none;
+}
+
+/* ===== Mobile-first refinements ===== */
+@media (max-width: 480px) {
+  .about-container {
+    padding: 22px 18px 26px;
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(138, 61, 199, 0.10);
+  }
+  .about-actions {
+    justify-content: flex-start;
+  }
+  .btn-primary {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+}
+
+/* ===== Tablet adjustments ===== */
+@media (min-width: 481px) and (max-width: 900px) {
+  .about-container { padding: 28px 22px 32px; }
+  .about-title { font-size: clamp(26px, 4.2vw, 36px); }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary,
+  .btn-outline { transition: none; }
+}
+
+/*Media Queries for hero section and card section */
 
   /* Media Queries */
 

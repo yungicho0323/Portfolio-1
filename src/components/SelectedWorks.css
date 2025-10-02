@@ -1,0 +1,321 @@
+.card-container {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-bottom: 8rem;
+  padding-top: 3rem;
+
+  /* key: make items fill the row height */
+  align-items: stretch;
+}
+
+
+.card-link {
+  display: block;
+  height: 100%;      /* fill grid row height */
+  margin-bottom: 0;  /* grid gap handles spacing */
+}
+
+
+
+/* Tablet (≤1024px): still 2 columns but tighter gap */
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;  /* stack on mobile */
+    gap: 1.5rem;
+  }
+}
+
+
+.card-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-wrapper {
+  text-align: left;
+  /* background: rgba(255, 255, 255, 0.75);  */
+  padding: 20px;
+      border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+    background-color: hsla(0, 0%, 98%, .7);
+    background-blend-mode: luminosity;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: #e4e4e7;
+    --tw-backdrop-blur: blur(24px)
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  animation-duration: 2s;
+  visibility: visible !important;
+  width: 100%;
+  display: flex;             /* stack content */
+  flex-direction: column;
+  height: 100%; 
+  position: relative;
+  max-width: none;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* replace the % height with a fixed aspect box */
+.project-image1,
+.project-image2,
+.project-image3,
+.project-image4 {
+  width: 100%;
+  aspect-ratio: 20 / 12; /* consistent media height across cards */
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  position: relative;
+  z-index: -1;
+}
+
+.clickable-image {
+  cursor: pointer;
+}
+
+.bottom-section {
+  margin-top: auto;          /* takes remaining space, pins bottom */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-type-badge {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+   gap: 8px; /* space between buttons */
+}
+
+
+.cardFooter-wrapper .card-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 18px;
+
+  color: #8a3dc7;                         /* brand purple text */
+  background: rgba(138, 61, 199, 0.08);   /* soft translucent purple bg */
+  border: 1px solid rgba(138, 61, 199, 0.25);
+  border-radius: 9999px;                  /* pill shape */
+  box-shadow: 0 2px 6px rgba(138, 61, 199, 0.1);
+
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.cardFooter-wrapper .card-button:focus-visible {
+  outline: 2px solid #8a3dc7;
+  outline-offset: 3px;
+}
+
+.cardFooter-wrapper .card-button:hover {
+  background-color: #6C2EB9;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+
+.zynergy,
+.furryTales,
+.MedSpeak,
+.babel {
+  padding: 15px 0 20px;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.project-type-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-type-button {
+  background-color: #f5f5f5;      /* Light neutral background */
+  color: #333333;      
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: default;
+  pointer-events: none; /* Prevent interference with card click */
+}
+
+
+/* Accessibility improvements */
+.card-link:focus {
+  /* outline: 2px solid #d6b8fe; */
+  outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-container {
+    width: 90%;
+    padding: 0.5rem;
+  }
+  
+  .image-wrapper {
+    margin-bottom: 3rem;
+  }
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+/* Large devices (≤1280px) */
+@media (max-width: 1280px) {
+  .card-container {
+    width: 90%;
+  }
+
+  .card-button {
+    font-size: 13px;
+    padding: 7px 10px;
+  }
+
+  .project-type-button {
+    font-size: 13px;
+  }
+
+  .tool-icon {
+    width: 26px;
+  }
+}
+
+/* Medium devices (≤1024px) */
+@media (max-width: 1024px) {
+  .card-container {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .image-wrapper {
+    aspect-ratio: 16/10;
+  }
+
+  .project-image1,
+  .project-image2,
+  .project-image3,
+  .project-image4 {
+    height: 80%;
+  }
+
+  .card-button {
+    font-size: 12px;
+  }
+
+  .project-type-button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .zynergy,
+  .furryTales,
+  .MedSpeak,
+  .babel {
+    font-size: 1.2rem;
+  }
+}
+
+/* Small devices (≤768px) */
+@media (max-width: 768px) {
+  .card-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .image-wrapper {
+    aspect-ratio: 5/5;
+    padding: 15px;
+  }
+
+  .project-image1,
+  .project-image2,
+  .project-image3,
+  .project-image4 {
+    height: 75%;
+  }
+
+  .zynergy,
+  .furryTales,
+  .MedSpeak,
+  .babel {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .cardFooter-wrapper {
+    margin-left: 14rem;
+  }
+
+  .cardFooter-wrapper .card-button {
+    padding: 6px 9px;
+    font-size: 14px;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.project-type-badge {
+    gap: 6px;
+    justify-content: flex-start;
+    display:none;
+  }
+
+  .project-type-button {
+    font-size: 6px;
+    padding: 5px 10px;
+  }
+
+  .card-link {
+    margin-bottom: 2rem;
+  }
+ 
+}
+
+/* Extra small devices (≤480px) */
+@media (max-width: 480px) {
+  .card-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .image-wrapper {
+    padding: 10px;
+    margin-bottom: 2rem;
+  }
+}
