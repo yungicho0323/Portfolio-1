@@ -59,11 +59,11 @@ function Home() {
         </section>
 
         {/* background glow left */}
-        <section className="hero-section">
+        {/* <section className="hero-section">
           <div className="col-text-left">
             <div className="blur-2" />
           </div>
-        </section>
+        </section> */}
 
         <section className="selected-works">
           <div className="card-section">
@@ -74,31 +74,31 @@ function Home() {
         <Link to="/work" className="view-all-btn">View All</Link>
 
     {/* ABOUT – DESIGN WITH PURPOSE */}
-    <section id="about" className="about-section">
-      <div className="about-container">
-        <div className="about-eyebrow" aria-label="section label">
-          <span className="eyebrow-dot" />
-          DESIGN WITH PURPOSE
-        </div>
-
-        
-          <h2 className="about-title">
-          Inspired by people’s daily challenges, I design{" "}
-          <span className="about-highlight">accessible</span>,{" "}
-          <span className="about-highlight">empathy-driven</span> solutions that
-          connect with users and support business growth.
-        </h2>
-
-        <div className="about-actions">
-          <Link to="/about" className="btn-outline" aria-label="Read my story">
-            Read My Story
-            <svg className="btn-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-              <path d="M5 12h12M13 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </Link>
-        </div>
+  <section id="about" className="about-section">
+    <div className="about-container">
+      <div className="about-eyebrow" aria-label="section label">
+        <span className="eyebrow-dot" />
+        DESIGN WITH PURPOSE
       </div>
-    </section>
+
+      
+        <h2 className="about-title">
+        Inspired by people’s daily challenges, I design{" "}
+        <span className="about-highlight">accessible</span>,{" "}
+        <span className="about-highlight">empathy-driven</span> solutions that
+        connect with users and support business growth.
+      </h2>
+
+      <div className="about-actions">
+        <Link to="/about" className="btn-outline" aria-label="Read my story">
+          Read My Story
+          <svg className="btn-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path d="M5 12h12M13 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </Link>
+      </div>
+    </div>
+  </section>
 
       </main>
       <Footer />
