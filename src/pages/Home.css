@@ -300,8 +300,8 @@ body {
 
 /* ===== Section wrapper ===== */
 .about-section {
-  padding: var(--section-y) var(--page-x);
-  padding-bottom: calc(var(--section-y) + 2rem);
+  padding: 12rem;
+  padding-bottom: 14rem;
   background: transparent;
   scroll-margin-top: 80px; /* nice anchor offset for #about links */
   z-index: 0;

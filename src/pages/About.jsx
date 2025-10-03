@@ -127,7 +127,7 @@ function About() {
 
         <h4>Authenticity</h4>
         <p>
-          "Authenticity is at the core of my personal and professional journey. I strive to stay true to myself, actively shaping a life filled with passion, continuous growth, and meaningful challenges. As both an individual and a UI/UX designer, I am committed to refining my skills, embracing new perspectives, and confidently evolving into the best version of myself."
+          "Authenticity is at the core of my personal and professional journey. I strive to stay true to myself, actively shaping a life filled with passion, continuous growth, and meaningful challenges. As both an individual and a UX/UI designer, I am committed to refining my skills, embracing new perspectives, and confidently evolving into the best version of myself."
         </p>
            </div>
     </section>
