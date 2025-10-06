@@ -52,6 +52,8 @@ nav a:hover::after {
     color: #8a3dc7; 
   }
 
+  
+
   /* Hide hamburger by default */
 .hamburger {
   display: none;
