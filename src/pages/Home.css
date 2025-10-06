@@ -425,6 +425,7 @@ body {
   box-shadow: 0 8px 20px rgba(138, 61, 199, 0.16);
 }
 
+
 /* 3) Tighten mobile spacing so the card doesn't visually collide */
 @media (max-width: 480px) {
   .about-section {
