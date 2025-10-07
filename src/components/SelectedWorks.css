@@ -8,7 +8,6 @@
   padding: 1rem;
   padding-bottom: 8rem;
   padding-top: 3rem;
-
   /* key: make items fill the row height */
   align-items: stretch;
 }
@@ -143,17 +142,6 @@
   background-color: #6C2EB9;
     color: white;
     transform: scale(1.05);
-}
-
-
-
-.zynergy,
-.furryTales,
-.MedSpeak,
-.babel {
-  padding: 15px 0 20px;
-  font-weight: 500;
-  font-size: 1.4rem;
 }
 
 .project-type-badge {
@@ -317,5 +305,61 @@
   .image-wrapper {
     padding: 10px;
     margin-bottom: 2rem;
+  }
+}
+
+/* ===== PROJECT NAME + TAGLINE (refined typographic style) ===== */
+.project-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 24px 0 18px;
+  gap: 10px;
+}
+
+/* Subtle, minimal project name */
+.project-name {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #9b9b9b;
+  letter-spacing: 0.06em;
+}
+
+/* Bold, clean tagline underneath */
+.project-tagline {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-top: 2px;
+}
+
+
+/* ===== Responsive typography ===== */
+@media (max-width: 1024px) {
+  .project-text-block {
+    align-items: left;
+    text-align: left;
+  }
+  .project-name {
+    font-size: 0.75rem;
+  }
+  .project-tagline {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-text-block {
+    align-items: left;
+    text-align: left;
+  }
+  .project-name {
+    font-size: 0.8rem;
+  }
+  .project-tagline {
+    font-size: 1.2rem;
   }
 }

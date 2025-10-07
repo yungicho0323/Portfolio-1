@@ -1,34 +1,31 @@
-import { Card, CardFooter, Typography } from "@material-tailwind/react";
-import './Card.css';
+import { CardFooter } from "@material-tailwind/react";
+import "./Card.css";
 import "animate.css";
 import ZynergyImage from "../assets/images/iphone-16-mockup.png";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
 import MedSpeakImage from "../assets/images/MedSpeak.png";
-import { Link } from 'react-router-dom';
-import babelImage from '../assets/images/BabelMockup.png';
+import { Link } from "react-router-dom";
+import babelImage from "../assets/images/BabelMockup.png";
 
 export function CardComponent() {
   return (
     <div className="card-container">
       
       {/* MedSpeak Card */}
-      <Link to="/MedSpeak" className="card-link">
+      <Link to="/MedSpeak" className="card-link" aria-label="MedSpeak case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={MedSpeakImage} alt="Project-3" className="project-image3" />
-          <Typography variant="h5" color="blue-gray" className="MedSpeak"> 
-            MedSpeak: AI-powered Medical Translation App
-          </Typography>
+          <img src={MedSpeakImage} alt="MedSpeak project cover" className="project-image3" />
+
+          {/* new text block */}
+          <div className="project-text-block">
+            <span className="project-name">MedSpeak</span>
+            <h3 className="project-tagline">Breaking language barriers in healthcare.</h3>
+          </div>
 
           <div className="bottom-section">
-            {/* <div className="project-type-badge">
-              <button className="project-type-button">AI-Powered Mobile App</button>
-              <button className="project-type-button">Healthcare</button>
-              <button className="project-type-button">Symptom Translation</button>
-              <button className="project-type-button">Patient Data Storage</button>
-            </div> */}
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
-                <span className="card-button">Learn More </span>
+                <span className="card-button">Learn More</span>
               </CardFooter>
             </div>
           </div>
@@ -36,23 +33,20 @@ export function CardComponent() {
       </Link>
 
       {/* FurryTales Card */}
-      <Link to="/furrytales" className="card-link">
+      <Link to="/furrytales" className="card-link" aria-label="FurryTales case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={FurryTaleImage} alt="Project-2" className="project-image2" />
-          <Typography variant="h5" color="blue-gray" className="furryTales"> 
-            FurryTales Pet: Pet Snack Brand E-commerce Website
-          </Typography>
+          <img src={FurryTaleImage} alt="FurryTales project cover" className="project-image2" />
+
+          {/* new text block */}
+          <div className="project-text-block">
+            <span className="project-name">FurryTales</span>
+            <h3 className="project-tagline">Redesigning a local pet brand for joyful, seamless shopping.</h3>
+          </div>
 
           <div className="bottom-section">
-            {/* <div className="project-type-badge">
-              <button className="project-type-button">Website Redesign</button>
-              <button className="project-type-button">E-commerce</button>
-              <button className="project-type-button">Visual Storytelling</button>
-              <button className="project-type-button">FLUI Hackathon 2025</button>
-            </div> */}
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
-               <span className="card-button">Learn More </span>
+                <span className="card-button">Learn More</span>
               </CardFooter>
             </div>
           </div>
@@ -60,23 +54,20 @@ export function CardComponent() {
       </Link>
 
       {/* Zynergy Card */}
-      <Link to="/zynergy" className="card-link">
+      <Link to="/zynergy" className="card-link" aria-label="Zynergy case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={ZynergyImage} alt="Project-1" className="project-image1" />
-          <Typography variant="h5" color="blue-gray" className="zynergy">
-            Zynergy: Group Workout Challenge Fitness App
-          </Typography>
-          
+          <img src={ZynergyImage} alt="Zynergy project cover" className="project-image1" />
+
+          {/* new text block */}
+          <div className="project-text-block">
+            <span className="project-name">Zynergy</span>
+            <h3 className="project-tagline">Empowering teams through gamified wellness.</h3>
+          </div>
+
           <div className="bottom-section">
-            {/* <div className="project-type-badge">
-              <button className="project-type-button">Fitness & Wellness App</button>
-              <button className="project-type-button">Social Connection</button>
-              <button className="project-type-button">Group Workout</button>
-              <button className="project-type-button">Workout Progress Tracker</button>
-            </div> */}
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
-                <span className="card-button">Learn More </span>
+                <span className="card-button">Learn More</span>
               </CardFooter>
             </div>
           </div>
@@ -84,22 +75,20 @@ export function CardComponent() {
       </Link>
 
       {/* Babel Card */}
-      <Link to="/babel" className="card-link">
+      <Link to="/babel" className="card-link" aria-label="Babel case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={babelImage} alt="Project-4" className="project-image4" />
-          <Typography variant="h5" color="blue-gray" className="babel"> 
-            Babel: Emergency Response & Safety Communication App
-          </Typography>
+          <img src={babelImage} alt="Babel project cover" className="project-image4" />
+
+          {/* new text block */}
+          <div className="project-text-block">
+            <span className="project-name">Babel</span>
+            <h3 className="project-tagline">Connecting people through safety and real-time location.</h3>
+          </div>
 
           <div className="bottom-section">
-            {/* <div className="project-type-badge">
-              <button className="project-type-button">Safety & Community</button>
-              <button className="project-type-button">Real-Time Location Sharing</button>
-              <button className="project-type-button">Emergency Coordination</button>
-            </div> */}
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
-               <span className="card-button">Learn More </span>
+                <span className="card-button">Learn More</span>
               </CardFooter>
             </div>
           </div>
@@ -111,3 +100,4 @@ export function CardComponent() {
 }
 
 export default CardComponent;
+
