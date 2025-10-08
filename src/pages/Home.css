@@ -235,7 +235,7 @@ body {
   background: linear-gradient(135deg, #8a3dc7, #561f95);
   border-color: transparent;
   box-shadow: 0 6px 14px rgba(138, 61, 199, 0.35);
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
 }
 
 /* Focus for accessibility */
@@ -244,9 +244,8 @@ body {
   outline-offset: 3px;
 }
 
-
 .explore .scroll {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.2rem;
 }
 
@@ -424,6 +423,7 @@ body {
   border-color: var(--yc-purple);
   box-shadow: 0 8px 20px rgba(138, 61, 199, 0.16);
 }
+
 
 
 /* 3) Tighten mobile spacing so the card doesn't visually collide */
