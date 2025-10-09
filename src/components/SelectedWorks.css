@@ -45,7 +45,7 @@
 .image-wrapper {
   text-align: left;
   /* background: rgba(255, 255, 255, 0.75);  */
-  padding: 20px;
+  padding: 1rem;
       border-width: 1px;
     --tw-border-opacity: 1;
     border-color: rgb(255 255 255 / var(--tw-border-opacity));
