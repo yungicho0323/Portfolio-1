@@ -10,11 +10,16 @@ const Header = () => {
   return (
     <header className="custom-header">
       {/* Logo */}
-    <div className="logo">
-      <Link to="/home" className="hover:text-purple-600 flex items-center gap-4">
-        YUNGI CHO
-      </Link>
-    </div>
+ <div className="logo">
+  <Link to="/home" className="flex items-center gap-8 hover:text-[#8a3dc7] transition-colors">
+    <img
+      src="/logo.png"
+      alt="Yungi Cho Logo"
+      className="h-12 w-12 rounded-full object-cover"
+    />
+    <span className="text-lg font-medium tracking-wide">YUNGI CHO</span>
+  </Link>
+</div>
 
       {/* Desktop Nav - keep as is */}
       <nav className="main-nav">
