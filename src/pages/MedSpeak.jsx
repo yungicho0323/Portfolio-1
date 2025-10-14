@@ -68,7 +68,6 @@ function MedSpeak() {
               <img src={heroImage} alt="MedSpeak Project Preview" />
             </div>
           </div>
-
           <div className="project-meta updated-meta">
             <div>
               <h4>Timeline</h4>
