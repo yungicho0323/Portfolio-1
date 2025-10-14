@@ -22,13 +22,13 @@ function Home() {
         <h1 className="hero-title">
             Transforming complex challenges into <br />
             <span className="brand-highlight big-highlight">
-            accessible, human-first experiences
+            accessible, data-informed experiences
             </span>
         </h1>
 
         <p className="hero-subcopy">
             Welcome! – I’m YunGi, a UX/UI designer. 
-            I craft accessible, human-first experiences that balance empathy, usability, and strategic design.
+            I create inclusive, user-centered designs that are grounded in research and data — balancing empathy with evidence.
         </p>
 
         {/* Social Buttons */}
@@ -85,7 +85,7 @@ function Home() {
         <h2 className="about-title">
         Inspired by people’s daily challenges, I design{" "}
         <span className="about-highlight">accessible</span>,{" "}
-        <span className="about-highlight">empathy-driven</span> solutions that
+        <span className="about-highlight">data-informed</span> solutions that
         connect with users and support business growth.
       </h2>
 
