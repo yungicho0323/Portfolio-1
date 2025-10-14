@@ -28,7 +28,7 @@ function Home() {
 
         <p className="hero-subcopy">
             Welcome! – I’m YunGi, a UX/UI designer. 
-            I create inclusive, user-centered designs that are grounded in research and data — balancing empathy with evidence.
+            I create inclusive, user-centered designs that are grounded in research and data.
         </p>
 
         {/* Social Buttons */}
