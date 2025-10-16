@@ -29,8 +29,8 @@ function About() {
         </div>
         <div className="about-text">
         <p>
-         <span className="intro-about">Hey there! At the core of my design practice is a desire to help people navigate the digital world with more ease and empathy.</span> I'm a purpose-driven UX/UI designer based in Vancouver, BC. With a background in business administration, I developed my design skills through the New Media Design and Web Development program at BCIT.
-          <br/>I naturally approach problems from both a user and business perspective. But it is through real design work such as talking to users, identifying pain points, and testing solutions that I found my purpose which is helping people through thoughtful digital experiences.
+         <span className="intro-about">Hey there! At the core of my design practice is a desire to help people navigate the digital world with more ease and empathy.</span> <br/> I'm a purpose-driven UX/UI designer based in Vancouver, BC. With a background in business administration, I developed my design skills through the New Media Design and Web Development program at BCIT.
+          <br/>Combining my business background with human-centered design, I approach problems through research and collaboration turning insights into inclusive solutions that balance user needs and business goals.
           </p>
            <p>Let’s connect and explore how my design thinking and creative process can help turn your ideas into impactful user experiences.
           Check out my work and feel free to reach out at <strong>yungicho8@gmail.com.</strong>
@@ -55,48 +55,33 @@ function About() {
         </div>
     </section>
 
-{/* 
-  <section className="Design-process">
-  <div className="design-process-context">
 
-    <div className="design-process-block">
-      <h4>Design Process</h4>
-      <p>
-        I follow an <strong>agile and iterative design approach</strong>. After gathering feedback or conducting usability testing, I revisit and refine my designs to make sure they truly meet user expectations and align with the original purpose. I believe design is never really finished until cycles of testing, feedback, and improvement.
-        <br/><br/>
-        When it comes to research, <strong>I always take the time to validate whether the problem I am solving is real.</strong> I gather insights through user interviews and surveys, then analyze competitors to recognize gaps and opportunities. This helps me define the problem more clearly and design solutions that are actually meaningful to users.
-      </p>
+<section className="experience-container" aria-labelledby="experience-heading">
+  <div className="experience">
+    <div className="exp-eyebrow">
+      <span className="exp-dot" />
+      EXPERIENCE
     </div>
 
-    <div className="design-process-block">
-      <h4>Tools</h4>
-      <p>
-        I mainly work with tools like <strong>Figma, FigJam, Adobe Creative Suite, and project management tools</strong> to ideate, collaborate, and manage projects from start to finish.
-      </p>
-    </div>
+    <ul className="exp-list" role="list">
+      <li className="exp-row">
+        <div className="exp-left">
+          <div className="exp-company">Burst Creative Group</div>
+          <div className="exp-role">Product Designer, Internship</div>
+        </div>
+        <div className="exp-right">Sep 2025 – Present</div>
+      </li>
 
+      <li className="exp-row">
+        <div className="exp-left">
+          <div className="exp-company">Aperture Coffee Bar</div>
+          <div className="exp-role">Web Designer</div>
+        </div>
+        <div className="exp-right">Jul 2025 – Present</div>
+      </li>
+    </ul>
   </div>
-</section> */}
-
-
-
-    <section className="expertise-container">
-    <div className="expertise">
-      <h1 className="title">Expertise</h1>
-      <ul className="expertise-list">
-        <li>Mobile App UI Design</li>
-        <li>Product Design</li>
-        <li>Wireframes / Prototyping</li>
-        <li>Figma</li>
-        <li>Usability Testing</li>
-        <li>User & Product Research</li>
-        <li>Project Management</li>
-        <li>Adobe Photoshop / Adobe Illustrator</li>
-        <li>Graphic Design</li>
-        <li>HTML / CSS / JavaScript</li>
-      </ul>
-    </div>
-    </section>
+</section>
    
     <section className="gallery-container">
      {/* Image Gallery - Dynamic Layout */}
@@ -109,28 +94,41 @@ function About() {
     </div>
     </section>
 
-        
-    <section className="about-container2">
-        <div className="about-me">
-          <h4>Traveling</h4>
-  
-         <p>
-           "With an adventurous and open-minded spirit, I have always embraced new experiences. Growing up in a family passionate about travel, I had the privilege of exploring diverse cultures from an early age, shaping my global perspective and appreciation for different ways of life."
-        </p>
-        <br/>
+      {/* =========================
+    ABOUT – PERSONAL SECTION
+========================= */}
+<section className="about-container2" aria-labelledby="about-personal-heading">
+  <div className="about2-inner">
+    <div className="about2-eyebrow" id="about-personal-heading">
+      <span className="eyebrow-dot" />
+      ABOUT ME
+    </div>
 
-        <h4>Beauty in Details</h4>
-        <p>
-           "I find beauty in the details whether in nature, a perfectly brewed cup of coffee, typography, spatial design, or photography. Over the years, I have cultivated a refined aesthetic, continuously exploring and defining the visual language that resonates with me."
+    <ul className="stmt-list" role="list">
+      <li className="stmt-row">
+        <h4 className="stmt-heading">Traveling</h4>
+        <p className="stmt-text">
+          With an adventurous and open-minded spirit, I have always embraced new experiences. Growing up in a family passionate about travel, I had the privilege of exploring diverse cultures from an early age, shaping my global perspective and appreciation for different ways of life.
         </p>
-        <br/>
+      </li>
 
-        <h4>Authenticity</h4>
-        <p>
-          "Authenticity is at the core of my personal and professional journey. I strive to stay true to myself, actively shaping a life filled with passion, continuous growth, and meaningful challenges. As both an individual and a UX/UI designer, I am committed to refining my skills, embracing new perspectives, and confidently evolving into the best version of myself."
+      <li className="stmt-row">
+        <h4 className="stmt-heading">Beauty in Details</h4>
+        <p className="stmt-text">
+          I find beauty in the details—whether in nature, a perfectly brewed cup of coffee, typography, spatial design, or photography. Over the years, I have cultivated a refined aesthetic, continuously exploring and defining the visual language that resonates with me.
         </p>
-           </div>
-    </section>
+      </li>
+
+      <li className="stmt-row">
+        <h4 className="stmt-heading">Growth</h4>
+        <p className="stmt-text">
+          Growth is at the core of my personal and professional journey. I strive to stay true to myself, actively shaping a life filled with passion, continuous growth, and meaningful challenges. As both an individual and a UX/UI designer, I am committed to refining my skills, embracing new perspectives, and confidently evolving into the best version of myself.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
           
         <Footer />
         </>

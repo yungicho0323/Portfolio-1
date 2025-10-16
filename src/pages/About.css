@@ -53,7 +53,7 @@ body {
 
 .about-text p {
     margin-bottom: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -142,47 +142,109 @@ body {
   }
 }
 
-
 /* =========================
-   EXPERTISE SECTION
+   EXPERIENCE SECTION
    ========================= */
 
-.expertise-container {
-    margin: 4rem 0;
-    padding: 1rem 0;
+.experience-container {
+  margin: 4rem 0;
+  padding: 1rem 0;
 }
 
-.expertise {
-    text-align: center;
-    padding: 0 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    font-family: 'Manrope', sans-serif;
+.experience {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  padding: 0 4rem;
 }
 
-.title {
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 2.5rem;
-    margin-left: -2rem;
+/* Section Eyebrow (purple label + dot) */
+.exp-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #8a3dc7;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
 }
 
-.expertise-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem 6rem;
-    list-style: none;
-    margin: 0 auto;
-    max-width: 1200px;
+.exp-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #8a3dc7;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.expertise-list li {
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-align: center;
-    min-width: 200px;
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
 }
+
+.exp-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1.25rem;
+}
+
+.exp-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.exp-company {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.exp-role {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.exp-right {
+  font-size: 0.98rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .experience {
+    padding: 0 1.5rem;
+  }
+  .exp-company {
+    font-size: 1.4rem;
+  }
+  .exp-role {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .exp-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .exp-right {
+    font-size: 0.95rem;
+    color: #777;
+  }
+}
+
 
 /* =========================
    GALLERY SECTION
@@ -257,58 +319,109 @@ body {
 }
 
 /* =========================
-   ABOUT ME STATEMENTS
+   ABOUT – PERSONAL STATEMENTS
    ========================= */
 
 .about-container2 {
-    margin: 2rem 0;
-    margin-bottom: 6rem;
+  margin: 4rem 0;
+  padding: 1rem 0;
 }
 
-.about-me {
+.about2-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  padding: 0 4rem;
+}
+
+/* Unify with exp-eyebrow style */
+.about2-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #8a3dc7;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.eyebrow-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #8a3dc7;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* About Me content layout */
+.stmt-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stmt-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.stmt-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111;
+  flex: 1;
+  min-width: 160px;
+}
+
+.stmt-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  flex: 3;
+  min-width: 250px;
+  margin: 0;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .about2-inner {
+    padding: 0 2rem;
+  }
+  .stmt-heading {
+    font-size: 1.35rem;
+  }
+  .stmt-text {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about2-inner {
+    padding: 0 1.5rem;
+  }
+  .stmt-row {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .stmt-heading {
     font-size: 1.2rem;
-    line-height: 1.6;
-    text-align: left;
-    margin: 0 auto;
-    max-width: 1000px;
-    font-family: 'Manrope', sans-serif;
-} 
-
-.statement-section {
-    margin-bottom: 3rem;
+  }
+  .stmt-text {
+    font-size: 0.98rem;
+  }
 }
 
-.about-me h4 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 12px;
-}
-
-.statement-divider1 {
-    width: 95px;
-    height: 1px;
-    margin: 8px 0 16px;
-    background-color: #222222;
-}
-
-.statement-divider2 {
-    width: 170px;
-    height: 1px;
-    margin: 8px 0 16px;
-    background-color: #222222;
-}
-
-.statement-divider3 {
-    width: 125px;
-    height: 1px;
-    margin: 8px 0 16px;
-    background-color: #222222;
-}
-
-.about-me p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-}
 
 /* =========================
    TABLET RESPONSIVE
