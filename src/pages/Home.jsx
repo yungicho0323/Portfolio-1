@@ -22,7 +22,7 @@ function Home() {
         <h1 className="hero-title">
             Transforming complex challenges into <br />
             <span className="brand-highlight big-highlight">
-            accessible, data-informed experiences
+            inclusive, data-informed experiences
             </span>
         </h1>
 
@@ -84,7 +84,7 @@ function Home() {
       
         <h2 className="about-title">
         Inspired by people’s daily challenges, I design{" "}
-        <span className="about-highlight">accessible</span>,{" "}
+        <span className="about-highlight">inclusive</span>,{" "}
         <span className="about-highlight">data-informed</span> solutions that
         connect with users and support business growth.
       </h2>
