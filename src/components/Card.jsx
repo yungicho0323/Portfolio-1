@@ -75,11 +75,10 @@ export function CardComponent() {
       </Link>
 
       {/* Babel Card */}
-      <Link to="/babel" className="card-link" aria-label="Babel case study">
+      {/* <Link to="/babel" className="card-link" aria-label="Babel case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
           <img src={babelImage} alt="Babel project cover" className="project-image4" />
 
-          {/* new text block */}
           <div className="project-text-block">
             <span className="project-name">Babel</span>
             <h3 className="project-tagline">Connecting people through safety and real-time location.</h3>
@@ -93,7 +92,7 @@ export function CardComponent() {
             </div>
           </div>
         </div>
-      </Link>
+      </Link> */}
 
     </div>
   );
