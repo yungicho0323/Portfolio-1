@@ -20,7 +20,7 @@ function Home() {
         {/* HERO (reference-style structure) */}
         <section className="hero">
         <h1 className="hero-title">
-            Transforming complex challenges into <br />
+            Transforming daily challenges into <br />
             <span className="brand-highlight big-highlight">
             inclusive, data-informed experiences
             </span>
