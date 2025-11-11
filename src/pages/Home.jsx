@@ -22,7 +22,7 @@ function Home() {
         <h1 className="hero-title">
             Transforming daily challenges into <br />
             <span className="brand-highlight big-highlight">
-            effortless, inclusive experiences
+            inclusive, data-informed experiences
             </span>
         </h1>
 
