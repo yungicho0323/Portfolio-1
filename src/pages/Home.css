@@ -330,7 +330,6 @@ body {
   top: 0;
   height: 3px;
   border-radius: 3px;
-  background: linear-gradient(90deg, var(--yc-purple) 0%, rgba(138, 61, 199, 0.08) 100%);
   opacity: 0.55;
 }
 
