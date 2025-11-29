@@ -22,13 +22,13 @@ function Home() {
         <h1 className="hero-title">
             Transforming daily challenges into <br />
             <span className="brand-highlight big-highlight">
-            inclusive, data-informed experiences
+            intuitive, impact-driven experiences
             </span>
         </h1>
 
         <p className="hero-subcopy">
-            Welcome! – I’m YunGi, a UX/UI designer. 
-            I create user-centered designs that are grounded in research and data.
+            Welcome! – I’m YunGi, a UX/UI designer 
+            who creates thoughtful, user-centered experiences that make everyday life easier and more meaningful.
         </p>
 
         {/* Social Buttons */}
