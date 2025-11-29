@@ -84,8 +84,8 @@ function Home() {
       
         <h2 className="about-title">
         Inspired by people’s daily challenges, I design{" "}
-        <span className="about-highlight">inclusive</span>,{" "}
-        <span className="about-highlight">data-informed</span> solutions that
+        <span className="about-highlight">intuitive</span>,{" "}
+        <span className="about-highlight">impact-driven</span> solutions that
         connect with users and support business growth.
       </h2>
 
