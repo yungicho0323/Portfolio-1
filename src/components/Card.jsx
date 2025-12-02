@@ -11,15 +11,15 @@ export function CardComponent() {
   return (
     <div className="card-container">
       
-      {/* MedSpeak Card */}
-      <Link to="/MedSpeak" className="card-link" aria-label="MedSpeak case study">
+      {/* Zynergy Card */}
+      <Link to="/zynergy" className="card-link" aria-label="Zynergy case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={MedSpeakImage} alt="MedSpeak project cover" className="project-image3" />
+          <img src={ZynergyImage} alt="Zynergy project cover" className="project-image1" />
 
           {/* new text block */}
           <div className="project-text-block">
-            <span className="project-name">MedSpeak</span>
-            <h3 className="project-tagline">Breaking language barriers in healthcare.</h3>
+            <span className="project-name">Zynergy</span>
+            <h3 className="project-tagline">Empowering teams through gamified wellness.</h3>
           </div>
 
           <div className="bottom-section">
@@ -52,16 +52,16 @@ export function CardComponent() {
           </div>
         </div>
       </Link>
-
-      {/* Zynergy Card */}
-      <Link to="/zynergy" className="card-link" aria-label="Zynergy case study">
+      
+      {/* MedSpeak Card */}
+      <Link to="/MedSpeak" className="card-link" aria-label="MedSpeak case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={ZynergyImage} alt="Zynergy project cover" className="project-image1" />
+          <img src={MedSpeakImage} alt="MedSpeak project cover" className="project-image3" />
 
           {/* new text block */}
           <div className="project-text-block">
-            <span className="project-name">Zynergy</span>
-            <h3 className="project-tagline">Empowering teams through gamified wellness.</h3>
+            <span className="project-name">MedSpeak</span>
+            <h3 className="project-tagline">Breaking language barriers in healthcare.</h3>
           </div>
 
           <div className="bottom-section">
@@ -74,25 +74,7 @@ export function CardComponent() {
         </div>
       </Link>
 
-      {/* Babel Card */}
-      {/* <Link to="/babel" className="card-link" aria-label="Babel case study">
-        <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={babelImage} alt="Babel project cover" className="project-image4" />
 
-          <div className="project-text-block">
-            <span className="project-name">Babel</span>
-            <h3 className="project-tagline">Connecting people through safety and real-time location.</h3>
-          </div>
-
-          <div className="bottom-section">
-            <div className="right-section">
-              <CardFooter className="cardFooter-wrapper">
-                <span className="card-button">Learn More</span>
-              </CardFooter>
-            </div>
-          </div>
-        </div>
-      </Link> */}
 
     </div>
   );
