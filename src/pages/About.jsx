@@ -69,7 +69,7 @@ function About() {
           <div className="exp-company">Burst Creative Group</div>
           <div className="exp-role">Product Designer, Internship</div>
         </div>
-        <div className="exp-right">Sep 2025 – Present</div>
+        <div className="exp-right">Sep 2025 – Nov 2025</div>
       </li>
 
       <li className="exp-row">
