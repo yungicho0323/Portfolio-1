@@ -263,7 +263,7 @@ function Zynergy() {
         </div>
 
         <div className="buddyupplus-key-text">
-          <p className="buddyupplus-key-eyebrow">2. customized Reward Ststem </p>
+          <p className="buddyupplus-key-eyebrow">2. Fun Reward System </p>
           <h4 className="buddyupplus-key-title">
             A real-world reward makes habits stick.
           </h4>
