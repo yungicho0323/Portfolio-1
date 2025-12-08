@@ -18,8 +18,8 @@ export function CardComponent() {
 
           {/* new text block */}
           <div className="project-text-block">
-            <span className="project-name">Zynergy</span>
-            <h3 className="project-tagline">Empowering teams through gamified wellness.</h3>
+            <span className="project-name">BuddyUp+</span>
+            <h3 className="project-tagline">Building better habits through shared challenges and accountability.</h3>
           </div>
 
           <div className="bottom-section">

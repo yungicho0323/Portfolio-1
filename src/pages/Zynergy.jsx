@@ -4,21 +4,12 @@ import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
 import './Zynergy.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
-import ZynergyVideo from '../assets/videos/Zynergy.mp4';
-import problem from '../assets/images/Zynergy-problem.jpg';
-import UserInterview from '../assets/images/UserInterview.png';
-import Persona1 from '../assets/images/Persona 1.png';
-import UserJourney from '../assets/images/UserJourney.png';
-import affinitymapping from '../assets/images/affinity-mapping.png';
-import Brainstorming from '../assets/images/Brainstorming.png';
-import IA from '../assets/images/IA.png';
-import WireframeImage from '../assets/images/Zynergy-Wireframe.png';
-import mockup from '../assets/images/Zynergy-mockup.png';
-import mockup2 from '../assets/images/Zynergy-mockup2.png';
-import mockup3 from '../assets/images/Zynergy-mockup3.png';
-import Feature1 from '../assets/videos/Feature1.mp4';
-import Feature2 from '../assets/videos/Feature2.mp4';
-import Feature3 from '../assets/videos/Feature3.mp4';
+import introVideo from "../assets/videos/Buddyup_final.mp4";
+import researchImage from '../assets/images/Research_Sources.png';
+import process1Video from "../assets/videos/Process1.mp4";
+import process2Video from "../assets/videos/Process2.mp4";
+import process3Video from "../assets/videos/Process3.mp4";
+import process4Video from "../assets/videos/Process4.mp4";
 
 
 
@@ -33,20 +24,19 @@ function Zynergy() {
             <section className="project-hero-updated">
               <div className="top-layout">
               <div className="Zynergy-project-text">
-                <h1>Zynergy</h1>
+                <h1>BuddyUp+</h1>
 
                 <p> 
                   <strong>
-                A community-focused fitness and wellness app that encourages motivation and consistency through group workout challenges, progress tracking, and social connection</strong> 
+                A social wellness app that helps people build healthy habits by staying accountable with friends through shared challenges, AI-verified progress, and fun rewards</strong> 
                 </p>
-                <p>It is designed to foster social connection and long-term motivation for fitness goals by transforming traditional fitness app into a community-driven experience through shared goals and group workout challenges.
-                 </p>
+  
 
           <div className="prototype-button-wrapper">
           <a
-            href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/Zynergy-app-redesign?page-id=1%3A3&node-id=233-7154&viewport=558%2C-192%2C0.05&t=sodJLDreuvS5qU8v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=233%3A7154&show-proto-sidebar=1"
+            href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/BuddyUp--app-redesign?node-id=1192-17293&p=f&t=A07tDyaaTahOVvnb-1&scaling=scale-down&content-scaling=fixed&page-id=810%3A2184&starting-point-node-id=1192%3A16069&show-proto-sidebar=1"
             target="_blank"
-            rel="Zynergy App prototyping"
+            rel="BuddyUp+ App prototyping"
             className="prototype-button"
           >
           View Prototype
@@ -54,478 +44,361 @@ function Zynergy() {
         </div>
         </div>
 
+              </div>
               <div className="Zynergy-project-image">
                 <img src={heroImage} alt="Zynergy Project Preview" />
-              </div>
               </div>
           
 
                 <div className="project-meta zynergy-updated-meta">
                   <div>
                     <h4>Timeline</h4>
-                    <p>6 weeks <br/>Designed in November, 2024
-                     <br/>
-                      Redesigned in 2025
+                    <p>4 weeks, Nov 2025
                     </p>
                   </div>
                   <div>
+                    <h4>Role</h4>
+                    <p>Lead UX/UI Designer</p>
+                  </div>
+                  <div>
+                    <h4>Responsibilities</h4>
+                    <p>Research <br/>Concept Development <br/> UX/UI Design <br/> Interaction Design <br/>Prototyping <br/> User Testing</p>
+                  </div>
+                  <div>
                     <h4>Tools</h4>
-                    <p>Figma<br/> Photoshop<br /> Illustrator<br/> ClickUp</p>
-                  </div>
-                  <div>
-                    <h4>Project Types</h4>
-                    <p>UX/UI <br/>Visual Design <br/> Mobile App Design </p>
-                  </div>
-                  <div>
-                    <h4>Team</h4>
-                    <p> Mor Keren (UX/UI Designer), <br/>Zoey Huang  (Project Manager), <br/>Nicole Cuason (Graphic Designer), <br/>Truc Quynh Nguyen (Graphic Designer)</p>
+                    <p> Figma, Figma Make <br/> After Effects</p>
 
                   </div>
                   <div>
-                    <h4>My Role</h4>
-                    <p>UX/UI Designer</p>
+                    <h4>Team</h4>
+                    <p>2 UX/UI Designers</p>
                   </div>
                 </div>
             </section>
 
 
-{/*Overview*/}
-    <section className="zynergy-overview-section">
-      <div className="zynergy-overview-container">
-        <h2 className="overview-heading">01. Overview</h2>
-        <h1 className="main-heading"><span className="zynergy-highlight-keyword">Unlock Your Potential with Lifting Up Each other.</span></h1>
+     {/* Overview */}
+<section className="buddyupplus-overview-section">
+  <div className="buddyupplus-overview-container">
+    <div className="buddyupplus-overview-header">
+      <span className="buddyupplus-overview-dot" />
+      <span className="buddyupplus-overview-label">
+        Overview (WHY & HOW I Started This App)
+      </span>
+    </div>
 
-        <div className="problem-section">
-          <h3 className="section-title">Problem</h3>
-          <p className="problem-description">
-           Exercising alone can lead to decreased motivation, lack of accountability, and feelings of isolation, which often result in reduced consistency and early drop-off from fitness routines. Without social interaction or support, individuals may struggle to stay engaged and committed to long-term fitness goals.
-          </p>
+    <div className="buddyupplus-overview">
+      <p>
+        When it comes to building habits, most people don’t struggle with starting —
+        they struggle with staying consistent. <br/>
+        Motivation fades, life gets busy, and traditional trackers become
+        another forgotten app on the phone.
+      </p>
 
-          <div className="problem-question-box">
-            <p>
-              <strong>How might we</strong> transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s fitness journey?
-            </p>
-          </div>
-          </div>
-        </div>
-      </section>
+      <p>
+        BuddyUp+ was born from a simple observation: <br />
+        <strong>People stay committed when they don’t feel alone.</strong>
+      </p>
 
-    <section className="solution-section">
-      <div className="solution-container">
-        <h2>Solution</h2>
-        <h3 className="solution-tagline">
-       A social, goal-driven, and empowering take on <br/> transforming fitness into a shared journey.
-        </h3>
-        <p className="solution-subtext">
-          Create a challenge for Group Workout with your friends
-        </p>
-      
-        <div className="solution-video-wrapper">
-          <video
-            className="solution-video"
-            src={ZynergyVideo}
-            controls
-            playsInline
-            muted
-            loop
-          />
-        </div>
+      <p>
+        This project explores how social accountability and shared challenges can
+        transform habit-building into something supportive, fun, and sustainable.
+        Instead of tracking in isolation, users can inspire, verify, and celebrate
+        each other.
+      </p>
 
-        <div className="Zynergy-prototype-button-wrapper">
-        <a
-          href="https://www.figma.com/proto/vwi8qExln9liGrl8ugRvFx/Zynergy-app-redesign?page-id=1%3A3&node-id=233-7154&viewport=558%2C-192%2C0.05&t=sodJLDreuvS5qU8v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=233%3A7154&show-proto-sidebar=1"
-          target="_blank"
-          rel="Zynergy App prototyping"
-          className="prototype-button"
-        >
-         View Prototype
-        </a>
-      </div>
-      </div>
-    </section>
-    
-
-{/* Design Process */}
-{/* <section className="process-section">
-  <div className="process-container">
-
-    <a href="#research" className="process-step">
-      <div className="dot" />
-      <p>1. Research</p>
-    </a>
-
-    <a href="#analysis" className="process-step">
-      <div className="dot" />
-      <p>2. Analysis</p>
-    </a>
-
-    <a href="#ideation" className="process-step">
-      <div className="dot" />
-      <p>3. Ideation</p>
-    </a>
-
-    <a href="#design" className="process-step">
-      <div className="dot" />
-      <p>4. Final Designs</p>
-    </a>
-
-    <a href="#validation" className="process-step">
-      <div className="dot" />
-      <p>5. Reflection</p>
-    </a>
-
+      <p>
+        During testing, users shared that the experience made them feel “motivated
+        because someone is doing it with me” and “more confident to finish the week.”
+        Their feedback helped refine BuddyUp+ into a system that supports both
+        consistency and community.
+      </p>
+    </div>
   </div>
-</section> */}
-{/*Research*/}
-  <section id="research" className="research-section">
-        <div className="research-container">
-        <h2 className="research-title">02. Research</h2>
-
-        <div className="context-section">
-          <h3 className="context-title">Indentifying Problem Discovery</h3>
-          <p>
-       Despite the growing popularity of digital fitness and wellness platforms, many users struggle with long-term engagement. <span className="zynergy-highlight-keyword">A key issue identified through qualitative research is the lack of social interaction, which can lead to feelings of isolation and low motivation, especially when users work out alone using individual fitness apps.</span>
-          </p>
-          <p>
-           A qualitative study on the <span className="zynergy-highlight-keyword">Choose to Move program (British Columbia)</span> emphasized the role of peer support and group settings in helping participants sustain physical activity. Interviewees described the program as "a reason to get out and move" and "a way to stay connected."</p>
-
-
-           <p>
-           <strong><li>Key Insight: Participants who exercised alone struggled to stay consistent, often citing lack of social accountability.</li></strong> 
-          </p>
-            <div className="research-placeholder">
-            <img src={problem} alt="Lack of Motivation for Fitness" className="Zynergy-research" />
-           </div>
-        </div>
-       {/*User Interview*/}
- <div className="interview-section">
-      <h4 className="interview-title">validating the problem</h4>
-      <h2 className="interview-highlight">
-      User Interviews
-      </h2>
-      <p className="interview-body">
-          To validate the problem, I gathered feedback from 4 people who use fitness apps regularly. While most people found value in individual tracking features, many shared that over time, working out alone felt repetitive, isolating, or hard to sustain. Even users who were committed to fitness shared that they missed the sense of community, often expressing they <span className="zynergy-highlight-keyword">“wished the app made them feel less alone.”</span>
-      </p>
-
-         <h3 className="interview-question-heading">Interview Questions:</h3>
-        <ul className="interview-list">
-          <li>Can you walk me through your experience using fitness or wellness apps?</li>
-          <li>What features do you use the most, and how do you usually stay motivated?</li>
-          <li>Have you felt ever unmotivated or disconnected while using a fitness app?</li>
-          <li>Have you ever participated in a fitness challenge with others (in-person or online)? If yes, what was that experience like compared to doing it alone?</li>
-        </ul>
-
-       <div className="diagram-placeholder">
-            <img
-          src={UserInterview}
-          alt="User Interview Themes"
-          className="zynergy-interview"
-        />
-      </div>
-    </div>
-
-
-
-      {/*Proposed Solution*/}
-        <div className="goal-section">
-          <h3 className="goal-title">Approach</h3>
-          <p> <strong>  How might we transform traditional fitness apps into interactive platforms that foster motivation and social connection throughout the user’s fitness journey?
-          </strong>
-          </p>
-          <p>
-            The primary goal of the Zynergy app is to address a key gap in the fitness tech market: <span className="zynergy-highlight-keyword">the lack of socially engaging features that promote sustained motivation and user retention.</span> While traditional booking platforms focus on convenience, Zynergy differentiates itself by offering <span className="zynergy-highlight-keyword"> Group Workout Challenges </span>that allow users to connect, collaborate, and commit to shared fitness goals.
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-{/*section divider*/}
-<div className="section-divider"></div>
-
-{/*Analysis*/}
-<section id="analysis" className="analysis-section">
-      <h2>03. Analysis</h2>
-
-      <div className="persona-section">
-        <h4>Persona</h4>
-        <p>
-          The persona helped me create a user-centric approach that addressed the specific needs
-          and preferences of target audience, resulting in a more effective and tailored solution.
-        </p>
-
-        <div className="persona-grid">
-          <img src={Persona1} alt="Persona 1 - Alex Walker" className="persona-img" />
-        </div>
-      </div>
-    </section>
-
-{/*User Journey*/}
-<section className="pain-point-section">
-      <div className="text-container">
-        <h3 className="subheading">Identifying the Pain Points</h3>
-        <h2 className="main-heading">
-          Lack of motivation and isolated challenge-based features hinder consistent engagement in fitness routines.
-        </h2>
-        <p className="description">
-          Many users begin their fitness journey with high energy and enthusiasm, often setting personal goals or joining challenges. However, when these challenges are designed for individual effort without meaningful interaction or social accountability, motivation tends to fade. Users struggle to stay committed without a sense of community, encouragement, or an easy way to involve friends.
-        </p>
-        <br/>
-        <p className="description"><span className="zynergy-highlight-keyword"> Opportunity:</span> a key moment to re-engage unmotivated users by introducing the Group Workout Challenge feature, helping them feel supported and motivated through social connection.</p>
-      </div>
-
-      <div className="Zynergy-userjourney">
-        <img src={UserJourney} alt="User Pain Point Journey" className="userjoruney-image" />
-      </div>
-    </section>
-
-    {/*Affinity Mapping*/}
-  
-  <section className="affinity-mapping-section">
-    <div className="text-container">
-      <h3 className="subheading">Affinity Mapping</h3>
-      <h2 className="main-heading">Clustering User Research Insights and Design Ideas</h2>
-      <p className="description">
-        Through affinity mapping, I organized user insights and feature ideas into distinct clusters to find themes and group design ideas into pieces of functionality. This process revealed how different app functionalities could work together to create a cohesive social fitness experience.
-      </p>
-      <br/>
-      <p className="description">
-        I addressed <strong>6 main clusters</strong> based on core user needs: 
-        <ul className="theme-list">
-          <li>Challenge Management</li>
-          <li>Social Discovery & Connection</li> 
-          <li>Group Formation & Management</li> 
-          <li>Communication & Integration</li>
-          <li>Progress & Accountability</li>
-          <li>Motivation & Engagement</li>
-          </ul>
-      </p>
-    </div>
-
-      <div className="Zynergy-userjourney">
-        <img src={affinitymapping} alt="Affinity Mapping" className="userjoruney-image" />
-      </div>
-        <div className="Zynergy-prototype-button-wrapper">
-        <a
-          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=87-1427&t=kj96v0WYTDwUrrmi-1"
-          target="_blank"
-          rel="Zynergy Affinity Mapping"
-          className="prototype-button"
-        >
-         View Affinity Mapping
-        </a>
-      </div>
-  </section>
-
-{/*section divider*/}
-<div className="section-divider"></div>
-
-{/*Ideation*/}
-<section id="ideation" className="ideation-section">
-      <h2>04. Ideation</h2>
-
-      {/*Brainstorming*/}
-       <div className="text-container">
-         <h3 className="subheading">Impact-feasibility matrix</h3>
-        <h2 className="main-heading">Prioritizing Features for User Impact</h2>
-        <p className="zynergy-section-description">
-          Following the user research phase, I mainly focused on thinking about features that I want to implement in the app. 
-          So, I had a brainstorming session to come up with features with impact-feasibility matrix, then built an information sitemap, and started building wireframes.</p>
-          <br/>
-
-         <h3>Why Impact-feasibility matrix?</h3>
-         <p className="zynergy-section-description">
-          To prioritize features that directly solve user pain points while considering real-world design and development constraints, preventing feature bloat and ensuring every element serves the core user journey effectively.
-         </p>
-         
-      </div>
-
-      <div className="brainstorming-image-wrapper">
-        <img 
-          src={Brainstorming} 
-          alt="Feature Prioritization: Must Have, Nice to Have, Extras" 
-          className="brainstorming-image"
-        />
-      </div>
-      <div className="Zynergy-prototype-button-wrapper">
-        <a
-          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=90-1552&t=kj96v0WYTDwUrrmi-1"
-          rel="Zynergy Impact-feasibility Matrix"
-          className="prototype-button"
-        >
-         View Impact-feasibility Matrix
-        </a>
-      </div>
-
-    <div className="IA-container">
-      <h3> Information Architecture</h3>
-      <p className="IA-description">
-         After brainstorming about main features, I designed information architecture for the whole application based on the key product features.
-
-        <div className="IA-image">
-          <img src={IA} alt="Information Architecture" />
-        </div>
-         <div className="Zynergy-prototype-button-wrapper">
-        <a
-          href="https://www.figma.com/board/z80mbkdVZRdhO5jE7veVlV/Zynergy_Project-Development?node-id=67-892&t=JAv0BoQwe5YF8Sia-1"
-          target="_blank"
-          rel="Zynergy Information Architecture"
-          className="prototype-button"
-        >
-         View IA
-        </a>
-      </div>
-      </p>
-      </div>
-      
-
-      <div className="ideation-content">
-      <h3>Wireframes</h3>
-      <p className="wireframes-description">
-        After defining the key features, I progressed to the design phase, developing wireframes with a minimalist, user-centered approach. These wireframes enabled me to visualize the integration of essential information on each page.
-      </p>
-
-      <div className="wireframe-image-wrapper">
-        <img src={WireframeImage} alt="Zynergy App Wireframes" />
-      </div>
-
-
-      </div>
 </section>
 
-{/*section divider*/}
-<div className="section-divider"></div>
+{/* Intro Video Section */}
+<section className="buddyupplus-intro">
+  <div className="buddyupplus-intro-inner">
+    <div className="buddyupplus-intro-text">
+      <p className="buddyupplus-intro-label">Intro Video</p>
 
-{/*Final Designs*/}
-<section id="design" className="design-section">
-      <div className="design-container">
-        <h2>05. Final Designs</h2>
-        <p className="design-intro">
-          <strong>
-          I conducted usability testing with our target audience to understand exactly which parts of the design frustrated people and generate more intuitive user interactions.</strong> By observing and analyzing user behavior and feedback, I was able to make adjustments to the design that enhanced the user experience and ensured more intuitive interactions.
+      <div className="buddyupplus-intro-title-row">
+        <span className="buddyupplus-intro-dot" />
+        <p className="buddyupplus-intro-title">
+          To explain how this app works
         </p>
+      </div>
 
-        <h3 className="design-title">Iterations from Usability Tests</h3>
-        <p className="design-description">
-          I conducted usability testing with three participants from our target audience after developing high-fidelity prototypes. The feedback offered valuable insights into user needs, expectations, and overall experience.
-        </p>
-
-        {/* Iteration 1 */}
-         <div className="iteration-row">
-          <div className="iteration-image-set">
-            <img src={mockup} alt="Group Challenge Before/After" />
-          </div>
-          <div className="iteration-text">
-            <h4>1. Streamlined Group Challenge Creation</h4>
-            <p><strong>Before:</strong> The process of creating a group challenge required multiple screens and excessive steps.</p>
-            <p><strong>After:</strong> A “+” button was added directly on the “Create a Group” screen, allowing users to easily add members and navigate to the “Invite Your Buddies” screen. “Add to Calendar” was added directly on the screen as well to improve flow.</p>
-          </div>
-        </div>
-
-        {/* Iteration 2 */}
-  <div className="iteration-row">
-    <div className="iteration-text">
-      <h4>2. Integrating Workout Tracker into the Upcoming Screen</h4>
-      <p><strong>Before:</strong> Users had to navigate to a separate screen to access the Workout Tracker.</p>
-      <p><strong>After:</strong> The Workout Tracker was added to the Upcoming screen, eliminating unnecessary navigation. This integration allows users to instantly see their workout history, providing a more seamless and rewarding experience.</p>
+      <p className="buddyupplus-intro-desc">
+        Habit change happens not through pressure, but through visibility,
+        community, and shared commitment.
+      </p>
     </div>
-    <div className="iteration-image-set">
-      <img src={mockup2} alt="Workout Tracker Before/After" />
+
+    <div className="buddyupplus-intro-video-wrapper">
+      <video
+        className="buddyupplus-intro-video"
+        src={introVideo}
+        controls
+      >
+        Your browser does not support the video tag.
+      </video>
     </div>
-  </div>
-
-
-        {/* Iteration 3 */}
-        <div className="iteration-row">
-          <div className="iteration-image-set">
-            <img src={mockup3} alt="Friend Profile Before/After" />
-          </div>
-          <div className="iteration-text">
-            <h4>3. Simplified Interaction on Friend’s Profile</h4>
-            <p><strong>Before:</strong> Adding and messaging a friend required navigating through separate screens.</p>
-            <p><strong>After:</strong> Both “Add Buddy” and “Message” actions are now accessible directly from the friend’s profile, reducing steps and improving clarity in user flow.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    {/*Final Product*/}
-  
-   <section className="final-product-section">
-    <div className="solution-container">
-      <h2 className="final-heading">06. Final Product</h2>
-
-      {/* Feature 01 */}
-      <div className="feature-wrapper">
-        <video className="feature-video" src={Feature1} controls playsInline muted loop />
-        <div className="feature-text">
-          <h3>Feature 01: Create a Group Challenge & Invite Your Buddies</h3>
-          <ul>
-            <li><strong>Custom scheduling</strong> – Select the date, time, and location that works for your group.</li>
-            <li><strong>Member invitations</strong> – Choose who to invite and build your challenge team.</li>
-            <li><strong>Calendar integration</strong> – Add the challenge to your calendar for easy tracking and reminders.</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Feature 02 */}
-      <div className="feature-wrapper reverse">
-        <video className="feature-video" src={Feature2} controls playsInline muted loop />
-        <div className="feature-text">
-          <h3>Feature 02: Message Your Buddy</h3>
-          <ul>
-            <li><strong>Messaging friends directly</strong> – Ask questions, clarify details, or confirm participation for upcoming challenges.</li>
-            <li><strong>Managing group members</strong> – Add or adjust participants within each challenge for better coordination.</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Feature 03 */}
-      <div className="feature-wrapper">
-        <video className="feature-video" src={Feature3} controls playsInline muted loop />
-        <div className="feature-text">
-          <h3>Feature 03: Workout Tracker</h3>
-          <ul>
-            <li><strong>Automatic activity tracking</strong> – Monitor your completed workouts and challenge participation through your history.</li>
-            <li><strong>Progress visualization</strong> – View your performance over time with simple, easy-to-read graphs.</li>
-          </ul>
-        </div>
-      </div>
-      </div>
-    </section>
-
-
-{/*section divider*/}
-<div className="section-divider"></div>
-
-{/*Validation*/}
-<section id="validation" className="validation-section">
-  <h2>Reflection</h2>
-
-  <h3 className="takeaway-heading">Project Takeaways</h3>
-  <div className="takeaway-box">
-    <ul className="takeaway-list">
-      <li>Gained insights into the emotional and social drivers behind fitness behavior through user interviews.</li>
-      <li><strong>Prioritization of core app features through affinity mapping</strong>
-        <ul>
-          <li>Ensured that each main functionality addresses a distinct but interconnected user need within the broader goal of maintaining long-term fitness motivation through social connection.</li>
-          <li>The affinity mapping process revealed that sucessful social fitness features must balance individual flexibility with group cohesion while creating authentic social connections.</li>
-        </ul>
-      </li>
-
-      <li><strong>Designing for Personalization</strong>
-      <ul>
-        <li>Learned the importance of allowing users to tailor their fitness journey while keeping the interface clean and intuitive.</li>
-      </ul>
-      </li>
-      <li><strong>Goal-oriented UI Encourages Motivation</strong>
-      <ul>
-        <li>Created a progress graph showcasing a success rate for Workout Tracker to create a sense of achievement and momentum so that users feel rewarded and nudged them to keep going.</li>
-        </ul>
-        </li>
-    </ul>
   </div>
 </section>
+
+
+{/* Problem & Mission */}
+{/* Problem & Mission Section */}
+<section className="buddyupplus-problem">
+  <div className="buddyupplus-problem-inner">
+    {/* Section heading */}
+    <div className="buddyupplus-problem-heading">
+      <span className="buddyupplus-problem-dot" />
+      <h3 className="buddyupplus-problem-title">Problem &amp; Mission</h3>
+    </div>
+
+    {/* Card */}
+    <div className="buddyupplus-problem-card">
+      {/* Research image */}
+      <div className="buddyupplus-problem-image-wrapper">
+        <img
+          src={researchImage}
+          alt="Research sources about habit formation and consistency"
+          className="buddyupplus-problem-image"
+        />
+      </div>
+
+      {/* Two columns */}
+      <div className="buddyupplus-problem-columns">
+        {/* Problem column */}
+        <div className="buddyupplus-problem-column">
+          <div className="buddyupplus-problem-column-heading">
+            <span className="buddyupplus-problem-dot-small" />
+            <p className="buddyupplus-problem-column-label">The Problem</p>
+          </div>
+
+          <p className="buddyupplus-problem-text">
+            Users often fail to maintain{" "}
+           daily habits due
+            to low motivation, limited accountability, and boring
+            self-tracking experiences.
+          </p>
+
+          <p className="buddyupplus-problem-text">
+            Without a fun and social way to commit to challenges, progress
+            drops off quickly.
+          </p>
+        </div>
+
+        {/* Mission column */}
+        <div className="buddyupplus-problem-column">
+          <div className="buddyupplus-problem-column-heading">
+            <span className="buddyupplus-problem-dot-small" />
+            <p className="buddyupplus-problem-column-label">The Mission</p>
+          </div>
+
+          <p className="buddyupplus-problem-text buddyupplus-problem-text--bold">
+            How can we help people stay consistent by turning habit tracking
+            into a social and engaging experience?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Key Design Decisions Section */}
+<section className="buddyupplus-key">
+<div className="buddyupplus-key-inner">
+<div className="buddyupplus-key-heading">
+  <span className="buddyupplus-key-dot" />
+  <h3 className="buddyupplus-keydesign-title">Key Design Decisions</h3>
+</div>
+
+
+    <div className="buddyupplus-key-list">
+      {/* 1. Create Custom Challenges */}
+      <div className="buddyupplus-key-item">
+        <div className="buddyupplus-key-text">
+          <p className="buddyupplus-key-eyebrow">
+            1. Create Custom Challenges
+          </p>
+          <h4 className="buddyupplus-key-title">
+            Habits become easier when they feel personal.
+          </h4>
+          <p className="buddyupplus-key-body">
+            Users can design their own challenges by choosing the rules, friends, and reward type. <br/>
+            This makes every goal more personal and
+            helps it fit naturally into their lifestyle.
+          </p>
+        </div>
+
+        <div className="buddyupplus-key-media">
+          <div className="buddyupplus-key-phone">
+            <video
+              className="buddyupplus-key-video"
+              src={process1Video}
+              autoPlay
+              loop
+              muted
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* 2. Reward System */}
+      <div className="buddyupplus-key-item buddyupplus-key-item--reverse">
+        <div className="buddyupplus-key-media">
+          <div className="buddyupplus-key-phone">
+            <video
+              className="buddyupplus-key-video"
+              src={process2Video}
+              autoPlay
+              loop
+              muted
+            />
+          </div>
+        </div>
+
+        <div className="buddyupplus-key-text">
+          <p className="buddyupplus-key-eyebrow">2. customized Reward Ststem </p>
+          <h4 className="buddyupplus-key-title">
+            A real-world reward makes habits stick.
+          </h4>
+          <p className="buddyupplus-key-body">
+          Users can choose no reward, pick a preset, or create a custom one.  
+            <br /> Rewards add excitement and raise the stakes, making it more satisfying to complete a challenge.
+          </p>
+        </div>
+      </div>
+
+      {/* 3. Daily Proof + Smart Verification */}
+      <div className="buddyupplus-key-item">
+        <div className="buddyupplus-key-text">
+          <p className="buddyupplus-key-eyebrow">
+            3. Daily Proof + AI Verification
+          </p>
+          <h4 className="buddyupplus-key-title">
+            A simple daily ritual that keeps everyone accountable.
+          </h4>
+          <p className="buddyupplus-key-body">
+            Users submit a quick daily picture to prove their progress. <br/>
+            AI verification helps keep things fair without adding friction,
+            turning check-ins into a lightweight habit.
+          </p>
+        </div>
+
+        <div className="buddyupplus-key-media">
+          <div className="buddyupplus-key-phone">
+            <video
+              className="buddyupplus-key-video"
+              src={process3Video}
+              autoPlay
+              loop
+              muted
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* 4. Social Challenge Feed */}
+      <div className="buddyupplus-key-item buddyupplus-key-item--reverse">
+        <div className="buddyupplus-key-media">
+          <div className="buddyupplus-key-phone">
+            <video
+              className="buddyupplus-key-video"
+              src={process4Video}
+              autoPlay
+              loop
+              muted
+            />
+          </div>
+        </div>
+
+        <div className="buddyupplus-key-text">
+          <p className="buddyupplus-key-eyebrow">4. Social Challenge Feed</p>
+          <h4 className="buddyupplus-key-title">
+            Motivation grows when progress is shared.
+          </h4>
+          <p className="buddyupplus-key-body">
+            Watching friends share proof, reactions, and small wins turns
+            challenges into a social experience.<br /> Supportive feedback and
+            visible progress help people stay engaged over time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Impact Section */}
+<section className="buddyupplus-impact">
+  <div className="buddyupplus-impact-inner">
+    {/* Heading – same style as Problem & Mission */}
+    <div className="buddyupplus-problem-heading">
+      <span className="buddyupplus-problem-dot" />
+      <h3 className="buddyupplus-problem-title">Impact</h3>
+    </div>
+
+    {/* Card container */}
+    <div className="buddyupplus-problem-card buddyupplus-impact-card">
+      <div className="buddyupplus-impact-grid">
+        {/* 1. Clearer Accountability */}
+        <div className="buddyupplus-impact-item">
+          <div className="buddyupplus-impact-icon">💗</div>
+          <h4 className="buddyupplus-impact-title">
+            Clearer Accountability
+          </h4>
+          <p className="buddyupplus-impact-text">
+            Shared proof made users feel more responsible for completing
+            their daily challenges.
+          </p>
+        </div>
+
+        {/* 2. Stronger Trust in Progress */}
+        <div className="buddyupplus-impact-item">
+          <div className="buddyupplus-impact-icon">✨</div>
+          <h4 className="buddyupplus-impact-title">
+            Stronger Trust in Progress
+          </h4>
+          <p className="buddyupplus-impact-text">
+            AI-verified photos increased confidence that progress was
+            real and fair.
+          </p>
+        </div>
+
+        {/* 3. Higher Social Motivation */}
+        <div className="buddyupplus-impact-item">
+          <div className="buddyupplus-impact-icon">💛</div>
+          <h4 className="buddyupplus-impact-title">
+            Higher Social Motivation
+          </h4>
+          <p className="buddyupplus-impact-text">
+            Group challenges made habits feel more fun and emotionally
+            motivating than solo tracking.
+          </p>
+        </div>
+
+        {/* 4. Better Commitment Through Structure */}
+        <div className="buddyupplus-impact-item">
+          <div className="buddyupplus-impact-icon">⚪</div>
+          <h4 className="buddyupplus-impact-title">
+            Better Commitment Through Structure
+          </h4>
+          <p className="buddyupplus-impact-text">
+            Time-based challenges with a clear finish line helped users
+            stay focused and consistent.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
         </main>
 

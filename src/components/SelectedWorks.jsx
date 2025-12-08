@@ -9,15 +9,15 @@ export function CardComponent() {
   return (
     <div className="card-container">
       
- {/* Zynergy Card */}
+ {/* BuddyUP+ Card */}
       <Link to="/zynergy" className="card-link" aria-label="Zynergy case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
           <img src={ZynergyImage} alt="Zynergy project cover" className="project-image1" />
 
           {/* new text block */}
           <div className="project-text-block">
-            <span className="project-name">Zynergy</span>
-            <h3 className="project-tagline">Empowering teams through gamified wellness.</h3>
+            <span className="project-name">BuddyUP+</span>
+            <h3 className="project-tagline">Building better habits through shared challenges and accountability.</h3>
           </div>
 
           <div className="bottom-section">
