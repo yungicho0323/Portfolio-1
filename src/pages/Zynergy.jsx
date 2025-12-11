@@ -455,8 +455,7 @@ function Zynergy() {
         <p className="buddyupplus-details-goal-title">Consistency</p>
         <p className="buddyupplus-details-goal-text">
           Make progress feel exciting with real-world rewards, shared proof, and
-          friendly encouragement that keeps people engaged so that users can be
-          consistent with what they want to achieve.
+          friendly encouragement that keeps people engaged.
         </p>
       </div>
 
@@ -579,7 +578,8 @@ function Zynergy() {
 
     <p className="buddyupplus-abtest-desc">
       We explored which social interaction model better supports <strong>long-term engagement</strong> in
-      group challenges. <br/>This experiment helped us understand how different interaction patterns influence
+      group challenges. <br />
+      This experiment helped us understand how different interaction patterns influence
       <strong> motivation</strong>, <strong>clarity of progress</strong>, and <strong>sustained participation</strong> over time.
     </p>
 
@@ -635,8 +635,8 @@ function Zynergy() {
       {/* Right side: mockups */}
       <div className="buddyupplus-abtest-right">
         {/* Feed Style — chosen */}
-  <div className="buddyupplus-abtest-mockup chosen">
-    <div className="buddyupplus-abtest-badge">✔ Chosen</div>
+        <div className="buddyupplus-abtest-mockup chosen">
+          <div className="buddyupplus-abtest-badge">✔ Chosen</div>
           <img
             src={feedStyleMockup}
             alt="Feed Style screen mockup"
@@ -657,6 +657,7 @@ function Zynergy() {
     </div>
   </div>
 </section>
+
 
 {/*solution */}
 
