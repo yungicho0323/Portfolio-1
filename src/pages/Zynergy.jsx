@@ -10,6 +10,8 @@ import process1Video from "../assets/videos/Process1.mp4";
 import process2Video from "../assets/videos/Process2.mp4";
 import process3Video from "../assets/videos/Process3.mp4";
 import process4Video from "../assets/videos/Process4.mp4";
+import feedStyleMockup from "../assets/images/feedstyle_mockup.png";
+import liveChatMockup from "../assets/images/livechat_mockup.png";
 
 
 
@@ -396,6 +398,266 @@ function Zynergy() {
     </div>
   </div>
 </section>
+
+
+{/* Identifying the Problem Section */}
+<section className="buddyupplus-details">
+  <div className="buddyupplus-details-inner">
+    {/* Top heading */}
+    <h2 className="buddyupplus-details-kicker">
+      LET’S DIVE INTO MORE DETAILS!
+    </h2>
+
+    {/* Subheading with purple dot */}
+    <div className="buddyupplus-details-tag-row">
+      <span className="buddyupplus-details-tag-dot" />
+      <p className="buddyupplus-details-tag-text">Identifying The Problem</p>
+    </div>
+
+    {/* Main problem headline */}
+    <h3 className="buddyupplus-details-main-title">
+      It’s hard for people to stick with healthy habits – Motivation fades
+      quickly when you’re doing it alone.
+    </h3>
+
+    {/* Supporting research text */}
+    <div className="buddyupplus-details-body">
+      <p>
+        Research shows that many people stop following their wellness or exercise
+        routines after just a few months (in 1 or 2 months). Once the initial
+        excitement wears off, it becomes easy to forget goals, lose motivation,
+        or feel discouraged, especially without support from others.
+      </p>
+      <p>
+        During interviews, users shared the same struggles: staying consistent is
+        difficult, self-tracking feels boring, and most people want a simple way
+        to stay motivated with friends.
+      </p>
+    </div>
+
+    <p className="buddyupplus-details-intro">
+      To solve these challenges, we focused on three main goals:
+    </p>
+
+    {/* Three goals cards */}
+    <div className="buddyupplus-details-goals-wrapper">
+      <div className="buddyupplus-details-goal-card">
+        <p className="buddyupplus-details-goal-title">
+          Accountability With Friends
+        </p>
+        <p className="buddyupplus-details-goal-text">
+          Help users stay on track by doing shared goals together and supporting
+          each other along the way.
+        </p>
+      </div>
+
+      <div className="buddyupplus-details-goal-card">
+        <p className="buddyupplus-details-goal-title">Consistency</p>
+        <p className="buddyupplus-details-goal-text">
+          Make progress feel exciting with real-world rewards, shared proof, and
+          friendly encouragement that keeps people engaged so that users can be
+          consistent with what they want to achieve.
+        </p>
+      </div>
+
+      <div className="buddyupplus-details-goal-card">
+        <p className="buddyupplus-details-goal-title">Fair &amp; Trusted Process</p>
+        <p className="buddyupplus-details-goal-text">
+          Use AI to verify daily proof so challenges feel honest, motivating,
+          and fair for everyone involved.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Uncovering the Gaps Section */}
+<section className="buddyupplus-gaps">
+  <div className="buddyupplus-gaps-inner">
+
+    {/* Heading - Same as others */}
+    <div className="buddyupplus-problem-heading">
+      <span className="buddyupplus-problem-dot" />
+      <h3 className="buddyupplus-problem-title">Uncovering The Gaps</h3>
+    </div>
+
+    <p className="buddyupplus-gaps-intro">
+      Competitive analysis of popular habit apps revealed clear UX gaps where
+      users lose momentum and where BuddyUp+ creates new value.
+    </p>
+
+    <div className="buddyupplus-gaps-grid">
+
+      {/* GAP 1 */}
+      <div className="buddyupplus-gap-card">
+        <p className="buddyupplus-gap-title">No Time-Boxed Challenges</p>
+
+        <div className="buddyupplus-gap-flow">
+          <div className="buddyupplus-gap-side">
+            <span className="buddyupplus-gap-label">UX Problem</span>
+            <p>Endless streaks feel vague and never truly “complete.”</p>
+          </div>
+
+          <span className="buddyupplus-gap-arrow">→</span>
+
+          <div className="buddyupplus-gap-side opportunity">
+            <span className="buddyupplus-gap-label">UX Opportunity</span>
+            <p>Introduce short challenges with a clear start and finish.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* GAP 2 */}
+      <div className="buddyupplus-gap-card">
+        <p className="buddyupplus-gap-title">No Real-World Proof</p>
+
+        <div className="buddyupplus-gap-flow">
+          <div className="buddyupplus-gap-side">
+            <span className="buddyupplus-gap-label">UX Problem</span>
+            <p>Self-reporting is easy to skip or fake.</p>
+          </div>
+
+          <span className="buddyupplus-gap-arrow">→</span>
+
+          <div className="buddyupplus-gap-side opportunity">
+            <span className="buddyupplus-gap-label">UX Opportunity</span>
+            <p>Add AI + photo verification for trusted proof.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* GAP 3 */}
+      <div className="buddyupplus-gap-card">
+        <p className="buddyupplus-gap-title">No Real-Life Rewards</p>
+
+        <div className="buddyupplus-gap-flow">
+          <div className="buddyupplus-gap-side">
+            <span className="buddyupplus-gap-label">UX Problem</span>
+            <p>Badges alone don’t motivate long-term behavior.</p>
+          </div>
+
+          <span className="buddyupplus-gap-arrow">→</span>
+
+          <div className="buddyupplus-gap-side opportunity">
+            <span className="buddyupplus-gap-label">UX Opportunity</span>
+            <p>Enable real-world rewards users actually care about.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* GAP 4 */}
+      <div className="buddyupplus-gap-card">
+        <p className="buddyupplus-gap-title">Weak Social Layer</p>
+
+        <div className="buddyupplus-gap-flow">
+          <div className="buddyupplus-gap-side">
+            <span className="buddyupplus-gap-label">UX Problem</span>
+            <p>Solo tracking causes motivation to drop quickly.</p>
+          </div>
+
+          <span className="buddyupplus-gap-arrow">→</span>
+
+          <div className="buddyupplus-gap-side opportunity">
+            <span className="buddyupplus-gap-label">UX Opportunity</span>
+            <p>Design small group challenges with shared visibility.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{/* A/B Testing Section */}
+<section className="buddyupplus-abtest">
+  <div className="buddyupplus-abtest-inner">
+    {/* Heading */}
+    <div className="buddyupplus-abtest-title-row">
+      <span className="buddyupplus-abtest-dot" />
+      <h3 className="buddyupplus-abtest-title">A/B Testing</h3>
+    </div>
+
+    <p className="buddyupplus-abtest-desc">
+      We explored which social interaction model better supports <strong>long-term engagement</strong> in
+      group challenges. <br/>This experiment helped us understand how different interaction patterns influence
+      <strong> motivation</strong>, <strong>clarity of progress</strong>, and <strong>sustained participation</strong> over time.
+    </p>
+
+    {/* Concepts we tested */}
+    <div className="buddyupplus-abtest-concepts">
+      <p className="buddyupplus-abtest-concepts-heading">The Concepts We Tested</p>
+
+      <div className="buddyupplus-abtest-pill">
+        <span className="buddyupplus-abtest-pill-icon">🏷️</span>
+        <p className="buddyupplus-abtest-pill-text">
+          Which model helps users feel more supported and encouraged throughout the challenge.
+        </p>
+      </div>
+
+      <div className="buddyupplus-abtest-pill">
+        <span className="buddyupplus-abtest-pill-icon">🏷️</span>
+        <p className="buddyupplus-abtest-pill-text">
+          Which model clearly shows both team progress and individual progress at the same time.
+        </p>
+      </div>
+
+      <div className="buddyupplus-abtest-pill">
+        <span className="buddyupplus-abtest-pill-icon">🏷️</span>
+        <p className="buddyupplus-abtest-pill-text">
+          Which model better supports long-term engagement, not just short-term participation.
+        </p>
+      </div>
+    </div>
+
+    <p className="buddyupplus-abtest-findings-label">
+      Findings: Feed Style vs Live Chat
+    </p>
+
+    <div className="buddyupplus-abtest-main">
+      {/* Left side: findings + quote + takeaway */}
+      <div className="buddyupplus-abtest-left">
+        <div className="buddyupplus-abtest-stat-card">
+          <div className="buddyupplus-abtest-stat-icon">📋</div>
+          <p className="buddyupplus-abtest-stat-text">
+            <strong>85% (5 out of 6) users chose “Feed Style”.</strong>
+          </p>
+        </div>
+
+        <div className="buddyupplus-abtest-quote-card">
+          <div className="buddyupplus-abtest-quote-mark">“</div>
+          <p className="buddyupplus-abtest-quote-text">
+            Feed Style makes it easy to quickly see everyone’s progress at a glance. It feels less
+            overwhelming, more organized, and requires less effort to keep up.
+          </p>
+        </div>
+      </div>
+
+      {/* Right side: mockups */}
+      <div className="buddyupplus-abtest-right">
+        {/* Feed Style — chosen */}
+  <div className="buddyupplus-abtest-mockup chosen">
+    <div className="buddyupplus-abtest-badge">✔ Chosen</div>
+          <img
+            src={feedStyleMockup}
+            alt="Feed Style screen mockup"
+            className="buddyupplus-abtest-image"
+          />
+          <p className="buddyupplus-abtest-mockup-label">Feed Style</p>
+        </div>
+
+        <div className="buddyupplus-abtest-mockup">
+          <img
+            src={liveChatMockup}
+            alt="Live Chat screen mockup"
+            className="buddyupplus-abtest-image"
+          />
+          <p className="buddyupplus-abtest-mockup-label">Live Chat</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 
