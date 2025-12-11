@@ -752,7 +752,7 @@ margin-bottom: 40px;
 .buddyupplus-details-body p {
   margin: 0;
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #444;
 }
 
@@ -1014,6 +1014,7 @@ margin-bottom: 40px;
   font-size: 1.1rem;
   line-height: 1.6;
   color: #111;
+  max-width: 900px;
 }
 
 /* Concepts */
@@ -1027,7 +1028,7 @@ margin-bottom: 40px;
 
 .buddyupplus-abtest-concepts-heading {
   margin: 0 0 4px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #111;
 }
@@ -1048,7 +1049,7 @@ margin-bottom: 40px;
 
 .buddyupplus-abtest-pill-text {
   margin: 0;
-  font-size: 1.1rem;
+  font-size:0.95rem;
   color: #111;
   font-weight: 500;
 }
@@ -1099,7 +1100,7 @@ margin-bottom: 40px;
 
 .buddyupplus-abtest-stat-text {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #111;
   font-weight: 600;
 }
@@ -1169,4 +1170,82 @@ margin-bottom: 40px;
 
 
   
-  
+/*solution*/
+
+
+
+
+
+
+/*Reflection section */
+
+/* Shared section layout (re-use if you already have something similar) */
+.buddyupplus-section {
+  max-width: 100%;
+   padding: 2rem 6rem;
+  margin: 0 auto;
+  margin: 4rem 0;
+}
+
+/* Section header with purple dot */
+.buddyupplus-section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.buddyupplus-section-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #8a3dc7; /* BuddyUp+ accent */
+}
+
+.buddyupplus-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+
+.buddyupplus-reflection-block {
+  max-width: 780px;
+  margin-bottom: 40px;
+}
+
+.buddyupplus-reflection-heading {
+  font-size: 1.2rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.buddyupplus-reflection-highlight {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 600;
+  color: #8a3dc7;
+  margin-bottom: 10px;
+}
+
+.buddyupplus-reflection-body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .buddyupplus-section {
+    padding: 56px 16px 64px;
+  }
+
+  .buddyupplus-reflection-block {
+    margin-bottom: 32px;
+  }
+}
+
+
+
+

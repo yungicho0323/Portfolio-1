@@ -658,6 +658,44 @@ function Zynergy() {
   </div>
 </section>
 
+{/*solution */}
+
+
+
+
+{/* Reflection Section */}
+<section id="reflection" className="buddyupplus-section buddyupplus-reflection">
+  <div className="buddyupplus-section-header">
+    <span className="buddyupplus-section-dot" />
+    <h2 className="buddyupplus-section-title">Reflection</h2>
+  </div>
+
+  <div className="buddyupplus-reflection-block">
+    <h3 className="buddyupplus-reflection-heading">What I Learned</h3>
+    <p className="buddyupplus-reflection-highlight">
+      This project strengthened my belief that meaningful habit change happens
+      not through pressure, but through visibility, community, and shared
+      commitment.
+    </p>
+    <p className="buddyupplus-reflection-body">
+      Early user testing fundamentally shaped the direction of BuddyUp+. Instead
+      of building based on assumptions, validating interaction models early
+      helped us confidently prioritize the Feed system and design around real
+      behavioral patterns, not hypothetical ones.
+    </p>
+  </div>
+
+  <div className="buddyupplus-reflection-block">
+    <h3 className="buddyupplus-reflection-heading">Future Improvements</h3>
+    <p className="buddyupplus-reflection-body">
+      Future iterations will explore automated proof through integrations with
+      Apple Watch and health platforms, as well as sustainable monetization
+      through wellness brand partnerships and sponsored rewards. This would
+      strengthen both usability and business viability.
+    </p>
+  </div>
+</section>
+
 
 
 
