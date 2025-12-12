@@ -610,7 +610,7 @@ function Zynergy() {
     </div>
 
     <p className="buddyupplus-abtest-findings-label">
-      Findings: Feed Style vs Live Chat
+      Finding: Feed Style vs Live Chat
     </p>
 
     <div className="buddyupplus-abtest-main">
