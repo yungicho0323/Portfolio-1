@@ -753,7 +753,7 @@ margin-bottom: 40px;
   margin: 0;
   font-size: 1.1rem;
   line-height: 1.5;
-  color: #444;
+  color: #111;
 }
 
 /* Intro to goals */
@@ -1261,8 +1261,7 @@ margin-bottom: 40px;
 }
 
 .buddyupplus-reflection-body {
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 1.1rem;
   color: #444;
 }
 
