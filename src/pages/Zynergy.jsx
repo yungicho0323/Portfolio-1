@@ -761,7 +761,7 @@ function Zynergy() {
             <p className="buddyupplus-solution-body">
               <span className="buddyupplus-solution-inline-label">AFTER:</span>{" "}
               By displaying the <strong>“Start a new challenge”</strong> CTA
-              button more prominently, it clarifies the flow and encourages
+              button more prominently, It clarifies the flow and encourages
               users to launch the next challenge with friends as soon as they
               land on the home page.
             </p>
@@ -803,7 +803,7 @@ function Zynergy() {
     <p className="buddyupplus-reflection-body">
       Early user testing fundamentally shaped the direction of BuddyUp+. Instead
       of building based on assumptions, validating interaction models early
-      helped us confidently prioritize the Feed system and design around real
+      helped us confidently prioritize the feed system and design around real
       behavioral patterns, not hypothetical ones.
     </p>
   </div>
