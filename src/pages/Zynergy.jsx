@@ -231,7 +231,7 @@ function Zynergy() {
       <div className="buddyupplus-key-item">
         <div className="buddyupplus-key-text">
           <p className="buddyupplus-key-eyebrow">
-            1. Create Custom Challenges
+            1. Create Custom Time-boxed Challenges
           </p>
           <h4 className="buddyupplus-key-title">
             Habits become easier when they feel personal.
@@ -684,7 +684,7 @@ function Zynergy() {
         {/* LEFT: TEXT */}
         <div className="buddyupplus-solution-text">
           <p className="buddyupplus-solution-eyebrow">
-            CUSTOM YOUR THEMED CHALLENGE
+            CUSTOM YOUR TIME-BOXED CHALLENGE
           </p>
           <p className="buddyupplus-solution-body">
             Progress bar makes it easy for users to understand the flow of creating a
