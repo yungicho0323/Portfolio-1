@@ -12,6 +12,12 @@ import process3Video from "../assets/videos/Process3.mp4";
 import process4Video from "../assets/videos/Process4.mp4";
 import feedStyleMockup from "../assets/images/feedstyle_mockup.png";
 import liveChatMockup from "../assets/images/livechat_mockup.png";
+import customChallengeImg from "../assets/images/custom-challenge-left.png";
+import aiVerificationImg from "../assets/images/ai-verification-left.png";
+import customChallengeVideo from "../assets/videos/custom-challenge.mp4";
+import aiVerificationVideo from "../assets/videos/ai-verification.mp4";
+import homeV1Mockup from "../assets/images/home-v1.png";
+import homeV2Mockup from "../assets/images/home-v2.png";
 
 
 
@@ -661,7 +667,123 @@ function Zynergy() {
 
 {/*solution */}
 
+ <section id="solution" className="buddyupplus-solution">
+      <div className="buddyupplus-solution-inner">
+        <div className="buddyupplus-solution-header">
+          <span className="buddyupplus-section-dot" />
+          <p className="buddyupplus-section-label">Solution</p>
+        </div>
 
+        {/* Title */}
+        <h2 className="buddyupplus-solution-title">
+          Introducing BuddyUp+
+        </h2>
+
+        {/* ───────────────── ROW 1 ───────────────── */}
+          <div className="buddyupplus-solution-row">
+        {/* LEFT: TEXT */}
+        <div className="buddyupplus-solution-text">
+          <p className="buddyupplus-solution-eyebrow">
+            CUSTOM YOUR THEMED CHALLENGE
+          </p>
+          <p className="buddyupplus-solution-body">
+            Progress bar makes it easy for users to understand the flow of creating a
+            challenge from choosing the challenge theme, inviting friends to join, and
+            customizing real-world reward types.
+          </p>
+        </div>
+
+        {/* RIGHT: PNG + VIDEO, SAME SIZE */}
+        <div className="buddyupplus-solution-media buddyupplus-solution-media--pair">
+          <div className="buddyupplus-phone-frame">
+            <img
+              src={customChallengeImg}
+              alt="Custom challenge screens"
+              className="buddyupplus-phone-content"
+            />
+          </div>
+
+          <div className="buddyupplus-phone-frame">
+            <video
+              src={customChallengeVideo}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="buddyupplus-phone-content"
+            />
+          </div>
+        </div>
+      </div>
+
+
+
+        {/* ───────────────── ROW 2 ───────────────── */}
+        <div className="buddyupplus-solution-row">
+          <div className="buddyupplus-solution-text">
+            <p className="buddyupplus-solution-eyebrow">
+              Verify Progress with AI Verification
+            </p>
+            <p className="buddyupplus-solution-body">
+            Photo submissions are instantly verified by AI, eliminating manual review and keeping accountability seamless.
+            </p>
+          </div>
+
+          {/* PNG + VIDEO pair */}
+          <div className="buddyupplus-solution-media buddyupplus-solution-media--pair">
+            <img
+              src={aiVerificationImg}
+              alt="AI verification flow screens"
+              className="buddyupplus-solution-image"
+            />
+            <video
+              className="buddyupplus-solution-video"
+              src={aiVerificationVideo}
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
+          </div>
+        </div>
+
+        {/* ───────────────── ROW 3 ───────────────── */}
+        <div className="buddyupplus-solution-row">
+          <div className="buddyupplus-solution-text">
+            <p className="buddyupplus-solution-eyebrow">
+              HOME PAGE ITERATION AFTER USER TESTING
+            </p>
+
+            <p className="buddyupplus-solution-body">
+              <span className="buddyupplus-solution-inline-label">BEFORE:</span>{" "}
+              Unclear what to do first for users.
+            </p>
+            <p className="buddyupplus-solution-body">
+              <span className="buddyupplus-solution-inline-label">AFTER:</span>{" "}
+              By displaying the <strong>“Start a new challenge”</strong> CTA
+              button more prominently, it clarifies the flow and encourages
+              users to launch the next challenge with friends as soon as they
+              land on the home page.
+            </p>
+          </div>
+
+          {/* home v1 → arrow → home v2 */}
+          <div className="buddyupplus-solution-media buddyupplus-solution-media--comparison">
+            <img
+              src={homeV1Mockup}
+              alt="BuddyUp+ homepage v1"
+              className="buddyupplus-solution-image"
+            />
+            <span className="buddyupplus-solution-arrow">→</span>
+            <img
+              src={homeV2Mockup}
+              alt="BuddyUp+ homepage v2 after iteration"
+              className="buddyupplus-solution-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 {/* Reflection Section */}
