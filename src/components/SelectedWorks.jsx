@@ -2,7 +2,7 @@ import { Card, CardFooter, Typography } from "@material-tailwind/react";
 import './Card.css';
 import "animate.css";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
-import ZynergyImage from "../assets/images/iphone-16-mockup.png";
+import BuddyUpPlusImage from "../assets/images/iphone-16-mockup.png";
 import { Link } from 'react-router-dom';
 
 export function CardComponent() {
@@ -10,9 +10,9 @@ export function CardComponent() {
     <div className="card-container">
       
  {/* BuddyUP+ Card */}
-      <Link to="/zynergy" className="card-link" aria-label="Zynergy case study">
+      <Link to="/BuddyUpPlus" className="card-link" aria-label="BuddyUp+ case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={ZynergyImage} alt="Zynergy project cover" className="project-image1" />
+          <img src={BuddyUpPlusImage} alt="BuddyUp+ project cover" className="project-image1" />
 
           {/* new text block */}
           <div className="project-text-block">

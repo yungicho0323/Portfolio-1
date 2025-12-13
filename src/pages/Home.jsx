@@ -58,12 +58,6 @@ function Home() {
           <p className="scroll">SCROLL TO EXPLORE WORK ↓</p>
         </section>
 
-        {/* background glow left */}
-        {/* <section className="hero-section">
-          <div className="col-text-left">
-            <div className="blur-2" />
-          </div>
-        </section> */}
 
         <section className="selected-works">
           <div className="card-section">

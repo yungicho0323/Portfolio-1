@@ -1,20 +1,20 @@
 import { CardFooter } from "@material-tailwind/react";
 import "./Card.css";
 import "animate.css";
-import ZynergyImage from "../assets/images/iphone-16-mockup.png";
+import BuddyUpPlusImage from "../assets/images/iphone-16-mockup.png";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
 import MedSpeakImage from "../assets/images/MedSpeak.png";
 import { Link } from "react-router-dom";
-import babelImage from "../assets/images/BabelMockup.png";
+
 
 export function CardComponent() {
   return (
     <div className="card-container">
       
-      {/* Zynergy Card */}
-      <Link to="/zynergy" className="card-link" aria-label="Zynergy case study">
+      {/* BuddyUp+ Card */}
+      <Link to="/BuddyUpPlus" className="card-link" aria-label="BuddyUp+ case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={ZynergyImage} alt="Zynergy project cover" className="project-image1" />
+          <img src={BuddyUpPlusImage} alt="BuddyUp+ project cover" className="project-image1" />
 
           {/* new text block */}
           <div className="project-text-block">

@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import FurryTales from "./pages/FurryTales";
-import Zynergy from "./pages/Zynergy";
+import BuddyUpPlus from "./pages/BuddyUpPlus";
 import Babel from "./pages/Babel";
 import MedSpeak from "./pages/MedSpeak";
 import StyleGuide from "./pages/StyleGuide";
@@ -23,7 +23,7 @@ function App() {
         <Route path="work" element={<Work />} />
         <Route path="about" element={<About />} />
         <Route path="/furrytales" element={<FurryTales />} />
-        <Route path="/zynergy" element={<Zynergy />} />
+        <Route path="/BuddyUpPlus" element={<BuddyUpPlus />} />
         <Route path="/babel" element={<Babel />} />
         <Route path="/MedSpeak" element={<MedSpeak />} />
         <Route path="style-guide" element={<StyleGuide />} />

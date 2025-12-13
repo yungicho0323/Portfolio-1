@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import Header from "../global/Header.jsx";
 import Footer from "../global/Footer.jsx";
-import './Zynergy.css';
+import './BuddyUpPlus.css';
 import heroImage from '../assets/images/iphone-16-mockup.png';
 import introVideo from "../assets/videos/Buddyup_final.mp4";
 import researchImage from '../assets/images/Research_Sources.png';
@@ -22,7 +22,7 @@ import homeV2Mockup from "../assets/images/home-v2.png";
 
 
 
-function Zynergy() {
+function BuddyUpPlus() {
 
     return(
         <>
@@ -831,4 +831,4 @@ function Zynergy() {
     );
 }
 
-export default Zynergy;
+export default BuddyUpPlus;
