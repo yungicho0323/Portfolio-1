@@ -163,9 +163,9 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 0.08em;
   color: #8a3dc7;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
@@ -339,9 +339,9 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 0.08em;
   color: #8a3dc7;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
