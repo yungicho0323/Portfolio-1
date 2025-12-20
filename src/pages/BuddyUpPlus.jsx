@@ -61,7 +61,7 @@ function BuddyUpPlus() {
                 <div className="project-meta zynergy-updated-meta">
                   <div>
                     <h4>Timeline</h4>
-                    <p>4 weeks, Nov 2025
+                    <p>4 weeks, Nov 2025 <br/>Nov 1-2, UBC UX Open Hackathon 
                     </p>
                   </div>
                   <div>
