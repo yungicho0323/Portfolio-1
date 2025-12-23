@@ -206,7 +206,7 @@ body {
 .social-buttons {
   display: flex;
   gap: 1rem;            /* space between buttons */
-  margin-top: 1.8rem;      
+  margin-top: 2rem;      
 }
 
 .brand-button {
