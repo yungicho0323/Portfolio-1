@@ -18,6 +18,7 @@ import customChallengeVideo from "../assets/videos/custom-challenge.mp4";
 import aiVerificationVideo from "../assets/videos/ai-verification.mp4";
 import homeV1Mockup from "../assets/images/home-v1.png";
 import homeV2Mockup from "../assets/images/home-v2.png";
+import buddyupPlusImage from "../assets/images/BuddyUp+.jpeg";
 
 
 
@@ -793,33 +794,48 @@ function BuddyUpPlus() {
     <h2 className="buddyupplus-section-title">Reflection</h2>
   </div>
 
-  <div className="buddyupplus-reflection-block">
-    <h3 className="buddyupplus-reflection-heading">What I Learned</h3>
-    <p className="buddyupplus-reflection-highlight">
-      This project strengthened my belief that meaningful habit change happens
-      not through pressure, but through visibility, community, and shared
-      commitment.
-    </p>
-    <p className="buddyupplus-reflection-body">
-      Early user testing fundamentally shaped the direction of BuddyUp+. Instead
-      of building based on assumptions, validating interaction models early
-      helped us confidently prioritize the feed system and design around real
-      behavioral patterns, not hypothetical ones.
-    </p>
-  </div>
+  {/* --- FIX: wrapper to force text + image side-by-side --- */}
+  <div className="buddyupplus-reflection-main">
 
-  <div className="buddyupplus-reflection-block">
-    <h3 className="buddyupplus-reflection-heading">Future Improvements</h3>
-    <p className="buddyupplus-reflection-body">
-      Future iterations will explore automated proof through integrations with
-      Apple Watch and health platforms, as well as sustainable monetization
-      through wellness brand partnerships and sponsored rewards. This would
-      strengthen both usability and business viability.
-    </p>
+    {/* LEFT COLUMN */}
+    <div className="buddyupplus-reflection-left">
+      <div className="buddyupplus-reflection-block">
+        <h3 className="buddyupplus-reflection-heading">What I Learned</h3>
+        <p className="buddyupplus-reflection-highlight">
+          This project strengthened my belief that meaningful habit change happens
+          not through pressure, but through visibility, community, and shared
+          commitment.
+        </p>
+        <p className="buddyupplus-reflection-body">
+          Early user testing fundamentally shaped the direction of BuddyUp+.
+          Instead of building based on assumptions, validating interaction models
+          early helped us confidently prioritize the feed system and design around
+          real behavioral patterns, not hypothetical ones.
+        </p>
+      </div>
+
+      <div className="buddyupplus-reflection-block">
+        <h3 className="buddyupplus-reflection-heading">Future Improvements</h3>
+        <p className="buddyupplus-reflection-body">
+          Future iterations will explore automated proof through integrations with
+          Apple Watch and health platforms, as well as sustainable monetization
+          through wellness brand partnerships and sponsored rewards. This would
+          strengthen both usability and business viability.
+        </p>
+      </div>
+    </div>
+
+    {/* RIGHT COLUMN */}
+    <div className="buddyupplus-reflection-right">
+      <img
+        src={buddyupPlusImage}
+        alt="BuddyUp+ JTBD reflection visual"
+        className="buddyupplus-reflection-image"
+      />
+    </div>
+
   </div>
 </section>
-
-
 
 
 
