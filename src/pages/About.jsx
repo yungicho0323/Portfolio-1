@@ -29,8 +29,8 @@ function About() {
         </div>
         <div className="about-text">
         <p>
-         <span className="intro-about">Hey there! At the core of my design practice is a desire to help people navigate the digital world with intuitive and impact-driven design.</span> <br/> I'm a purposeful UX/UI designer based in Vancouver, BC. With a background in business administration, I developed my design skills through the New Media Design and Web Development program at BCIT.
-          <br/>Combining my business background with human-centered design, I approach problems through research and collaboration turning insights into inclusive solutions that balance user needs and business goals.
+         <span className="intro-about">Hey there! At the core of my design practice is a desire to help people navigate the digital world with intuitive and impact-driven design.</span> <br/> I'm a purposeful UX focused designer based in Vancouver, BC. With a background in business administration, I developed my design skills through the New Media Design and Web Development program at BCIT.
+          <br/>Combining my business background with human-centered design, I approach problems through research and collaboration turning insights into impactful solutions that balance user needs and business goals.
           </p>
            <p>Let’s connect and explore how my design thinking and creative process can help turn your ideas into impactful user experiences.
           Check out my work and feel free to reach out at <strong>yungicho8@gmail.com.</strong>
