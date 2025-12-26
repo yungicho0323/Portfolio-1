@@ -20,7 +20,7 @@ function Home() {
         {/* HERO (reference-style structure) */}
         <section className="hero">
         <h1 className="hero-title">
-            Transforming daily challenges into <br />
+            Turning people's real pain points into <br />
             <span className="brand-highlight big-highlight">
             intuitive, impact-driven experiences
             </span>
@@ -76,7 +76,7 @@ function Home() {
 
       
         <h2 className="about-title">
-        Inspired by people’s daily challenges, I design{" "}
+        Grounded in user pain points, I design{" "}
         <span className="about-highlight">intuitive</span>,{" "}
         <span className="about-highlight">impact-driven</span> solutions that
         connect with users and support business growth.
