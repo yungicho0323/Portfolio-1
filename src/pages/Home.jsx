@@ -76,7 +76,7 @@ function Home() {
 
       
         <h2 className="about-title">
-        Grounded in user pain points, I design{" "}
+        Grounded in real pain points, I design{" "}
         <span className="about-highlight">intuitive</span>,{" "}
         <span className="about-highlight">impact-driven</span> solutions that
         connect with users and support business growth.
