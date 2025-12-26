@@ -27,7 +27,7 @@ function Home() {
         </h1>
 
         <p className="hero-subcopy">
-            Welcome! – Whether I'm simplifying a process or creating something new, I want my work to make a real, positive difference in someone’s day.
+            Welcome! – Whether I'm simplifying a process or creating something new, I want my work to make a real, positive difference in people's lives.
         </p>
 
         {/* Social Buttons */}
