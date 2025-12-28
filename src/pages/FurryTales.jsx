@@ -69,7 +69,9 @@ return (
         <div className="project-meta furrytales-updated-meta">
           <div>
             <h4>Timeline</h4>
-            <p>72 hours February, 2025</p>
+            <p>72 hours February, 2025
+              <br/> (FLUI Hackathon,  <br/> Emily Carr University)
+            </p>
           </div>
           <div>
             <h4>Tools</h4>
