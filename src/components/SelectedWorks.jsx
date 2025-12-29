@@ -37,7 +37,7 @@ export function CardComponent() {
     
               {/* new text block */}
               <div className="project-text-block">
-                <span className="project-name">FurryTales</span>
+                <span className="project-name">FurryTales Pet</span>
                 <h3 className="project-tagline">Redesigning a local pet brand for joyful, seamless shopping.</h3>
               </div>
     
