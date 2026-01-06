@@ -177,12 +177,12 @@ function MedSpeak() {
           <div className="research-container">
           <h2>02. Research</h2>
           <div className="context-section">
-            <h3 className="context-title">Background</h3>
+            <h4 className="context-title">Background</h4>
             <p>When patients and healthcare providers don’t share the same language, it becomes difficult to communicate symptoms accurately. This often leads to misunderstandings, misdiagnoses, and added stress for patients. <br/> The idea for MedSpeak started from recognizing how language barriers can prevent people from getting the care they need.</p>
           </div>
 
           <div className="medspeak-context-section">
-            <h3 className="context-title">Identifying Problem Discovery</h3>
+            <h4 className="context-title">Identifying Problem Discovery</h4>
             <p>According to the American Medical Association Journal of Ethics, <span className="medspeak-highlight-keyword">language barriers in healthcare settings can lead to serious ethical and clinical consequences</span>, including inaccurate diagnoses, reduced preventive care & follow up, and patient satisfaction.</p>
 
             <div className="medspeak-research-placeholder">
