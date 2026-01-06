@@ -25,10 +25,10 @@ body {
 }
 
 .hero-subcopy {
-  font-size: 1.25rem;      /* smaller than headline */
-  line-height: 1.7;
+  font-size: 1.15rem;      /* smaller than headline */
+  line-height: 1.65;
   color: #111;
-  max-width: 850px;
+  max-width: 800px;
   font-weight: medium;
 }
 

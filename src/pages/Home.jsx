@@ -27,7 +27,7 @@ function Home() {
         </h1>
 
         <p className="hero-subcopy">
-         Welcome — I’m YunGi, a UX-focused designer who sees gaps as opportunities and transforms user frustrations into clear, engaging flows that feel effortless.
+         Welcome — I’m YunGi, a UX-focused designer who sees gaps as opportunities and transforms complex problems into clear, engaging flows that drive usability, clarity, and meaningful user impact.
         </p>
       
         {/* Social Buttons */}
