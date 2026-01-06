@@ -515,6 +515,12 @@ thead tr {
   justify-content: center;
 }
 
+.goal-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 /*Design*/
 .design-section {
  background-color: #fafafa;
