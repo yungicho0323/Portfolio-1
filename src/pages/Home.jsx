@@ -45,7 +45,7 @@ function Home() {
             href="mailto:yungicho8@gmail.com"
             className="brand-button"
             >
-            Email Me
+            Contact Me
             </a>
         </div>
         </section>
