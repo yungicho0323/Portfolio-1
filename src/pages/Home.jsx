@@ -53,9 +53,9 @@ function Home() {
 
 
 
-        <section className="explore">
+        {/* <section className="explore">
           <p className="scroll">SCROLL TO EXPLORE WORK ↓</p>
-        </section>
+        </section> */}
 
 
         <section className="selected-works">
