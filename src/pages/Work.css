@@ -3,15 +3,15 @@
 }
 
 .selected-works h1 {
-  font-size: 4.5rem;
-  font-weight: medium;
-  margin-top: 3rem;
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-top: 4rem;
 }
 
 
 .selected-works .arrow {
   font-size: 3.5rem;
-  font-weight: medium;
+  font-weight: 500;
   display: inline-block;
   margin: 0 6rem;
 }
