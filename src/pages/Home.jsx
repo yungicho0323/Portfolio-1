@@ -51,8 +51,6 @@ function Home() {
         </section>
 
 
-
-
         {/* <section className="explore">
           <p className="scroll">SCROLL TO EXPLORE WORK ↓</p>
         </section> */}
@@ -71,7 +69,7 @@ function Home() {
     <div className="about-container">
       <div className="about-eyebrow" aria-label="section label">
         <span className="eyebrow-dot" />
-        MY DESIGN PHILOSOPHY</div>
+        HOW I APPROACH DESIGN</div>
 
       
         <h2 className="about-title">
