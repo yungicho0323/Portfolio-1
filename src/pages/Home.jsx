@@ -64,15 +64,14 @@ function Home() {
           </div>
         </section>
 
-        <Link to="/work" className="view-all-btn">View All</Link>
+        {/* <Link to="/work" className="view-all-btn">View All</Link> */}
 
     {/* ABOUT – DESIGN WITH PURPOSE */}
   <section id="about" className="about-section">
     <div className="about-container">
       <div className="about-eyebrow" aria-label="section label">
         <span className="eyebrow-dot" />
-        DESIGN WITH PURPOSE
-      </div>
+        MY DESIGN PHILOSOPHY</div>
 
       
         <h2 className="about-title">

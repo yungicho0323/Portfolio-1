@@ -3,6 +3,7 @@ import './Card.css';
 import "animate.css";
 import FurryTaleImage from "../assets/images/FurryTales-laptop.png";
 import BuddyUpPlusImage from "../assets/images/iphone-16-mockup.png";
+import MedSpeakImage from "../assets/images/MedSpeak.png";
 import { Link } from 'react-router-dom';
 
 export function CardComponent() {
@@ -50,6 +51,27 @@ export function CardComponent() {
               </div>
             </div>
           </Link>
+
+        {/* MedSpeak Card */}
+      <Link to="/MedSpeak" className="card-link" aria-label="MedSpeak case study">
+        <div className="image-wrapper animate__animated animate__slideInUp">
+          <img src={MedSpeakImage} alt="MedSpeak project cover" className="project-image3" />
+
+          {/* new text block */}
+          <div className="project-text-block">
+            <span className="project-name">MedSpeak</span>
+            <h3 className="project-tagline">Breaking language barriers in healthcare.</h3>
+          </div>
+
+          <div className="bottom-section">
+            <div className="right-section">
+              <CardFooter className="cardFooter-wrapper">
+                <span className="card-button">Learn More</span>
+              </CardFooter>
+            </div>
+          </div>
+        </div>
+      </Link>
 
  </div>
   );

@@ -301,8 +301,8 @@ body {
 
 /* ===== Section wrapper ===== */
 .about-section {
-  padding-top: 12rem;
-  padding-bottom: 14rem;
+  /* padding-top: 12rem; */
+  padding-bottom: 8rem;
   background: transparent;
   scroll-margin-top: 80px; /* nice anchor offset for #about links */
   z-index: 0;
