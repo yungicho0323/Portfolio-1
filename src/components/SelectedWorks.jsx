@@ -19,7 +19,7 @@ export function CardComponent() {
 
           {/* new text block */}
           <div className="project-text-block">
-            <span className="project-name">BuddyUP+</span>
+            <span className="project-name">BuddyUP+ - Case Study</span>
             <h3 className="project-tagline">Building better habits through shared challenges and accountability.</h3>
           </div>
 
@@ -83,7 +83,7 @@ export function CardComponent() {
 
           {/* new text block */}
           <div className="project-text-block">
-            <span className="project-name">MedSpeak</span>
+            <span className="project-name">MedSpeak - Case Study</span>
             <h3 className="project-tagline">Breaking language barriers in healthcare.</h3>
           </div>
 
