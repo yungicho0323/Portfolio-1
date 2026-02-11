@@ -20,14 +20,14 @@ function Home() {
         {/* HERO (reference-style structure) */}
         <section className="hero">
         <h1 className="hero-title">
-            Turning real user needs into <br />
+           Turning user and business needs into <br />
             <span className="brand-highlight big-highlight">
-            intuitive, impact-driven experiences
+           scalable, impact-driven digital experiences
             </span>
         </h1>
 
         <p className="hero-subcopy">
-         Welcome — I’m YunGi, a UX-focused designer who loves turning scattered, unanswered problems into simple, intuitive journeys that feel obvious and deliver real impact.
+         Welcome — I’m YunGi, a UX-focused designer who bridges user insights and business goals to design thoughtful, intuitive experiences that drive engagement, growth, and clarity.
         </p>
       
         {/* Social Buttons */}
