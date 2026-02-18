@@ -34,13 +34,13 @@ export function CardComponent() {
       </Link>
 
        {/*Aperture Coffee Bar Website Redesign Card */}
-      <Link to="/" className="card-link" aria-label="BuddyUp+ case study">
+      <Link to="/aperturecoffeebar" className="card-link" aria-label="Aperture Coffee Bar case study">
         <div className="image-wrapper animate__animated animate__slideInUp">
-          <img src={ApertureImage} alt="BuddyUp+ project cover" className="project-image1" />
+          <img src={ApertureImage} alt="Aperture Coffee Bar project cover" className="project-image2" />
 
           {/* new text block */}
           <div className="project-text-block">
-            <span className="project-name">Aperture Coffee bar</span>
+            <span className="project-name">Aperture Coffee Bar</span>
 
             <h3 className="project-tagline">Redesigning a local café website to better reflect its brand, events, and in-store experience.</h3>
           </div>

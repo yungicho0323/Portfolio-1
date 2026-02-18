@@ -7,6 +7,7 @@ import FurryTales from "./pages/FurryTales";
 import BuddyUpPlus from "./pages/BuddyUpPlus";
 import Babel from "./pages/Babel";
 import MedSpeak from "./pages/MedSpeak";
+import ApertureCoffeeBar from "./pages/ApertureCoffeeBar.jsx";
 import StyleGuide from "./pages/StyleGuide";
 
 import ScrollToTopButton from "./components/ScrollToTopButton.jsx";
@@ -24,6 +25,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="/furrytales" element={<FurryTales />} />
         <Route path="/BuddyUpPlus" element={<BuddyUpPlus />} />
+        <Route path="/aperturecoffeebar" element={<ApertureCoffeeBar />} />
         <Route path="/babel" element={<Babel />} />
         <Route path="/MedSpeak" element={<MedSpeak />} />
         <Route path="style-guide" element={<StyleGuide />} />
