@@ -24,6 +24,12 @@ export function CardComponent() {
           </div>
 
           <div className="bottom-section">
+            <ul className="cardTags" aria-label="BuddyUp+ tags">
+            <li className="cardTag">Wellness App</li>
+            <li className="cardTag">UX Research</li>
+            <li className="cardTag">AI Prototyping</li>
+            <li className="cardTag">Usability Testing</li>
+            </ul>
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
                 <span className="card-button">Learn More</span>
@@ -46,6 +52,12 @@ export function CardComponent() {
           </div>
 
           <div className="bottom-section">
+              <ul className="cardTags" aria-label="Aperture Coffee Bar tags">
+              <li className="cardTag isSolid">Launched 2026</li>
+              <li className="cardTag">E-commerce Website</li>
+              <li className="cardTag">UI Development</li>
+              <li className="cardTag">Stakeholder Interview</li>
+            </ul>
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
                 <span className="card-button">It's coming soon!</span>
@@ -62,11 +74,16 @@ export function CardComponent() {
     
               {/* new text block */}
               <div className="project-text-block">
-                <span className="project-name">Hackathon @ Emaily Carr University</span>
+                <span className="project-name">UI Hackathon @ Emaily Carr University</span>
                 <h3 className="project-tagline">Redesigning a local pet brand for joyful, seamless shopping.</h3>
               </div>
     
               <div className="bottom-section">
+                <ul className="cardTags" aria-label="FurryTales tags">
+                  <li className="cardTag">E-commerce Redesign</li>
+                  <li className="cardTag">Brand Storytelling</li>
+                  <li className="cardTag">Project Management</li>
+                </ul>
                 <div className="right-section">
                   <CardFooter className="cardFooter-wrapper">
                     <span className="card-button">Learn More</span>
@@ -88,6 +105,12 @@ export function CardComponent() {
           </div>
 
           <div className="bottom-section">
+            <ul className="cardTags" aria-label="MedSpeak tags">
+              <li className="cardTag">Healthcare App</li>
+              <li className="cardTag">Product Design</li>
+              <li className="cardTag">AI Translation</li>
+              <li className="cardTag">Accessibility</li>
+            </ul>
             <div className="right-section">
               <CardFooter className="cardFooter-wrapper">
                 <span className="card-button">Learn More</span>
