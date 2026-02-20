@@ -10,13 +10,6 @@ function Home() {
     <>
       <Header />
       <main className="home">
-        {/* background glow right */}
-        <section className="hero-section">
-          <div className="col-text-right">
-            <div className="blur-2" />
-          </div>
-        </section>
-
         {/* HERO (reference-style structure) */}
         <section className="hero">
         <h1 className="hero-title">
