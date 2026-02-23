@@ -13,15 +13,21 @@ function Home() {
         {/* HERO (reference-style structure) */}
         <section className="hero">
         <h1 className="hero-title">
-           Turning user and business needs into <br />
-            <span className="brand-highlight big-highlight">
-           scalable, impact-driven digital experiences
-            </span>
-        </h1>
+        <span className="hero-eyebrow">
+          Coffee enthusiast <span className="coffee-emoji" aria-hidden="true">☕️</span> outside of work,
+        </span>
 
-        <p className="hero-subcopy">
+        <span className="hero-main">
+          <span className="brand-highlight">Product designer</span> turning business goals
+          <br />
+          and user needs into real digital experiences.
+        </span>
+      </h1>
+
+
+        {/* <p className="hero-subcopy">
          Welcome! I’m YunGi, a UX-focused designer who transforms real user insights and business challenges into intuitive digital products that help teams improve engagement, usability, and long-term impact.
-        </p>
+        </p> */}
       
         {/* Social Buttons */}
         <div className="social-buttons">

@@ -24,6 +24,7 @@ body {
   cursor: none;
 }
 
+
 .hero-subcopy {
   font-size: 1.1rem;      /* smaller than headline */
   line-height: 1.65;
@@ -37,12 +38,79 @@ body {
   font-weight: 700;       /* make it stand out */
 }
 
+/* ===== HERO TITLE ===== */
 .hero-title {
-  font-size: 1.5rem;        /* base headline size */
-  line-height: 1.3;
-  font-weight: 600;
+  font-size: clamp(36px, 4.6vw, 52px); /* ↓ was 42–64 */
+  line-height: 1.6;                  /* tighter vertical rhythm */
+  /* letter-spacing: -0.018em; */
+  font-weight: 800;
   color: #111;
-  margin-bottom: 2rem;
+
+  max-width: 30ch;                    /* slightly wider to reduce wrapping */
+  margin: 0 0 20px;                   /* less bottom spacing */
+}
+
+
+/* BIG COFFEE EMOJI ACCENT */
+.coffee-emoji {
+  font-size: 1.6em;               /* smaller than before */
+  /* margin-left: 4px; */
+  transform: translateY(2px);
+  display: inline-block;
+}
+
+
+.hero-eyebrow {
+  display: block;
+  font-size: 20px;                 /* clearly smaller */
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-bottom: 12px;             /* space before main message */
+}
+
+.hero-main {
+  display: block;
+  font-size: clamp(36px, 4.2vw, 52px);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: #111;
+  margin-bottom: 20px;
+  font-size: 3.2rem;
+}
+
+.hero-main br {
+  content: "";
+  display: block;
+  margin-bottom: 6px; /* subtle breathing room */
+}
+
+/* Responsive tuning */
+@media (max-width: 768px) {
+  .hero-eyebrow {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .hero-main {
+    font-size: clamp(30px, 6vw, 38px);
+    line-height: 1.12;
+  }
+
+  .coffee-emoji {
+    font-size: 1.15em;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .coffee-emoji {
+    font-size: 1.3em;
+  }
 }
 
 .brand-highlight {
@@ -94,104 +162,15 @@ body {
   }
 }
 
-/* Smooth back transition */
-.col .blur-2.tilt-reset {
-  transform: rotate3d(0, 0, 0, 0deg) scale(1);
-}
-
-
-.col-text-left .blur-2 {
-  position: relative;
-  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
-  will-change: transform;
-  transform-style: preserve-3d;
-   z-index: 0; 
-}
-
-.col-text-left .blur:hover {
-  transform: rotate (-20deg) scale (1.05);
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); 
-}
-
-.col-text-left .blur-2:before {
-  content: "";
-  display: block;
-  width: 420px;
-  height: 450px;
-  background: radial-gradient(#8a3dc7, rgba(255,255,255,0.8));
-  position: absolute;
-  opacity: 0.65;
-  border-radius: 70%;
-  filter: blur(55px);
-  top: -70px;
-  left: -680px;
-  transform: rotate(-20deg);
-  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
-}
-  
-  /* Hover Effect: Tilt + Slight Movement */
-.col-text-left .blur-2:hover:before {
-  transform: rotate(-5deg) translateY(-20px) scale(1.1);
-  opacity: 1;
-}
-  /* Smooth back transition */
-.col-text-left .blur-2.tilt-reset {
-  transform: rotate3d(0, 0, 0, 0deg) scale(1);
-}
-
-
-/* Smooth back transition */
-.col .blur-2.tilt-reset {
-  transform: rotate3d(0, 0, 0, 0deg) scale(1);
-}
-
-
-.col-text-right .blur-2 {
-  position: relative;
-  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
-  will-change: transform;
-  transform-style: preserve-3d;
-}
-
-.col-text-right .blur:hover {
-  transform: rotate (-20deg) scale (1.05);
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2); 
-}
-
-/* .col-text-right .blur-2:before {
-  content: "";
-  display: block;
-  width: 420px;
-  height: 450px;
-  background: radial-gradient(#831ED2, rgba(254, 254, 255, 0.75));
-  position: absolute;
-  opacity: 0.45;
-  border-radius: 70%;
-  filter: blur(55px);
-  top: 50px;
-  right: -690px;  
-  transform: rotate(-20deg);
-  transition: transform 0.4s ease-out, opacity 0.4s ease-out;
-} */
-  
-  /* Hover Effect: Tilt + Slight Movement */
-.col-text-right .blur-2:hover:before {
-  transform: rotate(-5deg) translateY(-20px) scale(1.1);
-  opacity: 1;
-}
-  /* Smooth back transition */
-.col-text-right .blur-2.tilt-reset {
-  transform: rotate3d(0, 0, 0, 0deg) scale(1);
-}
   
   .home h1 .bold-word-space {
     color: rgba(131, 30, 210, 100) ;
   }
   
   .hero {
-  max-width: 1400px;
+  max-width: 1600px;
   /* margin: 0 auto; */
-  margin-left: -18rem;
+  margin-left: -16rem;
   padding: 4rem 2rem;
   text-align: left;
   justify-content: left;
