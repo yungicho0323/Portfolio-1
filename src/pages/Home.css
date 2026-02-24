@@ -188,10 +188,8 @@ body {
 .hero-location {
   font-size: 14px;                     /* clearly secondary */
   font-weight: 700;
-  /* color: rgba(17, 17, 17, 0.6); */
-
   margin-top: 10px;                    /* space from headline */
-  margin-bottom: 28px;                /* space before buttons/cards */
+  margin-bottom: 40px;                /* space before buttons/cards */
 
   display: flex;
   align-items: center;
