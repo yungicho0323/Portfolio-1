@@ -44,7 +44,7 @@ export default function ApertureCoffeeBar() {
                         <div className="project-meta aperture-updated-meta">
                           <div>
                             <h4>Timeline</h4>
-                            <p>September, 2025 <br/>- December, 2025
+                            <p>September, 2025 <br/>- January, 2026
                             </p>
                           </div>
                           <div>
