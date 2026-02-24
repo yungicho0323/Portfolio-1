@@ -18,7 +18,7 @@ function Home() {
         </span>
 
         <span className="hero-main">
-          <span className="brand-highlight">UX-focsed designer</span> turning business goals
+          <span className="brand-highlight">Product designer</span> turning business goals
           <br />
           and user needs into real digital experiences.
         </span>
