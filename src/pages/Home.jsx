@@ -24,10 +24,10 @@ function Home() {
         </span>
       </h1>
 
-
-        {/* <p className="hero-subcopy">
-         Welcome! I’m YunGi, a UX-focused designer who transforms real user insights and business challenges into intuitive digital products that help teams improve engagement, usability, and long-term impact.
-        </p> */}
+      {/* Location line */}
+      <p className="hero-location">
+        📍 Currently in <span className="location-highlight">Vancouver</span>
+      </p>
       
         {/* Social Buttons */}
         <div className="social-buttons">

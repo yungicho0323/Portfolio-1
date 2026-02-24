@@ -184,6 +184,36 @@ body {
   line-height: 1.7;
 }
 
+/* ===== HERO LOCATION ===== */
+.hero-location {
+  font-size: 14px;                     /* clearly secondary */
+  font-weight: 700;
+  /* color: rgba(17, 17, 17, 0.6); */
+
+  margin-top: 10px;                    /* space from headline */
+  margin-bottom: 28px;                /* space before buttons/cards */
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Slight brand touch, not loud */
+.location-highlight {
+  color: #8a3dc7;
+  font-weight: 700;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .hero-location {
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+}
+
+
 .social-buttons {
   display: flex;
   gap: 1rem;            /* space between buttons */
