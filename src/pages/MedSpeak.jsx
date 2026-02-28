@@ -99,7 +99,7 @@ function MedSpeak() {
             </div>
             <div>
               <h4>Role</h4>
-              <p>UX/UI Designer</p>
+              <p>Product Designer</p>
             </div>
           </div>
         </section>
