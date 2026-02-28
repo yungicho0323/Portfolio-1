@@ -69,7 +69,7 @@ function BuddyUpPlus() {
                   </div>
                   <div>
                     <h4>Role</h4>
-                    <p>Lead UX/UI Designer</p>
+                    <p>Lead Product Designer</p>
                   </div>
                   <div>
                     <h4>Responsibilities</h4>
@@ -82,7 +82,7 @@ function BuddyUpPlus() {
                   </div>
                   <div>
                     <h4>Team</h4>
-                    <p>2 UX/UI Designers</p>
+                    <p>2 Product Designers</p>
                   </div>
                 </div>
             </section>
@@ -159,8 +159,6 @@ function BuddyUpPlus() {
   </div>
 </section>
 
-
-{/* Problem & Mission */}
 {/* Problem & Mission Section */}
 <section className="buddyupplus-problem">
   <div className="buddyupplus-problem-inner">
